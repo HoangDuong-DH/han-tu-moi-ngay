@@ -1,0 +1,66 @@
+.invest-principles{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:18px 0;margin:24px 0 30px;font-size:12px;color:var(--green)}
+.invest-principles b{color:#ad9571;font-weight:400}
+.dossier-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;margin:28px 0}
+.dossier-cover{position:relative;display:flex;flex-direction:column;gap:12px;min-height:420px;padding:28px 24px 0;border:1px solid #cec5ad;border-top:5px solid #6b7962;border-radius:5px 14px 5px 5px;background:#eee9dc;text-decoration:none;overflow:hidden;transition:transform .18s,border-color .18s}
+.dossier-cover:hover{transform:translateY(-3px);border-color:#7b8b70}
+.dossier-release{border-top-color:#396651}.dossier-dinner{border-top-color:#a47743;background:#f2e9da}.dossier-bid{border-top-color:#637386;background:#e9eae2}
+.dossier-number{font:40px/1 Georgia,serif;color:#a49a82;letter-spacing:-.04em}
+.dossier-cover .badge{align-self:start;font-size:10px}
+.dossier-cover h2{font-size:26px;line-height:1.3;margin:6px 0 0;letter-spacing:-.02em}
+.dossier-cover p{font-size:13px;line-height:1.65;margin:0}
+.dossier-blurb{color:var(--muted)}
+.dossier-cover>small{font-size:10px;text-transform:uppercase;letter-spacing:.05em;color:#776c57;margin:4px 0 22px}
+.dossier-bottom{margin-top:auto;border-top:1px solid #d0c8b6;padding:17px 0;display:flex;justify-content:space-between;gap:10px;font-size:12px;color:var(--green);font-weight:600}
+.dossier-bottom b{font-size:20px;line-height:1}
+.invest-help{border:1px solid var(--line);border-radius:8px;background:var(--surface);padding:0 20px;margin:20px 0}
+.invest-help>summary{padding:17px 0;cursor:pointer;font-size:14px;font-weight:600;line-height:1.6;min-height:48px}
+.invest-help p,.invest-help li{font-size:13px;line-height:1.85}.invest-help ol,.invest-help ul{padding-left:21px}.invest-help li{padding-bottom:9px}.invest-help a{color:var(--green);text-underline-offset:3px}
+.cross-case{border:1px solid #b7c2a8;background:#e9edde;border-radius:10px;margin:30px 0;padding:28px}
+.cross-case h2{font-size:25px;margin-top:10px}.cross-case-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin:24px 0}.cross-case-grid h3{font-size:16px}.cross-case-grid p{font-size:13px;line-height:1.8}
+.dossier-intro,.invest-decision,.invest-ending{max-width:880px;margin:0 auto}
+.dossier-intro>.eyebrow,.invest-decision>.eyebrow,.invest-ending>.eyebrow{margin-top:32px;line-height:1.7}
+.dossier-intro h1,.invest-decision h1,.invest-ending h1{font-size:44px;line-height:1.25;letter-spacing:-.03em}
+.dossier-subtitle{font-size:22px;color:#7d6749}
+.opening-scene{font-size:17px;line-height:1.95;border-left:3px solid #b99c6f;padding-left:24px;margin:24px 0 30px;white-space:pre-line}
+.dossier-intro>h2{font-size:23px;margin:36px 0 20px}
+.cast-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.cast-grid article{border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:20px 16px}
+.cast-grid .han{display:block;font-size:30px;color:var(--green)}.cast-grid .py{font-size:12px;display:block;margin:4px 0 14px}.cast-grid h3{font-size:14px}.cast-grid p{font-size:12px;line-height:1.8;margin:10px 0 0;color:var(--muted)}
+.invest-board .session-top{font-size:12px;flex-wrap:wrap}.invest-board .session-top>span:last-child{margin-left:auto;color:var(--green)}
+.deduction-chain{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:25px 0}
+.deduction-chain button{display:flex;gap:10px;align-items:center;text-align:left;border:1px solid var(--line);background:var(--surface);padding:14px 12px;border-radius:6px;min-height:76px;color:var(--muted)}
+.deduction-chain button>span{border:1px solid var(--line);width:27px;height:27px;border-radius:50%;display:grid;place-items:center;flex:none;font-size:12px}
+.deduction-chain small{font-size:12px;line-height:1.6}.deduction-chain button.active{border-color:var(--green);background:#e5ebd9;color:var(--green)}.deduction-chain button.solved>span{background:var(--green);color:white;border-color:var(--green)}.deduction-chain button:disabled{opacity:.42;cursor:not-allowed}
+.invest-workspace{display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1.1fr);gap:26px;align-items:start}
+.invest-archive{min-width:0}.invest-archive .section-top{margin-bottom:15px;gap:8px;align-items:center}.invest-archive h2{font-size:21px;margin:0}
+.evidence-search{width:100%;border:1px solid var(--line);border-radius:6px;background:var(--surface);min-height:48px;padding:12px 14px;color:var(--ink);font-size:14px}
+.archive-filters{display:flex;gap:7px;flex-wrap:wrap;margin:12px 0 16px}
+.archive-filters button{background:none;border:1px solid var(--line);border-radius:5px;padding:9px 13px;min-height:40px;font-size:12px;color:var(--muted)}.archive-filters .active{background:var(--green);color:white;border-color:var(--green)}
+.evidence-record{background:#fffcf1;border:1px solid #d9d0ba;border-radius:6px;margin-bottom:11px;overflow:hidden;min-width:0}
+.evidence-record>summary{display:flex;align-items:start;gap:11px;padding:16px 14px;cursor:pointer;font-size:14px;line-height:1.6;list-style:none}
+.evidence-record>summary::-webkit-details-marker{display:none}.evidence-record>summary::after{content:'+';margin-left:auto;font:22px/1.4 Georgia;color:#8c7e61}.evidence-record[open]>summary::after{content:'−'}
+.evidence-record[open]>summary{border-bottom:1px solid #e0d8c4;background:#f4efdf}
+.evidence-id{font:600 11px/1.5 Arial;color:#776341;border:1px solid #d7caae;padding:4px 5px;border-radius:3px;flex:none}
+.evidence-record>summary small{display:block;font-size:10px;line-height:1.7;color:#8a7a5e;margin-top:5px}
+.evidence-body{padding:18px 16px;overflow-wrap:anywhere}.evidence-han{font:23px/1.9 var(--han);white-space:pre-line;color:#293e33;margin:0 0 15px}
+.evidence-body details{border-top:1px solid #e2dbc8;margin-top:14px}.evidence-body details>summary{font-size:12px;padding:13px 0;cursor:pointer;color:var(--green);min-height:44px}.evidence-body details p{font-size:13px;line-height:1.8}.evidence-body .py{font-size:14px;line-height:1.85}
+.evidence-provenance{background:#eeeadd;border-left:2px solid #baab87;padding:12px;font-size:12px;line-height:1.85;margin:16px 0}
+.evidence-select{display:flex;gap:10px;align-items:center;padding:12px 0 3px;min-height:44px;font-size:12px;font-weight:600;color:var(--green);cursor:pointer}.evidence-select input{width:20px;height:20px;accent-color:var(--green);flex:none}
+.deduction-desk{border:1px solid #d0c6af;border-top:4px solid #7b886b;border-radius:5px;background:var(--surface);padding:28px;min-width:0}
+.deduction-desk h1{font-size:28px;line-height:1.4;margin:19px 0 14px}.deduction-desk>p{font-size:14px;line-height:1.85;color:var(--muted)}
+.deduction-field{display:block;font-size:13px;font-weight:600;margin:22px 0;line-height:1.7}.deduction-field .tiny{display:block;font-weight:400;margin:2px 0 7px}
+.deduction-field select,.deduction-field textarea{display:block;width:100%;border:1px solid var(--line);border-radius:6px;background:var(--paper);padding:12px 11px;margin-top:8px;min-height:48px;font:400 14px/1.7 inherit;color:var(--ink);max-width:100%}
+.deduction-field select{font-family:inherit;font-size:14px;line-height:1.7}.deduction-field textarea{font:400 14px/1.8 Arial,sans-serif;resize:vertical}
+.proof-tray{background:#f2eee2;border:1px dashed #cabd9f;border-radius:6px;padding:17px;margin:24px 0}.proof-tray h3{font-size:14px;margin:0}.proof-tray p{font-size:11px;line-height:1.8}.proof-pill{border:1px solid #bfb08f;background:#fffbee;color:#5e4c2e;border-radius:4px;min-height:40px;padding:8px 11px;margin:4px 6px 0 0;font-size:12px}
+.invest-hints{border-top:1px solid var(--line);margin-top:25px;padding-top:8px}.invest-hints>summary{cursor:pointer;font-size:12px;color:var(--green);padding:14px 0;min-height:44px}.invest-hints>p,.invest-hints #hint-content p{font-size:12px;line-height:1.85}.invest-hints #hint-content p{background:#f1ecdc;padding:12px;border-left:2px solid #c4ab7a}.invest-hints .text-btn{display:block;text-align:left;background:none;border:0;line-height:1.8;margin-top:16px;min-height:44px;padding:10px 0;font-size:12px}
+.chain-label{font-size:10px;letter-spacing:.05em;color:var(--green);padding:14px 0;line-height:1.8}
+.validated-chain dl{margin:0}.validated-chain dt{font-size:11px;color:var(--muted);margin-top:16px}.validated-chain dd{font-size:14px;margin:5px 0 0;line-height:1.7;font-weight:600}
+.validated-chain>h3{font-size:17px;margin:26px 0 12px}.validated-chain>p{font-size:14px;line-height:1.95}.proof-static{font-size:11px;display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:22px 0}.proof-static span{border:1px solid #d4c8ad;border-radius:3px;padding:5px 8px}
+.invest-language{padding:15px 0;margin:17px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.invest-language p{font-size:13px;line-height:1.85;margin:8px 0}.invest-language .inline-han{font-size:24px;color:var(--green)}.invest-language .audio-btn{vertical-align:middle}
+.unresolved{background:#f1eadc;border-left:3px solid #b39262;border-radius:0 5px 5px 0;padding:17px;margin:22px 0;font-size:13px;line-height:1.85}.unresolved b{font-size:12px}.unresolved p{margin:6px 0 0}
+.validated-chain>details{font-size:13px;margin:22px 0}.validated-chain>details>summary{cursor:pointer;padding:12px 0}.validated-chain>details p{white-space:pre-line;line-height:1.8}
+.decision-options{display:grid;gap:16px;margin:30px 0}.decision-option{display:grid;grid-template-columns:36px 1fr;gap:8px 16px;text-align:left;padding:24px;background:var(--surface);border:1px solid var(--line);border-radius:8px;color:var(--ink);min-height:110px}.decision-option>span{grid-row:1/3;color:#a18a65;font:25px/1.4 Georgia}.decision-option b{font-size:17px;line-height:1.6}.decision-option small{font-size:11px;line-height:1.8;color:var(--muted)}.decision-option:hover{border-color:var(--green);background:#eef1e4}
+.invest-ending>h2{font-size:25px;margin:30px 0 16px}.invest-ending>p,.ending-narrative{font-size:16px;line-height:1.95;white-space:pre-line}.invest-chain-recap{border-top:1px solid var(--line);margin:26px 0}.invest-chain-recap article{display:flex;gap:20px;padding:23px 0;border-bottom:1px solid var(--line)}.invest-chain-recap article>span{font:26px/1.3 Georgia;color:#9d8868}.invest-chain-recap h3{font-size:16px;margin:0 0 10px}.invest-chain-recap p{font-size:13px;line-height:1.9;margin:0}.reflection-prompt{background:#e8eddf;padding:22px;border-radius:8px;color:var(--green)}
+@media(max-width:1000px){.dossier-grid{gap:12px}.dossier-cover{padding:23px 18px 0}.dossier-cover h2{font-size:23px}.cast-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.invest-workspace{gap:18px}.deduction-desk{padding:22px}.deduction-chain button{display:block}.deduction-chain button>span{margin-bottom:8px}}
+@media(max-width:760px){.dossier-grid{grid-template-columns:1fr}.dossier-cover{min-height:0;padding:25px 24px 0;gap:10px}.dossier-cover h2{font-size:28px}.dossier-number{font-size:33px}.dossier-cover>small{margin-bottom:10px}.dossier-cover .badge{position:absolute;right:24px;top:25px}.invest-workspace{grid-template-columns:1fr;gap:22px}.deduction-chain{gap:6px}.deduction-chain button{padding:10px 8px;min-height:104px}.deduction-chain small{font-size:10px}.deduction-desk{padding:24px 20px}.deduction-desk h1{font-size:27px}.invest-board .session-top{gap:8px}.invest-board .session-top>span:nth-child(2){order:3;display:block;width:100%;margin-top:7px;font-size:17px;color:var(--ink)}.cross-case-grid{grid-template-columns:1fr;gap:12px}.cross-case{padding:22px}.dossier-intro h1,.invest-decision h1,.invest-ending h1{font-size:35px}.dossier-subtitle{font-size:20px}.opening-scene{font-size:16px;padding-left:18px}.evidence-han{font-size:25px}.invest-principles{gap:8px;font-size:10px}.cast-grid{gap:10px}.cast-grid article{padding:16px 13px}.cast-grid h3{line-height:1.7}.decision-option{padding:20px 16px;gap:9px}.decision-option b{font-size:16px}.invest-help{padding:0 16px}.invest-chain-recap article{gap:13px}.invest-chain-recap p{font-size:13px}.deduction-field select{font-size:16px}.evidence-search,.deduction-field textarea{font-size:16px}.invest-ending .case-ending-stats{align-items:start}.invest-ending .case-ending-stats span{line-height:1.8}}
+@media(prefers-reduced-motion:reduce){.dossier-cover{transition:none}.dossier-cover:hover{transform:none}}
