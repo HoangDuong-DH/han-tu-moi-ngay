@@ -90,10 +90,11 @@
  function go(hash){if(location.hash===hash)renderRoute();else location.hash=hash;}
  function renderRoute(){
   learningUI?.cancel();playUI?.cancel();investigationUI?.cancel();practiceUI?.cancel();knowledgeUI?.cancel();readerUI?.cancel();reviewUI?.cancel();wordlabUI?.cancel();hsk2UI?.cancel();if($('#word-dialog').open)$('#word-dialog').close();
-  route=location.hash.slice(1)||'review';session=null;dictPage=0;if('speechSynthesis' in window)speechSynthesis.cancel();
-  const navGroup=(route==='review/progress'||['knowledge','notebook','progress','wordlab/report','review/report'].includes(route))?'study-progress':route.startsWith('dictionary')?'dictionary':(route==='library'||route==='review/tools'||route.startsWith('essay')||route.startsWith('path')||route.startsWith('game')||route.startsWith('case')||route.startsWith('grammar')||route==='reading'||route==='guide')?'library':'review';
-  $$('[data-nav]').forEach(a=>a.classList.toggle('active',a.dataset.nav===navGroup));
-  if(route==='home'||route==='review'){studyUI.hub();return;}
+  route=location.hash.slice(1)||'learn';session=null;dictPage=0;if('speechSynthesis' in window)speechSynthesis.cancel();
+  const navGroup=(route==='hsk2/progress'||route==='review/progress'||['knowledge','notebook','progress','wordlab/report','review/report'].includes(route))?'study-progress':route.startsWith('dictionary')?'dictionary':(route.startsWith('hsk2/all/')||route.startsWith('review'))?'practice':(route==='learn'||route==='home'||route.startsWith('hsk2'))?'learn':(route==='library'||route.startsWith('essay')||route.startsWith('path')||route.startsWith('game')||route.startsWith('case')||route.startsWith('grammar')||route==='reading'||route==='guide')?'library':'practice';
+  $$('[data-nav]').forEach(a=>{const active=a.dataset.nav===navGroup;a.classList.toggle('active',active);if(active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
+  if(route==='home'||route==='learn'){hsk2UI.route([]);return;}
+  if(route==='review'){studyUI.hub();return;}
   if(route==='library'){studyUI.library();return;}
   if(route==='hsk2'||route.startsWith('hsk2/')){hsk2UI.route(route.split('/').slice(1));return;}
   if(route==='dictionary/guess'){
@@ -288,7 +289,7 @@
   db.study=window.HAN_STUDY.merge(db.study,incoming.study);
   db.sessions=[...new Map([...db.sessions,...incoming.sessions].map(s=>[s.time+'-'+s.mode,s])).values()].sort((a,b)=>a.time-b.time).slice(-100);save();toast('Đã nhập sổ ôn. Với cùng một từ, giữ lần ôn mới hơn.');if(route==='progress')progressPage();else if(route==='knowledge')knowledgeUI.progress();else if(route==='notebook')knowledgeUI.notebook();
  }catch(err){toast(err.message==='Tệp quá lớn (tối đa 20 MB).'?err.message:'Không đọc được sổ ôn. Hãy chọn tệp .json đã xuất từ site này.');}e.target.value='';};
- document.addEventListener('click',e=>{const link=e.target.closest('a[href^="#"]');if(link&&link.getAttribute('href')===location.hash){e.preventDefault();renderRoute();return;}const say=e.target.closest('[data-say]');if(say){speak(say.dataset.say,!!say.dataset.slow);return;}const card=e.target.closest('[data-detail]');if(card)detail(card.dataset.detail);});
+ document.addEventListener('click',e=>{if(e.target.closest('.skip-link')){e.preventDefault();app.focus();app.scrollIntoView({block:'start'});return;}const link=e.target.closest('a[href^="#"]');if(link&&link.getAttribute('href')===location.hash){e.preventDefault();renderRoute();return;}const say=e.target.closest('[data-say]');if(say){speak(say.dataset.say,!!say.dataset.slow);return;}const card=e.target.closest('[data-detail]');if(card)detail(card.dataset.detail);});
  document.addEventListener('keydown',e=>{if($('#word-dialog').open||['INPUT','SELECT','TEXTAREA'].includes(document.activeElement.tagName))return;if(learningActive||!session)return;if(/^[1-4]$/.test(e.key)&&!session.answered){const b=$(`[data-answer="${Number(e.key)-1}"]`);if(b){e.preventDefault();b.click();}}if(e.key==='Enter'&&session.answered&&$('#next-question')){e.preventDefault();next();}if(e.code==='Space'&&session.mode==='flash'&&!session.revealed){e.preventDefault();flipFlash();}});
  learningUI=window.createHanLearning({
   words,esc,db:()=>db,save,toast,shuffle,audio:audioButton,speak,readingBanner:()=>readerUI.banner(),hasVoice:()=>{updateVoices();return !!selectedVoice;},
