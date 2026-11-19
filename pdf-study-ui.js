@@ -95,9 +95,11 @@
 
     function pageHead(page) {
       const p = book.pages[page - 1];
+      const shortTitle = /^Đọc tổng hợp · (\p{Script=Han}.*)$/u.exec(p.title)?.[1];
       return nav(true) + '<header class="book-heading"><div><p class="book-page-label">PDF ' + page + '/' + count
-        + (p.printed ? ' · Trang in ' + p.printed : '') + '</p><h1>' + esc(p.title) + '</h1>'
-        + '<p>' + esc(p.summary) + '</p></div>' + picker(page) + '</header>';
+        + (p.printed ? ' · Trang in ' + p.printed : '') + '</p><h1' + (shortTitle ? ' lang="zh-CN"' : '') + '>'
+        + esc(shortTitle || p.title) + '</h1><p>' + esc(p.summary) + '</p></div>'
+        + '<details class="book-jump"><summary>Đổi trang</summary>' + picker(page) + '</details></header>';
     }
 
     async function load(page) {
@@ -297,15 +299,16 @@
       const shortTip = unit.kind === 'sound' || unit.kind === 'roman'
         ? '<p class="book-annotation-caption">Tra dấu và ký hiệu ở ảnh sách bên dưới.</p>' : '';
       const fastLink = page.related ? itemLink(page.related[0], null, page.related[1], 'book-nearby') : '';
-      render(pageHead(page.n) + '<section class="book-main" aria-label="Bài đọc trang ' + page.n + '">'
-        + '<div class="book-toolbar"><div class="book-modes">'
-        + '<button type="button" id="book-step" aria-pressed="' + (view === 'step') + '">Từng dòng</button>'
-        + '<button type="button" id="book-flow" aria-pressed="' + (view === 'flow') + '">Đọc liền</button></div>'
-        + (view === 'step' ? unitSelect(list, unit) : '') + '</div>'
+      const browse = '<details class="book-fold book-line-picker"><summary>Chọn dòng, bảng hoặc bài luyện âm</summary><div>'
         + '<div class="book-view-links">' + (prose.length ? itemLink(page.n, prose.find(u => u.kind === 'zh') || prose[0],
           'Câu và đoạn (' + prose.length + ')', 'book-mode' + (activeMode === 'text' ? ' is-active' : '')) : '')
         + (tables.length ? itemLink(page.n, tables[0], 'Bảng, đề mục và âm (' + tables.length + ')',
           'book-mode' + (activeMode === 'table' ? ' is-active' : '')) : '') + '</div>'
+        + (view === 'step' ? unitSelect(list, unit) : '') + '</div></details>';
+      render(pageHead(page.n) + '<section class="book-main" aria-label="Bài đọc trang ' + page.n + '">'
+        + '<div class="book-toolbar"><div class="book-modes">'
+        + '<button type="button" id="book-step" aria-pressed="' + (view === 'step') + '">Từng dòng</button>'
+        + '<button type="button" id="book-flow" aria-pressed="' + (view === 'flow') + '">Đọc liền</button></div></div>'
         + (view === 'flow' ? '<div class="book-flow"><h2>Nội dung trang</h2>'
           + list.map((u,i) => '<article class="book-flow-item"><div>' + originalText(u)
             + (u.gloss ? '<p>' + esc(u.gloss[0]) + '</p>' : '') + '</div>'
@@ -315,18 +318,19 @@
           + originalText(unit)
           + (unit.pinyin ? '<p id="book-pinyin" class="book-pinyin py" lang="zh-Latn"' + (pinyinVisible ? '' : ' hidden')
             + '>' + esc(unit.pinyin) + '</p>' : '')
-          + '<div class="book-actions">'
+          + shortTip + meaning
+          + '<div class="book-actions book-sound-actions">'
           + (unit.pinyin ? '<button type="button" class="btn" id="book-toggle-pinyin" aria-controls="book-pinyin" aria-expanded="'
             + pinyinVisible + '">' + (pinyinVisible ? 'Ẩn pinyin' : 'Hiện pinyin') + '</button>' : '')
           + (canSpeak(unit) ? '<button type="button" class="btn" data-say="' + esc(unit.text) + '">Nghe giọng máy</button>' : '')
-          + '</div>' + shortTip + meaning
+          + '</div>' + (unit.audio ? sourceAudio(page,unit) : '')
           + (activeMode === 'table' && !edited ? '<p class="book-annotation-caption">'
             + esc(book.pages[page.n-1].task) + '</p>' : '')
           + '<nav class="book-line-nav" aria-label="Chuyển dòng">'
           + (current > 0 ? itemLink(page.n, list[current-1], '← Dòng trước') : '<span></span>')
           + (current + 1 < list.length ? itemLink(page.n, list[current+1], 'Dòng sau →', 'btn primary')
             : (page.n < count ? itemLink(page.n+1, null, 'Sang trang sau →', 'btn primary') : ''))
-          + '</nav></article>'
+          + '</nav></article>' + browse
           + '<div class="book-deep">' + explanation(unit) + lexical(unit,tokens)
           + (familiar.length || unit.families?.length ? '<section class="book-familiar"><h3>Nối với từ bạn học</h3>'
             + '<div class="book-chips">' + familiar.map(h => chip(h,true)).join('') + '</div>'
@@ -335,7 +339,9 @@
               return f ? '<p><a href="#vocabulary/' + encodeURIComponent(id) + '">Mở nhóm từ '
                 + esc(f.root) + '</a></p>' : '';
             }).join('') + '</section>' : '')
-          + '<section class="book-audio"><h3>Đối chiếu bản thu</h3>' + sourceAudio(page,unit) + '</section></div>')
+          + (!unit.audio ? '<section class="book-audio"><h3>Đối chiếu bản thu</h3>' + sourceAudio(page,unit) + '</section>' : '')
+          + '</div>')
+        + (view === 'flow' ? browse : '')
         + '</section>' + (fastLink ? '<p class="book-cross-page">' + fastLink + '</p>' : '')
         + (view === 'step' ? scannable(page,unit) : '')
         + '<details class="book-fold"><summary>Hướng đọc trang này</summary><div><p>'

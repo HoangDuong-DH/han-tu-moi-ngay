@@ -84,6 +84,18 @@
 .book-heading { align-items: end; margin-bottom: 1rem; }
 .book-heading > div { flex: 1 1 27rem; }
 .book-heading .book-page-label { font-size: .9rem; font-weight: 700; color: var(--book-gold); }
+.book-jump { max-width: 100%; }
+.book-jump summary {
+  min-height: 44px;
+  padding: .53rem .68rem;
+  cursor: pointer;
+  border: 1px solid var(--book-line);
+  border-radius: 8px;
+  background: var(--book-paper);
+  font-size: .9rem;
+  font-weight: 650;
+}
+.book-jump .book-picker { margin-top: .3rem; }
 .book-picker {
   display: grid;
   gap: .28rem;
@@ -169,6 +181,7 @@
   font-weight: 650;
 }
 .book-modes button[aria-pressed=true] { border-color: #b8cabf; background: var(--book-paper); }
+.book-toolbar { margin-bottom: .6rem; }
 .book-item-picker { flex: 1 1 14rem; max-width: 19rem; }
 .book-view-links { display: flex; flex-wrap: wrap; gap: .2rem .9rem; margin-block: .38rem .65rem; }
 .book-view-links a {
@@ -259,6 +272,9 @@
 .book-word-chip > span { font-weight: 700; font-size: 1.13rem; }
 .book-word-chip small { color: var(--book-muted); font-size: .74rem; text-align: left; }
 .book-audio-line { display: flex; flex-wrap: wrap; align-items: center; gap: .38rem .7rem; }
+.book-sentence .book-audio-line { margin-top: .5rem; }
+.book-sound-actions { margin-top: .7rem; }
+.book-sound-actions:empty { display: none; }
 .book-audio-line span, .book-audio-context { color: var(--book-muted); }
 .book-audio-options { margin: .25rem 0; padding-left: 1.2rem; }
 .book-audio-options a, .book-familiar a, .book-nearby {
@@ -304,6 +320,14 @@
 .corpus-transcript-line.book-audio-line-target { background: #e8f2e7; border-radius: 6px; }
 
 @media(max-width: 520px) {
+  #app:has(.book-study) { padding-top: .65rem; padding-inline: .85rem; }
+  .book-study { padding: .3rem 0 2rem; }
+  .book-crumb { margin-bottom: .15rem; }
+  .book-heading { margin-bottom: .65rem; gap: .35rem; }
+  .book-heading h1 { font-size: clamp(1.5rem, 6.4vw, 1.9rem); margin-bottom: .3rem; }
+  .book-heading .book-jump { margin-top: .15rem; }
+  .book-jump[open] { width: 100%; }
+  .book-pinyin { font-size: .96rem; }
   .book-study .btn { font-size: .89rem; padding-inline: .55rem; }
   .book-section-heading .book-picker, .book-heading .book-picker { width: 100%; }
   .book-picker select { width: 100%; }
