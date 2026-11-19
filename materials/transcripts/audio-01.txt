@@ -1,0 +1,286 @@
+经理人汉语 · Bài 1
+Bản chép đối chiếu theo mục bài tập trong PDF và các mốc nhận dạng audio. Gộp những lần đọc lặp cùng một mẫu. Mốc theo đoạn gần đúng, không phải phụ đề từng âm. Dãy luyện âm dùng pinyin, không gán chữ Hán giả cho âm rời.
+Nguồn: 经理人汉语·语音篇; ISBN 978-7-5600-5002-7
+
+[0:00–0:57] Giới thiệu và vào bài
+PDF: 1, 27
+经理人汉语·语音篇
+Jīnglǐrén Hànyǔ · Yǔyīn piān
+Tên bộ sách và phần ngữ âm.
+第一课，练习。
+Dì yī kè, liànxí.
+Bài một, luyện tập.
+Ghi chú: Đầu tệp có nhạc/lời giới thiệu xuất bản. Bản học tập không xác quyết nguyên văn tên đơn vị trong lời quảng bá đầu băng.
+
+[0:57–2:46] 1 · Nguyên âm đơn
+PDF: 29
+a · o · e · i · u · ü
+Đọc từng nguyên âm rồi các cặp đối chiếu.
+a–e · e–a · a–o · e–o · a–o · i–u
+Đổi vận mẫu, giữ một âm mỗi bên.
+i–ü · u–ü · u–e · e–i · ü–e · o–i
+Chú ý ü khác i và u.
+i–ü · i–ü · i–ü · ü–i · ü–i · ü–i
+Giữ lưỡi và đổi độ tròn môi.
+Ghi chú: Khoảng dài này máy nhận dạng đã bỏ sót nhiều âm; dãy pinyin được khôi phục theo đúng bảng bài 1, không lấy chữ mà máy đoán làm đáp án.
+
+[2:46–3:12] 2 · Thanh mẫu
+PDF: 29
+b(o) · p(o) · m(o) · f(o) · d(e) · t(e) · n(e) · l(e) · g(e) · k(e) · h(e)
+Âm đệm trong ngoặc giúp gọi âm đầu; không là một từ mang nghĩa.
+
+[3:12–4:19] 3 · Bốn thanh
+PDF: 29, 30
+mā má mǎ mà · bā bá bǎ bà · pō pó pǒ pò
+Đọc cùng âm qua bốn thanh.
+hū hú hǔ hù · kē ké kě kè · lī lí lǐ lì · nī ní nǐ nì
+Nghe đường cao độ, không chỉ âm lượng.
+
+[4:19–5:06] 4a · Phân biệt thanh mẫu
+PDF: 30
+爸 / 怕
+bà / pà
+bố / sợ
+鼻 / 皮
+bí / pí
+mũi / da
+梯 / 滴
+tī / dī
+thang / giọt
+打 / 塔
+dǎ / tǎ
+đánh / tháp
+哥 / 科
+gē / kē
+anh / ngành, môn
+里 / 你
+lǐ / nǐ
+trong / bạn
+虎 / 苦
+hǔ / kǔ
+hổ / đắng
+女 / 旅
+nǚ / lǚ
+nữ / chuyến đi
+
+[5:06–5:47] 4b · Phân biệt vận mẫu
+PDF: 30
+哈 / 喝
+hā / hē
+thở hà / uống
+科 / 哭
+kē / kū
+ngành / khóc
+梨 / 驴
+lí / lǘ
+lê / lừa
+跛 / 补
+bǒ / bǔ
+khập khiễng / bổ sung
+驽 / 泥
+nú / ní
+ngựa kém / bùn
+爬 / 婆
+pá / pó
+bò, trèo / bà
+辣 / 乐
+là / lè
+cay / vui
+麻 / 磨
+má / mó
+gai, tê / mài
+
+[5:47–6:31] 4c · Phân biệt thanh
+PDF: 30
+里 / 力
+lǐ / lì
+trong / sức
+大 / 打
+dà / dǎ
+lớn / đánh
+富 / 福
+fù / fú
+giàu / phúc
+渴 / 课
+kě / kè
+khát / bài học
+磨 / 墨
+mó / mò
+mài / mực
+饿 / 鹅
+è / é
+đói / ngỗng
+雨 / 鱼
+yǔ / yú
+mưa / cá
+一 / 姨
+yī / yí
+một / dì
+
+[6:31–8:06] 5 · Ghép thanh mẫu với vận mẫu
+PDF: 31
+b+a→ba · b+o→bo · b+i→bi · b+u→bu
+Ghép âm, không đọc như tên chữ cái.
+p+a→pa · p+o→po · p+i→pi · p+u→pu
+Nhóm p.
+m+a→ma · m+o→mo · m+i→mi · m+u→mu
+Nhóm m.
+f+a→fa · f+o→fo · f+u→fu
+Nhóm f.
+d+a→da · d+e→de · d+i→di · d+u→du
+Nhóm d.
+t+a→ta · t+e→te · t+i→ti · t+u→tu
+Nhóm t.
+n+a→na · n+e→ne · n+i→ni · n+u→nu · n+ü→nü
+Nhóm n, giữ u/ü khác nhau.
+
+[8:06–8:49] 6 · Từ hai âm tiết
+PDF: 31
+父母
+fùmǔ
+cha mẹ
+合格
+hégé
+đạt chuẩn
+可乐
+kělè
+cola
+客户
+kèhù
+khách hàng
+立体
+lìtǐ
+ba chiều
+秘密
+mìmì
+bí mật
+伯母
+bómǔ
+bác gái
+发福
+fāfú
+béo lên (cách nói)
+路途
+lùtú
+đường đi
+打赌
+dǎ dǔ
+đánh cược
+目睹
+mùdǔ
+tận mắt chứng kiến
+娱乐
+yúlè
+giải trí
+扑克
+pūkè
+bài tây
+努力
+nǔlì
+cố gắng
+刻苦
+kèkǔ
+chịu khó
+
+[8:49–9:05] 7 · Đọc câu
+PDF: 31, 32
+弟弟渴。
+Dìdi kě.
+Em trai khát.
+哥哥饿。
+Gēge è.
+Anh trai đói.
+我不渴，也不饿。
+Wǒ bù kě, yě bú è.
+Tôi không khát, cũng không đói.
+
+[9:05–9:42] 8a · Nghe viết thanh mẫu
+PDF: 32
+克服
+kèfú
+khắc phục
+离题
+lítí
+lạc đề
+破格
+pògé
+ngoại lệ
+符合
+fúhé
+phù hợp
+不怕
+bú pà
+không sợ
+个体
+gètǐ
+cá thể
+
+[9:42–10:15] 8b · Nghe viết vận mẫu
+PDF: 32
+独立
+dúlì
+độc lập
+抹布
+mābù
+khăn lau
+娱乐
+yúlè
+giải trí
+打破
+dǎpò
+phá vỡ
+旅途
+lǚtú
+chuyến đi
+克服
+kèfú
+khắc phục
+
+[10:15–11:44] 8c · Nghe viết âm tiết
+PDF: 32
+服务
+fúwù
+phục vụ
+匍匐
+púfú
+bò rạp
+利益
+lìyì
+lợi ích
+特例
+tèlì
+ngoại lệ đặc biệt
+大雨
+dà yǔ
+mưa to
+独特
+dútè
+độc đáo
+体育
+tǐyù
+thể dục
+提拔
+tíbá
+cất nhắc
+Ghi chú: Audio đọc lặp các mục nghe viết; bản chép gộp mỗi mục một lần.
+
+[11:44–12:15] 9 · Hội thoại
+PDF: 32, 33
+你好！你好！
+Nǐ hǎo! Nǐ hǎo!
+Xin chào! Xin chào!
+老师好！你们好！
+Lǎoshī hǎo! Nǐmen hǎo!
+Chào thầy/cô! Chào các em!
+你叫什么名字？我叫安妮。
+Nǐ jiào shénme míngzi? Wǒ jiào Ānnī.
+Bạn tên gì? Tôi tên Anny.
+你是哪国人？我是法国人。
+Nǐ shì nǎ guó rén? Wǒ shì Fǎguó rén.
+Bạn là người nước nào? Tôi là người Pháp.
+
+[12:15–12:29] Líu lưỡi
+PDF: 33
+妈妈骑马去赛马，马慢妈妈骂马。
+Māma qí mǎ qù sài mǎ, mǎ màn māma mà mǎ.
+Mẹ cưỡi ngựa đi đua; ngựa chậm, mẹ mắng ngựa.

@@ -1,0 +1,292 @@
+经理人汉语 · Bài 2
+Bản chép đối chiếu theo mục bài tập trong PDF và các mốc nhận dạng audio. Gộp những lần đọc lặp cùng một mẫu. Mốc theo đoạn gần đúng, không phải phụ đề từng âm. Dãy luyện âm dùng pinyin, không gán chữ Hán giả cho âm rời.
+Nguồn: 经理人汉语·语音篇; ISBN 978-7-5600-5002-7
+
+[0:00–0:12] Bài 2 · Luyện tập
+PDF: 34, 35
+第二课，练习。朗读声母和音节。
+Dì èr kè, liànxí. Lǎngdú shēngmǔ hé yīnjié.
+Bài hai: đọc thanh mẫu và âm tiết.
+
+[0:12–2:00] 1 · Ba nhóm thanh mẫu và âm tiết
+PDF: 35
+j q x · ji qi xi · ju qu xu
+Sau j/q/x, u viết cho ü.
+zh ch sh r · z c s
+Hai vùng đầu lưỡi.
+zha cha sha · za ca sa
+Hàng a.
+zhe che she re · ze ce se
+Hàng e.
+zhi chi shi ri · zi ci si
+i đặc biệt, không đọc như i trong ji.
+zhu chu shu ru · zu cu su
+Hàng u.
+Ghi chú: Máy nhận dạng đã lặp chữ 续 sai ở phần âm rời; thay bằng dãy pinyin theo bảng gốc. Mốc trong nhóm này không căn từng âm.
+
+[2:00–4:07] 2a · Phân biệt âm đầu
+PDF: 35
+ji–zhi · qi–chi · xi–shi · ji–zi · qi–ci · xi–si
+So nhóm mặt lưỡi với hai nhóm đầu lưỡi.
+zhi–zi · chi–ci · shi–si · ji–qi · qi–xi · xi–ji
+Giữ khác biệt vị trí và bật hơi.
+che–she · zhe–che · she–re · ze–ce · se–re · ze–se
+Đổi một âm đầu.
+zhu–zu · shu–cu · ru–shu · cu–zu · su–cu · chu–ru
+Hàng u.
+ju–qu · zu–ju · shu–xu · chu–qu · su–xu · qu–xu · she–zhe · se–ce
+Đối chiếu cả vị trí và vận mẫu khi cần.
+
+[4:07–4:29] 2a tiếp · Chữ có nghĩa
+PDF: 36
+七 / 鸡
+qī / jī
+bảy / gà
+句 / 去
+jù / qù
+câu / đi
+除 / 竹
+chú / zhú
+trừ, loại / tre
+遮 / 车
+zhē / chē
+che / xe
+次 / 字
+cì / zì
+lần / chữ
+粗 / 租
+cū / zū
+thô / thuê
+
+[4:29–5:17] 2b · Phân biệt thanh
+PDF: 36
+机器 / 极其
+jīqì / jíqí
+máy móc / cực kỳ
+支持 / 直尺
+zhīchí / zhíchǐ
+ủng hộ / thước thẳng
+事物 / 食物
+shìwù / shíwù
+sự vật / thức ăn
+主义 / 注意
+zhǔyì / zhùyì
+chủ nghĩa / chú ý
+汽车 / 骑车
+qìchē / qí chē
+ô tô / đi xe đạp
+鼓励 / 孤立
+gǔlì / gūlì
+khích lệ / cô lập
+
+[5:17–6:27] 3 · Từ hai âm tiết
+PDF: 36, 37
+出租
+chūzū
+cho thuê
+折射
+zhéshè
+khúc xạ
+录取
+lùqǔ
+tuyển nhận
+出入
+chūrù
+ra vào
+雨具
+yǔjù
+đồ che mưa
+曲折
+qūzhé
+quanh co, trắc trở
+出发
+chūfā
+xuất phát
+基础
+jīchǔ
+cơ sở
+输入
+shūrù
+nhập vào
+世纪
+shìjì
+thế kỷ
+事物
+shìwù
+sự vật
+事实
+shìshí
+sự thật
+茶壶
+cháhú
+ấm trà
+复杂
+fùzá
+phức tạp
+日历
+rìlì
+lịch ngày
+设计
+shèjì
+thiết kế
+集合
+jíhé
+tập hợp
+积极
+jījí
+tích cực
+必须
+bìxū
+bắt buộc, phải
+机器
+jīqì
+máy móc
+其它
+qítā
+khác
+负责
+fùzé
+chịu trách nhiệm
+汽车
+qìchē
+ô tô
+具体
+jùtǐ
+cụ thể
+
+[6:27–7:41] 4 · Mở rộng họ từ
+PDF: 37
+车、汽车、卡车、自行车、出租汽车
+chē, qìchē, kǎchē, zìxíngchē, chūzū qìchē
+xe, ô tô, xe tải, xe đạp, taxi
+这是汽车。那是出租汽车。
+Zhè shì qìchē. Nà shì chūzū qìchē.
+Đây là ô tô. Kia là taxi.
+机、机器、司机、复印机、录音机、洗衣机
+jī, jīqì, sījī, fùyìnjī, lùyīnjī, xǐyījī
+máy; máy móc, tài xế, máy photocopy, máy ghi âm, máy giặt
+他是出租车司机。
+Tā shì chūzūchē sījī.
+Anh ấy là tài xế taxi.
+师、老师、师傅、设计师、工程师
+shī, lǎoshī, shīfu, shèjìshī, gōngchéngshī
+thầy; giáo viên, thợ/thầy nghề, nhà thiết kế, kỹ sư
+他是一个设计师。
+Tā shì yí ge shèjìshī.
+Anh ấy là một nhà thiết kế.
+
+[7:41–8:19] 5a · Nghe viết âm đầu
+PDF: 37, 38
+彻底
+chèdǐ
+triệt để
+足迹
+zújì
+dấu chân
+宿舍
+sùshè
+ký túc xá
+时期
+shíqī
+thời kỳ
+陆续
+lùxù
+lần lượt
+书籍
+shūjí
+sách
+曲折
+qūzhé
+quanh co
+测试
+cèshì
+kiểm tra
+
+[8:19–10:35] 5b · Nghe viết âm tiết
+PDF: 38
+打车
+dǎ chē
+gọi/đi taxi
+时刻
+shíkè
+thời khắc
+基础
+jīchǔ
+cơ sở
+起码
+qǐmǎ
+ít nhất
+资格
+zīgé
+tư cách, điều kiện
+序曲
+xùqǔ
+khúc dạo đầu
+举止
+jǔzhǐ
+cử chỉ
+组织
+zǔzhī
+tổ chức
+记者
+jìzhě
+phóng viên
+舒适
+shūshì
+thoải mái
+须知
+xūzhī
+những điều cần biết
+语句
+yǔjù
+câu, lời
+日历
+rìlì
+lịch
+武器
+wǔqì
+vũ khí
+自己
+zìjǐ
+bản thân
+无数
+wúshù
+vô số
+Ghi chú: Các từ đọc lặp trong lượt nghe viết được gộp. Đã sửa các chữ máy đoán như 马车/骑马 về mục tương ứng 打车/起码 của bài.
+
+[10:35–11:13] 6 · Hội thoại
+PDF: 38, 39
+你吃什么？我吃饺子。
+Nǐ chī shénme? Wǒ chī jiǎozi.
+Bạn ăn gì? Tôi ăn bánh chẻo.
+你喝什么？我喝茶。
+Nǐ hē shénme? Wǒ hē chá.
+Bạn uống gì? Tôi uống trà.
+红茶还是绿茶？绿茶。
+Hóngchá háishi lǜchá? Lǜchá.
+Trà đen hay trà xanh? Trà xanh.
+这是什么？这是书。
+Zhè shì shénme? Zhè shì shū.
+Đây là gì? Đây là sách.
+那是什么？那是杂志。
+Nà shì shénme? Nà shì zázhì.
+Kia là gì? Kia là tạp chí.
+今天星期几？今天星期四。
+Jīntiān xīngqī jǐ? Jīntiān xīngqīsì.
+Hôm nay thứ mấy? Hôm nay thứ Năm.
+
+[11:13–11:40] 7 · Thứ trong tuần
+PDF: 39
+星期一、星期二、星期三、星期四、星期五、星期六、星期日
+xīngqīyī, xīngqī’èr, xīngqīsān, xīngqīsì, xīngqīwǔ, xīngqīliù, xīngqīrì
+Thứ Hai, Ba, Tư, Năm, Sáu, Bảy, Chủ nhật.
+Ghi chú: Sách cũng ghi biến thể 星期天 cho Chủ nhật; bản audio ở mốc này đọc 星期日.
+
+[11:40–12:08] Líu lưỡi
+PDF: 39
+这是一只鸡。鸡吃米，我吃鸡。
+Zhè shì yì zhī jī. Jī chī mǐ, wǒ chī jī.
+Đây là một con gà. Gà ăn gạo, tôi ăn gà.
+四是四，十是十，十四是十四，四十是四十。
+Sì shì sì, shí shì shí, shísì shì shísì, sìshí shì sìshí.
+Bốn là bốn, mười là mười, mười bốn là mười bốn, bốn mươi là bốn mươi.
