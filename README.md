@@ -2,7 +2,7 @@
 
 Web học tiếng Trung bằng tiếng Việt, dùng được trên điện thoại và máy tính. Mở `index.html` qua một máy chủ web tĩnh; không cần cài đặt hay bước biên dịch.
 
-[Mở web học](https://hoangduong-dh.github.io/han-tu-moi-ngay/?v=27#learn) · [Phạm vi nội dung và phần còn thiếu](CONTENT-COVERAGE.md)
+[Mở web học](https://hoangduong-dh.github.io/han-tu-moi-ngay/?v=28#materials) · [Bảng kiểm kê nội dung](CONTENT-COVERAGE.md)
 
 ## Nội dung
 
@@ -10,12 +10,12 @@ Web học tiếng Trung bằng tiếng Việt, dùng được trên điện tho�
 - Sáu bài đầu 新HSK教程2: 93 mục từ theo nghĩa/ngữ cảnh, 18 điểm ngữ pháp, 54 bài tập ngữ pháp và 18 câu hỏi nghe–đọc.
 - Luyện nhận mặt chữ, nghĩa, pinyin có thanh điệu, nghe và xếp câu; ôn kết hợp với từ cũ.
 - Nghe giọng Quan thoại trên thiết bị; ghi âm để tự đối chiếu. Đây không phải công cụ chấm phát âm tự động hay audio chính thức của sách.
-- 17 bài đọc; 216 mục có phân tích biên tập riêng trong kho 551 mục; khu vực luyện viết.
+- 17 bài đọc cũ giữ mã và nhật ký; kho 551 mục có bản biên tập riêng và khu vực luyện viết. Bản 28 bổ sung đủ 335 mục còn thiếu của bản 27, với 670 câu ví dụ Hán–pinyin–Việt.
 
 - 93 mục HSK 2 có cách dùng, đối chiếu và 186 câu ví dụ gốc đủ chữ–pinyin–nghĩa; 18 điểm ngữ pháp có tình huống và giải thích cơ chế.
 - Hai nhóm ảnh về 师/老师 và 谦/兼 cùng tài liệu khinh thanh có ba bài đọc và 18 câu luyện riêng.
-- 8 MP3 gốc có trình nghe, tốc độ và nhớ chỗ nghe; chưa chép/căn câu đầy đủ, không phải audio của sáu bài HSK 2 mới.
-- PDF quét 122 trang chưa được biên soạn hết. Kho từ còn những mục giải thích ngắn; không gọi toàn bộ tư liệu là đã xử lý đầy đủ.
+- Sách 经理人汉语·语音篇 có ảnh và hướng dẫn đủ 122 trang, 11 bài ngữ âm, 14 phần đọc gần văn bản và 68 câu luyện. Tệp được cung cấp kết thúc ở phụ lục I–II; bảng phụ lục III mục lục nhắc chưa có trong bản nguồn.
+- 8 MP3 gốc có 104 đoạn bản chép đối chiếu Hán/pinyin/nghĩa, tải bản chữ; nghe đoạn/lặp/tốc độ/ẩn bản chép/nhớ vị trí. Gộp lần đọc lặp, mốc đoạn gần đúng; không phải phụ đề từng âm. Phạm vi chưa xác quyết nguyên văn được ghi tại đoạn tương ứng. Đây là audio sách ngữ âm, không phải audio sáu bài HSK 2.
 
 ## Học trên điện thoại
 

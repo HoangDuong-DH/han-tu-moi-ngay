@@ -91,7 +91,7 @@
  function renderRoute(){
   learningUI?.cancel();playUI?.cancel();investigationUI?.cancel();practiceUI?.cancel();knowledgeUI?.cancel();readerUI?.cancel();reviewUI?.cancel();wordlabUI?.cancel();hsk2UI?.cancel();materialsUI?.cancel();if($('#word-dialog').open)$('#word-dialog').close();
   route=location.hash.slice(1)||'learn';session=null;dictPage=0;if('speechSynthesis' in window)speechSynthesis.cancel();
-  const navGroup=(route==='hsk2/progress'||route==='review/progress'||['knowledge','notebook','progress','wordlab/report','review/report'].includes(route))?'study-progress':route.startsWith('dictionary')?'dictionary':(route.startsWith('hsk2/all/')||route.startsWith('review'))?'practice':(route==='learn'||route==='home'||route.startsWith('hsk2'))?'learn':(route==='library'||route.startsWith('essay')||route.startsWith('path')||route.startsWith('game')||route.startsWith('case')||route.startsWith('grammar')||route==='reading'||route==='guide')?'library':'practice';
+  const navGroup=(route==='hsk2/progress'||route==='review/progress'||['knowledge','notebook','progress','wordlab/report','review/report'].includes(route))?'study-progress':route.startsWith('dictionary')?'dictionary':(route.startsWith('hsk2/all/')||route.startsWith('review')||route.startsWith('materials/phonetics/practice/'))?'practice':(route==='learn'||route==='home'||route.startsWith('hsk2')||route.startsWith('materials'))?'learn':(route==='library'||route.startsWith('essay')||route.startsWith('path')||route.startsWith('game')||route.startsWith('case')||route.startsWith('grammar')||route==='reading'||route==='guide')?'library':'practice';
   $$('[data-nav]').forEach(a=>{const active=a.dataset.nav===navGroup;a.classList.toggle('active',active);if(active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
   if(route==='home'||route==='learn'){hsk2UI.route([]);return;}
   if(route==='review'){studyUI.hub();return;}
@@ -331,7 +331,7 @@
  readerUI=window.createHanReader({words,esc,db:()=>db,save,audio:audioButton,mount:html=>{app.innerHTML=html;}});
  pathsUI=window.createHanPaths({words,esc,db:()=>db,mount:html=>{app.innerHTML=html;}});
  studyUI=window.createHanStudyHub({words,esc,db:()=>db,save,review:()=>reviewUI,wordlab:()=>wordlabUI,mount:html=>{app.innerHTML=html;}});
- materialsUI=window.createHanMaterials?.({words,esc,db:()=>db,save,mount:html=>{app.innerHTML=html;}});
+ materialsUI=window.createHanMaterials?.({words,esc,speak,db:()=>db,save,mount:html=>{app.innerHTML=html;}});
  hsk2UI=window.createHanHsk2({words,esc,db:()=>db,save,shuffle,speak,voiceStatus,mount:html=>{app.innerHTML=html;}});
  window.addEventListener('hashchange',()=>{lastAction=0;renderRoute();});
  window.HAN_APP={getWords:()=>words,cn,pyNumber,normalNumber,makeNumbers,validateStore,getProgress:()=>JSON.parse(JSON.stringify(db))};
