@@ -1,6 +1,14 @@
-# Nội dung học — bản 29, ngày 19/11/2026
+# Nội dung học — bản 30, ngày 19/11/2026
 
-Web: https://hoangduong-dh.github.io/han-tu-moi-ngay/?v=29#vocabulary
+Trang đọc [PDF 122 trang](https://hoangduong-dh.github.io/han-tu-moi-ngay/#materials/book).
+
+## Bản 30 · Đọc sát trang PDF
+
+- **122/122 trang** có lối vào riêng trong mục lục. Có đọc từng dòng hoặc đọc liền, đổi trang trên điện thoại và nhớ vị trí. Có thể mở bản quét ngay cạnh phần đang học. Các trang bìa, thư mục, ghi chú tiếng Anh và bảng phiên âm dùng cách trình bày phù hợp với nội dung.
+- **843 câu, dòng thơ và mục giải thích tiếng Trung** có nghĩa hoặc hướng hiểu tiếng Việt và ghi chú về cấu trúc, cách chia cụm hoặc cách đọc. Có ghi chú biên tập cho 901 mục nếu tính cả những đoạn tiếng Anh, đề mục và trang đối chiếu pinyin. 279 mục có ranh giới từ/cụm đặt riêng. Phần còn lại dùng gợi ý tách từ từ bản quét, đối chiếu cùng lời giải và ảnh gốc.
+- Phân tích rõ cụm từ và cấu trúc với ví dụ như 一匹马 / 跑丢, 买不到, 把方向弄反, 说普通话说得真流利, 是…的 và 不是每…都. Chạm từ để xem nghĩa theo ngữ cảnh rồi mở mục tương ứng trong kho cá nhân. Nhãn đã ôn dựa trên sổ học của trình duyệt. Việc mở hoặc nghe một câu không tự ghi đã thuộc.
+- **104 đoạn bản chép gốc** thuộc 8 bản thu nối ngược với 52 trang tương ứng. Có 151 liên kết cấp mục, gồm 64 câu/cụm khớp đủ chữ Hán, 48 trường hợp nằm trong dòng bản chép và 39 dãy âm. Liên kết mở mốc đầu đoạn và có đường quay về đúng dòng. Mốc của từng phần là mốc đoạn.
+- Pinyin in ở trang 102 và 107 đã đọc lại từ bản quét. Các bảng ngữ âm, hình và ký hiệu IPA khác vẫn ưu tiên ảnh gốc để kiểm tra dấu. Sách gửi lên kết thúc ở trang PDF 122.
 
 ## Bản 29: học từ theo mạch và đọc hiểu cấu trúc
 
