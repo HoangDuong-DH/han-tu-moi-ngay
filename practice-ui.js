@@ -14,7 +14,7 @@
   const head=(title,sub)=>`<div class="page-head"><div><div class="eyebrow">HIỂU CÂU · NỐI DỮ KIỆN · DÙNG ĐƯỢC</div><h1>${esc(title)}</h1><p>${esc(sub)}</p></div></div>${links()}`;
   function hub(){
    cancel();mount(head('Đọc được một câu. Hiểu được cả chuyện.','Từ vốn từ đã gửi, luyện nghe–đọc câu và đoạn, đổi góc nhìn, rồi tự diễn đạt. Bài do app biên soạn, có lời giải và căn cứ.')+`
-    <section class="new-content-banner"><strong>Đã học xong HSK 1? Ôn để dùng được.</strong><p>Khảo sát 12 điểm nền, rà toàn kho từ và làm 8 nhiệm vụ có nghe, sửa câu, tự nói và viết. Ưu tiên những lỗi bạn từng gặp.</p><a class="btn primary" href="#review">Mở bộ ôn tổng hợp →</a></section><div class="practice-modes">${[
+    <section class="new-content-banner"><strong>Đã học xong HSK 1? Ôn để dùng được.</strong><p>Khảo sát 12 điểm nền, rà toàn kho từ và làm 8 nhiệm vụ có nghe, sửa câu, tự nói và viết. Ưu tiên những lỗi bạn từng gặp.</p><a class="btn primary" href="#review">Mở bộ ôn tổng hợp →</a></section><p><a class="btn primary" href="#readings">Đọc chậm · hiểu từ & cụm trước khi luyện →</a></p><div class="practice-modes">${[
      ['listen-sentence','听','Nghe câu → hiểu nghĩa','Nghe trước, chọn ý; xem chữ và pinyin sau.'],
      ['dictation','写','Nghe rồi viết chữ','Tự gõ câu nghe được; đối chiếu đúng mẫu, không chấm phát âm.'],
      ['read-sentence','读','Đọc câu → hiểu ý','Nhận chữ trong câu, đừng chỉ tìm một từ khóa.'],
@@ -24,7 +24,7 @@
     ].map(([id,glyph,title,note])=>`<a class="practice-mode" href="#practice/${id}"><span class="han">${glyph}</span><h2>${title}</h2><p>${note}</p><b>Bắt đầu →</b></a>`).join('')}</div>
     <div class="note-panel"><div><strong>Ba nấc, không phải ba nhãn trình độ HSK</strong><p>01: lấy thông tin trực tiếp. 02: theo vai và thứ tự. 03: nối nhiều dòng, xét điều chưa biết, chọn cách nói phù hợp. Chọn mức vừa sức; có thể mở trợ giúp bất cứ lúc nào.</p><p>Âm thanh là giọng đọc tổng hợp của thiết bị. Khi chưa có giọng Quan thoại, phần đọc vẫn dùng được.</p></div></div>
     <div class="new-content-banner"><strong>Mở rộng có mục đích · 15 từ nối vốn cũ với câu tự nhiên hơn</strong><p>先 → 然后: xếp việc. 因为 → 所以: nêu lý do. 如果 và 可能: giữ điều kiện, mức chắc chắn. Chọn 3–5 từ mỗi lần; không cần học hết cùng lúc.</p><a class="btn" href="#practice/extensions">Mở ba nhánh từ mới →</a></div>
-    <div class="section-top"><h2>${D.passages.length} đoạn · ${D.passages.reduce((n,p)=>n+p.questions.length,0)} câu hỏi có căn cứ</h2></div><div class="passage-library">${D.passages.map(p=>`<article class="passage-card"><span class="badge">Mức ${p.level} · ${esc(p.topic)}</span><h3>${esc(p.title)}</h3><p class="inline-han">${p.focus.map(esc).join(' · ')}</p><p>${p.lines.length} dòng · 3 câu hỏi · 1 đề tự viết${p.extra.length?' · Có từ mở rộng được chú giải':''}</p><div class="chip-row"><a class="btn" href="#practice/read/${p.id}">Đọc đoạn</a><a class="btn" href="#practice/listen/${p.id}">Nghe đoạn</a><a class="text-btn" href="#practice/write/${p.id}">Tự viết →</a></div></article>`).join('')}</div>
+    <div class="section-top"><h2>${D.passages.length} đoạn · ${D.passages.reduce((n,p)=>n+p.questions.length,0)} câu hỏi có căn cứ</h2></div><div class="passage-library">${D.passages.map(p=>`<article class="passage-card"><span class="badge">Mức ${p.level} · ${esc(p.topic)}</span><h3>${esc(p.title)}</h3><p class="inline-han">${p.focus.map(esc).join(' · ')}</p><p>${p.lines.length} dòng · 3 câu hỏi · 1 đề tự viết${p.extra.length?' · Có từ mở rộng được chú giải':''}</p><div class="chip-row"><a class="btn" href="#readings/p-${p.id}">Học cách đọc</a><a class="btn" href="#practice/read/${p.id}">Đọc đoạn</a><a class="btn" href="#practice/listen/${p.id}">Nghe đoạn</a><a class="text-btn" href="#practice/write/${p.id}">Tự viết →</a></div></article>`).join('')}</div>
     <div class="note-panel"><div><strong>Học sâu cũng cần học cách kiểm tra điều mình vừa tin</strong><p>Từ cách giải chữ 爱 đến khinh thanh và ngữ thể: giữ câu chuyện có ích, nhưng kiểm tra giới hạn của quy luật.</p><a class="btn" href="#practice/source">Thử 4 câu về cách học</a></div></div>
    `);
   }
@@ -71,7 +71,7 @@
   function step(){
    const r=run;if(!r)return;if(r.index>=r.items.length){finish();return;}
    const t=r.items[r.index],audio=isAudio(t),key=t.p?.id||t.s?.id||'source';r.answered=false;r.proof=new Set();r.written='';
-   r.currentHelped=r.hints.has(key)||(audio&&(state().exposures[key]||0)>Date.now()-E.RETRY)||(t.source&&(state().exposures.guide||0)>Date.now()-E.RETRY);
+   r.currentHelped=r.hints.has(key)||(state().exposures['reader-analysis:'+key]||0)>Date.now()-E.RETRY||(audio&&(state().exposures[key]||0)>Date.now()-E.RETRY)||(t.source&&(state().exposures.guide||0)>Date.now()-E.RETRY);
    r.currentKey=key;
    if(!audio&&t.p){state().exposures[key]=Date.now();K.see(state(),t.q.concepts.map(id=>'c:'+id));host.save();}
    const title=t.p?.title||(t.source?'Kiểm tra điều vừa học':'Một câu, một ý');
@@ -119,7 +119,7 @@
     $$('[data-com-option],[data-proof],#com-check').forEach(b=>b.disabled=true);
     const evidence=t.p&&q.proof?.length?`<p><strong>Căn cứ mẫu: ${q.proof[0].map(i=>'dòng '+(i+1)).join(' + ')}.</strong></p>${q.proof[0].map(i=>`<p class="inline-han">${esc(t.p.lines[i].han)}</p><p class="py">${esc(t.p.lines[i].py)}</p>`).join('')}`:'';
     if(t.p){state().exposures[t.p.id]=Date.now();host.save();}
-    feedback(result.ok,`<h3>${result.ok?'Có căn cứ.':result.answerOK?'Ý đúng; hãy sửa phần dẫn chứng.':'Cùng đọc lại phạm vi câu.'}</h3><p><b>${esc(q.answer)}</b></p><p>${esc(q.why)}</p>${evidence}<p class="tiny muted">Ghi cho ${esc(facetLabels[facet])} qua ${audio?'nghe':'đọc'}${r.currentHelped?', có hỗ trợ':''}. Không tự cộng toàn bộ từ trong đoạn thành từ đã thuộc.</p>`);
+    feedback(result.ok,`<h3>${result.ok?'Có căn cứ.':result.answerOK?'Ý đúng; hãy sửa phần dẫn chứng.':'Cùng đọc lại phạm vi câu.'}</h3><p><b>${esc(q.answer)}</b></p><p>${esc(q.why)}</p>${evidence}${t.p?`<p><a href="#readings/p-${t.p.id}">Xem cách chia từ, vai cụm & ngữ pháp của đoạn →</a></p>`:''}<p class="tiny muted">Ghi cho ${esc(facetLabels[facet])} qua ${audio?'nghe':'đọc'}${r.currentHelped?', có hỗ trợ':''}. Không tự cộng toàn bộ từ trong đoạn thành từ đã thuộc.</p>`);
    }
   }
   function sentenceQuestion(t){

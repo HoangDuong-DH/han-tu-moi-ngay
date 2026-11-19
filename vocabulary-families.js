@@ -1,0 +1,62 @@
+(() => {
+ 'use strict';const families=[];
+ const term=(han,py,meaning,bridge,usage,example)=>({han,py,meaning,bridge,usage,example});
+ const source=han=>({title:'CUHK · '+han,url:'https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word='+encodeURIComponent(han)});
+ window.HAN_VOCAB_FAMILIES={families,term,source,add(f){if(families.some(x=>x.id===f.id))throw Error('Repeated vocabulary family');families.push(f);}};
+ const {add}=window.HAN_VOCAB_FAMILIES,w=term;
+ add({id:'shi',root:'师',title:'Từ “sư” đến lời gọi thầy',deck:'Một người còn trẻ vẫn là 老师. Học cách xưng gọi trước, rồi nối sang nghề nghiệp và quan hệ truyền dạy.',
+  bridge:'师 đọc shī, Hán Việt là sư, có trong sư phạm, sư phụ. “Thầy” trong tiếng Việt là cầu nối nghĩa hữu ích; một ảnh chữ không đủ chứng minh lịch sử vay mượn của tiếng “thầy”.',
+  structure:'老师 là từ đã có nghĩa giáo viên/thầy cô; 老 trong đây không bắt buộc chỉ tuổi. 师父 nhấn quan hệ truyền dạy; 师傅 thường dùng với người có tay nghề. Hai cách gọi có chỗ chồng lấn theo môi trường, không chia cứng thành đạo/đời.',
+  insight:'Khi gọi 王老师, họ đứng trước danh xưng. Nếu hỏi “thầy ấy già không”, phải có phần miêu tả tuổi riêng. Danh xưng cho quan hệ xã hội, tính từ cho đặc điểm: hai việc ấy có thể đứng trong cùng câu.',
+  contrast:[['这位老师很年轻。','Zhè wèi lǎoshī hěn niánqīng.','Thầy/cô giáo này còn trẻ.'],['那位老师年纪很大。','Nà wèi lǎoshī niánjì hěn dà.','Thầy/cô giáo kia lớn tuổi.'],'老师 giữ nguyên nghĩa nghề/danh xưng; 年轻 / 年纪很大 mới nhận xét tuổi.'],readings:['e-teacher'],article:'teacher',sources:[source('師')],
+  terms:[
+   w('老师','lǎoshī','thầy/cô giáo','Sư trong sư phạm giúp nhận 师; cả 老师 dịch là thầy/cô.','Dùng gọi nghề hoặc xưng gọi với họ; không dự đoán tuổi/giới tính.', ['王老师，您今天有课吗？','Wáng lǎoshī, nín jīntiān yǒu kè ma?','Thưa thầy/cô Vương, hôm nay thầy/cô có tiết không?']),
+   w('师父','shīfu','sư phụ, người trực tiếp dạy nghề/đạo','Sư phụ là cầu Hán Việt quen.','Nổi quan hệ người học với người truyền dạy; 父 trong từ không có nghĩa cha ruột.', ['他是我的师父，我跟他学做菜。','Tā shì wǒ de shīfu, wǒ gēn tā xué zuò cài.','Ông ấy là sư phụ của tôi; tôi học nấu ăn với ông ấy.']),
+   w('师傅','shīfu','bác/anh thợ, người có tay nghề; cách gọi kính trọng','Âm Hán Việt của 傅 là phó; không cần dùng “sư phó” làm bản dịch đời thường.','Có thể mở lời với người thợ; cách dùng thay đổi theo vùng/ngành, không coi là tên nghề cụ thể.', ['师傅，请问这辆车什么时候能修好？','Shīfu, qǐngwèn zhè liàng chē shénme shíhou néng xiūhǎo?','Bác thợ ơi, xin hỏi khi nào sửa xong chiếc xe này?']),
+   w('教师','jiàoshī','giáo viên','Giáo trong giáo dục + sư: nhận cùng mạng nghề dạy học.','Thường gọi tên nghề trong giới thiệu, văn bản; khi trực tiếp xưng gọi, họ + 老师 thông dụng hơn.', ['她是一名汉语教师。','Tā shì yì míng Hànyǔ jiàoshī.','Cô ấy là giáo viên tiếng Trung.']),
+   w('师生','shīshēng','thầy cô và học sinh/sinh viên','Sư–sinh gọi hai phía của quan hệ dạy–học.','Từ ghép kết hợp hai nhóm, không phải “học sinh của một thầy” trong mọi câu.', ['师生一起参加了这次活动。','Shīshēng yìqǐ cānjiā le zhè cì huódòng.','Thầy trò cùng tham gia hoạt động lần này.'])]});
+ add({id:'qian',root:'谦',title:'Khiêm không phải là kiêm',deck:'Hình gần và âm gần giúp nhớ, nhưng 谦 và 兼 có hai mạng nghĩa khác nhau.',
+  bridge:'谦 qiān là khiêm, 兼 jiān là kiêm. “Khiêm tốn” và “kiêm nhiệm” giữ hai nghĩa riêng ngay trong tiếng Việt. Gần âm không cấp phép đổi chữ cho nhau.',
+  structure:'Trong chữ 谦, 讠 gợi phạm vi lời nói, 兼 gợi âm theo phân tích hình thanh; đây là cấu tạo một chữ. Trong 谦虚 và 谦和, ta đang xét các chữ làm thành từ. Chuyện lúa nặng hạt cúi đầu là mẹo nhớ, không phải chứng cứ cấu tạo 谦.',
+  insight:'Nhận xét 他很谦虚 tập trung vào không tự cao; 他待人很谦和 làm nổi cách đối đãi ôn hòa. Còn 兼职 chuyển hẳn sang công việc kiêm/bán thời gian. Họ hình thanh không phải nhóm từ đồng nghĩa.',
+  contrast:[['她很谦虚。','Tā hěn qiānxū.','Cô ấy khiêm tốn.'],['她周末做兼职。','Tā zhōumò zuò jiānzhí.','Cuối tuần cô ấy làm thêm.'],'Câu một nhận xét thái độ với 谦; câu hai nói hình thức công việc với 兼.'],readings:['e-modesty'],article:'modesty',sources:[source('謙'),source('兼')],
+  terms:[
+   w('谦虚','qiānxū','khiêm tốn','Khiêm giúp nhận 谦; đừng dịch 虚 trong cả từ thành giả dối.','Dùng nhận xét người không tự đề cao, vẫn có thể nói rõ và tự tin.', ['他很谦虚，也愿意听别人的意见。','Tā hěn qiānxū, yě yuànyì tīng biérén de yìjiàn.','Anh ấy khiêm tốn, cũng sẵn lòng nghe ý kiến người khác.']),
+   w('谦和','qiānhé','khiêm nhường, hòa nhã','Khiêm hòa nối rõ hai nét thái độ và cách ứng xử.','Hợp khi nhận xét cách đối đãi; không buộc người ấy lúc nào cũng im lặng.', ['王老师待人很谦和。','Wáng lǎoshī dàirén hěn qiānhé.','Thầy/cô Vương đối đãi với mọi người rất hòa nhã.']),
+   w('谦让','qiānràng','khiêm nhường, nhường người khác','Khiêm + nhượng: nối chữ 让 với nhường, nhưng chọn nghĩa cả từ.','Thể hiện qua nhường chỗ, nhường lượt hoặc không tranh phần hơn tùy cảnh.', ['大家互相谦让，没有争着先走。','Dàjiā hùxiāng qiānràng, méiyǒu zhēng zhe xiān zǒu.','Mọi người nhường nhau, không tranh đi trước.']),
+   w('兼','jiān','kiêm, đồng thời đảm nhiệm/gồm','Kiêm trong kiêm nhiệm là cầu nghĩa trực tiếp.','Thường kết hợp vai trò; không đem nghĩa của 谦 khiêm vào từ này.', ['他在学校教汉语，兼做翻译。','Tā zài xuéxiào jiāo Hànyǔ, jiān zuò fānyì.','Anh ấy dạy tiếng Trung ở trường, kiêm làm phiên dịch.']),
+   w('兼职','jiānzhí','công việc kiêm/bán thời gian; làm thêm','Chức trong chức vụ + kiêm: cùng mạng nghề nghiệp.','Trong đời thường thường nói việc làm thêm/bán thời gian; cụ thể còn tùy hợp đồng và câu đang nói.', ['我周末做兼职，平时上课。','Wǒ zhōumò zuò jiānzhí, píngshí shàng kè.','Cuối tuần tôi làm thêm, ngày thường đi học.'])]});
+ add({id:'qing',root:'青',title:'Một họ âm, nhiều đường nghĩa',deck:'青 giúp nhận vùng âm của 请、清、情、晴; mỗi chữ vẫn phải học cả thanh và kết hợp từ.',
+  bridge:'青 / 清 thường nối “thanh”; 情 nối “tình”; 请 nối “thỉnh”. Đây là những cầu Hán Việt khác nhau, không phải máy đổi âm thanh → qing cho mọi trường hợp.',
+  structure:'请 có 讠, 清 có 氵, 情 có 忄, 晴 có 日. Các thành phần giúp định hướng lĩnh vực nghĩa; 青 là phần gợi âm trong họ chữ này. qǐng, qīng, qíng không cùng thanh. Không gọi bốn chữ là các nghĩa của một từ.',
+  insight:'请问 mở lời hỏi, còn 请教 nhờ chỉ bảo; cùng là động tác lời nói nhưng mục đích khác. 清楚 có thể tả nói rõ hoặc hiểu rõ; 情况 lại là tình hình. Đọc được phần giống nhau mới là đầu mối, chưa đủ thay việc học từ.',
+  contrast:[['请问，车站在哪儿？','Qǐngwèn, chēzhàn zài nǎr?','Xin hỏi, nhà ga ở đâu?'],['我想向您请教一个问题。','Wǒ xiǎng xiàng nín qǐngjiào yí ge wèntí.','Tôi muốn xin bác/thầy cô chỉ bảo một vấn đề.'],'请问 dẫn một câu hỏi lấy thông tin; 请教 làm nổi việc xin người khác chỉ dẫn.'],readings:['e-register','p-polite'],article:'register',sources:[source('請'),source('清'),source('情'),source('晴')],
+  terms:[
+   w('请问','qǐngwèn','xin hỏi','Thỉnh + vấn giúp nhớ quan hệ lời nói; bản dịch tự nhiên là xin hỏi.','Dùng mở lời, rồi đặt câu hỏi đầy đủ sau đó.', ['请问，这儿可以坐吗？','Qǐngwèn, zhèr kěyǐ zuò ma?','Xin hỏi, chỗ này ngồi được không?']),
+   w('请教','qǐngjiào','xin chỉ bảo, hỏi để học','Thỉnh giáo là cầu Hán Việt còn dùng.','Thường có người được hỏi và vấn đề cần chỉ dẫn; không chỉ là mời người ấy tới.', ['这个字我不会读，想请教您。','Zhège zì wǒ bú huì dú, xiǎng qǐngjiào nín.','Tôi chưa biết đọc chữ này, muốn xin thầy/cô chỉ bảo.']),
+   w('清楚','qīngchu','rõ; hiểu rõ','清 gợi chữ thanh trong thanh bạch; chọn cả từ là rõ ràng.','Có thể tả lời nói hoặc mức hiểu; 清楚 không chỉ nói nước trong.', ['请说清楚一点儿。','Qǐng shuō qīngchu yìdiǎnr.','Xin nói rõ hơn một chút.']),
+   w('情况','qíngkuàng','tình hình, tình huống','Tình + huống là một cầu nghĩa sát.','Dùng hỏi hoàn cảnh đang thế nào, không chỉ tình cảm của một người.', ['你了解这里的情况吗？','Nǐ liǎojiě zhèlǐ de qíngkuàng ma?','Bạn hiểu tình hình ở đây không?']),
+   w('晴天','qíngtiān','ngày trời quang/nắng','晴 và 情 cùng qíng nhưng nghĩa khác; đừng suy chung chữ từ âm “tình”.','Đối chiếu với 下雨 / 阴天; 日 trong 晴 hỗ trợ nhận mặt chữ.', ['明天是晴天，我们去公园吧。','Míngtiān shì qíngtiān, wǒmen qù gōngyuán ba.','Mai trời quang, chúng ta đi công viên nhé.'])]});
+ add({id:'xue-xiao',root:'学',title:'Từ học tập đến trường và hiệu trưởng',deck:'Đổi vị trí chữ trong họ từ để biết ai học, nơi học và người đứng đầu.',
+  bridge:'学 là học, 习 là tập; 学习 nối ngay học tập. 校 trong 学校 còn lạ nếu dịch “học hiệu”, nhưng 校长 nối được hiệu trưởng. Âm Hán Việt đi qua các từ thật đã quen.',
+  structure:'学习 gọi hoạt động, 学生 gọi người học, 学校 gọi nơi học. Trong 校长, 长 đọc zhǎng chỉ người đứng đầu; trong 很长, 长 đọc cháng là dài. Đây là cấu tạo từ và chọn cách đọc, không phải tách bộ thủ của từng chữ.',
+  insight:'我在学校学习 có hai vai khác nhau: 学校 là nơi sau 在, 学习 là việc làm. Nếu chỉ gom mọi từ có 学 thành “học” ta sẽ không dựng được câu. Từ mới đáng học khi nó đi vào một chỗ có chức năng trong câu cũ.',
+  contrast:[['我在学校学习。','Wǒ zài xuéxiào xuéxí.','Tôi học ở trường.'],['他是这所学校的校长。','Tā shì zhè suǒ xuéxiào de xiàozhǎng.','Ông ấy là hiệu trưởng trường này.'],'在 đặt nơi học; 是 xác định vai nghề. 长 đọc zhǎng trong chức danh.'],readings:['hsk-2','e-han-viet'],article:'han-viet',sources:[source('學'),source('校')],
+  terms:[
+   w('学习','xuéxí','học, học tập','Học + tập là cầu trực tiếp.','Làm động từ hoạt động; không dùng thay tên trường.', ['我每天学习一点儿汉语。','Wǒ měitiān xuéxí yìdiǎnr Hànyǔ.','Mỗi ngày tôi học một chút tiếng Trung.']),
+   w('学生','xuésheng','học sinh/sinh viên','Học sinh giúp nhớ mặt chữ; bản dịch tùy môi trường học.','Không chỉ học sinh phổ thông; 大学生 nói rõ sinh viên đại học.', ['她是大学生，不是老师。','Tā shì dàxuéshēng, bú shì lǎoshī.','Cô ấy là sinh viên, không phải giáo viên.']),
+   w('学校','xuéxiào','trường học','校 gặp lại trong hiệu trưởng 校长; không ép dùng “học hiệu” khi nói tiếng Việt.','Là nơi/cơ sở học, kết hợp 去学校 / 在学校.', ['学校前边有一家书店。','Xuéxiào qiánbian yǒu yì jiā shūdiàn.','Trước trường có một hiệu sách.']),
+   w('校长','xiàozhǎng','hiệu trưởng','Hiệu + trưởng; 长 đọc zhǎng ở vai đứng đầu.','Tên chức danh, khác 长 cháng chỉ độ dài.', ['校长今天下午来我们班。','Xiàozhǎng jīntiān xiàwǔ lái wǒmen bān.','Chiều nay hiệu trưởng đến lớp chúng tôi.']),
+   w('校服','xiàofú','đồng phục trường học','Hiệu trong 校 + phục trong y phục hỗ trợ nhận hai yếu tố.','Gọi loại quần áo theo nơi dùng; không tự có nghĩa mọi bộ đồng phục.', ['这所学校的学生穿蓝色校服。','Zhè suǒ xuéxiào de xuésheng chuān lánsè xiàofú.','Học sinh trường này mặc đồng phục màu xanh lam.'])]});
+ add({id:'jia',root:'家',title:'Nhà, người nhà và một kiểu gọi nghề',deck:'家 không giữ cùng một vai trong 回家、家人、一家酒店 và 作家.',
+  bridge:'Gia trong gia đình, gia tộc; gia trong chuyên gia, tác gia. Cùng chữ 家 nhưng mạng kết hợp giúp xác định nghĩa hiện tại.',
+  structure:'家人 là người trong nhà; 家庭 là gia đình. 在家 chỉ nơi ở. Trong 一家酒店, 家 là lượng từ cơ sở. Trong 作家 / 专家, 家 góp cách gọi người có chuyên môn hoặc hoạt động nổi bật, không chỉ căn nhà.',
+  insight:'Người biết 家 nghĩa là nhà vẫn chưa tự hiểu 作家. Hãy xem cả từ đang chỉ nơi, tập thể người hay một người có nghề. Cách đổi ấy có quy luật trong một số nhóm nhưng không cho phép tự gắn 家 vào mọi nghề để tạo từ mới.',
+  contrast:[['我家有三个人。','Wǒ jiā yǒu sān ge rén.','Gia đình tôi có ba người.'],['她是一位作家。','Tā shì yí wèi zuòjiā.','Cô ấy là nhà văn.'],'我家 là nhà/gia đình của tôi; 作家 là tên người làm nghề sáng tác.'],readings:['e-gia','hsk-5'],article:'gia',sources:[source('家')],
+  terms:[
+   w('回家','huí jiā','về nhà','Gia nối nhà; 回 là quay về trong cụm hành động này.','Đích 家 theo sau 回, không chen 在 vào khung đi tới đích.', ['我下班后就回家。','Wǒ xiàbān hòu jiù huí jiā.','Tan ca là tôi về nhà.']),
+   w('家人','jiārén','người nhà, người thân trong gia đình','Gia + nhân hỗ trợ nhận yếu tố, nghĩa cả từ là người nhà.','Thường nói về người thân chung, không chỉ người ở cùng một địa chỉ.', ['周末我想和家人一起吃饭。','Zhōumò wǒ xiǎng hé jiārén yìqǐ chī fàn.','Cuối tuần tôi muốn ăn cùng gia đình.']),
+   w('家庭','jiātíng','gia đình','Gia đình là cầu Hán Việt quen.','Gọi đơn vị/đời sống gia đình; khi nói đang ở nhà thường dùng 在家.', ['我们谈了工作，也谈了家庭。','Wǒmen tán le gōngzuò, yě tán le jiātíng.','Chúng tôi nói về công việc, cũng nói về gia đình.']),
+   w('作家','zuòjiā','nhà văn','Tác gia là cầu Hán Việt; bản dịch thường dùng là nhà văn.','Gọi người sáng tác văn chương, không dịch thành nhà làm ra một đồ vật.', ['这位作家写过很多儿童故事。','Zhè wèi zuòjiā xiě guo hěn duō értóng gùshi.','Nhà văn này đã viết nhiều truyện thiếu nhi.']),
+   w('专家','zhuānjiā','chuyên gia','Chuyên gia nối cả âm lẫn nghĩa.','Chuyên môn thuộc một lĩnh vực xác định; câu gọi 专家 chưa tự chứng minh mọi ý kiến đều đúng.', ['我们想请一位专家来解释这个问题。','Wǒmen xiǎng qǐng yí wèi zhuānjiā lái jiěshì zhège wèntí.','Chúng tôi muốn mời một chuyên gia đến giải thích vấn đề này.'])]});
+})();

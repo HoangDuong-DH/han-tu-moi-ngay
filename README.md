@@ -2,10 +2,14 @@
 
 Web học tiếng Trung bằng tiếng Việt, dùng được trên điện thoại và máy tính. Mở `index.html` qua một máy chủ web tĩnh; không cần cài đặt hay bước biên dịch.
 
-[Mở web học](https://hoangduong-dh.github.io/han-tu-moi-ngay/?v=28#materials) · [Bảng kiểm kê nội dung](CONTENT-COVERAGE.md)
+[Mở web học](https://hoangduong-dh.github.io/han-tu-moi-ngay/?v=29#learn) · [Hán Việt & họ từ](https://hoangduong-dh.github.io/han-tu-moi-ngay/?v=29#vocabulary) · [Đọc & hiểu câu](https://hoangduong-dh.github.io/han-tu-moi-ngay/?v=29#readings) · [Bảng kiểm kê nội dung](CONTENT-COVERAGE.md)
 
 ## Nội dung
 
+- Bản 29 thêm hai lối học: **Hán Việt & họ từ** và **Đọc & hiểu câu**. Mỗi lượt chỉ mở một từ hoặc một câu; âm, nghĩa, lý do phân tích và các phần đọc sâu có thể mở khi cần.
+- 10 nhóm quanh 师、谦/兼、青、学/校、家、书、气、心、爱、看 có 50 cách dùng chọn lọc: cầu Hán Việt, nghĩa hiện đại, ví dụ đủ Hán–pinyin–Việt, cặp đối chiếu và bài đọc nối tiếp. Từ ngoài kho có nhãn mở rộng; không tự tính vào số từ đã thuộc hoặc cấp HSK.
+- 52 mục đọc có 112 câu/dòng được giải thích: 17 đoạn luyện cũ, 6 đoạn HSK 2, các câu minh họa nối đủ 17 bài đọc dài và 14 trích đoạn chọn trong PDF. Giữ nguyên câu liền mạch; phân biệt lớp vai cụm với lớp từ/cấu trúc và chỉ rõ nghĩa trong câu. Đây không phải phân tích mọi câu của toàn bộ PDF hoặc mọi bài dài.
+- 34 điểm ngữ pháp nền/HSK 2 giải thích công thức, phạm vi, phủ định/hỏi, chỗ thay được, câu đối chiếu và lỗi thường gặp. Có đường quay lại đúng câu đang đọc. Ghi chú và vị trí mới xuất/nhập cùng sổ cũ; xem lời giải không tự được tính là đã nhớ độc lập.
 - Kho chữ, từ vựng và phần ôn tập HSK 1 đã có.
 - Sáu bài đầu 新HSK教程2: 93 mục từ theo nghĩa/ngữ cảnh, 18 điểm ngữ pháp, 54 bài tập ngữ pháp và 18 câu hỏi nghe–đọc.
 - Luyện nhận mặt chữ, nghĩa, pinyin có thanh điệu, nghe và xếp câu; ôn kết hợp với từ cũ.

@@ -1,6 +1,19 @@
-# Nội dung học — bản 28, ngày 19/11/2026
+# Nội dung học — bản 29, ngày 19/11/2026
 
-Web: https://hoangduong-dh.github.io/han-tu-moi-ngay/?v=28#materials
+Web: https://hoangduong-dh.github.io/han-tu-moi-ngay/?v=29#vocabulary
+
+## Bản 29: học từ theo mạch và đọc hiểu cấu trúc
+
+- **10 nhóm, 50 cách dùng chọn lọc**: 师、谦/兼、青、学/校、家、书、气、心、爱、看. Đi từ chữ/từ quen sang cầu Hán Việt có giới hạn, nghĩa hiện đại, cảnh dùng và câu ví dụ đủ Hán–pinyin–Việt. Phân biệt ghép từ với cấu tạo chữ và mẹo nhớ. Các cặp như 师父/师傅, 谦/兼, 生气/“sinh khí”, 看完/看懂 có đối chiếu cụ thể; nguồn mở ở từng nhóm.
+- Mỗi nhóm chọn một từ/lượt, giải thích hiện ngay dưới bộ chọn. Các nhánh đọc sâu, hai câu so sánh, tự viết và nguồn mở dần. Tìm được bằng chữ, pinyin và nghĩa Việt. 50 cách dùng có cả từ cũ và từ mở rộng; **không phải 50 mục mới được cộng vào kho 551 hoặc một danh sách HSK chính thức**.
+- **52 mục đọc, 112 câu/dòng phân tích riêng, 903 đơn vị theo ngữ cảnh**: 17 đoạn luyện nền + 6 đoạn HSK 2 + 15 mục minh họa mới cho bài đọc dài + 14 trích đoạn PDF. Đủ 17 bài đọc dài có liên kết minh họa; hai bài dùng lại đoạn luyện liên quan, không đếm trùng thành mục mới.
+- Hai lớp khác nhau: **Cụm giữ vai gì?** giải thích người, thời gian, hành động, đối tượng, điều kiện…; **Từ & cấu trúc** phân biệt từ, từ ly hợp, lặp động từ, bổ ngữ và cụm. Không coi mọi ô bấm là một từ đơn lập; nguyên văn và dấu câu vẫn được giữ. Có âm/nghĩa theo câu, lý do giữ/tách, cặp đối chiếu, liên kết kho từ và ngữ pháp.
+- **34 điểm ngữ pháp** (16 nền + 18 HSK 2) có công thức, vai từng phần, phạm vi tác động, phủ định/câu hỏi, câu thay thế, lỗi thường gặp và đường trở về đúng câu. Các ví dụ mới là biên soạn, không được nhận là trích nguyên giáo trình. Sáu đoạn HSK 2 được sửa mạch thời gian/chủ đề; giữ ID câu hỏi và kho từ.
+- Kiểm lại các điểm dễ gây học sai: 过 trải nghiệm/过生日; 的 lược danh từ, cấu trúc nhấn mạnh và chỉ đối tượng nhận; 的 trong câu thơ gốc so với 地 khi viết trạng ngữ hiện đại; 看完/看懂; 不都/都不; lượng từ 把/口 và cách dùng khác. Sơ đồ tục ngữ được bổ sung âm đọc cho bảy chữ còn thiếu.
+- Có đọc liền/hiểu từng câu, bật/tắt pinyin/nghĩa, chọn câu, tra từ tại chỗ, nhớ vị trí và ghi chú. Trạng thái từ dựa trên dữ liệu ôn thực tế của trình duyệt; từ chỉ có trong tư liệu và từ mở rộng được ghi khác nhau. Đọc/xem mẫu không tăng thành thạo; lượt luyện ngay sau khi mở giải thích được đánh dấu có hỗ trợ.
+- Bài dài giữ mạch đọc, có bộ chọn phần. Bài luyện Lịch duyệt đã tách sang trang riêng; không chèn câu hỏi vào thân tản văn. **112 câu/dòng là phạm vi phân tích kỹ đã chọn, không đồng nghĩa đã phân tích từng câu trong cả 17 bài dài hoặc toàn bộ 122 trang.** Ảnh/PDF vẫn chứa bản đầy đủ.
+
+## Nội dung đã giữ từ bản 28
 
 - Giữ nguyên 538 mã mục từ cũ; bổ sung 13 mặt chữ/từ/câu từ hai nhóm ảnh. Kho hiện có 551 mục, không phải 551 từ đã thuộc.
 - Sáu bài HSK 2 hiện là **sáu bài đầu của 新HSK教程2**, ISBN 9787521368048; không gọi là sáu bài người học đã xác nhận đang học.
