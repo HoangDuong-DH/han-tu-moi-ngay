@@ -166,7 +166,7 @@
   [['高兴 → 高高兴兴','Tả sắc thái vui vẻ sống động.'],['高高兴兴地打开','Cả cụm lặp làm trạng ngữ cách thức cho hành động mở.']],
   'AABB không phải nhân đôi mọi chuỗi hai chữ. Cần từ được dùng theo mẫu ấy; 高兴、舒服 có các dạng của bài, nhưng không suy động từ như 学习 cũng thành 学学习习.',
   'Đừng giữ máy móc dạng 高高兴兴 khi muốn phủ định trạng thái vui: tùy ý cần nói 不高兴 hoặc một câu khác. Dạng lặp mang sắc thái riêng, không chỉ tăng mức bằng 很.',
-  ['我想在家舒舒服服地休息。','Wǒ xiǎng zài jiā shūshufúfú de xiūxi.','Tôi muốn nghỉ thoải mái ở nhà.','在家 chỉ nơi; 舒舒服服地 chỉ cách nghỉ, hai trạng ngữ khác loại.'],['高兴','舒服','地','休息','家']);
+  ['我想在家舒舒服服地休息。','Wǒ xiǎng zài jiā shūshūfúfú de xiūxi.','Tôi muốn nghỉ thoải mái ở nhà.','在家 chỉ nơi; 舒舒服服地 chỉ cách nghỉ, hai trạng ngữ khác loại.'],['高兴','舒服','地','休息','家']);
  d('hsk2:g:6:2','Một vài ví dụ + 什么的',
   [['鱼、肉','Các món thật sự được nêu.'],['什么的','Để mở các món tương tự, không liệt kê hết.']],
   'Đây là cách nói khẩu ngữ, không phải người kể đang hỏi “cái gì?”. Những mục không nêu tên chưa được xác nhận riêng, dù chúng hợp hoàn cảnh như bánh trong sinh nhật.',
@@ -177,4 +177,6 @@
   '地 hướng tới động từ phía sau. 的 thường dẫn tới danh từ, 得 trong 说得很好 mở phần đánh giá sau động từ. Ba chữ đồng âm de nhưng quan hệ và vị trí khác nhau; nhiều trạng ngữ thời gian/nơi chốn không cần 地.',
   '不高兴地说 có thể tả cách nói không vui; 没高兴地说 phủ định một sự việc được tả như thế, không tự khẳng định cảm xúc. Muốn diễn đạt một ý cụ thể cần chọn cả câu, không chỉ thay trợ từ.',
   ['他慢慢地走进教室。','Tā mànmàn de zǒu jìn jiàoshì.','Anh ấy từ từ bước vào phòng học.','慢慢地 bổ nghĩa cho 走; 教室 là đích sau 进. Không viết 明天地去 cho “ngày mai đi”.'],['地','的','得','舒服','睡觉','高兴']);
+ const repeated=L.grammar.get('hsk2:g:6:1');
+ repeated.pronunciation={note:'Pinyin ở đây dùng dạng ghi shūshūfúfú và gāogāoxìngxìng của 新华拼写词典. Nhịp nói và cách đọc nhẹ có thể khác; không suy rằng mọi dạng AABB đều giữ hoặc đổi thanh giống nhau.',url:'https://pinyin.info/readings/xinhua_pinxie_cidian/b05_adjectives.html',title:'新华拼写词典 · mục AABB (bản trích được nhà xuất bản cho phép)'};
 })();

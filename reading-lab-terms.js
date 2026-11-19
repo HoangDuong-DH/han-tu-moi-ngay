@@ -49,7 +49,7 @@
  t('洗了洗','xǐ le xi','đã rửa qua','Cấu trúc lặp động từ','洗了洗手 giữ 手 sau cụm động từ lặp; không tách 洗手 thành hai việc độc lập.',['洗','手','了']);
  t('试试','shìshi','thử một chút / thử xem','Động từ lặp','Âm thứ hai thường đọc nhẹ. Dạng lặp làm việc thử có giới hạn, không có nghĩa thử mãi.',['试']);
  t('高高兴兴','gāogāoxìngxìng','vui vẻ, hớn hở','Tính từ lặp AABB','Dùng cùng 地 để tả cách mở quà. Không từ đó suy mọi tính từ đều được lặp theo AABB.',['高兴']);
- t('舒舒服服','shūshufúfú','thoải mái','Tính từ lặp AABB','Lặp 舒服 để gợi trạng thái dễ chịu; dùng trong lời kể gần gũi.',['舒服']);
+ t('舒舒服服','shūshūfúfú','thoải mái','Tính từ lặp AABB','Lặp 舒服 để gợi trạng thái dễ chịu; dùng trong lời kể gần gũi.',['舒服']);
  t('什么的','shénme de','và những thứ tương tự','Cấu trúc liệt kê mở','Đứng sau các món ví dụ. Khác 什么 trong một câu hỏi yêu cầu cho biết món gì.',['什么','的']);
  t('不一样','bù yíyàng','không giống nhau','Cụm phủ định','不 phủ định 一样. So sánh điều đang nói đến: vai người nói và mục đích lời nói.',['不','一样']);
  t('六块二','liù kuài èr','6,2 tệ','Cụm số tiền','Khẩu ngữ lược 毛 sau 二. Khối này là giá, không phải sáu tệ nhân hai.',['块','二']);
