@@ -1,0 +1,12 @@
+(() => {
+ 'use strict';
+ const L=window.HAN_LEXICON,legacy=L.render;
+ const example=(e,esc,audio)=>`<div class="lexicon-example depth-example"><p class="inline-han" lang="zh-CN">${esc(e[0])} ${audio(e[0])}</p><p class="py">${esc(e[1])}</p><p>${esc(e[2])}</p></div>`;
+ function study(s,esc,audio,compact=false){return `<section class="depth-study"><h2>${s.lesson?'Cách dùng trong bài '+s.lesson:'Dùng từ trong ngữ cảnh'}</h2><p>${esc(s.usage)}</p><div class="depth-contrast"><h3>Đặt cạnh từ/cấu trúc gần nghĩa</h3><p>${esc(s.contrast)}</p></div>${compact?'':`<h3>${[...s.han].length===1?'Vai trò, cấu tạo của chữ':'Từ/cụm được tổ chức thế nào?'}</h3><p>${esc(s.formation)}</p>`}<h3>Hai câu để dùng được</h3>${s.examples.map(e=>example(e,esc,audio)).join('')}<details class="depth-more" ${compact?'':'open'}><summary>${compact?([...s.han].length===1?'Vai trò của chữ & cầu Hán Việt':'Cách ghép & cầu Hán Việt'):'Cầu Hán Việt · dùng đến đâu?'}</summary>${compact?'<p>'+esc(s.formation)+'</p>':''}<p>${esc(s.bridge)}</p></details>${s.article?`<a class="essay-word-link" href="#essay/${esc(s.article)}">Đọc bài liên quan →</a>`:''}${!compact&&s.links?.length?`<p class="tiny muted">${s.links.map(([t,u])=>`<a href="${esc(u)}" target="_blank" rel="noopener noreferrer">${esc(t)}</a>`).join(' · ')}. Câu giao tiếp do ứng dụng biên soạn; nguồn dùng đối chiếu phần tương ứng.</p>`:''}</section>`;}
+ L.render=(word,opt)=>{
+  if(!word.usageStudies?.length)return legacy(word,opt);
+  const {esc,audio,graph=''}=opt;
+  return `<article class="lexicon-article"><div class="badge">${esc(word.category)}</div><header class="lexicon-head"><div><h1 class="detail-han" lang="zh-CN">${esc(word.han)}</h1><p class="detail-py">${esc(word.py)}</p></div><div class="chip-row">${audio(word.han)}<button class="btn" data-say="${esc(word.han)}" data-slow="1">Nghe chậm</button></div></header><p class="lexicon-definition"><strong>${esc(word.meaning)}</strong></p>${word.usageStudies.map(s=>study(s,esc,audio)).join('')}${graph?`<details class="depth-more"><summary>${[...word.han].length>1?'Nhận các chữ trong từ & xem họ từ':'Nhìn thành phần chữ & xem họ chữ'}</summary><p class="tiny muted">Sơ đồ giúp tìm mối liên hệ. Vai trò nghĩa/âm và cách ghép được giải thích bằng lời ở trên; việc chia ký tự không tự chứng minh từ nguyên.</p>${graph}</details>`:''}${window.HAN_PATHS?.forWord(word.han,esc)||''}</article>`;
+ };
+ window.HAN_DEPTH_UI={study,example};
+})();

@@ -28,17 +28,15 @@
   };
 
   const {formations, aliases, bridges, readings} = window.HAN_CHARACTER_GRAPH_DATA;
-  for (const [han, semantic, phonetic, citedForm = han] of formations) {
-    annotations[han] = {
-      parts:[[semantic,'Gợi nghĩa'], [phonetic,'Gợi âm']],
-      reference:source(citedForm),
-    };
-  }
   const labels = {parts:'Cấu tạo', words:'Từ ghép & cụm từ', sound:'Họ gợi âm', meaning:'Họ gợi nghĩa', vietnamese:'Hán Việt'};
   const characters = text => Array.from(text).filter(char => /\p{Script=Han}/u.test(char));
   const PAGE_SIZE = 4;
 
   function create(words) {
+    // Content modules may register sourced formations after this module loads.
+    for (const [han, semantic, phonetic, citedForm = han] of formations) {
+      annotations[han] = {parts:[[semantic,'Gợi nghĩa'],[phonetic,'Gợi âm']],reference:source(citedForm)};
+    }
     const dictionary = new Map(words.map(word => [word.han, word]));
     const wordsByCharacter = new Map();
     const compounds = new Set([
@@ -134,7 +132,7 @@
       if (mode === 'parts') {
         const repeats = chars.length === 1 && characters(root).length > 1;
         const parts = characters(root).length > 1
-          ? chars.map(char => [char, repeats ? 'Lặp chữ trong từ' : compounds.has(root) ? 'Ghép thành từ' : 'Chữ trong mục này'])
+          ? chars.map(char => [char, repeats ? 'Chữ lặp trong từ' : 'Chữ trong từ/cụm'])
           : annotations[root]?.parts || lessonParts.get(root) || [];
         return parts.map(([han, role]) => ({han, role:role || 'Thành phần nhìn thấy'}));
       }
@@ -214,7 +212,7 @@
 
         content.innerHTML = `
           <div class="character-graph-tabs" role="group" aria-label="Loại quan hệ">
-            ${available.map(key => `<button type="button" data-graph-mode="${key}" aria-pressed="${key === mode}">${labels[key]}</button>`).join('')}
+            ${available.map(key => `<button type="button" data-graph-mode="${key}" aria-pressed="${key === mode}">${key==='parts'?(characters(root).length>1?'Các chữ trong từ':'Thành phần chữ'):labels[key]}</button>`).join('')}
           </div>
           <button type="button" class="btn character-guess-start" data-graph-guess>Đoán chữ chưa học</button>
           ${history.length ? '<button type="button" class="text-btn" data-graph-back>← Quay lại</button>' : ''}
