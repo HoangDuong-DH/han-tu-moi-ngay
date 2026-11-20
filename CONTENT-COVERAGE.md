@@ -1,6 +1,12 @@
-# Nội dung học — bản 30, ngày 19/11/2026
+# Nội dung học · Bản 31, ngày 20/11/2026
 
-Trang đọc [PDF 122 trang](https://hoangduong-dh.github.io/han-tu-moi-ngay/#materials/book).
+Mở [bài đọc](https://hoangduong-dh.github.io/han-tu-moi-ngay/#read) hoặc [PDF 122 trang](https://hoangduong-dh.github.io/han-tu-moi-ngay/#materials/book).
+
+## Bản 31 · Đọc sâu từng chữ
+
+- Năm bài mới về 卒／畢, 畢／弼, 行, 降, 調 và hai bài viết lại từ ảnh về 師 và 謙／兼. Bài 卒／畢 đối chiếu bản quét tự điển năm 1931, Thiều Chửu, các dòng phiên thiết trong Quảng Vận, cùng cách dùng ở tiếng Trung, Nhật và Hàn.
+- Có 21 câu mẫu với pinyin, nghĩa và cấu trúc. Từ liên quan mở mục tra ngay trong bài. Nguồn nằm cuối bài và đi thẳng từ phần cần kiểm chứng. Câu hỏi tự kiểm mở khi cần. Có nhớ bài và phần đã đọc trong sổ học trên thiết bị.
+- Mục Đọc có tìm theo chữ, pinyin và tiếng Việt. Thư viện mở 17 bài trước đây. Bài về 師 nối thẳng vào câu 老师好 trong PDF và đoạn chào hỏi trong bản thu gốc.
 
 ## Bản 30 · Đọc sát trang PDF
 

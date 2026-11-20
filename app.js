@@ -24,7 +24,7 @@
  };
  const skillNames={meaning:'Chữ → nghĩa',recognition:'Nghĩa → chữ',reading:'Chữ → pinyin',listening:'Nghe → chữ',self:'Tự ôn thẻ',sentence:'Xếp câu',context:'Tình huống',numbers:'Số & giờ',usage:'Từ đích trong câu'};
  const emptyStore=()=>({version:1,words:{},skills:{},sessions:[],lastSeen:null,learning:E.blank(),investigations:window.HAN_INVESTIGATION.blank(),knowledge:K.blank(),reading:window.HAN_READER.blank(),study:window.HAN_STUDY.blank()});
- let learningUI,playUI,investigationUI,practiceUI,knowledgeUI,readerUI,pathsUI,reviewUI,wordlabUI,studyUI,hsk2UI,materialsUI,sentenceReaderUI,vocabularyFamiliesUI,learningActive=false;
+ let learningUI,playUI,investigationUI,practiceUI,knowledgeUI,readerUI,pathsUI,reviewUI,wordlabUI,studyUI,hsk2UI,materialsUI,sentenceReaderUI,vocabularyFamiliesUI,deepReadingUI,learningActive=false;
  let storageOK=true;
  function validateStore(d){
   if(!d||d.version!==1||typeof d.words!=='object'||Array.isArray(d.words)||!d.words)throw Error('Tệp không đúng định dạng sổ ôn.');
@@ -90,9 +90,18 @@
  function go(hash){if(location.hash===hash)renderRoute();else location.hash=hash;}
  function renderRoute(){
   learningUI?.cancel();playUI?.cancel();investigationUI?.cancel();practiceUI?.cancel();knowledgeUI?.cancel();readerUI?.cancel();reviewUI?.cancel();wordlabUI?.cancel();hsk2UI?.cancel();materialsUI?.cancel();if($('#word-dialog').open)$('#word-dialog').close();
-  route=location.hash.slice(1)||'learn';session=null;dictPage=0;if('speechSynthesis' in window)speechSynthesis.cancel();
-  const navGroup=(route==='hsk2/progress'||route==='review/progress'||['knowledge','notebook','progress','wordlab/report','review/report'].includes(route))?'study-progress':(route.startsWith('dictionary')||route.startsWith('vocabulary'))?'dictionary':(route.startsWith('hsk2/all/')||route.startsWith('review')||route.startsWith('materials/phonetics/practice/'))?'practice':(route==='learn'||route==='home'||route.startsWith('hsk2')||route.startsWith('materials')||route.startsWith('readings')||route.startsWith('syntax')||route.startsWith('essay'))?'learn':(route==='library'||route.startsWith('essay')||route.startsWith('path')||route.startsWith('game')||route.startsWith('case')||route.startsWith('grammar')||route==='reading'||route==='guide')?'library':'practice';
+  route=location.hash.slice(1)||'learn';session=null;
+  const deepRoute=route==='read'||route.startsWith('read/');
+  if(!deepRoute)deepReadingUI?.cancel();dictPage=0;if('speechSynthesis' in window)speechSynthesis.cancel();
+  const isReading=deepRoute||/^(readings|reading|essays?|essay-practice|syntax)(\/|$)/.test(route)||(
+    route.startsWith('materials')&&!route.startsWith('materials/phonetics/practice/'));
+  let navGroup='practice';
+  if(route==='hsk2/progress'||route==='review/progress'||['knowledge','notebook','progress','wordlab/report','review/report'].includes(route))navGroup='study-progress';
+  else if(isReading)navGroup='read';
+  else if(route.startsWith('dictionary')||route.startsWith('vocabulary'))navGroup='dictionary';
+  else if(route==='learn'||route==='home'||(route.startsWith('hsk2')&&!route.startsWith('hsk2/all/')))navGroup='learn';
   $$('[data-nav]').forEach(a=>{const active=a.dataset.nav===navGroup;a.classList.toggle('active',active);if(active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
+  if(deepRoute){deepReadingUI.route(route.split('/').slice(1));return;}
   if(route==='home'||route==='learn'){hsk2UI.route([]);return;}
   if(route==='review'){studyUI.hub();return;}
   if(route==='library'){studyUI.library();return;}
@@ -338,6 +347,7 @@
  materialsUI=window.createHanMaterials?.({words,esc,speak,db:()=>db,save,mount:html=>{app.innerHTML=html;}});
  vocabularyFamiliesUI=window.createHanVocabularyFamilies({words,esc,db:()=>db,save,speak,voiceStatus,mount:html=>{app.innerHTML=html;}});
  sentenceReaderUI=window.createHanSentenceReader({words,esc,db:()=>db,save,speak,voiceStatus,mount:html=>{app.innerHTML=html;}});
+ deepReadingUI=window.createHanDeepReading({words,esc,db:()=>db,save,mount:html=>{app.innerHTML=html;}});
  hsk2UI=window.createHanHsk2({words,esc,db:()=>db,save,shuffle,speak,voiceStatus,mount:html=>{app.innerHTML=html;}});
  window.addEventListener('hashchange',()=>{lastAction=0;renderRoute();});
  window.HAN_APP={getWords:()=>words,cn,pyNumber,normalNumber,makeNumbers,validateStore,getProgress:()=>JSON.parse(JSON.stringify(db))};
