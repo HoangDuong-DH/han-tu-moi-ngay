@@ -2,9 +2,8 @@
   'use strict';
 
   const {byId} = window.HAN_DEEP_READING_DATA;
-  function annotate(id, takeaway, notes) {
+  function annotate(id, notes) {
     const article = byId.get(id);
-    article.takeaway ||= takeaway;
     for (const [han, segments, grammar] of notes) {
       const example = article.examples.find(item => item.han === han);
       if (!example) throw new Error('Missing sentence in ' + id + ': ' + han);
@@ -12,7 +11,7 @@
     }
   }
 
-  annotate('tat-va-bat','Hai chữ cùng đọc bì vẫn có thể thuộc những nhóm âm xưa khác nhau. Hãy dùng cả chữ và mục vận thư để giải thích “tất” và “bật”. Dùng cả từ để nói 毕业 hay 宾馆.',[
+  annotate('tat-va-bat',[
     ['我打算毕业以后找工作。',[
       ['我','Người có dự định.'],['打算','Động từ “dự định”. Giữ hai chữ vì 打 ở đây không phải động tác đánh.'],
       ['毕业','Sự kiện ra trường.'],['以后','Đứng sau sự kiện, tạo mốc “sau khi”.'],
@@ -29,7 +28,7 @@
     ],'他 là chủ thể. 待人 nêu phương diện của lời nhận xét, 彬彬有礼 cho biết cách cư xử ở phương diện ấy. So với 他很有礼貌, câu gọn mà đặt đúng vào quan hệ với người khác.']
   ]);
 
-  annotate('hanh-va-hang','Trước khi đọc 行, nhìn chữ đi cùng. 银行 gọi nơi giao dịch, 行李 gọi đồ mang đi. Khi đứng trong câu hỏi 行不行, chữ ấy lại đánh giá một phương án.',[
+  annotate('hanh-va-hang',[
     ['我先去银行取钱，再回宾馆拿行李。',[
       ['我','Người làm cả hai việc.'],['先','Đặt việc đi ngân hàng trước.'],['去','Đi đến.'],
       ['银行','Cả từ nghĩa là ngân hàng, đọc háng.'],['取钱','Động từ 取 và đối tượng 钱, rút tiền.'],['再','Chuyển sang việc kế.'],
@@ -45,7 +44,7 @@
     ],'这家银行 là chủ thể. 有 mang nghĩa sở hữu hay có trong cơ cấu, rồi 两个分行 nêu thứ được đếm. Câu khác với 这儿有两个分行, ở đó 这儿 chỉ nơi tồn tại.']
   ]);
 
-  annotate('giang-hang','Vật gì hạ xuống, hoặc ai chịu thua ai? Câu hỏi đó giúp chọn hai nhánh của 降. 降落 giữ jiàng của sự chuyển động, 投降 giữ xiáng của sự quy phục.',[
+  annotate('giang-hang',[
     ['明天会降温。',[
       ['明天','Ngày mai là mốc.'],['会','Dự đoán có khả năng xảy ra, trong câu thời tiết không chỉ kỹ năng.'],
       ['降温','降 + 温 tạo tổ hợp hạ nhiệt, cần đọc chung để nhận việc chính.']
@@ -60,7 +59,7 @@
     ],'最后 đặt điểm kết, còn 还是 cho biết kỳ vọng và kết quả không hẳn cùng hướng. Hai từ cùng nằm trước 投降, nhưng chỉ 还是 mang ý “rốt cuộc vẫn”.']
   ]);
 
-  annotate('dieu-dieu','Hỏi phần nào đang đổi cho vừa, phần nào được đem ra xem xét, và phần nào là giai điệu. Đọc cả 调整, 调查, 曲调 rồi chọn âm của 调.',[
+  annotate('dieu-dieu',[
     ['我们得调整明天的工作时间。',[
       ['我们','Những người cần làm việc này.'],['得','Đọc děi, báo sự cần thiết.'],['调整','Động từ “điều chỉnh”, nối nguyên từ với phần được sửa.'],
       ['明天的','明天 + 的 nêu lịch của ngày nào.'],['工作时间','Cụm danh từ với 时间 là trung tâm, 工作 thu hẹp nghĩa thành giờ làm.']
@@ -75,7 +74,7 @@
     ],'这首歌的曲调 là cụm chủ thể. 很好听 trực tiếp làm vị ngữ tính từ, không cần thêm 是. Nếu lược 曲调 để nói 这首歌很好听, lời khen chuyển từ riêng giai điệu sang cả bài hát.']
   ]);
 
-  annotate('mot-tieng-thay','Hãy nhìn quan hệ trước khi chọn chữ “thầy”. Gọi giáo viên trong lớp là 老师, gọi người truyền nghề của mình có thể là 师父, còn lời nhờ một người thợ thường mở bằng 师傅.',[
+  annotate('mot-tieng-thay',[
     ['陈老师，您好！',[
       ['陈老师','Họ 陈 và danh xưng 老师 tạo lời gọi người đang nghe.'],['您','Ngôi thứ hai lịch sự.'],['好','Tạo lời chào đi sau 您.']
     ],'Dấu phẩy ngăn tiếng gọi 陈老师 khỏi lời chào 您好. 陈老师 đứng ngoài cấu trúc chính, dù vẫn là người mà 您 chỉ tới.'],
@@ -89,7 +88,7 @@
     ],'麻烦您 + hành động là lời nhờ, vừa cho biết ai được nhờ vừa dẫn vào hành động người ấy làm. Trong 送我到车站, 我 là người được đưa và 到车站 là đích của chuyến đi.']
   ]);
 
-  annotate('khiem-va-kiem','Khi nhìn chữ, 兼 gợi âm trong 謙. Khi nghe người thật nói, hãy để hành động chỉ nghĩa. 过奖 đáp lại một lời khen, 谦让 là nhường nhau, còn 兼任 chỉ việc kiêm một chức.',[
+  annotate('khiem-va-kiem',[
     ['您过奖了，我还在学。',[
       ['您','Người vừa khen.'],['过奖','Một lời đáp cố định. 过 gợi mức vượt, 奖 liên quan khen.'],['了','Khép lời đáp lại lời khen vừa nhận.'],
       ['我','Người tự nói về mình.'],['还','Vẫn còn tiếp diễn.'],['在','Đánh dấu đang làm.'],['学','Động từ học, việc cụ thể hiểu từ ngữ cảnh.']

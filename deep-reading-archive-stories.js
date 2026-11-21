@@ -10,10 +10,10 @@
       category: 'đối chiếu',
       search: ['lịch duyệt duyệt lịch 阅历 閱歷 歷閱 yuèlì', '历 歷 曆 历史 日历 经历 lìshǐ rìlì jīnglì', 'Nguyễn Khuyến Tiểu thán Nguyễn Công Hoan Bước đường cùng Pha'],
       intro: [
-        'Lần đầu bị đánh khi tìm gặp quan, Pha kêu lên. Lần sau, anh chỉ nhăn nhó. Nguyễn Công Hoan dùng ngay chữ “lịch duyệt” ở chỗ người đọc đang chờ nghe một tiếng kêu nữa. Một từ nghe như đúc kết của cả đời người bỗng nằm giữa hai cái đánh.',
-        'Chữ ấy ở Nguyễn Khuyến có một nhịp khác. Đọc hai câu đầu Tiểu thán, ta gặp bao nhiêu gió sương mà thấy được chỉ nửa mái đầu bạc. Một người già nhìn lại đường mình đã đi, một người vừa biết phải làm gì khi bị đau. Cả hai đoạn đều làm người đọc nhận ra dấu của trải nghiệm qua một chi tiết cụ thể.'
+        'Pha đến huyện với một phong thư trong túi. Anh tưởng mấy dòng của ông nghị sẽ giúp mình nói được với quan. Đến cửa công đường, thứ anh phải hiểu trước tiên lại là cách một người lính lệ nói “cứ vào” rồi giật anh lại khi anh bước tới. Chưa hết một buổi, người kể đã bảo Pha “lịch duyệt”. Chữ ấy đến sớm đến mức phải dừng lại nghe xem anh vừa học được gì.',
+        'Trong Tiểu thán của Nguyễn Khuyến, 歷閱 nằm ở đầu câu còn mái đầu bạc nửa nằm ở cuối. Chỉ bảy tiếng mà đủ một quãng đời. Đặt hai câu chuyện gần nhau, mình chú ý đến chỗ mỗi người nhận ra thời gian đã đi qua mình. Một người nhìn thấy tóc bạc, một người phải đổi cách thở và cách kêu đau.'
       ],
-      takeaway: '日历 trả lời ngày nào, 经历 trả lời đã gặp chuyện gì. Khi nói về vốn sống lộ ra qua cách người ấy hiểu và ứng xử, 阅历 mới là từ cần đến.',
+      takeaway: 'Nhìn tờ lịch biết ngày nào. Hỏi về 经历 biết chuyện gì đã đi qua đời một người. Với 阅历, điều đáng nghe tiếp là người ấy đã hiểu thêm gì và nó hiện ra thế nào trong cách họ ứng xử.',
       summary: [
         ['日历 · 日曆', 'Vật hoặc công cụ dùng để tra ngày tháng.'],
         ['经历 · 經歷', 'Một việc đã trải qua, hoặc động tác trải qua việc ấy.'],
@@ -22,38 +22,40 @@
       sections: [
         {
           id: 'dau-vet',
-          title: 'Mái đầu bạc đứng sau gió sương',
+          title: 'Cái may của một người bạc nửa đầu',
           paragraphs: [
-            'Câu đầu cho ta cả quá trình lẫn dấu tích, chỉ bằng cách đặt 歷閱風霜 cạnh 半白頭. Cái đi qua là gió sương, cái còn lại nhìn thấy được là mái đầu. Giữa hai cụm, Nguyễn Khuyến để người đọc tự nhận mối nối, nửa mái đầu bạc hiện lên như hệ quả của bao nhiêu điều chưa kể.',
-            'Đến câu thứ hai, đọc chậm chữ 幸. Còn giữ được thân tới lúc già mà nghỉ là điều tác giả gọi là may. Chữ “may” làm giọng bài thơ chùng xuống. Mái đầu không còn chỉ cho biết tuổi tác, nó dẫn sang cái nhìn của một người đã đi qua đường quan và bây giờ mới nói được về nó.'
+            'Trong câu đầu Tiểu thán, 歷閱 là việc đã trải, 風霜 là thứ đã trải qua. Đến 半白頭, lời thơ đưa ra một điều người khác cũng có thể nhìn thấy. Chữ 半 đo tóc bạc tới đâu. Quãng gió sương ở phía trước câu thì cứ dồn vào hai tiếng, để người đọc tự nghĩ còn có bao nhiêu chuyện đã xảy ra giữa lần tóc xanh và lúc này.',
+            'Câu thứ hai nói đến 一官, một chức quan, rồi đặt 幸 ngay trước việc được già mà nghỉ. Nếu chỉ nói lão nhi hưu, ta nghe một mốc kết thúc. Có chữ hạnh, mốc ấy thành một điều may. Đọc tiếp câu sau gặp 今又, nay lại, trong lời than về đường đời gập ghềnh. Người được về nghỉ vẫn có phần đường phải đi. Bởi vậy chữ “may” nghe như đang nói đến một đoạn mình đã ra khỏi, chứ thời thế quanh mình còn nguyên đó.'
           ],
           lines: ['歷閱風霜半白頭，', '一官幸得老而休。'],
           refs: ['tieu-than']
         },
         {
           id: 'pha',
-          title: 'Công đường dạy Pha cách im lặng',
+          title: 'Cái lệ Pha học từ một quả tống vào ngực',
           paragraphs: [
-            '“Lần này đã là lịch duyệt” là lần thứ nhất người kể dùng chữ ấy trong đoạn. Về sau, khi Pha bị đưa chân vào cùm, chữ cũ trở lại trong “lịch duyệt chốn quyền môn”. Lần này anh muốn khóc mà sợ trái phép. Hai chỗ đặt cạnh nhau cho thấy Pha vừa học được một cái lệ. Người ta có thể vin vào cách anh kêu, cách anh khóc để làm khó anh thêm.',
-            'Đọc như thế, sự im lặng của Pha mới có sức nặng. Thời gian từ lần trước đến lần sau rất ngắn. Điều đã đổi là anh biết rõ hơn mình đang ở đâu và người có quyền có thể làm gì. Cái “lịch duyệt” nhà văn chọn dùng nghe cay đắng vì nó ghi một thứ hiểu biết mới, học ngay trong lúc người ta không được quyền từ chối.'
+            'Ở chương 8 Bước đường cùng, người lính lệ lúc đầu hỏi nhỏ Pha “Có gì không?”. Pha mừng vì có thư, móc thư đưa ngay. Mấy trang sau, người ấy nắn túi và thắt lưng Pha, đổi giọng khi nhận ra chỗ buộc tiền. Đọc ngược về câu hỏi đầu, mình mới thấy vì sao hai người đã hiểu chữ “có” theo hai đường. Pha đến huyện với một lẽ rất rành. Mỗi lần mở miệng ở đó, anh phải đoán thêm một lẽ khác.',
+            'Bị tát bên cửa, Pha bật kêu và liền bị quát. Khi lại bị đánh vào ngực, người kể chen “lần này đã là lịch duyệt” vào giữa cú đánh và lúc anh nén tiếng. Chữ “đã” làm việc hiểu ra đến rất nhanh. Dùng “lịch duyệt” ở đây nghe chua chát vì vốn từng trải của Pha được tính bằng đúng cái phản xạ anh vừa phải bỏ đi.',
+            'Qua chương 9, lúc đưa Pha xuống buồng giam, chính người lính nói mình chưa thấy quan truyền giam. Thầy đội vẫn cùm anh. Câu “lịch duyệt chốn quyền môn” trở lại đúng chỗ Pha muốn khóc mà sợ trái phép. Cái anh biết là càng cự lại càng có thể bị làm khó. Còn phép nào cho phép họ cùm anh, lời hai người nói với nhau đã để lộ chỗ trống ấy ra cho người đọc.'
           ],
-          refs: ['buoc-duong-cung']
+          refs: ['buoc-duong-cung', 'lich-pha-cong-duong', 'lich-pha-buong-giam']
         },
         {
           id: 'hai-chu-lich',
-          title: 'Nét dưới chữ lịch đổi cuộc tra cứu',
+          title: 'Dưới một chữ có ngày, dưới chữ kia có bước',
           paragraphs: [
-            'Người đọc bản phồn thể có thể nhìn phần dưới. Trong 歷 là 止, chữ được Thuyết văn giảng theo ý đi qua. Trong 曆 là 日, dùng trong cách viết về lịch pháp. Có văn bản cổ dùng 歷 hoặc 厤 cho nhánh thứ hai, nên gặp đúng nét quen mà sai nghĩa thì vẫn phải nghe cả câu.',
-            'Ở bản giản thể, 历 gánh cả hai. Ngày tháng trong 日历 dẫn ta về 日曆. Việc đã qua trong 历史 dẫn về 歷史. Còn phần có thứ tự ngược với hai chữ “lịch duyệt” là 阅历, phồn thể 閱歷. Trong 阅历丰富, vốn sống đứng trước và được nhận xét là phong phú. Từ điển dẫn cả cách dùng như động từ trong sách cũ, thêm một lý do để tra mục từ rồi soi lại câu mình đang đọc.'
+            'Trong 歷, phần dưới là 止. Thuyết văn giảng chữ theo nghĩa đi qua, còn tự khố Hồng Kông trình bày thêm những cách đọc hình cổ. Thay phần dưới bằng 日, ta gặp 曆 của lịch pháp. Bản cổ còn có khi dùng 歷 hoặc 厤 cho nhánh lịch pháp. Vì vậy mặt chữ cho ta một đầu mối, mấy chữ quanh nó mới cho biết đang đọc chuyện ngày tháng hay một việc đã trải.',
+            'Giản thể 历 gộp cả hai đường ấy. Trong 日历, nó đưa người nói tới tờ lịch hay màn hình lịch. Trong 历史, nó gọi những chuyện đã qua. 阅历 viết phồn thể là 閱歷, thứ tự ngược với 歷閱 trong câu thơ. Đứng trước 丰富, nó là vốn từng trải được đem ra nhận xét. Từ điển còn dẫn cách dùng động từ trong sách cũ. Nhìn thấy hai tiếng quen là lúc mình có thể trở lại đọc vị trí của chúng trong câu.'
           ],
           lines: ['我看了一下日历。', '她阅历丰富。'],
           refs: ['cuhk-li-pass', 'cuhk-li-calendar', 'moe-yueli', 'moe-literacy']
         },
         {
           id: 'dieu-da-gap',
-          title: 'Đã gặp chuyện ấy, vậy đã hiểu được gì?',
+          title: 'Kể một lần từng gặp, khen một người từng trải',
           paragraphs: [
-            'Cụm 这方面的经历 gọi tên một trải nghiệm, có thể nói mình có hay chưa có. Còn ở 经历过, 过 đặt sau động từ cho biết người ấy từng trải qua chuyện nào đó. Câu như vậy tự nó chưa nói được điều gì đã thay đổi trong cách họ nhìn đời. Nguyễn Công Hoan cho người đọc thêm đúng mẩu bằng chứng ấy khi để Pha ứng xử khác đi ở lần sau.'
+            'Một đồng nghiệp thấy người mới lo vì gặp sự cố, có thể bảo 我经历过类似的事, tôi từng gặp chuyện tương tự. Chữ 过 giúp người nghe biết việc ấy đã xảy ra trong đời người nói. Ở câu 我没有这方面的经历, cả 经历 được đặt sau 有 như một phần kinh nghiệm cụ thể mà người nói bảo mình chưa có. Hai lời ấy có thể thành thật ngay cả khi mới gặp nhau lần đầu.',
+            'Khi chính người mới ấy nhận xét 她阅历丰富, lời nói đã đứng ở phía người nhìn được cách đồng nghiệp ứng xử. Có thể chị ấy đã bình tĩnh vạch ra cần hỏi ai trước, làm gì sau. Câu ấy có sức nặng nhờ một việc vừa thấy, cũng như mình hiểu chữ “lịch duyệt” của Nguyễn Công Hoan khi nhìn Pha đổi cách phản ứng. Chỉ khác là Pha vừa học được bài học từ người đang khiến anh đau.'
           ],
           lines: ['我没有这方面的经历。', '我经历过类似的事。'],
           refs: ['moe-yueli']
@@ -85,7 +87,7 @@
         {han:'月', why:'日历 là lịch tra ngày; 月历 là lịch theo từng tháng. Chữ 月 đứng đầu cho biết đơn vị nhìn lịch.'}
       ],
       quiz:{prompt:'Nhận xét “bà ấy từng trải” cần từ nào sau 她, trước 很丰富?', choices:['日历','阅历','历史'], answer:1, explain:'阅历 chỉ vốn sống tích từ những việc đã trải qua. 丰富 nhận xét vốn sống của người ấy. 日历 là thứ để tra ngày, còn 历史 dẫn về những gì đã xảy ra trong quá khứ.'},
-      closing:'Pha đi qua công đường. Vốn hiểu biết anh mang ra nằm trong việc lần sau anh làm khác đi. Tìm đúng dấu ấy trong một câu, ta nghe rõ hơn chữ “từng trải”, dù trong tiếng Việt hay trong 阅历 của một người hôm nay.',
+      closing:'Đặt chữ “may” của Nguyễn Khuyến cạnh chữ “đã” của người kể chuyện Pha, mình nghe ra hai cách làm cho một quãng đời bỗng hiện lên. Có trải nghiệm phải đến đầu bạc mới gọi được tên. Cũng có thứ người ta buộc phải hiểu ngay để bước qua một cánh cửa.',
       related:['tot-nghiep','shang-yang'],
       legacyHref:'#essay/lich-duyet',
       sources:[
@@ -94,7 +96,9 @@
         {id:'cuhk-li-pass',title:'CUHK · chữ 歷',url:'https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=%E6%AD%B7',detail:'Dẫn Thuyết văn nghĩa đi qua, trình bày các cách hiểu thành phần hình cổ và quan hệ với 曆.'},
         {id:'cuhk-li-calendar',title:'CUHK · chữ 曆',url:'https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=%E6%9B%86',detail:'Nghĩa lịch pháp và trường hợp văn bản cổ dùng 歷 hoặc 厤.'},
         {id:'moe-yueli',title:'Bộ Giáo dục Đài Loan · 閱歷',url:'https://dict.revised.moe.edu.tw/dictView.jsp?ID=164736&la=0&powerMode=0',detail:'Âm yuèlì, nghĩa kinh nghiệm, và ví dụ sách Lão tàn du ký, Văn minh tiểu sử.'},
-        {id:'moe-literacy',title:'Bộ Giáo dục Đài Loan · Giáo trình cơ bản dành cho người lớn, tập 4',url:'https://ws.moe.edu.tw/001/Upload/6/RelFile/7803/38421/%E6%88%90%E4%BA%BA%E5%9F%BA%E6%9C%AC%E8%AD%98%E5%AD%97%E6%95%99%E6%9D%90%20%E7%AC%AC%E5%9B%9B%E5%86%8A%EF%BC%88%E4%B8%AD%E4%BA%8C%E7%B4%9A%EF%BC%89.pdf',detail:'Phần 生字造詞 đặt 歷 trong 學歷、歷史 và 曆 trong 日曆、曆法, minh họa phép đối chiếu theo cả từ.'}
+        {id:'moe-literacy',title:'Bộ Giáo dục Đài Loan · Giáo trình cơ bản dành cho người lớn, tập 4',url:'https://ws.moe.edu.tw/001/Upload/6/RelFile/7803/38421/%E6%88%90%E4%BA%BA%E5%9F%BA%E6%9C%AC%E8%AD%98%E5%AD%97%E6%95%99%E6%9D%90%20%E7%AC%AC%E5%9B%9B%E5%86%8A%EF%BC%88%E4%B8%AD%E4%BA%8C%E7%B4%9A%EF%BC%89.pdf',detail:'Phần 生字造詞 đặt 歷 trong 學歷、歷史 và 曆 trong 日曆、曆法, minh họa phép đối chiếu theo cả từ.'},
+        {id: 'lich-pha-cong-duong', title: 'Nguyễn Công Hoan · Bước đường cùng, chương 8', url: 'https://tiemsach.org/ebook/Buoc%20duong%20cung%20-%20Nguyen%20Cong%20Hoan.pdf#page=69', detail: 'Từ trang PDF 69, Pha nén tiếng kêu, hiểu ý của lính lệ rồi phải đưa tiền.'},
+        {id: 'lich-pha-buong-giam', title: 'Nguyễn Công Hoan · Bước đường cùng, chương 9', url: 'https://tiemsach.org/ebook/Buoc%20duong%20cung%20-%20Nguyen%20Cong%20Hoan.pdf#page=77', detail: 'Trang PDF 77 có đoạn người lính trả lời thầy đội, Pha bị cùm và người kể dùng cụm “lịch duyệt chốn quyền môn”.'}
       ]
     },
     {
@@ -105,10 +109,10 @@
       category:'nghĩa',
       search:['khí 气 氣 餼 qì qì shēngqì kèqi 天气 空气 生气 脾气 客气 别客气 不客气', '孟子 浩然之氣 Mạnh Tử hạo nhiên', 'lời cảm ơn phép lịch sự tính khí'],
       intro:[
-        'Trong ví dụ bộ từ điển Đài Loan trích từ hồi 89 của Hồng lâu mộng, Đại Ngọc đứng dậy nói lời áy náy vì tiếp đãi sơ sài. Bảo Ngọc cười, bảo em vẫn khách khí thế. Đặt cạnh tiếng cười và cách gọi “em”, chữ 客氣 ở đây vừa nhìn nhận phép lịch sự, vừa cho thấy nó có thể giữ một khoảng cách mà người kia muốn thu hẹp.',
-        'Ta cũng nghe được điều ấy quanh một chén trà hôm nay. Tiếng cảm ơn đã nói rồi mới đáp 不客气. Người còn ngại đưa tay ra thì nghe 别客气. Hai câu có chung một chữ, song những gì diễn ra trước và sau giúp ta hiểu người nói đang làm gì.'
+        'Bảo Ngọc đã ngắm tranh và uống trà ở Tiêu Tương quán, còn Đại Ngọc chờ chép xong kinh mới đứng lên nói “簡慢了”, ý là mình đã tiếp anh sơ suất. Bảo Ngọc cười. Anh gọi nàng là 妹妹 rồi bảo “還是這麼客氣”. Mình nghe chữ 還是, “vẫn”, rất rõ ở đây. Đây là người đã quen với cách nàng cư xử, và chính cái quen ấy khiến lời xin lỗi nghe có phần khách sáo.',
+        'Câu nói có vẻ làm hai người gần lại được một chút. Đến lúc họ bàn chuyện đàn và thơ, chỉ một lời về người tri âm cũng đủ khiến cả hai ngập ngừng. Đọc hết cuộc thăm ấy mới thấy lời lịch sự dễ nói hơn điều người ta thật lòng muốn hỏi.'
       ],
-      takeaway:'Sau 谢谢, 不客气 khép lời cảm ơn. Trước lúc mời ai ăn, uống hoặc nhận giúp đỡ, 别客气 cho họ thấy mình có thể nhận lời mà bớt giữ ý.',
+      takeaway:'Nghe 客气 thì nhìn xem người ta đang giữ ý vì chuyện gì. Sau 谢谢, 不客气 là một lời đáp. Khi chén trà còn nguyên trước mặt khách, 别客气 là lời mời khách cứ uống.',
       summary:[
         ['不客气 · bú kèqi','Công thức đáp lại lời cảm ơn.'],
         ['别客气 · bié kèqi','Mời người nghe tự nhiên, như trước khi ăn hoặc uống.'],
@@ -116,26 +120,29 @@
       ],
       sections:[
         {
-          id:'trong-cuoc-moi', title:'Lời nào đáp, lời nào đưa chén trà lại gần',
+          id:'trong-cuoc-moi', title:'Chén trà đã rót, lời xin lỗi đến sau',
           paragraphs:[
-            'Dịch 不客气 và 别客气 cùng thành “đừng khách sáo” thì trong bữa trà dễ mất một lượt lời. Khách cảm ơn vì đã nhận được trà, nên chủ có thể đáp “không có gì”. Thấy khách còn ngại uống, chủ có thể nói “cứ tự nhiên”. Câu trước hồi đáp một lời vừa nghe, câu sau đưa cuộc mời tiến thêm một bước.',
-            'Chữ 不 trong một câu kể vẫn có thể dùng để nhận xét thái độ, chẳng hạn người nào đó chẳng giữ ý trong cách nói. Riêng sau 谢谢, cả câu 不客气 đứng thành lời đáp. Chữ 别 hướng ra người nghe như lời dặn. Vậy chỉ một lần nhìn sang câu trước cũng thay được cách dịch của cả cụm.'
+            'Hồi 89 kể rõ Đại Ngọc chỉ còn hai dòng kinh. Nàng mời Bảo Ngọc ngồi và bảo Tuyết Nhạn rót trà. Chính anh bảo nàng cứ viết tiếp. Bởi vậy tiếng 簡慢了 đến sau khi hai người đã dàn xếp được chuyện chờ đợi. Trong nhà họ Giả, một người đang bận vẫn có thể đứng lên nhận phần sơ suất về mình. Cái đứng dậy ấy cũng là một phần của lời nói.',
+            'Bảo Ngọc có thể đáp “Anh đợi được mà”. Chữ 客氣 cho anh nói thêm điều khác. Anh nhận ra nàng đang đối đãi với mình theo phép chủ khách. Tiếng gọi 妹妹 và nụ cười cho câu ấy độ thân mật. Nói sát từng chữ là “Em vẫn khách khí thế”, còn “Em với anh mà còn khách sáo thế” nghe được cả điều anh muốn nàng hiểu.',
+            'Ba câu tiếng Trung bên dưới là lời tập nói hôm nay. 谢谢您 đi trước 不客气 thành một lượt cảm ơn và một lượt đáp. Trong 别客气，喝点儿茶吧, người nói thấy khách còn dè dặt nên bảo cứ uống. 别 đưa lời về phía việc người nghe sắp làm. Người vừa được ai đó rót trà có thể cảm ơn trước, rồi chính họ lại nghe một lời mời uống.'
           ],
-          lines:['谢谢您。','不客气。','别客气，喝点儿茶吧。'], refs:['moe-keqi']
+          lines:['谢谢您。','不客气。','别客气，喝点儿茶吧。'], refs:['moe-keqi', 'hong-lou-89']
         },
         {
           id:'giu-nguyen-ca-tu', title:'Một cơn giận và một tính khí',
           paragraphs:[
-            'Nếu một người bảo bạn họ đã 生气, ta biết về một trạng thái trong tình huống vừa nói đến. Câu có 脾气很好 có thể đúng với chính người ấy. Bởi một lần nổi giận đâu cho ta đủ chuyện để đánh giá cả tính nết. 了 đi với lần thay đổi trạng thái, còn 平时 kéo câu sau về điều thường thấy. Hai chữ ấy giữ cho cách kể về một người khỏi biến thành một cái nhãn.',
-            'Khi nghe, khác biệt cũng có dấu ở âm cuối. 气 đọc thanh bốn trong 天气 và 生气, thường nhẹ trong 脾气 và 客气. Mục 客氣 lại còn ghi kèqì theo một nghĩa cổ về cái dũng bất chợt dấy lên. Sự gần nhau về mặt chữ đưa ta tới mục từ. Âm và ý cần được xác định bằng đúng lời đang đọc.'
+            'Đọc thêm một lúc sau tiếng cười của Bảo Ngọc, bạn gặp một nỗi băn khoăn khác. Đại Ngọc tự hỏi gần đây anh nói nửa chừng, lúc nóng lúc lạnh là có ý gì. Trong một cuộc trò chuyện bây giờ, “你生气了吗？” cũng có thể là cách hỏi thẳng khi nhận ra một thay đổi mà mình chưa hiểu. Câu mẫu dùng 了 để hỏi có phải người kia vừa chuyển sang giận rồi chăng.',
+            'Trong câu tập thứ hai, 今天 giữ cơn giận trong hôm nay, còn 平时 đưa lời kể về ngày thường. “Anh ấy nổi giận hôm nay” cần một sự việc để làm căn cứ. “Tính anh ấy nóng” cần biết người ấy qua nhiều lần. Câu 他今天生气了，可他平时脾气很好 đặt được hai chiều thời gian cạnh nhau. Người nghe có thể tin cả hai vế.',
+            'Âm cũng giúp mình nhận ra từ. Trong lối đọc ở các câu tập, 气 mang thanh bốn ở 生气 và 天气, đọc nhẹ ở 客气 và 脾气. Từ điển Bộ Giáo dục Đài Loan còn ghi 客氣 đọc kèqì trong một nghĩa cổ về cái dũng bộc lên nhất thời. Nghĩa ấy thuộc ví dụ Tả truyện của mục từ. Phép tiếp khách và câu đáp trong Hồng lâu mộng dẫn sang âm kèqi.'
           ],
-          lines:['你生气了吗？','他今天生气了，可他平时脾气很好。'], refs:['moe-keqi']
+          lines:['你生气了吗？','他今天生气了，可他平时脾气很好。'], refs:['moe-keqi', 'hong-lou-89']
         },
         {
           id:'hoi-va-luong', title:'Hạt gạo trong chữ 氣 ở đâu ra?',
           paragraphs:[
-            'Có một cách nhìn chữ 氣 rất dễ nhớ, tưởng như cơm đang bốc hơi. Thử bắt đầu từ mục chữ của Thuyết văn. Nghĩa ở đó là đem lương thực cấp cho khách, với 米 góp nghĩa và 气 gợi âm. Về sau, 餼 giữ nghĩa đem lương thực biếu, còn 氣 được dùng cho hơi, không khí và khí tức. Dạng 气 giản thể hôm nay cũng từng là chữ cổ tả mây khí. Hình ảnh nồi cơm và chuyện của mục từ đi hai đường ở chỗ ấy.',
-            'Trong đối thoại với Công Tôn Sửu, Mạnh Tử nói mình biết nuôi 浩然之氣. Khi bị hỏi đó là gì, ông giải bằng sự ngay thẳng, nghĩa và đạo. Cái gọi là khí ở đây được hiểu nhờ các việc mà người nói cho rằng có thể nuôi dưỡng nó. Đó là một cách dùng của văn bản này. Cũng như lúc Đại Ngọc đứng dậy, phải theo thêm những lời chung quanh mới biết chữ đang chỉ điều gì.'
+            'Hình gạo bên dưới 气 dễ khiến mình tưởng người xưa đang vẽ hơi cơm. Thử đặt ngón tay vào mục 氣 của Thuyết văn. Lời giải ở đó nói đến việc cấp lương thực cho khách. 米 gợi phần lương ăn, 气 gợi âm. Nghĩa biếu hay cấp lương về sau còn thấy ở 餼. Về mặt chữ, dạng 气 dùng trong giản thể hôm nay đã có một tiền thân cổ chỉ mây khí.',
+            'Ở thiên Công Tôn Sửu thượng, học trò hỏi Mạnh Tử có dao động nếu được làm khanh tướng nước Tề. Sau một đoạn bàn về dũng khí, ông tự nhận mình biết xét lời và biết nuôi 浩然之氣. Chữ 養 rất đáng để ý. Khi giải thích tiếp, ông dùng 集義, cái nghĩa được góp dần qua việc làm. Hình ảnh nuôi khí hợp với lập luận ấy, vì sự vững lòng cần có cái để bồi đắp.',
+            'Mạnh Tử kể ngay sau đó chuyện người nước Tống kéo mạ cho mau lớn, khiến cả ruộng héo. Đọc tới đó, chữ “nuôi” hóa ra còn chứa lời dặn về nhịp độ. Nếu dịch thoáng là “giữ vững tinh thần” thì nghe được kết quả, còn phần việc phải làm lâu ngày nằm trong 養 và 集. Thử nghĩ tới một người đủ bình tĩnh để nhận mình đã sai. Sự bình tĩnh ấy có thể đã được tập qua nhiều lần chịu nghe một điều trái ý.'
           ],
           lines:['我知言，我善養吾浩然之氣。'], refs:['cuhk-qi-cloud','cuhk-qi-grain','mengzi','moe-haoran']
         }
@@ -161,7 +168,7 @@
         {han:'天气',why:'Từ quen chỉ thời tiết. Đọc 气 thanh bốn trong cả từ rồi so với 气 thanh nhẹ của lời xã giao 客气.'}
       ],
       quiz:{prompt:'Chủ nhà đang đẩy đĩa bánh lại gần. Khách chưa nói cảm ơn và còn ngại. Điền câu mở lời mời tự nhiên.', choices:['不客气','别客气','生气了'], answer:1, explain:'别客气 đến trước hành động, giúp người nghe bớt giữ ý để nhận lời mời. 不客气 đứng rất tự nhiên sau lời cảm ơn.'},
-      closing:'Bảo Ngọc mỉm cười trước lời giữ lễ của Đại Ngọc. Chủ nhà mời bạn uống vì thấy khách vẫn còn ngại. Khi nghe kèqi, cái đáng nghe tiếp là người nói muốn giữ khoảng cách ấy hay làm nó ngắn lại.',
+      closing:'Bảo Ngọc sang thăm người quen mà ra về vẫn còn chuyện chưa nói. Đến lần nghe ai bảo mình khách sáo, thử nhớ xem họ đang cười vì được đối đãi tử tế, hay đang mở lời để hai bên có thể nói thật hơn một chút.',
       related:['ai','mot-tieng-thay'],
       legacyHref:'#essay/qi',
       sources:[
@@ -169,7 +176,8 @@
         {id:'cuhk-qi-cloud',title:'CUHK · chữ 气',url:'https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=%E6%B0%94',detail:'Mục hình–nghĩa của chữ chỉ hơi, mây khí và quan hệ với chữ 氣.'},
         {id:'cuhk-qi-grain',title:'CUHK · chữ 氣',url:'https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=%E6%B0%A3',detail:'Dẫn Thuyết văn, phân tích 米 và 气, ghi việc nghĩa cấp lương sau dùng 餼.'},
         {id:'mengzi',title:'Mạnh Tử chú sớ · quyển 3, Công Tôn Sửu thượng',url:'https://zh.wikisource.org/zh/%E5%AD%9F%E5%AD%90%E8%A8%BB%E7%96%8F/%E5%8D%B703',detail:'Nguyên văn cùng chú giải phần tri ngôn, dưỡng khí, gắn khí với tích nghĩa.'},
-        {id:'moe-haoran',title:'Thành ngữ điển Bộ Giáo dục Đài Loan · 浩然之氣',url:'https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=8415&la=0&q=1&webMd=2',detail:'Dẫn nguyên câu ở thiên Công Tôn Sửu thượng và giảng chính khí, cương trực.'}
+        {id:'moe-haoran',title:'Thành ngữ điển Bộ Giáo dục Đài Loan · 浩然之氣',url:'https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=8415&la=0&q=1&webMd=2',detail:'Dẫn nguyên câu ở thiên Công Tôn Sửu thượng và giảng chính khí, cương trực.'},
+        {id: 'hong-lou-89', title: 'Hồng lâu mộng · hồi 89, cuộc thăm Tiêu Tương quán', url: 'https://zh.wikisource.org/zh-hant/%E7%B4%85%E6%A8%93%E5%A4%A2/%E7%AC%AC089%E5%9B%9E', detail: 'Tìm 簡慢了 để đọc từ lúc Đại Ngọc chép kinh đến khi hai người ngập ngừng vì câu chuyện tri âm.'}
       ]
     },
     {
@@ -180,10 +188,10 @@
       category:'nghĩa',
       search:['愛 爱 ái 爱喝茶 爱忘东西 ài àihào 爱好 现在 现在不想 习惯 想 喜欢 可爱 博爱', 'ái bác ái nhân ái thích uống trà quên đồ thói quen'],
       intro:[
-        'Trên một vò đồng của vua Trung Sơn có cụm 慈㤅. Muốn đọc bằng mặt chữ quen hôm nay, có thể theo cách kho chữ CUHK ghi nó là 慈愛. Tiếng ái trong “nhân ái” đưa người Việt đến khá gần nghĩa ở đây. Thế rồi gặp 爱忘东西 trong tiếng Trung thường ngày, ta đứng trước một đứa trẻ hay quên đồ. Lúc này chính cái việc đi sau 爱 đẩy cách hiểu sang một phía khác.',
-        'Giữa hai cách dùng ấy còn có chén trà, cuốn sách và chú chó. Mỗi ví dụ cho chữ 爱 một chỗ đứng mới. Câu chỉ sở thích có thể để nguyên khi người nói từ chối chén trà đêm nay. Tách hai lời ấy theo thời điểm là chỗ dễ tập nhất.'
+        'Trong lời khắc trên vò tròn của vua Trung Sơn có hai chữ 慈㤅. Tra kho chữ của Đại học Trung văn Hồng Kông, ta gặp chính tổ hợp ấy ở mục 愛. Đây là một chỗ “lòng thương” đã được ghi trên đồ đồng thời Chiến Quốc. Tới Tả truyện, chữ 愛 bước hẳn vào chuyện nhà. Vũ Khương thương người con thứ đến mức muốn ông được nối ngôi.',
+        'Giờ thử đọc câu 这孩子爱忘东西, “đứa trẻ này hay quên đồ”. Nếu cứ mang chữ “thương” từ bài cổ vào, ta sẽ bắt đứa trẻ thích luôn việc bỏ quên cặp. Cái quyết định nghĩa lần này chỉ cách 爱 một chữ. Hãy nhìn động tác 忘, rồi nghe xem người nói muốn được hiểu là đang kể tính hay nhắc làm một việc cụ thể.'
       ],
-      takeaway:'Khi đọc 爱 + động từ, xét hành động có được ưa thích hay chỉ hay xảy ra. Sau đó tìm từ chỉ thời gian để biết người nói đang kể thói quen hay quyết định lúc này.',
+      takeaway:'Hãy giữ cả phần đứng sau 爱 khi dịch. Uống trà là một việc người nói có thể thích. Quên đồ là chuyện họ nhận thấy hay xảy ra. Thêm 今晚 và 想, ta nghe rõ một ý muốn chỉ có hiệu lực tối nay.',
       summary:[
         ['爱喝茶','Thích uống trà nói chung.'],
         ['爱忘东西','Hay quên đồ. Đọc theo tần suất trong hoàn cảnh này.'],
@@ -193,26 +201,28 @@
         {
           id:'moc-hien-tai', title:'Tối nay thôi, để chén trà sang một bên',
           paragraphs:[
-            'Vế đầu câu đáp nói về việc 喝茶. Vế sau thu lại trong hai chữ 今晚. Một người có thể thích uống trà từ lâu và tối nay chọn uống nước. Tiếng Trung cũng để được chữ 茶 lại ở vế đầu, vì 喝 trong vế sau còn đưa ta về đúng đồ uống vừa nhắc. Tiếng Việt giữ được mạch nếu dịch 爱 thành thích uống và 想 thành muốn uống.',
-            'Khi một người nhấc chén đang có trước mặt để khen, câu 喜欢这杯茶 chuyển từ sở thích chung sang một vật cụ thể. Chữ 杯 góp đúng việc ấy. Với 喜欢喝茶, vẫn có thể nói về hoạt động mình thích. Đổi phần theo sau để đổi ý câu, rồi mới xét có cần sắc thái mạnh hay nhẹ hơn.'
+            'Hãy nghe “我爱喝茶，不过今晚不想喝” như một câu đáp lúc ai đó đưa ấm trà sang. Vế đầu cho người mời biết mình có thích uống trà. Trong vế sau, 今晚 thu lời từ chối lại vừa bằng một buổi tối. 想 nói về ý muốn ngay lúc lựa chọn. Nhắc 喝 một lần nữa là đủ vì hai người vẫn đang nhìn cùng một ấm trà.',
+            'Nếu muốn chọn món khác, có thể nói 我想喝水. Nếu chủ nhà hỏi mình có thích đúng loại trà vừa rót, 我很喜欢这杯茶 đưa mắt người nghe về 这杯, chén này. Còn 喜欢喝茶 vẫn nói được sở thích nói chung. Một chữ chỉ vật trước mắt và một mốc thời gian đã làm được phần lớn công việc ở đây. Hai câu về chén trà phía dưới là lời minh họa hiện đại.'
           ],
           lines:['我爱喝茶，不过今晚不想喝。','我很喜欢这杯茶。'], refs:['moe-ai']
         },
         {
           id:'hay-lam-gi', title:'Chữ “hay” trước một việc chẳng ai dự định',
           paragraphs:[
-            'Viện Hàn lâm Trung ương Đài Loan ghi riêng một nghĩa “dễ hoặc thường xảy ra” dưới chữ 愛. Ví dụ đứa trẻ hay quên đồ cho thấy rõ vì sao nghĩa này cần có chỗ riêng. 忘东西 là việc xảy đến dù đứa trẻ không dự định. Vì thế 爱 trong câu nghiêng về tần suất. Cùng đặt sau 爱, 喝茶 thường là chuyện ưa thích, còn 忘东西 thường là thói hay xảy ra.',
-            'Sang câu có 我的爱好, cả tổ hợp đứng ở chỗ một danh từ. 好 đọc hào như âm hiếu trong “hiếu học”. Đến 是, người nói mới nêu tên sở thích bằng 看书. Nếu người đối diện hỏi sở thích của bạn là gì, câu ấy nghe như đưa ra tên một môn mình thích. Nếu họ chỉ hỏi bạn thích làm gì, 爱看书 đủ nêu ngay hành động.'
+            'Một người lớn thấy đứa trẻ mấy lần đến lớp thiếu bút có thể buột miệng nói 这孩子爱忘东西, câu minh họa dưới đây. Sau 爱 là 忘, việc khó mà chủ tâm làm. Cái người lớn quan sát được là sự lặp lại. Mục 愛 của Viện Hàn lâm Trung ương Đài Loan dành một nghĩa riêng cho việc dễ hoặc thường xảy ra, và “hay” là tiếng Việt đặt vào đây vừa tai nhất.',
+            'Nếu đang hỏi vì sao hôm nay con chưa có bút, “你忘带笔了吗？” chỉ hỏi một lần quên mang bút. Dùng 爱忘东西 thì lời nhận xét đã đi xa hơn một hôm và nghe gần như gán một thói cho đứa trẻ. Có lúc chỉ cần hỏi câu đầu là nó đủ hiểu mình đang nói chuyện gì.',
+            'Người giới thiệu sở thích trước lớp có thể mở đầu bằng 我的爱好. Lúc đó cả cụm đã là một danh ngữ, với 好 đọc hào, gần âm Hán Việt trong “hiếu học”. Qua 是 mới đến việc cụ thể là 看书. Nếu đã nói ngay 我爱看书, người nghe vẫn biết mình mê đọc sách. Cách thứ nhất có chỗ đứng riêng khi người ta vừa hỏi sở thích của mình là gì.'
           ],
           lines:['这孩子爱忘东西。','我的爱好是看书。'], refs:['sinica-ai','moe-aihao']
         },
         {
-          id:'chu-tam', title:'Một chữ trên đồ đồng, hai câu nói về một chú chó',
+          id:'chu-tam', title:'Chữ ái từ vò đồng đến chuyện trong nhà',
           paragraphs:[
-            'Trong dạng 㤅 trên đồ đồng, CUHK nhận 心 làm phần gợi nghĩa và 兂 làm phần gợi âm. Tư liệu thẻ tre đời Tần đã thấy thêm 夊 ở dưới. Thuyết văn còn để 㤅 nghĩa ân huệ và 愛 giảng theo dáng đi ở hai mục. Những chỗ ấy cho ta thấy đường đi của mặt chữ có nhiều bước, ngay cả khi ký ức về tiếng ái lúc bắt gặp vẫn thật ngắn.',
-            'Đi hết con đường ấy rồi trở về hai câu về một chú chó, hình chữ giống nhau cũng mới là bước đầu. 可爱 đứng sau chú chó để tả nó đáng yêu. 爱 đứng sau 我 để kể tình cảm của một người với nó. Dấu hiệu cần dùng trong lúc đọc nằm ở người hay vật được đặt trước, và điều người ấy đang được kể hay được đánh giá.'
+            'Kho chữ CUHK chép 慈㤅 ở vò tròn Trung Sơn. Bản chữ quen mắt là 慈愛. Trong 㤅, 心 gợi trường nghĩa và 兂 gợi âm theo cách phân tích của kho chữ. Thẻ tre đời Tần còn có dạng thêm 夊 ở dưới. Thuyết văn tách 㤅, nghĩa ân huệ, với 愛, một mục giảng về dáng đi. Hai mục đặt cạnh nhau cho thấy mặt chữ quen ngày nay đã đi qua mấy lối ghi.',
+            'Trong Tả truyện, năm đầu Ẩn công, người kể đặt “愛共叔段” sát “欲立之”. Vũ Khương thương Cộng Thúc Đoạn và muốn lập người con ấy. Trước đó là chuyện bà sợ vì lần sinh người anh. Sau đó là những lần bà xin Vũ công cho người em nối ngôi. Cái tình ở chữ 愛 được đo bằng những việc bà làm. Ở nhà một vua chư hầu, chuyện thương con nào hơn có thể thành việc cả nước phải lo.',
+            'Còn hai câu về chú chó phía dưới là ví dụ ngày nay. 这只狗很可爱 đưa chú chó lên đầu để tả nó đáng yêu. Trong 我很爱这只狗, 我 mới là người đang bộc lộ tình cảm, còn chú chó đến sau động từ. Một em nhỏ nhìn thấy chó của hàng xóm có thể thốt lên câu đầu ngay. Câu thứ hai hợp với người đã nuôi nó đủ lâu để kể mình gắn bó thế nào.'
           ],
-          lines:['这只狗很可爱。','我很爱这只狗。'], refs:['cuhk-ai','moe-ai']
+          lines:['这只狗很可爱。','我很爱这只狗。'], refs:['cuhk-ai', 'moe-ai', 'zuo-yin-ai']
         }
       ],
       examples:[
@@ -241,14 +251,15 @@
         {han:'想', why:'Đặt 今晚 hoặc 现在 trước 不想喝 để giới hạn ý muốn, rồi đối chiếu với sở thích chung trong 爱喝茶.'}
       ],
       quiz:{prompt:'Trong lời nhận xét một bạn nhỏ thường để quên đồ, cụm 爱忘东西 nên hiểu thế nào?', choices:['Thích sưu tầm đồ','Hay quên đồ','Yêu đồ vật của mình'], answer:1, explain:'忘东西 là quên đồ. 爱 ở đây nêu việc hay xảy ra, như nghĩa thường dễ làm được ghi dưới mục 愛.'},
-      closing:'Cùng chữ ái có thể giúp nhận một nét trên vò đồng và một động từ trong cuộc trò chuyện. Đến câu có đứa trẻ hay quên, hãy để cho động tác quên đồ lên tiếng trước. Ta sẽ dịch đúng hơn mà vẫn nhớ được mặt chữ.',
+      closing:'Mình có thể thích trà quanh năm, để nguội một chén tối nay, rồi mai vẫn nhớ mùi trà ấy. Câu tiếng Trung diễn được cả ba bằng những chữ cạnh 爱. Việc của người đọc là để những chữ đó cho biết tình cảm hướng về đâu và đang được nói ở thời điểm nào.',
       related:['qi','jia'],
       legacyHref:'#essay/ai',
       sources:[
         {id:'moe-ai',title:'Bộ Giáo dục Đài Loan · 愛',url:'https://dict.concised.moe.edu.tw/dictView.jsp?ID=39542&la=0&powerMode=0',detail:'Các nghĩa tình cảm, ưa thích, quý trọng và nhân ái.'},
         {id:'moe-aihao',title:'Bộ Giáo dục Đài Loan · 愛好',url:'https://dict.concised.moe.edu.tw/dictView.jsp?ID=39557&la=0&powerMode=0',detail:'Âm àihào và các nghĩa liên hệ sự ham thích.'},
         {id:'sinica-ai',title:'Viện Hàn lâm Trung ương Đài Loan · chữ 愛',url:'https://chardb.iis.sinica.edu.tw/char/11573',detail:'Xem nghĩa thứ tám, chỉ việc dễ hoặc thường xảy ra.'},
-        {id:'cuhk-ai',title:'CUHK · 愛, 㤅 và minh văn',url:'https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=%E6%84%9B',detail:'Đối chiếu minh văn Trung Sơn, thẻ tre đời Tần và hai mục 㤅, 愛 trong Thuyết văn.'}
+        {id:'cuhk-ai',title:'CUHK · 愛, 㤅 và minh văn',url:'https://humanum.arts.cuhk.edu.hk/Lexis/lexi-mf/search.php?word=%E6%84%9B',detail:'Đối chiếu minh văn Trung Sơn, thẻ tre đời Tần và hai mục 㤅, 愛 trong Thuyết văn.'},
+        {id: 'zuo-yin-ai', title: 'Tả truyện · Ẩn công nguyên niên, chuyện Trịnh Bá và Cộng Thúc Đoạn', url: 'https://zh.wikisource.org/zh-hant/%E6%98%A5%E7%A7%8B%E5%B7%A6%E6%B0%8F%E5%82%B3/%E9%9A%B1%E5%85%AC', detail: 'Tìm 愛共叔段 để đọc lời kể về Vũ Khương và việc kế vị ở nước Trịnh.'}
       ]
     },
     {
@@ -259,10 +270,10 @@
       category:'đối chiếu',
       search:['Thương Ưởng Thương Quân 商鞅 商君 史記 史记 Sử ký Tư Mã Thiên', '信 xìn 相信 信用 徙木 立木 無驗 證件 舍人 變法 法律'],
       intro:[
-        'Người chủ quán trong Sử ký nhớ luật của Thương quân nhưng không nhận ra Thương quân trước mặt. Người đang chạy trốn ấy thiếu giấy xác nhận. Nếu cho ở lại, chính chủ quán phải tính đến chuyện mình bị quy tội. Tư Mã Thiên kể nghịch cảnh trong một lời rất ngắn và để người đọc tự nhận ra ai đang bị chặn lại bởi luật của ai.',
-        'Khi còn được Tần Hiếu công tin dùng, Thương Ưởng từng có một nỗi lo ngược hẳn. Lệnh đã soạn mà chưa ban, ông sợ người dân nghe rồi không tin. Câu trả lời của quyển 68 là một cây gỗ đặt ở cổng nam chợ kinh đô. Đọc cánh cửa quán trọ cùng cổng chợ sẽ thấy nỗi sợ và niềm tin xuất hiện ở hai vị trí khác nhau.'
+        'Đến cửa ải, Thương Ưởng chỉ cần một chỗ ngủ. Người coi quán viện luật của Thương quân mà chẳng nhận ra chính người đặt luật đang đứng trước mặt. Chữ quyết định trong lời ông là 坐. Cái người coi quán thấy trước là chuyện mình có thể bị quy tội nếu cho một người thiếu giấy xác nhận ở trọ.',
+        'Mấy đoạn trước trong Sử ký, Thương Ưởng còn phải nghĩ cách làm dân tin một lời hứa. Ông cho dựng cây gỗ ở cổng chợ và treo thưởng cho người dời nó. Đọc hai cảnh cách nhau nhiều năm, mình để ý thấy một điều. Cùng dự đoán người ban lệnh sẽ làm đúng điều đã nói, một người dám bước ra dời gỗ, người kia quyết định từ chối khách.'
       ],
-      takeaway:'Ở đoạn dời gỗ, 信 là tin phần thưởng sẽ được trao. Ở cửa quán, chủ nhà tính đến khả năng mình bị quy tội. Cả hai hành vi đều dựa vào hậu quả mà họ cho là có thật.',
+      takeaway:'Ở chợ, 輒 cho thấy người dời gỗ được trả ngay. Ở cửa ải, 坐 gọi đúng cái giá người giữ quán có thể phải chịu. Hãy đọc cả lời bình cuối truyện để xem Tư Mã Thiên đánh giá thế nào về người biết làm cho mệnh lệnh của mình có hiệu lực.',
       summary:[
         ['徙木','Chuyển cây gỗ để nhận thưởng, một việc công chúng có thể nhìn thấy.'],
         ['以明不欺','Trả như đã nói để tỏ mình không lừa.'],
@@ -272,24 +283,27 @@
         {
           id:'cong-nam', title:'Hứa mười kim rồi hứa năm mươi kim',
           paragraphs:[
-            'Ở cổng nam, ai dời được cây gỗ tới cổng bắc sẽ nhận mười kim. Dân lấy làm lạ, không ai dám dời. Khi chữ số tăng từ mười lên năm mươi, một người làm thật. Cây gỗ vẫn đi cùng một quãng đường. Thứ đổi là phần thưởng được công bố và, đến lần có người làm, việc lời hứa đã được thực hiện trước mắt người khác.',
-            'Sử ký nén thời gian giữa hai động tác vào chữ 輒. Người ấy dời gỗ, lập tức có người trao năm mươi kim. Cụm 以明不欺 giải thích vì sao kể liền hai việc. Việc trả thưởng đưa ra chứng cứ rằng người ban lệnh sẽ làm điều vừa nói. Đoạn văn sau đó mới kể lệnh được ban ra, nên nhịp trả tiền trước rồi ra lệnh cũng đáng đọc như chính số tiền.'
+            'Đọc lùi một đoạn trước khi cây gỗ xuất hiện. Ở nước Tần thời Chiến Quốc, Tần Hiếu công đã cho Vệ Ưởng, tên được dùng ở đoạn đầu truyện, soạn lệnh đổi phép. Sử ký vừa kể chuyện các hộ bị buộc giám sát nhau và thưởng tước cho quân công. Sau những quy định lớn ấy là một việc ai đứng ở chợ cũng hiểu được. Chuyển cây gỗ từ cổng nam sang cổng bắc thì được thưởng.',
+            'Tư Mã Thiên viết 民怪之, dân thấy việc ấy lạ. Rồi mới đến 莫敢徙, chẳng ai dám dời. Nếu chỉ nói “chưa ai dời”, ta còn có thể tưởng đường xa hoặc tiền ít. Chữ 敢 cho nghe ra sự dè chừng. Ông nâng từ mười lên năm mươi kim, lời hứa vẫn phải đợi tới lúc có một người làm thử.',
+            'Điểm chuyển thật sự nằm ở 輒, liền trao phần thưởng. 以明不欺 nêu tác dụng của việc trả ngay, làm cho người khác thấy lời này có thể kiểm chứng. Cuối đoạn mới đến việc ban lệnh. Trong một đợt khuyến khích hôm nay, câu nói suông kiểu “ai làm xong cũng có thưởng” dễ được nghe rồi quên. Cho người ta thấy một người đã nhận đúng phần mình được hứa có sức thuyết phục riêng.'
           ],
           lines:['民怪之，莫敢徙。','有一人徙之，輒予五十金，以明不欺。'], refs:['shiji']
         },
         {
-          id:'cua-quan', title:'Chữ 坐 không nói chỗ ngồi trong quán',
+          id:'cua-quan', title:'Vì sao người coi quán viện đến chữ 坐?',
           paragraphs:[
-            'Lúc Tần Hiếu công mất và người kế vị lên, Thương Ưởng bị tố có ý làm phản. Tới cửa ải, ông xin trọ. Chủ quán không nhận ra thân phận khách, điều rất quan trọng nếu muốn hiểu vì sao ông nhắc luật. Thứ cần xem ở đây là 驗, nghĩa bằng chứng hay giấy xác nhận. Bộ từ điển Đài Loan dẫn đúng lời ông nói dưới nhánh nghĩa ấy.',
-            'Tiếp theo 驗 là 坐. Người học quen nghe 请坐 ở cửa nhà có thể khựng lại, vì ngữ cảnh luật lại dùng 坐 cho việc định tội. Đặt hai chữ vào cùng câu, ta thấy người chủ đang giải thích điều xảy ra đối với mình nếu cho ở, trong khi điều kiện giấy tờ lại nằm ở người khách.'
+            'Qua đời Tần Hiếu công, thái tử nối ngôi và quan lại được sai đi bắt Thương Ưởng sau lời tố ông muốn phản. Tới cửa ải, người kể chép rõ chủ quán chẳng biết khách là ai. Người này viện “商君之法”, nói từ cái tên gắn với điều luật. Người đối diện thì đang ở đó với tư cách một khách lạ. Câu văn giữ nguyên sự lệch nhau ấy tới lúc chính Thương Ưởng thở dài.',
+            'Đọc liền 舍人無驗者坐之, thử đặt câu hỏi ai làm gì và ai chịu hậu quả. 舍 ở đây là cho người khác trọ. 驗 là thứ khách phải đưa ra để làm bằng. 坐 dùng theo nghĩa pháp luật, quy tội người làm trái. Sử ký để lời ông chủ vắn tắt như thể việc áp dụng đã quá quen. Chữ 坐 thường thấy trong 请坐, mời ngồi, đưa ta đến một cảnh hoàn toàn khác khi đi cạnh 法 và 驗.',
+            '没有证件，今晚就不能住店 là câu minh họa hiện đại, nghe tự nhiên ở quầy tiếp tân. Nó nói rõ việc khách thiếu giấy tờ sẽ dẫn tới chuyện gì tối nay. Câu của chủ quán xưa còn cho thấy người cho trọ cũng phải trả giá. Khi dịch cần giữ người chịu trách nhiệm ấy, vì đó là lý do ông từ chối dù nhân vật trước mặt từng có quyền ban luật.'
           ],
           lines:['商君之法，舍人無驗者坐之。','没有证件，今晚就不能住店。'], refs:['shiji','moe-yan','moe-she','moe-zuo']
         },
         {
-          id:'doi-nguoi-doc', title:'Đọc chữ 欺 hai lần trong cùng một truyện',
+          id:'doi-nguoi-doc', title:'Người giữ lời ở chợ cũng từng lừa người',
           paragraphs:[
-            'Trong 恐民之不信, 信 ở phía dân, là sự tin của người nghe. Tới 以明不欺, người đứng ra trả thưởng cho dân lý do để tin. Tư Mã Thiên còn dùng lại chữ 欺 ở phần lời bình, khi nhắc chuyện Thương Ưởng lừa tướng Ngụy. Ông sắp cuộc gặp, rồi bắt người đến gặp. Cùng một truyện chép việc giữ lời ở chợ và việc đánh lừa trong một cuộc gặp, nên “không lừa” ở cổng chợ trước hết nói về hành vi cụ thể ở cổng chợ.',
-            'Sử ký được viết nhiều đời sau các sự kiện. Lời đối đáp ở cửa quán cho ta biết cách Tư Mã Thiên kể và đánh giá nhân vật. Ở phần cuối, sách chép binh Tần đã giết Thương Ưởng, rồi mới chép việc xử thi thể. Đọc lại thứ tự từng động tác giúp phân biệt điều văn bản kể với những chi tiết người sau có thể thêm vào.'
+            'Lời bình mở bằng 太史公曰 cho Tư Mã Thiên lên tiếng. Ông nhắc chuyện Thương Ưởng mời công tử Ngang nước Ngụy gặp mặt, viện tình quen biết trước kia, rồi bắt ông ấy. Chữ 欺 xuất hiện ở đây sau khi đoạn cổng chợ đã dùng nó trong 不欺. Hai chỗ đọc cạnh nhau khiến mình phải giới hạn lời khen. Việc trả thưởng đã cho người dời gỗ lý do để tin lời hứa cụ thể ấy.',
+            'Triệu Lương trong truyện còn nói giáo hóa ăn sâu hơn mệnh lệnh. Đọc tiếp tới kết cục, sách kể Thương Ưởng bị quân Tần giết rồi mới kể việc xử thi thể để thị uy. Ta đang đọc cách một sử gia đời Hán sắp xếp truyện về nước Tần nhiều đời trước. Hành động, lời dẫn và lời bình giúp thấy vì sao ông kể cả cảnh chính sách có hiệu lực lẫn cái giá của sự khắc nghiệt.',
+            'Trong hai câu tập phía dưới, 我相信他会按时来 nói điều người nghe tin sẽ xảy ra, còn 你答应了，就要做到 đặt việc giữ lời vào tay người đã hứa. Câu chuyện ở chợ có cả hai phía. Người dời gỗ tin vừa đủ để làm thử, và người hứa có một lần thực hiện trước mắt mọi người. Cái khoảng giữa 信 và 做到 là nơi ta thấy một lời có sức nặng lên bằng cách nào.'
           ],
           lines:['我相信他会按时来。','你答应了，就要做到。'], refs:['shiji','moe-xin']
         }
@@ -320,7 +334,7 @@
         {han:'知道',why:'Ở đoạn chủ quán, điều người ấy chưa biết là danh tính khách. Trong ví dụ hiện đại, dùng 不知道 trước phần thông tin đang thiếu.'}
       ],
       quiz:{prompt:'Chủ quán sợ điều gì khi dùng 坐 trong câu luật được chép?', choices:['Phải ngồi chờ Thương quân','Bị quy tội vì nhận khách thiếu giấy','Phải dời cây gỗ để lấy thưởng'], answer:1, explain:'Trong câu cổ này, 坐 thuộc ngữ cảnh hình luật. 之 quay về hành vi nhận khách không có giấy nhận dạng, chính là việc chủ quán đang tránh.'},
-      closing:'Người dời gỗ thử một lời hứa và được trả. Chủ quán hiểu một lệnh cấm và từ chối người xin trọ. Cả hai hành động theo điều họ cho sẽ xảy ra tiếp theo. Trở lại tiếng Trung hôm nay, dùng 相信 để nêu điều mình tin sẽ thành sự thật, rồi nhìn vào việc người ta làm để biết lời ấy có đáng tin.',
+      closing:'Có lệnh ai cũng làm theo vì nghĩ hậu quả sẽ đến thật. Tới lúc Thương Ưởng tự đứng trước cửa quán, Sử ký cho ông nghe một người lạ đọc lại quy tắc của mình. Câu nói ngắn ấy để lại một câu hỏi về người đặt luật. Ông đã tính đến việc mình cũng có ngày phải xin người khác mở cửa chưa?',
       related:['lich-duyet','tot-nghiep'],
       legacyHref:'#essay/shang-yang',
       sources:[
@@ -339,10 +353,10 @@
       category:'đối chiếu',
       search:['佳 jiā giai nhân 佳人 jiārén giai thoại 佳話 佳话 佳作 最佳 欠佳 qiànjiā', '偕 xié 百年偕老 bách niên giai lão 北方有佳人 Lý Diên Niên Hán thư 家'],
       intro:[
-        'Một người nhận xét cửa tiệm có vị trí tốt, rồi viết 服务欠佳. Người học đã biết 佳 từ “giai nhân” có thể thấy chữ ấy và đọc cả dòng theo màu lời khen. Nhưng chữ đang giữ quyền quyết định lại là 欠. Nó đưa lời nhận xét dịch vụ về phía chưa đạt.',
-        'Bỏ đúng một chữ đứng cạnh có thể đổi điều người ta hiểu. Điều này cũng xảy ra khi mang tiếng “giai” sang thiệp cưới. Trong câu hát về người đẹp phương bắc, 佳 giúp tả nhan sắc. Trong lời chúc bách niên giai lão, người viết cần một chữ làm việc khác, nối hai người đến tuổi già.'
+        'Hán Vũ Đế nghe Lý Diên Niên hát ở trước mặt mình rồi hỏi trên đời có thật một người như thế ư. Trong bài hát, người ấy mới chỉ là 佳人 ở phương bắc. Chưa có tên. Một cái ngoảnh nhìn đã làm nghiêng thành, cái thứ hai làm nghiêng nước. Đến khi Bình Dương công chúa lên tiếng, nhà vua mới biết người hát có em gái.',
+        'Bây giờ ta vẫn gặp chữ 佳 trong một lời đánh giá. Có khi người viết khen một tác phẩm, có khi họ chê dịch vụ chưa tốt bằng chữ 欠 đứng trước. Còn tiếng “giai” trên thiệp cưới thuộc về 偕. Trước khi tra từng chữ, thử hỏi người viết đang mong điều gì xảy ra với hai người nhận thiệp.'
       ],
-      takeaway:'Trong 欠佳, đọc từ 欠 để thấy lời chê nhẹ. Trong 百年偕老, đọc 偕 xié theo nghĩa cùng nhau. Hai chữ cần chú ý đều nằm ngay cạnh điều mà ta đã quen hiểu.',
+      takeaway:'佳 đánh giá một người hay một việc là tốt đẹp. Thêm 欠, người viết bảo điều tốt đó còn thiếu. Trong 百年偕老, 偕 nói hai người sống cùng nhau đến tuổi già, giống chữ 偕 trong câu Kinh Thi về bàn tay nắm lấy bàn tay.',
       summary:[
         ['佳 jiā','Tốt, đẹp, hay; có trong 佳人, 佳作, 佳话 và 欠佳.'],
         ['偕 xié','Cùng, cùng nhau; có trong lời chúc 百年偕老.'],
@@ -352,25 +366,28 @@
         {
           id:'thiep-cuoi', title:'Người viết thiệp đang chúc điều gì?',
           paragraphs:[
-            '百年 đặt ra quãng đời dài. Ở cuối lời, 老 vẫn là đến tuổi già. Vậy người viết chúc hai người có mặt cùng nhau trong quãng ấy. Bộ từ điển Đài Loan giảng 偕 bằng 一起 và 共同. Đem chữ này trở lại cạnh 老 thì sắc thái lời chúc rõ ra, có người sẽ cùng mình già đi.',
-            'Hai chữ 偕 và 佳 có thể nghe thành “giai” với người nói tiếng Việt. Đọc Quan thoại, 偕 là xié, 佳 là jiā. Hỏi điều câu chúc muốn nói trước rồi xem từ điển thành ngữ sẽ đưa ta đến đúng 百年偕老.'
+            'Trong 百年偕老, 百年 nói cả một quãng đời và 老 gọi cái đích rất cụ thể là tuổi già. Giữa hai chỗ ấy là 偕, nghĩa “cùng”. Một lời chúc “mãi hạnh phúc” có thể thích hợp với đám cưới. Còn lời trên thiệp mang theo hình ảnh một người vẫn có bạn bên mình khi cả hai đã già.',
+            'Kinh Thi đã có 與子偕老 trong bài Kích cổ. Câu ấy đi sau động tác nắm tay, nhưng cả bài mở đầu bằng tiếng trống, việc bị điều đi về phương nam và nỗi lo chưa được trở về. Văn bản đặt lời muốn cùng đi hết đời giữa một cuộc chia xa. Trên thiệp cưới ngày nay, 偕老 vẫn giữ được ý ở bên nhau, đi vào một cuộc sum họp và lời chúc cho đoạn đường sắp tới.',
+            'Đọc theo âm Quan thoại sẽ thấy 偕 là xié, còn 佳 là jiā. Cả hai đều có thể đọc là “giai” theo âm Hán Việt. Nếu gõ thiệp bằng tiếng Trung, mình thường tự nhẩm “cùng nhau già đi”, rồi chọn chữ giữ nghĩa “cùng”.'
           ],
-          lines:['百年偕老'], refs:['moe-marry','moe-xie']
+          lines:['百年偕老'], refs:['moe-marry', 'moe-xie', 'shi-jing-ji-gu']
         },
         {
           id:'nguoi-phuong-bac', title:'Một người đẹp bước vào truyện bằng chữ 有',
           paragraphs:[
-            'Trong quyển 97 thượng của Hán thư, Lý Diên Niên hát trước Hán Vũ Đế. Chữ 有 đặt một người mới vào phương bắc trong trí tưởng tượng người nghe. Phía sau, cái nhìn đầu tiên làm nghiêng thành, cái nhìn thứ hai nghiêng nước. Vua hỏi đời có thực người như thế. Đáp lời ấy, Bình Dương công chúa nói Lý Diên Niên có em gái. Câu chuyện chuyển từ một người chưa có tên trong lời hát sang người nhà vua cho triệu đến.',
-            'Đoạn văn ấy cho biết vì sao đọc 佳人 là người đẹp. 絕世 và hai cái ngoảnh nhìn cùng dựng sắc đẹp hiếm thấy. Dáng 獨立 nằm trong việc phác ra một người nổi bật ấy. Từ điển còn dẫn 佳人 cho người hiền hoặc người vợ ở văn bản khác, nên ngay trong tiếng Hán cổ, chữ 佳人 thôi chưa đủ để suy ra người đang được nghĩ tới.'
+            'Hán thư giới thiệu Lý Diên Niên giỏi ca múa và hay biến đổi khúc nhạc. Trong lời hát, 北方 mở một nơi xa và 有 khiến người nghe chú ý tới một người vừa hiện ra trong câu. 佳人 gọi nàng theo sắc đẹp. 絕世 đẩy cái đẹp ấy đến chỗ khó có người sánh. Rồi 一顧 và 再顧 chia hai cái ngoảnh nhìn thành hai nhịp, từ một tòa thành đến cả một nước.',
+            'Mình hay dừng ở cuối khúc hát, nơi chữ 難再得 nói cơ hội gặp lại người như thế thật hiếm. Nhà vua nghe tới đó thì cất tiếng hỏi. Bình Dương công chúa giới thiệu em gái người hát, vua triệu nàng đến. Đọc theo cách kể của Hán thư, bài hát đã làm được việc mà một lời giới thiệu thẳng như “em tôi đẹp và múa giỏi” khó làm. Nó khiến người có quyền triệu nàng tự đặt câu hỏi trước.',
+            'Đọc xa hơn một đoạn, người phụ nữ ấy đã là Lý phu nhân. Khi bệnh nặng, bà lấy chăn che mình và xin gửi gắm con cùng các anh em. Bà nói với người nhà rằng sự sủng ái có thể nhạt đi khi nhan sắc đổi. Ở ngoài bài hát, chính người được khen là 佳人 hiểu mình phải trả giá thế nào nếu sắc đẹp là điều nhà vua nhớ nhất.',
+            'Trong văn cảnh khác, từ điển còn ghi 佳人 có thể chỉ người hiền hoặc người vợ. Riêng ở truyện Lý phu nhân, lần lượt nghe người anh hát rồi người em giãi bày, ta có đủ căn cứ để dịch là “người đẹp”.'
           ],
           lines:['北方有佳人，絕世而獨立。','一顧傾人城，再顧傾人國。'], refs:['hanshu','moe-jiaren']
         },
         {
           id:'nguoi-viet-bao-cao', title:'Chữ đứng cạnh điều khiển lời khen chê',
           paragraphs:[
-            'Thuyết văn giảng 佳 là tốt đẹp. Trong phân tích mà CUHK dẫn, 人 đứng cùng 圭, phần gợi âm. 圭 hiện đọc guī và có nghĩa riêng. Câu hát của Lý Diên Niên giúp nhận nghĩa tốt đẹp, còn việc tra chữ cho biết tại sao hai phần ở đó. Hai công việc ấy giúp nhau đến đúng chỗ.',
-            'Còn khi khen một tác phẩm là 佳作, 佳 đánh giá chính tác phẩm. Gọi một chuyện là 佳话 cũng đưa lời khen vào trong tên chuyện. Bộ từ điển Đài Loan dùng 美谈 để giảng mục này. Tiếng Việt có thể dùng “giai thoại” rộng hơn cho một mẩu chuyện bên lề thú vị. Một bản dịch sang tiếng Trung cần quyết định người kể đang tán thưởng hay chỉ đang kể một chuyện đáng nghe.',
-            'Quay lại dòng nhận xét cửa tiệm, chữ 家 trong 这家店 cho biết đang nói đến một cơ sở. Chữ 佳 trong 欠佳 cho biết tiêu chuẩn mà dịch vụ chưa đạt. Viết 最佳 thì độ đánh giá đi về đầu bên kia. Chỗ khác biệt quan trọng nhất trong bản dịch nằm cả ở chữ đứng cạnh 佳 lẫn ở thứ được đem ra đánh giá.'
+            'Thuyết văn giảng 佳 là tốt đẹp, với 人 và phần gợi âm 圭. Câu hát dùng chữ ấy tả người. 佳作 chuyển lời khen sang một tác phẩm. Trong 传为佳话, người kể cho biết chuyện đẹp được truyền lại. “Giai thoại” trong tiếng Việt cũng có thể chỉ chuyện bên lề thú vị. Khi viết tiếng Trung, kể một chuyện bên lề về đời nghệ sĩ có thể dùng 轶事. Kể một việc đẹp được truyền nhau thì 佳话 vừa hơn.',
+            'Ba câu phía dưới là ví dụ hiện đại. Trong 这家店位置不错，服务欠佳, 家 gọi một cơ sở, còn 佳 nói về chất lượng. Người viết đã khen địa điểm ở vế đầu và chuyển sang dịch vụ ở vế sau. Đọc nhanh qua 家 và 佳, cả hai đều là jiā, vẫn cần bắt kịp 欠. Nó đưa lời đánh giá về mức còn thiếu so với điều người viết mong đợi.',
+            '“服务不好” cũng chê dịch vụ, gần khẩu ngữ và nói trực diện. “服务欠佳” nghe hợp với một dòng nhận xét viết, đủ gọn để đặt cạnh 位置不错. Nếu biết rõ khách đã đợi bao lâu, một câu như “我们等了半个小时” cho họ thêm dữ kiện. Chữ 佳 cho biết thái độ người viết, còn thời gian chờ giúp người đọc tự xét.'
           ],
           lines:['这是一部佳作。','他们互相照顾的事传为佳话。','这家店位置不错，服务欠佳。'], refs:['cuhk-jia','moe-jiazuo','moe-jiahua','moe-qian','moe-evaluation']
         }
@@ -401,7 +418,7 @@
         {han:'年',why:'Từ chỉ năm đã học. 百年 trong lời chúc đặt thời lượng, rồi 偕老 mới cho biết người nói chúc việc gì.'}
       ],
       quiz:{prompt:'Bạn viết bách niên giai lão trong thiệp và muốn nói “cùng nhau tới già”. Chữ nào đứng trước 老?', choices:['佳 jiā','偕 xié','家 jiā'], answer:1, explain:'偕 nghĩa cùng nhau. Cả tổ hợp 偕老 nói đến tuổi già với nhau, còn 佳 chỉ tốt đẹp và 家 thuộc về họ từ nhà/gia đình.'},
-      closing:'Người chúc cưới muốn hai người ở cạnh nhau lúc già. Người góp ý về cửa tiệm muốn dịch vụ tốt hơn. Tiếng giai gợi cho ta cái cần tra. Lời chúc cho thấy đó là 偕, còn lời góp ý đòi đọc 佳 cùng với 欠.',
+      closing:'Tiếng “giai” nghe lên có thể đưa mình đến người đẹp, một lời chê khéo, hoặc lời chúc vợ chồng. Tôi thích thử dịch lời trên thiệp thành “mong hai bạn cùng già đi”. Khi nghe được chữ “cùng” trong tiếng Việt, việc tìm lại chữ 偕 trở nên dễ hơn nhiều.',
       related:['ai','tot-nghiep'],
       legacyHref:'#essay/jia',
       sources:[
@@ -413,7 +430,8 @@
         {id:'moe-marry',title:'Thành ngữ điển Bộ Giáo dục Đài Loan · 百年偕老',url:'https://dict.idioms.moe.edu.tw/idiomView.jsp?ID=27313&la=0&webMd=1',detail:'Ghi cả cụm trong nhóm lời chúc hôn lễ.'},
         {id:'moe-xie',title:'Bộ Giáo dục Đài Loan · 偕',url:'https://dict.concised.moe.edu.tw/dictView.jsp?ID=26733&la=0&powerMode=0',detail:'Âm xié, nghĩa 共同, 一起.'},
         {id:'moe-qian',title:'Bộ Giáo dục Đài Loan · 欠',url:'https://dict.concised.moe.edu.tw/dictView.jsp?ID=25293',detail:'Nghĩa thứ ba của 欠 là chưa đủ. Nghĩa này phù hợp 欠佳.'},
-        {id:'moe-evaluation',title:'Bộ Giáo dục Đài Loan · 欠佳',url:'https://dict.concised.moe.edu.tw/dictView.jsp?ID=25297&la=0&powerMode=0',detail:'Mục từ giảng là không tốt hoặc không thích hợp, dẫn ví dụ đánh giá thái độ.'}
+        {id:'moe-evaluation',title:'Bộ Giáo dục Đài Loan · 欠佳',url:'https://dict.concised.moe.edu.tw/dictView.jsp?ID=25297&la=0&powerMode=0',detail:'Mục từ giảng là không tốt hoặc không thích hợp, dẫn ví dụ đánh giá thái độ.'},
+        {id: 'shi-jing-ji-gu', title: 'Kinh Thi · Bội phong, bài Kích cổ', url: 'https://zh.wikisource.org/zh-hant/%E8%A9%A9%E7%B6%93/%E6%93%8A%E9%BC%93', detail: 'Đọc năm chương của bài thơ. 與子偕老 nằm ở chương thứ tư, sau lời nắm tay.'}
       ]
     }
   ]);

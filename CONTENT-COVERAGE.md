@@ -1,6 +1,11 @@
-# Nội dung học · Bản 37, ngày 21/11/2026
+# Nội dung học · Bản 38, ngày 21/11/2026
 
 Mở [bài đọc](https://hoangduong-dh.github.io/han-tu-moi-ngay/#read) hoặc [PDF 122 trang](https://hoangduong-dh.github.io/han-tu-moi-ngay/#materials/book).
+
+## Bản 38 · Đọc lại từ văn bản gốc
+
+- Viết lại 22 bài cũ, gồm phần mở, 72 đoạn theo mục lục và phần kết. Mỗi bài lần theo văn bản, tài liệu học hoặc bảng âm đã dẫn, đọc kỹ chữ trong hoàn cảnh của nó rồi đặt cạnh cách dùng hiện nay.
+- Trang bài đọc có mục lục gọn trên điện thoại. Nguồn nằm cạnh đoạn tương ứng và có thể mở khi cần. Tóm tắt để tra nhanh đi sau phần bài viết, trước câu có chú giải, thẻ từ và bài luyện.
 
 ## Bản 37 · Giữ lẽ thường, gặp chuyện bất thường
 

@@ -187,13 +187,14 @@
     }
 
     function renderSection(article, section, sentences) {
-      return '<section class="rd-passage" id="reading-' + esc(section.id) + '" data-reading-section="' + esc(section.id)
+      const evidence = sourceLinks(article, section.refs);
+      return '<section class="rd-passage rd-chapter" id="reading-' + esc(section.id) + '" data-reading-section="' + esc(section.id)
         + '" aria-labelledby="heading-' + esc(section.id) + '">'
         + '<h2 id="heading-' + esc(section.id) + '" tabindex="-1">' + prose(section.title) + '</h2>'
         + section.paragraphs.map(paragraph).join('') + (section.table ? renderTable(section.table) : '')
         + (section.note ? '<div class="rd-aside-note">' + paragraph(section.note) + '</div>' : '')
         + sentences.map(({example,index}) => renderExample(article,example,index)).join('')
-        + sourceLinks(article,section.refs)
+        + (evidence ? '<details class="rd-chapter-sources"><summary>Nguồn của đoạn này</summary>' + evidence + '</details>' : '')
         + '</section>';
     }
 
@@ -279,7 +280,8 @@
     }
 
     function renderArticle(article) {
-      const sections = [...article.sections.map(section => [section.id,section.title]),...suffixes];
+      const sections = article.sections.map(section => [section.id,section.title]);
+      const studySections = article.summary?.length ? [['tra-nhanh','Tra nhanh'], ...suffixes] : suffixes;
       const sentences = article.examples.map((example,index) => ({example,index,inline:false}));
       const body = article.sections.map(section => {
         const inline = sentences.filter(item => !item.inline && (section.lines?.includes(item.example.han)
@@ -287,24 +289,27 @@
         inline.forEach(item => { item.inline = true; });
         return renderSection(article,section,inline);
       }).join('');
-      const contents = sections.map(([id,label]) =>
+      const toc = entries => entries.map(([id,label]) =>
         '<li><a data-reading-jump="' + esc(id) + '" href="' + readingHref(article.id,id) + '">' + prose(label) + '</a></li>').join('');
-      const points = article.summary?.length ? '<details class="rd-fold rd-quick"><summary>Tra nhanh trong bài</summary><div><dl>'
+      const contents = '<ul>' + toc(sections) + '</ul><ul class="rd-toc-study" aria-label="Tra và luyện">' + toc(studySections) + '</ul>';
+      const points = article.summary?.length
+        ? '<section class="rd-passage" id="reading-tra-nhanh" data-reading-section="tra-nhanh" aria-labelledby="heading-tra-nhanh">'
+        + '<h2 id="heading-tra-nhanh" class="sr-only">Tra nhanh</h2><details id="reading-quick" class="rd-fold rd-quick"><summary>Tra nhanh các từ trong bài</summary><div><dl>'
         + article.summary.map(([term,meaning]) => '<div><dt>' + prose(term) + '</dt><dd>' + prose(meaning)
-          + '</dd></div>').join('') + '</dl></div></details>' : '';
+          + '</dd></div>').join('') + '</dl></div></details></section>' : '';
       const closing = [article.closing].flat().filter(Boolean).map(paragraph).join('');
       const takeaway = article.takeaway ? '<div class="rd-takeaway">' + paragraph(article.takeaway) + '</div>' : '';
       render('<article class="rd-article" data-reading-article="' + esc(article.id) + '">'
         + '<div class="rd-article-nav">' + libraryLink + '<details class="rd-mobile-menu" id="reading-menu">'
-        + '<summary>Trong bài</summary><nav aria-label="Mục lục bài"><ul>' + contents + '</ul></nav></details></div>'
+        + '<summary>Mục lục</summary><nav aria-label="Mục lục bài">' + contents + '</nav></details></div>'
         + '<header class="rd-article-head"><p lang="zh-CN" class="rd-article-glyph">' + esc(article.glyph) + '</p><h1 id="reading-title" tabindex="-1">'
         + prose(article.title) + '</h1></header><div class="rd-article-layout"><div class="rd-page">'
         + '<div class="rd-intro">' + article.intro.map(paragraph).join('') + '</div>'
         + (article.credit ? '<p class="rd-credit">' + esc(article.credit) + '</p>' : '')
-        + (article.takeaway ? '' : points) + body
+        + body
         + (closing || takeaway ? '<div class="rd-closing">' + closing + takeaway + '</div>' : '')
-        + renderEnd(article,sentences) + '</div><aside class="rd-article-side"><nav aria-label="Mục lục bài"><p>Trong bài</p>'
-        + '<ul>' + contents + '</ul></nav></aside></div></article>');
+        + points + renderEnd(article,sentences) + '</div><aside class="rd-article-side"><nav aria-label="Mục lục bài"><p>Trong bài</p>'
+        + contents + '</nav></aside></div></article>');
       const feedback = $('#reading-feedback');
       const answers = all('[data-reading-choice]');
       const retry = $('#reading-retry');
@@ -339,6 +344,8 @@
       const local = section?.startsWith('nguon-') ? 'nguon' : sentence ? 'vi-du' : target?.dataset.readingSection || '';
       if (local === 'nguon') $('#reading-sources').open = true;
       if (local === 'tu-kiem') $('#reading-quiz').open = true;
+      const quickSummary = local === 'tra-nhanh' ? $('#reading-quick summary') : null;
+      if (quickSummary) $('#reading-quick').open = true;
       if (sentence) sentence.open = true;
       if ($('#reading-menu')) $('#reading-menu').open = false;
       clearTimeout(scrollTimer);
@@ -348,7 +355,7 @@
       frame = window.requestAnimationFrame(() => {
         if (target && section) target.scrollIntoView({block:'start'});
         else window.scrollTo(0,0);
-        const focusTarget = sentence?.querySelector('summary') || target?.querySelector('h2:not(.sr-only)') || (local === 'nguon' && section === 'nguon'
+        const focusTarget = sentence?.querySelector('summary') || quickSummary || target?.querySelector('h2:not(.sr-only)') || (local === 'nguon' && section === 'nguon'
           ? $('#reading-sources summary') : local === 'tu-kiem' ? $('#reading-quiz summary') : target);
         if (focus && focusTarget) focusTarget.focus({preventScroll:true});
         if (target && section && document.fonts?.status === 'loading') {
