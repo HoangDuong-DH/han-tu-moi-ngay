@@ -1,6 +1,12 @@
-# Nội dung học · Bản 34, ngày 21/11/2026
+# Nội dung học · Bản 35, ngày 21/11/2026
 
 Mở [bài đọc](https://hoangduong-dh.github.io/han-tu-moi-ngay/#read) hoặc [PDF 122 trang](https://hoangduong-dh.github.io/han-tu-moi-ngay/#materials/book).
+
+## Bản 35 · Chơi vượt chặng
+
+- **Săn kho chữ** mở 9 rương qua ba chặng. Mỗi rương cần đúng một bộ chữ Hán, pinyin và nghĩa. Các bộ xen từ bài đọc với từ đã ôn trong sổ học. Lượt ghép nhầm chỉ ra hai từ khác nhau và đưa từ vướng vào lượt ôn.
+- **Xếp câu mở cửa** có sáu câu mỗi lượt, từ mảnh câu ngắn đến câu có cấu trúc nhiều vế và mảnh gây nhiễu. Lời giải giải thích vị trí các cụm. Từ vướng quay lại trong một câu khác, cùng mẫu ngữ pháp.
+- Chơi đúng ngay nối chuỗi điểm và mở thêm gợi ý. Kỷ lục và hàng ôn của hai trò nằm trong sổ học trên thiết bị. Mẫu câu hoàn chỉnh có phát âm và tra tại chỗ.
 
 ## Bản 34 · Tra nhanh và tự gõ chữ Hán
 

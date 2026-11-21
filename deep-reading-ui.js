@@ -238,6 +238,8 @@
           + '"><strong>Điền từ theo ngữ cảnh</strong><span>Chơi với từ bài này và từ đã ôn.</span></a>' : '')
         + (playable.length ? '<a class="rd-play" href="#play/flash/' + esc(article.id)
         + '"><strong>Lật thẻ</strong><span>Tự nhớ nghĩa rồi mở đáp án.</span></a>' : '')
+        + (playable.some(word => !word.extra) ? '<a class="rd-play" href="#game/hunt/' + esc(article.id)
+          + '"><strong>Săn kho chữ</strong><span>Ghép chữ, âm và nghĩa của từ trong bài.</span></a>' : '')
         + (new Set(playable.map(word => word.gloss)).size >= 2
           ? '<a class="rd-play" href="#game/memory/' + esc(article.id)
             + '"><strong>Lật ô tìm cặp</strong><span>Tìm chữ và nghĩa trên hai ô.</span></a>' : '');

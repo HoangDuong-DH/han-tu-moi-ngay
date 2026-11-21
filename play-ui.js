@@ -18,7 +18,8 @@
     ['#play/character','字','Nhớ nghĩa, tìm chữ','Từ nghĩa tiếng Việt, chọn mặt chữ.'],
     ['#play/reading','音','Nhớ pinyin','Nhìn chữ, chọn âm và dấu thanh.']
    ];
-   mount(`<header class="page-head"><div><h1>Chơi nhớ từ</h1><p>Chọn cách muốn ôn hôm nay. Mỗi trò cho chọn bộ từ trước khi vào lượt.</p></div></header>
+   mount(`<header class="page-head"><div><h1>Chơi &amp; luyện</h1><p>Vượt chặng để nhớ từ, ráp câu và luyện phản xạ.</p></div></header>
+   ${host.arcade?.() || ''}
    <div class="game-quick">${quick.map(([href,glyph,title,description])=>`<a href="${href}"><span class="han" aria-hidden="true">${glyph}</span><span><strong>${title}</strong><small>${description}</small></span><b aria-hidden="true">→</b></a>`).join('')}</div>
    <div class="chip-row game-lesson-links"><a class="btn primary" href="#hsk2/all/mixed">Luyện tổng hợp HSK 2</a><a class="btn" href="#wordlab">Viết và nhớ mặt chữ</a></div>
    <section><div class="section-top"><h2>Chọn kiểu luyện khác</h2></div><div class="mode-grid">${(host.legacyModes||[]).filter(([id])=>!['flash','character','reading'].includes(id)).map(([id,m])=>`<a class="mode-card" href="#play/${esc(id)}" style="text-decoration:none"><span class="mode-icon" aria-hidden="true">${esc(m.icon)}</span><h3>${esc(m.title)}</h3><p>${esc(m.desc)}</p><span class="mode-bottom">${esc(m.level)}<span>↗</span></span></a>`).join('')}</div></section>

@@ -9,8 +9,6 @@
     const articles = window.HAN_DEEP_READING_DATA;
     const bank = window.createHanClozeBank({words:host.words,
       readings:window.HAN_READING_LAB.readings,shuffle});
-    const lessonWords = new Map(window.HAN_HSK2.units.flatMap(unit =>
-      unit.words.map(word => [word.key,word.catalogId])));
     const $ = selector => document.querySelector(selector);
     let topic = '';
     let entryTopic = '';
@@ -26,18 +24,6 @@
       + (entryTopic ? 'Về bài đọc' : 'Trò chơi') + '</a>' + content + '</div>';
     const navToSetup = '<button type="button" class="text-btn" id="cloze-exit">Chọn bài</button>';
     const termName = han => '<span lang="zh-CN">' + esc(han) + '</span>';
-
-    function reviewedWords() {
-      const study = host.db();
-      const seen = {...study.learning.introduced};
-      for (const event of study.knowledge.events) {
-        if (event.kind !== 'attempt' || event.targets.length !== 1) continue;
-        const key = event.targets[0];
-        const id = key.startsWith('w:') ? key.slice(2) : lessonWords.get(key);
-        if (id) seen[id] = true;
-      }
-      return seen;
-    }
 
     function storedMistakes() {
       try {
@@ -90,7 +76,7 @@
       const update = () => {
         topic = field.value;
         mode = $('input[name="cloze-mode"]:checked').value;
-        planned = bank.plan(topic,reviewedWords(),mode);
+        planned = bank.plan(topic,host.reviewedWords(),mode);
         const remembered = planned.filter(card => card.source === 'learned').length;
         $('#cloze-setup-mix').textContent = remembered
           ? 'Lượt này có ' + remembered + ' từ đã ôn trên thiết bị.'
@@ -277,7 +263,7 @@
         + '<button type="button" class="btn' + (pending.length ? '' : ' primary') + '" id="cloze-restart">Chơi lượt mới</button>'
         + '</div>');
       if (pending.length) $('#cloze-retry').onclick = () => retry(missteps);
-      $('#cloze-restart').onclick = () => launch(bank.plan(topic,reviewedWords(),mode).map(card => ({...card,mode})),false);
+      $('#cloze-restart').onclick = () => launch(bank.plan(topic,host.reviewedWords(),mode).map(card => ({...card,mode})),false);
       $('#cloze-exit').onclick = showSetup;
       $('#cloze-result').focus();
     }
