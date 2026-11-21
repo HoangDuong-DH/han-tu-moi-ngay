@@ -1,6 +1,13 @@
-# Nội dung học · Bản 31, ngày 20/11/2026
+# Nội dung học · Bản 32, ngày 21/11/2026
 
 Mở [bài đọc](https://hoangduong-dh.github.io/han-tu-moi-ngay/#read) hoặc [PDF 122 trang](https://hoangduong-dh.github.io/han-tu-moi-ngay/#materials/book).
+
+## Bản 32 · Bài đọc và game nhớ từ
+
+- Viết lại 15 bài còn lại trong kho cũ. Mục Đọc có 22 bài, gồm bản biên tập của đủ 17 bài cũ và năm bài khảo chữ mới ở bản 31. Mục lục 17 bài mở thẳng bản biên tập. Có đường về bài trước và ghi chú đã lưu.
+- Có 105 câu và đoạn trích tách riêng trong 15 bài, cùng tổng cộng 129 mục có phân tích ở 22 bài. Mỗi mục có chữ, pinyin, nghĩa, lý do chia từ hoặc cụm trong chính câu ấy và phân tích cú pháp. Câu văn cổ có chỉ dẫn nguồn và cách đọc hiện dùng khi cần. Từng bài có câu hỏi tự kiểm và điều áp dụng được sau khi đọc.
+- Phần tra cứu của 15 bài có 111 mục dẫn nguồn. Tùy bài, dùng bản thơ hoặc văn truyện, bản quét, Quảng Vận, cơ sở chữ cổ CUHK và các từ điển có mục liên quan. Bài Thuyết văn phân biệt phạm vi của hai tệp và đối chiếu riêng mục 請, 字 ở Đại Từ bản.
+- Chơi & luyện mở các trò nhớ chữ, nghĩa và pinyin, kèm lối vào luyện tổng hợp HSK 2. Lật thẻ và Lật ô tìm cặp mở được bộ từ lấy từ chính bài đọc. Có nút về đúng bài sau lượt chơi.
 
 ## Bản 31 · Đọc sâu từng chữ
 
