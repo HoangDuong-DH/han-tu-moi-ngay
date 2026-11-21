@@ -24,7 +24,7 @@
  };
  const skillNames={meaning:'Chữ → nghĩa',recognition:'Nghĩa → chữ',reading:'Chữ → pinyin',listening:'Nghe → chữ',self:'Tự ôn thẻ',sentence:'Xếp câu',context:'Tình huống',numbers:'Số & giờ',usage:'Từ đích trong câu'};
  const emptyStore=()=>({version:1,words:{},skills:{},sessions:[],lastSeen:null,learning:E.blank(),investigations:window.HAN_INVESTIGATION.blank(),knowledge:K.blank(),reading:window.HAN_READER.blank(),study:window.HAN_STUDY.blank()});
- let learningUI,playUI,clozeUI,investigationUI,practiceUI,knowledgeUI,readerUI,pathsUI,reviewUI,wordlabUI,studyUI,hsk2UI,materialsUI,sentenceReaderUI,vocabularyFamiliesUI,deepReadingUI,learningActive=false;
+ let learningUI,playUI,clozeUI,investigationUI,practiceUI,knowledgeUI,readerUI,pathsUI,reviewUI,wordlabUI,studyUI,hsk2UI,materialsUI,sentenceReaderUI,vocabularyFamiliesUI,deepReadingUI,studyLookup,learningActive=false;
  let storageOK=true;
  function validateStore(d){
   if(!d||d.version!==1||typeof d.words!=='object'||Array.isArray(d.words)||!d.words)throw Error('Tệp không đúng định dạng sổ ôn.');
@@ -49,7 +49,7 @@
  }
  let db=emptyStore();
  try {const raw=localStorage.getItem(KEY);if(raw)db=validateStore(JSON.parse(raw));}catch(e){storageOK=false;}
- function save(){try{localStorage.setItem(KEY,JSON.stringify(db));}catch(e){storageOK=false;toast('Trình duyệt không lưu được tiến độ. Bạn vẫn chơi được; hãy xuất sổ ôn trước khi đóng.');}}
+ function save(){try{localStorage.setItem(KEY,JSON.stringify(db));return true;}catch(e){storageOK=false;toast('Trình duyệt không lưu được tiến độ. Bạn vẫn chơi được; hãy xuất sổ ôn trước khi đóng.');return false;}}
  let toastTimer;
  function toast(t){$('#toast').textContent=t;$('#toast').hidden=false;clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').hidden=true,4600);}
  const shuffle=a=>{a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;};
@@ -96,6 +96,7 @@
   return pool.length?{id:article.id,title:article.title,words:pool,back:'#read/'+article.id+'/choi-tu'}:null;
  }
  function renderRoute(){
+  studyLookup?.close(true);
   learningUI?.cancel();playUI?.cancel();clozeUI?.cancel();investigationUI?.cancel();practiceUI?.cancel();knowledgeUI?.cancel();readerUI?.cancel();reviewUI?.cancel();wordlabUI?.cancel();hsk2UI?.cancel();materialsUI?.cancel();if($('#word-dialog').open)$('#word-dialog').close();
   route=location.hash.slice(1)||'learn';session=null;
   const routeParts=route.split('/');
@@ -367,10 +368,11 @@
  vocabularyFamiliesUI=window.createHanVocabularyFamilies({words,esc,db:()=>db,save,speak,voiceStatus,mount:html=>{app.innerHTML=html;}});
  sentenceReaderUI=window.createHanSentenceReader({words,esc,db:()=>db,save,speak,voiceStatus,mount:html=>{app.innerHTML=html;}});
  deepReadingUI=window.createHanDeepReading({words,esc,db:()=>db,save,mount:html=>{app.innerHTML=html;}});
+ studyLookup=window.createHanStudyLookup({root:app,words,esc,speak,detail,knowledge:()=>db.knowledge,save});
  clozeUI=window.createHanCloze?.({words,esc,db:()=>db,save,shuffle,audio:audioButton,mount:html=>{app.innerHTML=html;},
-  record:(target,chosen,ok,helped)=>{
+  record:(target,chosen,ok,helped,kind)=>{
    if(!ok&&target&&chosen)E.confuse(db.learning,target.id,chosen.id);
-   track(target,ok,'usage',false,{helped,suppressKnowledge:!target});
+   track(target,ok,'usage',false,{helped,kind,suppressKnowledge:!target});
   },
   finish:(correct,total)=>{db.sessions.push({mode:'cloze',time:Date.now(),correct,total});db.sessions=db.sessions.slice(-100);save();}
  });

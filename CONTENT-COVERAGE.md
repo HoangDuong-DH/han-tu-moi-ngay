@@ -1,6 +1,11 @@
-# Nội dung học · Bản 33, ngày 21/11/2026
+# Nội dung học · Bản 34, ngày 21/11/2026
 
 Mở [bài đọc](https://hoangduong-dh.github.io/han-tu-moi-ngay/#read) hoặc [PDF 122 trang](https://hoangduong-dh.github.io/han-tu-moi-ngay/#materials/book).
+
+## Bản 34 · Tra nhanh và tự gõ chữ Hán
+
+- Giữ tay hoặc bôi đen chữ Hán trong câu điền từ, ví dụ bài đọc, bản chữ PDF hoặc bản chép audio để mở tra nhanh. Dùng bản dịch và chú giải cùng câu khi có. Đoạn ngoài kho có nghĩa từng cụm và lối mở Google Dịch. Có nghe bằng giọng thiết bị, mở thẻ từ và lưu đoạn cùng nguồn vào Sổ kiến thức.
+- Game điền từ có chế độ tự gõ, dùng từ bài đọc xen với từ đã ôn trên thiết bị. Chấp nhận các cách viết phồn thể đã đối chiếu cho từ trong kho. Sau khi gõ sai, có thể thử ngay cùng từ trong câu khác hoặc trở lại lượt ôn đã lưu. Lượt thử lại được ghi là ôn có hỗ trợ.
 
 ## Bản 33 · Điền từ theo ngữ cảnh
 

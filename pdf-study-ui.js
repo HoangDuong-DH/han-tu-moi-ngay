@@ -269,9 +269,11 @@
 
     function originalText(unit) {
       const lang = {zh:'zh-CN',english:'en',roman:'zh-Latn'};
+      const study = unit.kind === 'zh' ? ' data-study-text data-study-py="' + esc(unit.pinyin || '')
+        + '" data-study-vi="' + esc(unit.gloss?.[0] || '') + '"' : '';
       return '<p class="book-original ' + (unit.kind === 'zh' ? 'han' : '') + '" lang="' + (lang[unit.kind] || 'und') + '">'
         + (unit.speaker ? '<span class="book-speaker">' + esc(unit.speaker) + '</span>' : '')
-        + '<span>' + esc(unit.text) + '</span></p>';
+        + '<span' + study + '>' + esc(unit.text) + '</span></p>';
     }
 
     function lowerNav(page) {

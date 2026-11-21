@@ -36,7 +36,7 @@
     const all = selector => [...document.querySelectorAll(selector)];
     const knownState = () => host.db().knowledge;
     const prose = text => esc(text).replace(/([\p{Script=Han}]+(?:[，。；？！、][\p{Script=Han}]+)*)/gu,
-      '<span class="rd-inline-han" lang="zh-CN">$1</span>');
+      '<span class="rd-inline-han" lang="zh-CN" data-study-text>$1</span>');
     const render = html => host.mount('<div class="rd-shell">' + html + '</div>');
     const libraryLink = '<a class="rd-back" href="#read"><span aria-hidden="true">←</span> Đọc sâu</a>';
     const resume = () => {
@@ -212,7 +212,10 @@
       const segmented = example.segments?.length && example.grammar;
       return '<figure class="rd-example" id="reading-cau-' + (index + 1) + '">'
         + (example.kind ? '<p class="rd-example-kind">' + esc(example.kind) + '</p>' : '')
-        + '<blockquote lang="zh-CN">' + esc(example.han) + '</blockquote>'
+        + '<blockquote lang="zh-CN" id="lookup-reading-cau-' + (index + 1) + '" data-study-text data-study-source="'
+        + readingHref(article.id,'cau-' + (index + 1)) + '" data-study-py="'
+        + esc(example.py) + '" data-study-vi="' + esc(example.vi) + '">' + esc(example.han) + '</blockquote>'
+        + '<button type="button" class="text-btn study-open" data-study-open="lookup-reading-cau-' + (index + 1) + '">Tra câu</button>'
         + (segmented ? '<details class="rd-sentence"><summary>Tách câu &amp; ngữ pháp</summary><div class="rd-sentence-body">'
           + reading + sound + '<dl class="rd-breakdown" aria-label="Các từ và cụm trong câu">'
           + example.segments.map(([han,why]) => '<div><dt>' + wordMarkup(han) + '</dt><dd>' + prose(why) + '</dd></div>').join('')

@@ -5,6 +5,7 @@
   const hanWord = /^[\p{Script=Han}]{1,12}$/u;
   const foldPinyin = value => value.toLowerCase().normalize('NFD').replace(/\p{M}/gu,'');
   const withBlank = (line,offset,length) => line.slice(0,offset) + blank + line.slice(offset+length);
+  const frameKey = line => line.replace(/[\p{P}\s]/gu,'');
   const authored = window.HAN_CLOZE_DATA.entries;
   const extensions = window.HAN_CLOZE_DATA.terms;
 
@@ -13,12 +14,14 @@
     const coreDistractors = ['朋友','水','工作','今天','去','书','大','看','前边','钱','老师','手机']
       .map(han => catalogue.get(han)).filter(Boolean);
     const terms = new Map(Object.entries(extensions).map(([han,[py,meaning]]) => [han,{han,py,meaning}]));
+    const variants = window.HAN_STUDY_VARIANTS;
+    const simplified = new Map(Object.entries(variants).flatMap(([han,spellings]) => spellings.map(spelling => [spelling,han])));
     const seenFrames = new Map();
 
     function addFrame(han,frame) {
       if (!seenFrames.has(han)) seenFrames.set(han,[]);
       const list = seenFrames.get(han);
-      if (!list.some(item => item.line === frame.line)) list.push(frame);
+      if (!list.some(item => frameKey(item.line) === frameKey(frame.line))) list.push(frame);
     }
 
     for (const reader of readings.filter(item => ['hsk','foundation'].includes(item.group))) {
@@ -83,16 +86,24 @@
       ? {...terms.get(han),word:catalogue.get(han)}
       : catalogue.get(han);
     const catalogueWord = han => catalogue.get(han);
+    const canonical = han => phrase(han) ? han : simplified.get(han) || han;
+    const matches = (item,input) => input === item.answer || !!variants[item.answer]?.includes(input);
+    const canType = item => item.frames.some(frame => frameKey(frame.line) !== frameKey(item.frames[0].line));
+    function typedWord(input) {
+      const value = input.normalize('NFKC').replace(/\s/gu,'').replace(/[。.!?！？、，,]+$/u,'');
+      return hanWord.test(value) ? value : '';
+    }
     const support = authored.filter(item => !item.topics.length);
 
-    function plan(topic,introduced) {
+    function plan(topic,introduced,mode = 'choice') {
+      const eligible = mode === 'typed' ? canType : () => true;
       const isKnown = item => {
         const word = catalogueWord(item.answer);
-        return word && !!introduced[word.id];
+        return eligible(item) && word && !!introduced[word.id];
       };
       const selected = new Set();
       const result = [];
-      const reading = shuffle(authored.filter(item => item.topics.length &&
+      const reading = shuffle(authored.filter(item => eligible(item) && item.topics.length &&
         (!topic || item.topics.includes(topic))));
       // Prefer hand-edited contrasts for old words, then examples already in the study materials.
       const earlier = [...shuffle(authored.filter(isKnown)),...shuffle([...studyCases.values()].filter(isKnown))
@@ -110,23 +121,31 @@
       take(reading.filter(item => item.answer !== reserved),'reading',3);
       take(earlier,'learned',6);
       take(reading,'reading',3);
-      take(shuffle(support),'practice',6);
+      take(shuffle(support.filter(eligible)),'practice',6);
       return shuffle(result);
     }
 
     function nextFrame(item,previous) {
-      return (previous+1) % item.frames.length;
+      for (let step = 1; step < item.frames.length; step++) {
+        const candidate = (previous+step) % item.frames.length;
+        if (frameKey(item.frames[candidate].line) !== frameKey(item.frames[previous].line)) return candidate;
+      }
+      return previous;
     }
 
     function explain(item,frame,choice) {
-      const authoredReason = item.wrong[choice];
+      const authoredReason = Object.hasOwn(item.wrong,choice) && item.wrong[choice];
       if (authoredReason) return authoredReason;
       const other = phrase(choice);
-      return 'Ở câu này, ' + item.answer + ' mang nghĩa “' + (frame.sense || phrase(item.answer).meaning)
-        + '”. ' + choice + ' có nghĩa “' + (other.gloss || other.meaning)
-        + '”, nên sẽ đổi ý mà câu cần diễn đạt.';
+      const target = phrase(item.answer);
+      const clue = 'Ở đây bài đang luyện ' + item.answer + ' với nghĩa “' + (frame.sense || target.gloss || target.meaning) + '”.';
+      if (item.answer.startsWith(choice) || item.answer.endsWith(choice)) {
+        return 'Bạn đã gõ được một phần. Câu này cần cả từ ' + item.answer + '. ' + clue;
+      }
+      return other ? 'Từ bạn gõ có nghĩa “' + (other.gloss || other.meaning) + '”. ' + clue
+        : clue + ' Hãy đối chiếu mặt chữ và cách dùng trong câu bên dưới.';
     }
 
-    return {plan,nextFrame,explain,phrase,questions,blank,catalogueWord};
+    return {plan,nextFrame,explain,phrase,questions,blank,catalogueWord,typedWord,canType,canonical,matches};
   };
 })();
