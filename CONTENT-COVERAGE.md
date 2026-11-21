@@ -1,6 +1,11 @@
-# Nội dung học · Bản 38, ngày 21/11/2026
+# Nội dung học · Bản 39, ngày 21/11/2026
 
 Mở [bài đọc](https://hoangduong-dh.github.io/han-tu-moi-ngay/#read) hoặc [PDF 122 trang](https://hoangduong-dh.github.io/han-tu-moi-ngay/#materials/book).
+
+## Bản 39 · Kho HSK 1–9 và dịch khi bôi đen
+
+- Có kho tra theo chuẩn năng lực GF 0025-2021 và đề cương thi công bố năm 2025, giữ cấp 7–9 dưới một nhóm cho mỗi danh sách. Tra chữ giản thể, phồn thể, pinyin và nghĩa từ CVDICT. Nguồn và giấy phép nằm ở cuối kho.
+- Tra nhanh ưu tiên chú giải trong bài và nghĩa đã học. Bản Kiều viết 遇变從權 có cùng nghĩa toàn cụm với 遇變從權 và 遇变从权. Khi kho từ chưa có bản dịch của cả đoạn, hộp tra đặt lối mở Google Dịch lên trước. Trình duyệt hỗ trợ dịch trên thiết bị có thêm nút dịch tại chỗ.
 
 ## Bản 38 · Đọc lại từ văn bản gốc
 

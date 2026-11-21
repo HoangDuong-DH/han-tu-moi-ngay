@@ -135,6 +135,11 @@
   if(route.startsWith('essay-practice/')){readerUI.quiz(route.split('/')[1]);return;}
   if(route==='materials'||route.startsWith('materials/')){materialsUI.route(route.split('/').slice(1));return;}
   if(route==='hsk2'||route.startsWith('hsk2/')){hsk2UI.route(route.split('/').slice(1));return;}
+  if(route==='dictionary/hsk-all'){
+   window.HAN_HSK_LEXICON.open({setHTML:html=>{app.innerHTML=html;},esc,speak});
+   window.scrollTo(0,0);
+   return;
+  }
   if(route==='dictionary/guess'){
    dictionary();
    detail('抱',true,true);
@@ -178,7 +183,7 @@
   const pageSize=dictScope==='nov05'?30:24;
   const pages=Math.max(1,Math.ceil(filtered.length/pageSize));dictPage=Math.min(dictPage,pages-1);
   app.innerHTML=`<div class="page-head"><div><div class="eyebrow">NHÌN · ĐỌC · HIỂU · DÙNG</div><h1>Kho từ của bạn</h1><p>${words.length} mục, gộp theo mặt chữ. Đây là lượng tư liệu đã gặp, chưa phải số từ đã thuộc. Mở một từ để hiểu cảnh dùng, nghe cách đọc, xem ví dụ, nối Hán Việt và đối chiếu họ chữ. Những bài văn hóa dài nằm riêng trong Đọc lúc rảnh.</p></div></div>
-  <p><a class="btn primary" href="#vocabulary">Hán Việt & họ từ · học theo mạch →</a> <a class="btn" href="#readings">Đọc câu có phân tích →</a></p><p><a class="text-btn" href="#dictionary/nov05">Mở bộ từ 05/11 · 26 mục →</a> · <a class="text-btn" href="#essay/shuowen">Đọc Thuyết văn giải tự →</a> · <a class="text-btn" href="#dictionary/studies">Các mục vừa viết lại →</a></p>
+  <p><a class="btn primary" href="#dictionary/hsk-all">Kho từ HSK 1–9 →</a> <a class="btn" href="#vocabulary">Hán Việt & họ từ →</a> <a class="btn" href="#readings">Đọc câu có phân tích →</a></p><p><a class="text-btn" href="#dictionary/nov05">Mở bộ từ 05/11 · 26 mục →</a> · <a class="text-btn" href="#essay/shuowen">Đọc Thuyết văn giải tự →</a> · <a class="text-btn" href="#dictionary/studies">Các mục vừa viết lại →</a></p>
   <p><a class="btn" href="#dictionary/guess">Đoán chữ chưa học</a> Mở <strong>Sơ đồ chữ & từ</strong> trong bất kỳ thẻ nào. Thử với <a class="text-btn" href="#dictionary/graph/学校" lang="zh-CN">学校</a>, <a class="text-btn" href="#dictionary/graph/晚饭" lang="zh-CN">晚饭</a> hoặc <a class="text-btn" href="#dictionary/graph/抱" lang="zh-CN">抱</a>.</p>
   <div class="toolbar"><input id="dict-search" type="text" inputmode="search" placeholder="Tìm chữ, pinyin không dấu, nghĩa hoặc Hán Việt…" aria-label="Tìm trong kho từ" value="${esc(dictQuery)}"><label><span class="sr-only">Phạm vi từ</span><select id="dict-scope">${scopeOptions(dictScope)}</select></label><label><input type="checkbox" id="dict-py"${dictPy?' checked':''}> Hiện pinyin</label></div>
   <div class="section-top"><span class="tiny muted">${filtered.length} mục trong bộ lọc này</span><button class="text-btn" id="practice-filter">Luyện bộ từ này →</button></div>

@@ -14,6 +14,27 @@
       'bất khả tư nghị', '不可思議', '不可思议', 'Truyện Kiều', 'Liễu Văn Đường 1871', 'chữ Nôm', 'kinh quyền',
       'Kim Vân Kiều truyện', 'chữ tình chữ hiếu', '隨機應變', '臨機応変', '不思議'
     ],
+    studyGlossary: [
+      [['遇變從權', '遇变從權', '遇变从权'], 'yù biàn cóng quán', 'Gặp biến cố thì tùy hoàn cảnh mà chọn cách xử trí hợp lẽ.', 'Ngộ biến tòng quyền. 遇變 là gặp biến cố. 從權 là tùy tình thế mà ứng biến.'],
+      [['處常執經', '处常执经'], 'chǔ cháng zhí jīng', 'Gặp việc thường thì giữ phép tắc đã định.', 'Xử thường chấp kinh. 處常 nêu hoàn cảnh, 執經 nêu cách xử sự.'],
+      [['鐵面無私', '铁面无私'], 'tiě miàn wú sī', 'Cứng cỏi và công tâm, xử việc không thiên vị.', 'Thiết diện vô tư. 私 là tình riêng hoặc lợi riêng có thể làm lệch việc phân xử.'],
+      [['不可思議', '不可思议'], 'bù kě sī yì', 'Khó hình dung, khó lý giải hoặc khó tin.', 'Bất khả tư nghị. Trong kinh Duy Ma Cật, cụm này gọi sự giải thoát vượt ngoài suy nghĩ và lời bàn thông thường.'],
+      [['處常執經，遇變從權', '处常执经，遇变从权'], 'chǔ cháng zhí jīng, yù biàn cóng quán', 'Gặp việc thường thì giữ phép tắc, gặp biến cố thì ứng biến cho hợp lẽ.'],
+      [['遇變', '遇变'], 'yù biàn', 'Gặp biến cố.'],
+      [['從權', '从权'], 'cóng quán', 'Tùy tình thế mà ứng biến cho hợp lẽ.'],
+      [['處常', '处常'], 'chǔ cháng', 'Ở trong hoàn cảnh thông thường.'],
+      [['執經', '执经'], 'zhí jīng', 'Giữ phép tắc, theo lẽ thường.'],
+      [['鐵面', '铁面'], 'tiě miàn', 'Mặt sắt, hình ảnh chỉ thái độ nghiêm và khó lay chuyển.'],
+      [['無私', '无私'], 'wú sī', 'Không thiên vị hay vì lợi riêng.'],
+      [['思議', '思议'], 'sī yì', 'Suy nghĩ và bàn luận.'],
+      [['隨機應變', '随机应变'], 'suí jī yìng biàn', 'Linh hoạt xử lý khi tình thế thay đổi.', 'Nhấn vào sự xoay xở tùy hoàn cảnh.'],
+      [['按規定辦事', '按规定办事'], 'àn guīdìng bànshì', 'Giải quyết công việc theo quy định.'],
+      [['所捨者一身，所全者重大', '所舍者一身，所全者重大'], 'suǒ shě zhě yī shēn, suǒ quán zhě zhòngdà', 'Cái phải hi sinh là một thân mình, điều giữ được thì hệ trọng.', 'Lời Kiều nói với cha trong hồi 4 Kim Vân Kiều truyện.'],
+      [['有解脫名不可思議', '有解脱名不可思议'], 'yǒu jiětuō míng bù kě sī yì', 'Có một sự giải thoát mang tên “Bất khả tư nghị”.'],
+      [['遇'], 'yù', 'Gặp, gặp phải.'],
+      [['從'], 'cóng', 'Theo, thuận theo.', 'Trong 從權, chữ này chỉ hành động theo cách xử trí hợp với tình thế.'],
+      [['權', '权'], 'quán', 'Sự quyền biến, cân nhắc điều hợp lẽ trong cảnh đặc biệt.', 'Nghĩa của chữ 權 trong 遇變從權.']
+    ],
     intro: [
       'Đọc đến lúc tai họa ập vào nhà Kiều, mình dừng ở một câu hỏi rất đời thường. “Trong khi ngộ biến tòng quyền biết sao?” Kiều vừa cân nhắc chữ tình với chữ hiếu, rồi tính đến chuyện bán mình để cứu cha. Nàng nói đến cách xoay xở mà vẫn kết bằng “biết sao”. Bốn chữ nghe vững chãi ấy, đặt vào miệng người phải quyết định, bỗng có cái chênh vênh của một việc dù chọn cách nào cũng có người đau.',
       'Trong tiểu thuyết chữ Hán kể cùng chuyện, Kiều giải thích rất rành mạch với cha vì sao nàng chịu hi sinh. Đến thơ Nguyễn Du, ta được nghe cả lúc nàng tự hỏi mình. Thử đặt hai lời cạnh nhau rồi đọc đến Hồng lâu mộng và kinh Duy Ma Cật. Bốn cụm quen tai sẽ cho thấy mỗi thể văn dùng chữ để làm một việc khác nhau.'

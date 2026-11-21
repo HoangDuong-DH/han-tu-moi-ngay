@@ -17,10 +17,12 @@
     ['孩子們放學','háizimen fàngxué','Bọn trẻ tan học.','孩子們 là chủ ngữ. 放學 gọi việc tan học.',true]
   ];
 
-  function createLookupIndex(words) {
+  function createLookupIndex(words, lexicon) {
     const catalogue = new Map(words.map(word => [word.han,word]));
     const phrases = new Map();
     const sentences = new Map();
+    const articleTerms = new Map();
+    const articleNotes = new Map();
     const segmenter = Intl.Segmenter ? new Intl.Segmenter('zh',{granularity:'word'}) : null;
 
     function setPhrase(text,py,meaning,note = '',composed = false) {
@@ -59,9 +61,23 @@
       for (const line of reading.lines) addSentence(line.han,line.py,line.vn,line.tokens);
     }
     for (const article of window.HAN_DEEP_READING_DATA.articles) {
-      for (const example of article.examples) {
-        addSentence(example.han,example.py,example.vi,(example.segments || []).map(([text,note]) => ({han:text,note})));
+      const authored = new Map();
+      const notes = new Map();
+      for (const [forms,py,meaning,note] of article.studyGlossary || []) {
+        for (const form of forms) authored.set(key(form),{han:form,py,meaning,note,word:catalogue.get(key(form))});
       }
+      for (const example of article.examples) {
+        const segments = (example.segments || []).map(([text,note]) => ({han:text,note}));
+        addSentence(example.han,example.py,example.vi,segments);
+        for (const term of segments) {
+          const id = key(term.han);
+          const previous = notes.get(id);
+          if (!notes.has(id)) notes.set(id,term);
+          else if (previous?.note !== term.note) notes.set(id,null);
+        }
+      }
+      if (authored.size) articleTerms.set(article.id,authored);
+      articleNotes.set(article.id,notes);
     }
     for (const {answer,frames} of window.HAN_CLOZE_DATA.entries) {
       for (const frame of frames) addSentence(frame.line.replace('＿',answer),frame.py,frame.vi);
@@ -75,15 +91,17 @@
     const maxWord = Math.max(...[...phrases.keys(),...traditional.keys()].map(text => text.length));
     function entry(text,scoped) {
       const canonical = traditional.get(text) || text;
-      const generic = phrases.get(text) || phrases.get(canonical);
+      const generic = phrases.get(text) || phrases.get(canonical) || lexicon?.get(text);
       const local = scoped?.get(text) || scoped?.get(canonical);
-      return local ? {...generic,...local,py:local.py || generic?.py,meaning:local.meaning || generic?.meaning}
+      return local ? {...generic,...local,py:local.py || generic?.py,meaning:local.meaning || generic?.meaning,
+        word:local.word || generic?.word,hsk:local.meaning ? undefined : generic?.hsk}
         : generic;
     }
 
     function split(text,scoped) {
       const rows = [];
-      const longest = scoped ? Math.max(maxWord,...[...scoped.keys()].map(word => word.length)) : maxWord;
+      const genericLength = Math.max(maxWord,lexicon?.maxLength || 0);
+      const longest = scoped ? Math.max(genericLength,...[...scoped.keys()].map(word => word.length)) : genericLength;
       for (const [run] of text.matchAll(/\p{Script=Han}+/gu)) {
         const ends = new Map();
         if (segmenter) {
@@ -93,7 +111,7 @@
           let end = Math.min(run.length,offset + longest);
           while (end > offset && !scoped?.has(run.slice(offset,end))) end--;
           if (end === offset) {
-            end = Math.min(run.length,offset + maxWord);
+            end = Math.min(run.length,offset + genericLength);
             // Keep the browser's word boundary when the glossary has no wider known expression.
             const naturalEnd = ends.get(offset) || offset + String.fromCodePoint(run.codePointAt(offset)).length;
             while (end >= naturalEnd) {
@@ -117,12 +135,21 @@
       const line = sentences.get(full);
       const sameLine = selected === full;
       const exact = sentences.get(selected);
-      const direct = entry(selected,line?.scoped);
-      const parts = split(selected,line?.scoped || exact?.scoped);
+      const authored = articleTerms.get(context.article);
+      const sentenceTerms = line?.scoped || exact?.scoped;
+      const scoped = authored && sentenceTerms
+        ? new Map([...authored,...sentenceTerms].map(([term,item]) =>
+            [term,{...authored.get(term),...item,note:authored.get(term)?.note || item.note}]))
+        : authored || sentenceTerms;
+      const term = entry(selected,scoped);
+      const note = articleNotes.get(context.article)?.get(selected);
+      const direct = term?.note || !note ? term : {...note,...term,note:note.note};
+      const parts = split(selected,scoped);
       const meaning = (sameLine && context.vi) || exact?.vi || direct?.meaning || '';
+      const hsk = !((sameLine && context.vi) || exact?.vi) ? direct?.hsk : undefined;
       const py = (sameLine && context.py) || exact?.py || direct?.py
         || (onlyHanWords.test(selected) && parts.length && parts.every(part => part.py) ? parts.map(part => part.py).join(' ') : '');
-      return {text,meaning,py,direct,parts};
+      return {text,meaning,py,direct,parts,hsk};
     };
   }
 
@@ -141,6 +168,7 @@
     let active = null;
     let lookup;
     let scheduled = false;
+    const lexicon = window.HAN_HSK_LEXICON;
     const scopeOf = node => (node?.nodeType === 1 ? node : node?.parentElement)?.closest(scopeSelector);
     const desktop = window.matchMedia('(min-width: 761px) and (pointer: fine)');
     const status = text => { panel.querySelector('[role="status"]').textContent = text; };
@@ -149,6 +177,7 @@
       if (!active) return;
       const previous = active;
       active = null;
+      previous.translation?.abort();
       panel.hidden = true;
       if (clearSelection && scopeOf(document.getSelection()?.anchorNode) === previous.scope) {
         document.getSelection().removeAllRanges();
@@ -179,13 +208,37 @@
 
     function partsMarkup(result) {
       if (!result.parts.length || (result.meaning && result.parts.length === 1 && key(result.text) === key(result.parts[0].han))) return '';
-      return '<details class="study-parts"' + (result.meaning ? '' : ' open') + '><summary>Từ trong đoạn</summary><ul>'
+      return '<details class="study-parts"><summary>Từ trong đoạn</summary><ul>'
         + result.parts.map(part => '<li><div><strong lang="zh-CN">' + esc(part.han) + '</strong>'
           + (part.py ? '<span lang="zh-Latn">' + esc(part.py) + '</span>' : '')
           + (part.word ? '<button type="button" class="text-btn" data-study-card="' + esc(part.word.han) + '">Thẻ từ</button>' : '')
           + '</div>' + (part.meaning || part.note ? '<p>' + esc(part.meaning || part.note) + '</p>'
             + (part.meaning && part.note ? '<p class="study-part-note">' + esc(part.note) + '</p>' : '')
             : '<p class="study-part-note">Chưa có nghĩa cụm này trong kho.</p>') + '</li>').join('') + '</ul></details>';
+    }
+
+    function renderResult(request,focus = false) {
+      const {result} = request;
+      const machineLink = 'https://translate.google.com/?sl=zh-CN&tl=vi&op=translate&text=' + encodeURIComponent(result.text);
+      const google = '<a class="study-fallback" rel="noopener noreferrer" target="_blank" href="'
+        + esc(machineLink) + '">Dịch bằng Google ↗</a>';
+      const translate = window.Translator?.create
+        ? '<button type="button" class="study-translate" data-study-action="translate">Dịch tại chỗ</button>' : '';
+      panel.innerHTML = '<div class="study-lookup-head"><h2 id="study-lookup-title" tabindex="-1" lang="zh-CN">'
+        + esc(result.text) + '</h2><button type="button" class="study-dismiss" data-study-action="close" aria-label="Đóng tra nhanh">×</button></div>'
+        + (result.py ? '<p class="study-py" lang="zh-Latn">' + esc(result.py) + '</p>' : '')
+        + (result.meaning ? '<p class="study-meaning">' + esc(result.meaning) + '</p>' : '<p class="study-meaning" hidden></p>')
+        + (result.hsk ? '<p class="study-context">Nghĩa từ điển · HSK ' + esc(result.hsk)
+          + ' · <a href="#dictionary/hsk-all">CVDICT</a></p>' : '')
+        + (result.direct?.note ? '<p class="study-context">' + esc(result.direct.note) + '</p>' : '')
+        + (result.meaning ? '' : '<div class="study-translation-actions">' + translate + google + '</div>')
+        + '<div class="study-lookup-actions"><button type="button" data-study-action="listen">Nghe</button>'
+        + '<button type="button" data-study-action="save">Lưu vào sổ</button>'
+        + (result.direct?.word ? '<button type="button" class="text-btn" data-study-card="' + esc(result.direct.word.han) + '">Thẻ từ</button>' : '') + '</div>'
+        + '<p class="study-lookup-status" role="status"></p>' + partsMarkup(result);
+      panel.hidden = false;
+      place();
+      if (focus) panel.querySelector('h2').focus({preventScroll:true});
     }
 
     function show(text,scope,range = null,trigger = null) {
@@ -196,25 +249,62 @@
         place();
         return;
       }
-      lookup ||= createLookupIndex(host.words);
-      const result = lookup(value,{text:scope.textContent,vi:scope.dataset.studyVi,py:scope.dataset.studyPy});
+      active?.translation?.abort();
+      lookup ||= createLookupIndex(host.words,lexicon);
+      const context = {text:scope.textContent,vi:scope.dataset.studyVi,py:scope.dataset.studyPy,
+        article:scope.closest('[data-reading-article]')?.dataset.readingArticle};
+      const result = lookup(value,context);
       const source = location.origin + location.pathname + (scope.dataset.studySource || location.hash);
-      active = {scope,range,trigger,result,source};
-      const machineLink = 'https://translate.google.com/?sl=zh-CN&tl=vi&op=translate&text=' + encodeURIComponent(result.text);
-      panel.innerHTML = '<div class="study-lookup-head"><h2 id="study-lookup-title" tabindex="-1" lang="zh-CN">'
-        + esc(result.text) + '</h2><button type="button" class="study-dismiss" data-study-action="close" aria-label="Đóng tra nhanh">×</button></div>'
-        + (result.py ? '<p class="study-py" lang="zh-Latn">' + esc(result.py) + '</p>' : '')
-        + (result.meaning ? '<p class="study-meaning">' + esc(result.meaning) + '</p>' : '<p class="study-part-note">Có thể xem nghĩa từng cụm bên dưới.</p>')
-        + (result.direct?.note ? '<p class="study-context">' + esc(result.direct.note) + '</p>' : '')
-        + '<div class="study-lookup-actions"><button type="button" data-study-action="listen">Nghe</button>'
-        + '<button type="button" data-study-action="save">Lưu vào sổ</button>'
-        + (result.direct?.word ? '<button type="button" class="text-btn" data-study-card="' + esc(result.direct.word.han) + '">Thẻ từ</button>' : '') + '</div>'
-        + '<p class="study-lookup-status" role="status"></p>' + partsMarkup(result)
-        + (!result.meaning ? '<a class="study-fallback" rel="noopener noreferrer" target="_blank" href="' + esc(machineLink) + '">Dịch cả đoạn trên Google Dịch ↗</a>' : '');
-      panel.hidden = false;
+      const request = {scope,range,trigger,result,source};
+      active = request;
+      renderResult(request,Boolean(trigger));
       host.onOpen?.(scope);
-      place();
-      if (trigger) panel.querySelector('h2').focus({preventScroll:true});
+      if (!result.meaning && lexicon && !lexicon.loaded) {
+        status('Đang tra thêm trong kho HSK…');
+        lexicon.load().then(() => {
+          if (active !== request || request.translation || request.result.machine) return;
+          const updated = lookup(value,context);
+          if (!updated.meaning && !updated.parts.some(part => part.hsk)) {
+            status('Chọn cách dịch ở trên để dịch cả đoạn.');
+            return;
+          }
+          request.result = updated;
+          renderResult(request,panel.contains(document.activeElement));
+        }).catch(() => {
+          if (active === request && !request.translation) status('Kho HSK chưa tải được. Bạn có thể dịch bằng Google.');
+        });
+      }
+    }
+
+    async function translateHere(request,button) {
+      const controller = new AbortController();
+      request.translation = controller;
+      button.disabled = true;
+      status('Đang mở trình dịch trên thiết bị…');
+      let translator;
+      try {
+        translator = await window.Translator.create({sourceLanguage:'zh',targetLanguage:'vi',signal:controller.signal,
+          monitor(download) {
+            download.addEventListener('downloadprogress',event => {
+              if (active === request) status('Đang tải dữ liệu dịch · ' + Math.round(event.loaded * 100) + '%');
+            });
+          }});
+        const meaning = (await translator.translate(request.result.text,{signal:controller.signal})).trim();
+        if (!meaning || meaning === request.result.text) throw new Error('No Vietnamese translation returned');
+        if (active !== request) return;
+        Object.assign(request.result,{meaning,machine:true});
+        const output = panel.querySelector('.study-meaning');
+        output.textContent = meaning;
+        output.hidden = false;
+        status('Bản dịch tự động trên thiết bị.');
+      } catch {
+        if (active === request) status('Thiết bị chưa dịch được đoạn này. Chọn Dịch bằng Google ở trên.');
+      } finally {
+        translator?.destroy();
+        request.translation = null;
+        button.disabled = false;
+        if (active === request) place();
+      }
     }
 
     function inspect() {
@@ -246,7 +336,8 @@
         return;
       }
       const entries = result.parts.filter(part => part.meaning).map(part => part.han + ' · ' + part.meaning);
-      const note = [long ? result.text : '',result.py,result.meaning,result.direct?.note,...entries].filter(Boolean).join('\n');
+      const credit = result.machine ? 'Bản dịch tự động trên thiết bị' : result.hsk ? 'Nghĩa từ điển CVDICT' : '';
+      const note = [long ? result.text : '',result.py,result.meaning,credit,result.direct?.note,...entries].filter(Boolean).join('\n');
       const linked = [...new Set([result.direct,...result.parts].map(part => part?.word?.id).filter(Boolean))];
       try {
         window.HAN_KNOWLEDGE.addNote(knowledge,{title,type:'word',note,source,linked});
@@ -261,13 +352,14 @@
     }
 
     panel.addEventListener('mousedown',event => {
-      if (event.target.closest('button')) event.preventDefault();
+      if (event.target.closest('button, a')) event.preventDefault();
     });
     panel.addEventListener('click',event => {
       const control = event.target.closest('button');
       if (!control || !active) return;
       const action = control.dataset.studyAction;
       if (action === 'close') close(true,true);
+      if (action === 'translate') translateHere(active,control);
       if (action === 'listen') {
         const request = active;
         host.speak(active.result.text,false,ok => {
