@@ -10,7 +10,7 @@
  const KEY='han-tu-moi-ngay.v1';
  const modes = {
   comprehension:{title:'Nghe & đọc tổng hợp',skill:'comprehension'},
-  memory:{title:'Lật ô tìm cặp',skill:'memory'},journey:{title:'Hành trình một ngày',skill:'journey'},detective:{title:'Thám tử câu & ngữ pháp',skill:'detective'},
+  memory:{title:'Lật ô tìm cặp',skill:'memory'},cloze:{title:'Điền từ theo ngữ cảnh',skill:'usage'},journey:{title:'Hành trình một ngày',skill:'journey'},detective:{title:'Thám tử câu & ngữ pháp',skill:'detective'},
   daily:{title:'Học hôm nay',icon:'习',level:'LỘ TRÌNH',desc:'Ôn đến hạn, học ít từ mới và vận dụng.',skill:'daily'},
   flash:{title:'Lật thẻ ghi nhớ',icon:'忆',level:'LÀM QUEN',desc:'Nhìn chữ, tự nhớ nghĩa và đọc. Lật để đối chiếu.',skill:'self'},
   meaning:{title:'Nhìn chữ · hiểu nghĩa',icon:'义',level:'CƠ BẢN',desc:'Một mặt chữ, bốn nghĩa. Bạn nhận ra từ nào?',skill:'meaning'},
@@ -24,7 +24,7 @@
  };
  const skillNames={meaning:'Chữ → nghĩa',recognition:'Nghĩa → chữ',reading:'Chữ → pinyin',listening:'Nghe → chữ',self:'Tự ôn thẻ',sentence:'Xếp câu',context:'Tình huống',numbers:'Số & giờ',usage:'Từ đích trong câu'};
  const emptyStore=()=>({version:1,words:{},skills:{},sessions:[],lastSeen:null,learning:E.blank(),investigations:window.HAN_INVESTIGATION.blank(),knowledge:K.blank(),reading:window.HAN_READER.blank(),study:window.HAN_STUDY.blank()});
- let learningUI,playUI,investigationUI,practiceUI,knowledgeUI,readerUI,pathsUI,reviewUI,wordlabUI,studyUI,hsk2UI,materialsUI,sentenceReaderUI,vocabularyFamiliesUI,deepReadingUI,learningActive=false;
+ let learningUI,playUI,clozeUI,investigationUI,practiceUI,knowledgeUI,readerUI,pathsUI,reviewUI,wordlabUI,studyUI,hsk2UI,materialsUI,sentenceReaderUI,vocabularyFamiliesUI,deepReadingUI,learningActive=false;
  let storageOK=true;
  function validateStore(d){
   if(!d||d.version!==1||typeof d.words!=='object'||Array.isArray(d.words)||!d.words)throw Error('Tệp không đúng định dạng sổ ôn.');
@@ -96,10 +96,13 @@
   return pool.length?{id:article.id,title:article.title,words:pool,back:'#read/'+article.id+'/choi-tu'}:null;
  }
  function renderRoute(){
-  learningUI?.cancel();playUI?.cancel();investigationUI?.cancel();practiceUI?.cancel();knowledgeUI?.cancel();readerUI?.cancel();reviewUI?.cancel();wordlabUI?.cancel();hsk2UI?.cancel();materialsUI?.cancel();if($('#word-dialog').open)$('#word-dialog').close();
+  learningUI?.cancel();playUI?.cancel();clozeUI?.cancel();investigationUI?.cancel();practiceUI?.cancel();knowledgeUI?.cancel();readerUI?.cancel();reviewUI?.cancel();wordlabUI?.cancel();hsk2UI?.cancel();materialsUI?.cancel();if($('#word-dialog').open)$('#word-dialog').close();
   route=location.hash.slice(1)||'learn';session=null;
+  const routeParts=route.split('/');
+  const legacyEdition=routeParts[0]==='essay'&&routeParts.length===2
+    ?window.HAN_DEEP_READING_DATA?.byLegacy.get(routeParts[1]):null;
   const deepRoute=route==='read'||route.startsWith('read/');
-  if(!deepRoute)deepReadingUI?.cancel();dictPage=0;if('speechSynthesis' in window)speechSynthesis.cancel();
+  if(!deepRoute&&!legacyEdition)deepReadingUI?.cancel();dictPage=0;if('speechSynthesis' in window)speechSynthesis.cancel();
   const isReading=deepRoute||/^(readings|reading|essays?|essay-practice|syntax)(\/|$)/.test(route)||(
     route.startsWith('materials')&&!route.startsWith('materials/phonetics/practice/'));
   let navGroup='practice';
@@ -108,7 +111,7 @@
   else if(route.startsWith('dictionary')||route.startsWith('vocabulary'))navGroup='dictionary';
   else if(route==='learn'||route==='home'||(route.startsWith('hsk2')&&!route.startsWith('hsk2/all/')))navGroup='learn';
   $$('[data-nav]').forEach(a=>{const active=a.dataset.nav===navGroup;a.classList.toggle('active',active);if(active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
-  if(deepRoute){deepReadingUI.route(route.split('/').slice(1));return;}
+  if(deepRoute||legacyEdition){deepReadingUI.route(legacyEdition?[legacyEdition.id]:routeParts.slice(1));return;}
   if(route==='home'||route==='learn'){hsk2UI.route([]);return;}
   if(route==='review'){studyUI.hub();return;}
   if(route==='library'){studyUI.library();return;}
@@ -132,7 +135,8 @@
   }
   if(route==='review/tools'){reviewUI.hub();return;}
   if(/^review\/(continue|topic|next|progress|restart)(\/|$)/.test(route)){studyUI.route(route.split('/').slice(1));return;}
-  const [gamePath,gameMode,readingId]=route.split('/');
+  const [gamePath,gameMode,readingId]=routeParts;
+  if((gamePath==='game'||gamePath==='play')&&gameMode==='cloze'&&clozeUI){clozeUI.setup(readingId);return;}
   if(readingId&&gamePath==='game'&&gameMode==='memory'){playUI.game(gameMode,articleGame(readingId));return;}
   if(readingId&&gamePath==='play'&&gameMode==='flash'){
    const reading=articleGame(readingId);
@@ -327,7 +331,7 @@
   record:(w,ok,skill,options={})=>track(w,ok,skill,false,options),wordFeedback,
   addSession:(mode,correct,total)=>{db.sessions.push({mode,time:Date.now(),correct,total});db.sessions=db.sessions.slice(-100);save();}
  });
- playUI=window.createHanPlay({words,legacyModes:Object.entries(modes).filter(([id])=>!['daily','memory','journey','detective','comprehension'].includes(id)),esc,db:()=>db,save,shuffle,audio:audioButton,
+ playUI=window.createHanPlay({words,legacyModes:Object.entries(modes).filter(([id])=>!['daily','memory','cloze','journey','detective','comprehension'].includes(id)),esc,db:()=>db,save,shuffle,audio:audioButton,
   mount:html=>{app.innerHTML=html;},record:(w,ok,skill,options)=>track(w,ok,skill,false,options),
   practice:(ws,mode='meaning',lesson=null)=>{pendingPool=ws;pendingLesson=lesson;go('#play/'+mode);},
   finish:(mode,correct,total)=>{db.sessions.push({mode,time:Date.now(),correct,total});db.sessions=db.sessions.slice(-100);save();}
@@ -363,6 +367,13 @@
  vocabularyFamiliesUI=window.createHanVocabularyFamilies({words,esc,db:()=>db,save,speak,voiceStatus,mount:html=>{app.innerHTML=html;}});
  sentenceReaderUI=window.createHanSentenceReader({words,esc,db:()=>db,save,speak,voiceStatus,mount:html=>{app.innerHTML=html;}});
  deepReadingUI=window.createHanDeepReading({words,esc,db:()=>db,save,mount:html=>{app.innerHTML=html;}});
+ clozeUI=window.createHanCloze?.({words,esc,db:()=>db,save,shuffle,audio:audioButton,mount:html=>{app.innerHTML=html;},
+  record:(target,chosen,ok,helped)=>{
+   if(!ok&&target&&chosen)E.confuse(db.learning,target.id,chosen.id);
+   track(target,ok,'usage',false,{helped,suppressKnowledge:!target});
+  },
+  finish:(correct,total)=>{db.sessions.push({mode:'cloze',time:Date.now(),correct,total});db.sessions=db.sessions.slice(-100);save();}
+ });
  hsk2UI=window.createHanHsk2({words,esc,db:()=>db,save,shuffle,speak,voiceStatus,mount:html=>{app.innerHTML=html;}});
  window.addEventListener('hashchange',()=>{lastAction=0;renderRoute();});
  window.HAN_APP={getWords:()=>words,cn,pyNumber,normalNumber,makeNumbers,validateStore,getProgress:()=>JSON.parse(JSON.stringify(db))};

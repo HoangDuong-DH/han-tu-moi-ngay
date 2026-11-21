@@ -1,6 +1,12 @@
-# Nội dung học · Bản 32, ngày 21/11/2026
+# Nội dung học · Bản 33, ngày 21/11/2026
 
 Mở [bài đọc](https://hoangduong-dh.github.io/han-tu-moi-ngay/#read) hoặc [PDF 122 trang](https://hoangduong-dh.github.io/han-tu-moi-ngay/#materials/book).
+
+## Bản 33 · Điền từ theo ngữ cảnh
+
+- Trò chơi mở từ tab Chơi & luyện và từ từng bài trong 22 bài đọc. Một lượt có sáu câu. Khi sổ học có dữ liệu phù hợp, trò dùng cả từ bài đọc và những mục từng ôn trong sổ, gồm các lượt làm từ HSK 2.
+- Có 50 mục điền từ biên soạn theo cặp tình huống, cùng các câu dùng lại từ bài luyện và kho từ. Lời giải cho biết vì sao từ đã chọn lệch ý, cho nghe câu hoàn chỉnh và mở hai thẻ để đối chiếu. Câu sai lưu trong sổ học. Lượt ôn dùng câu khác nếu từ đã có thêm ngữ cảnh.
+- Toàn bộ 22 bài đọc được viết lại phần dẫn, thân bài và kết. Phần Hán, pinyin, nghĩa, 129 chú giải câu và dẫn chứng vẫn gắn đúng vị trí. Link bài cũ mở bản hiện hành. Có thể mở bản trước và ghi chú qua liên kết ở cuối bài.
 
 ## Bản 32 · Bài đọc và game nhớ từ
 

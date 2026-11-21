@@ -4,16 +4,16 @@
     {
       id: 'tot-nghiep',
       glyph: '卒 畢',
-      title: 'Vì sao ta nói “tốt nghiệp”, còn tiếng Trung nói 毕业?',
-      deck: 'Một dấu tròn trên trang tự điển năm 1931 mở ra câu chuyện về chữ 卒, rồi đưa ta sang cách nói 毕业 hôm nay.',
+      title: 'Tốt nghiệp, tuất nghiệp và chữ đầu tiên trên tấm bằng',
+      deck: 'Hán thư kể một người trở lại học với thầy cũ. Tự điển năm 1931 ghi chuyện thi lấy bằng. Cả hai viết 卒業, còn tiếng Trung hôm nay dùng 毕业.',
       category: 'đối chiếu',
       search: ['tốt nghiệp tuất nghiệp thốt nhiên tất nghiệp hoàn tất tất niên', '毕业 畢業 卒业 卒業 生卒 無名小卒', 'bìyè zuye bat1 jip6 sotsugyō 졸업 조럽', 'phiên thiết 臧沒切 子聿切 倉沒切 trùng nữu'],
       credit: 'Viết lại từ bài khảo chữ của Ung Chu do bạn gửi.',
       intro: [
-        'Ở cột trái trang 533 của Việt-Nam tự-điển, chữ 卒 in bên cạnh “Tốt”. Xuống vài dòng có “Tốt-nghiệp ○ 業”. Cái vòng tròn nhỏ thay cho chữ 卒, như thể người soạn bảo cứ quay mắt lên đầu mục một lần nữa. Chữ khắc trên quân tốt cũng nằm trong từ ta viết lên tấm bằng.',
-        'Mở Thiều Chửu đúng chỗ ấy thì lại thấy “tuất nghiệp”. Người này chép sai người kia chăng? Đặt hai trang cạnh nhau mới thấy chúng trả lời hai câu hỏi khác nhau. Một trang ghi cái từ người Việt dùng, trang kia xếp ví dụ theo một âm của từng chữ. Chỗ lệch giữa hai trang đáng để giữ lại, nhất là lúc học tiếng Trung, khi bản dịch “tốt nghiệp” còn dẫn tới một mặt chữ khác hẳn.'
+        'Thi Thù học Kinh Dịch với Điền Vương Tôn từ thuở nhỏ. Về sau, khi thầy đã làm học quan, ông lại theo học cho hết. Hán thư kể lần trở lại ấy bằng bốn chữ 復從卒業. Đọc qua theo thói quen tiếng Việt, ta nhận ngay hai chữ cuối là “tốt nghiệp”. Thử mở tự điển Thiều Chửu vào đúng chữ 卒, lại gặp lời giảng “tuất nghiệp”.',
+        'Câu chuyện về người học trò giúp giữ nguyên câu hỏi trước khi bàn chuyện âm đọc. Thi Thù trở lại để học cho xong. Gần hai nghìn năm sau, một tự điển tiếng Việt ghi “tốt nghiệp” là học xong một bậc. Nghĩa ấy nhận ra được qua cả hai văn cảnh. Còn âm nào được dùng và chữ nào đi vào câu tiếng Trung hôm nay, mỗi việc cần một chứng cứ riêng.'
       ],
-      takeaway: 'Khi dịch ngược một từ Hán Việt, tra cả từ trong tiếng đích rồi mới tra từng chữ. Với “tốt nghiệp”, hai bước ấy đưa bạn đến 毕业 bìyè và âm Hán Việt tất của 畢.',
+      takeaway: 'Trong văn cổ, đọc 卒業 theo mạch hoàn tất việc học. Khi học từ tiếng Trung hôm nay, dùng 毕业 bìyè để nói tốt nghiệp, rồi nhớ 畢 có âm tất như trong “hoàn tất”.',
       summary: [
         ['Tiếng Việt', 'Tốt nghiệp là cách dùng đã thành quen. Thiều Chửu còn ghi tuất nghiệp dưới chữ 卒.'],
         ['Chữ Hán', '卒業 và 畢業 cùng có nghĩa hoàn tất việc học. Hai cụm bắt đầu bằng hai chữ khác nhau.'],
@@ -22,10 +22,10 @@
       sections: [
         {
           id: 'tot-va-tuat',
-          title: 'Con tốt, năm mất và ba dòng phiên thiết',
+          title: 'Chữ ở quân cờ cũng có mặt trong gia phả',
           paragraphs: [
-            'Hãy thử để 卒 đứng cạnh hai năm in trên một gia phả. Ở đó, 生卒 là “sinh tuất”. Quân cờ vừa biến mất, chỉ còn một đời người đã khép lại. Thiều Chửu gọi âm ấy là tuất và xếp chung những nghĩa hết, trọn, mất. Ông dành âm tốt cho quân lính, như 兵卒, và âm thốt cho cái gì xảy ra chợt hoặc vội. Nhìn chữ một mình, ta chưa biết mình đang đứng ở nhánh nào.',
-            'Trong Quảng Vận, ngay cả một mục chữ cũng có thể nằm ở nhiều chỗ trong bảng. Ở dòng 子聿切, chữ 子 chỉ loại phụ âm đầu, chữ 聿 chỉ vần và loại thanh. Cách nhẩm “đầu của tử, vần của duật” thuận tay khi đã biết âm tuất. Muốn đối chiếu thanh lịch sử, cần xem ô thanh nhập trong vận thư. Hai dấu thanh Quốc ngữ trong mẹo nhẩm thuộc một hệ khác.'
+            'Trên bàn cờ, 卒 là con tốt. Đến một mục gia phả có hai mốc sinh và mất, 生卒 đọc sinh tuất. Hai nơi cùng dùng một chữ vì mặt chữ giữ được nhiều nhánh âm và nghĩa. Trong mục của Thiều Chửu, quân lính nằm dưới âm tốt. Âm tuất ôm những nghĩa trọn, hết và mất. Một âm nữa là thốt, gặp trong cách nói về điều xảy ra bất chợt, như 卒然.',
+            'Ba nhánh ấy còn có dấu vết trong Quảng Vận. Khi đọc 子聿切, người tra lấy chữ đầu để xác định loại phụ âm đầu, chữ sau để xác định vần và thanh loại. Âm tuất giúp người biết tiếng Việt nhớ kết quả đối chiếu. Còn ba mục cổ cùng thuộc thanh nhập, một phân loại lịch sử có từ trước các dấu thanh ta viết bằng Quốc ngữ. Công thức phiên thiết ghi quan hệ giữa các mục âm trong sách, nên vị trí từng mục có giá trị hơn một phép nhẩm dấu.'
           ],
           table: {
             heading: 'Đọc Quảng Vận cạnh mục 卒 của Thiều Chửu',
@@ -41,20 +41,20 @@
         },
         {
           id: 'tu-dien-1931',
-          title: 'Từ trang tự điển bước ra tiếng Việt',
+          title: 'Dấu tròn nhỏ ở cột trái trang 533',
           paragraphs: [
-            'Trang 533 của Việt-Nam tự-điển có một chi tiết dễ bỏ qua. Dưới chữ “Tốt 卒”, sách ghi quân lính, quân cờ tướng, rồi nghĩa thứ ba là “trọn (không dùng một mình)”, với ví dụ “Tốt-nghiệp”. Ngay bên dưới, mục từ con giải nghĩa “Học hết một bậc học” và đưa ví dụ thi lấy bằng. Vòng tròn trong “Tốt-nghiệp ○ 業” thay chữ 卒 ở đầu mục chính.',
-            'Đọc cạnh Thiều Chửu, chỗ lệch hiện rõ. Cả hai cuốn đều hiểu 卒業 là hoàn thành, nhưng một cuốn ghi cả từ tiếng Việt với âm tốt, một cuốn đặt ví dụ dưới âm tuất. Chứng cứ ở đây là cách dùng cả từ đã thành quen. Trang tự điển cho thấy cách dùng ấy có từ lâu, còn thời điểm nó bắt đầu hoặc lý do âm tốt thắng thế cần thêm dẫn liệu.'
+            'Ở trang 533 của Việt-Nam tự-điển năm 1931, cột trái dành ba nghĩa cho “Tốt 卒”. Sau lính và quân cờ, nghĩa thứ ba là “Trọn (không dùng một mình)”. Ví dụ ngay đó là “Tốt-nghiệp”. Mục con xuống hàng còn in “Tốt-nghiệp ○ 業”. Dấu tròn thay chữ 卒 đã in ở đầu mục. Sát bên là lời giảng “Học hết một bậc học” và ví dụ thi lấy bằng, đưa cả từ ra khỏi bảng chữ để đặt vào một việc người ta thực sự nói đến.',
+            'Đặt trang ấy cạnh mục 卒 của Thiều Chửu, sự khác nhau có thể chỉ bằng ngón tay. Một bên ghi cách đọc của cả từ trong tiếng Việt. Một bên gắn ví dụ với nhánh tuất, nghĩa xong, trọn. Cả hai cùng hiểu ý hoàn thành. Lời chú “không dùng một mình” trong bản năm 1931 đặc biệt đáng giữ, vì nó cho thấy âm tốt ở nghĩa này bám vào tổ hợp đã quen. Năm in cho ta một mốc chắc cho cách dùng, còn nó bắt đầu khi nào vẫn là câu hỏi cần tra thêm.'
           ],
           note: 'Bản quét vần T ghi số in 533, là trang 32 của tệp bên dưới. Hồ sơ thư viện xác nhận ấn bản năm 1931 của Hội Khai Trí Tiến Đức.',
           refs: ['khai-tri-scan', 'khai-tri-catalogue', 'thieu-chuu-tot']
         },
         {
           id: 'doi-chieu',
-          title: 'Sang tiếng Trung, chữ đầu cũng đổi',
+          title: 'Từ người học trò trong Hán thư đến một lễ ra trường hôm nay',
           paragraphs: [
-            'Đến đây, 卒業 hoàn toàn có thể xuất hiện khi đọc văn Trung Quốc. Truyện Thi Thù trong Hán thư dùng mấy chữ 復從卒業 sau khi kể người thầy cũ làm học quan. Bản từ điển Quan thoại dẫn nơi ấy cho nghĩa hoàn thành việc học, và còn dẫn văn khác cho nghĩa làm trọn việc dang dở. Khi soạn tin nhắn về chuyện ra trường hôm nay, mục thông dụng để mở là 毕业 bìyè. Chữ 畢 ở đây quen sẵn trong tiếng Việt qua chữ tất của “hoàn tất” 完畢.',
-            'Qua Nhật và Hàn, hình thức giữ 卒 lại lộ ra theo một cách khác. Tiếng Nhật có 卒業 そつぎょう và dùng 卒業する khi nói tốt nghiệp. Từ điển Nhật cũng ghi dạng văn ngữ 卒す với hai cách đọc しゅっす và そっす ở nghĩa qua đời. Tiếng Hàn viết 졸업, khi nói thành [조럽]. Dạng động từ 졸업하다 có cách phát âm [조러파다]. Đây là các cách dùng có thể tra độc lập; sự giống nhau về mặt chữ chưa xác định đường truyền của từ giữa các ngôn ngữ.'
+            'Ở đoạn Thi Thù, 復 là trở lại, còn người thầy sau 從 đã được nhắc ngay trước đó. Đến 卒業 mới biết lần trở lại ấy để làm gì. Bộ từ điển Đài Loan dẫn đoạn này cho nghĩa học xong, và dẫn một đoạn Tuân Tử cho nghĩa rộng hơn, làm trọn việc còn dang dở. Sang văn bản đương đại về nhà trường, chữ đứng trước 業 đổi. Một bài phát biểu của Cục Giáo dục Hồng Kông gọi lễ ra trường là 畢業禮. Quan thoại dùng 毕业 bìyè, với đúng chữ tất 畢 trong “hoàn tất” 完畢.',
+            'Trên một văn bằng tiếng Nhật, ta lại có thể gặp 卒業 sotsugyō. Chữ 卒 trong mục văn ngữ 卒す còn có hai cách đọc しゅっす và そっす khi nói về cái chết. Từ điển Quốc ngữ Hàn Quốc ghi 졸업 [조럽], cũng nối với Hanja 卒業, và động từ 졸업하다 [조러파다]. Đặt các mục từ cạnh nhau thấy rõ mỗi ngôn ngữ đã quen giữ chữ nào và đọc ra sao. Muốn nói tiếng nào truyền từ cho tiếng nào cần thêm dấu vết về thời điểm và đường tiếp xúc.'
           ],
           table: {
             heading: 'Cùng việc ra trường, mỗi nơi có một từ quen',
@@ -71,14 +71,14 @@
         },
         {
           id: 'ra-truong',
-          title: 'Khi chính mình phải nói câu “tôi sắp ra trường”',
+          title: 'Ba cách nói cùng một mốc ra trường',
           paragraphs: [
-            'Một người bạn hỏi bao giờ bạn học xong. “Sang năm” trả lời câu hỏi ấy rất gọn. “Phải qua thêm một năm” nghe dài hơn một chút vì nó nói luôn chuyện chờ. Sang tiếng Trung, phần chờ nằm ở 再过一年 và 才. Vẫn sự kiện ấy, khi đặt 毕业后 ở đầu, ta đã chuyển sự chú ý từ ngày ra trường sang việc sẽ làm sau đó.',
-            'Có lẽ trang tự điển cũ có ích nhất vào lúc soạn một tin nhắn mới. Ta có thể viết “tốt nghiệp” rất tự nhiên bằng tiếng Việt, nhớ thêm con tốt và sinh tuất khi đọc văn cũ, rồi nói 毕业 với bạn bằng tiếng Trung. Mỗi cách đọc đưa mình đến đúng nơi chữ ấy đang sống.'
+            'Trong tin nhắn hẹn ngày gặp, 明年 có thể đủ để trả lời bao giờ ra trường. Nếu một người tưởng bạn đã sắp học xong, 再过一年 đi với 才 cho biết vẫn cần chờ thêm. Khi kể dự định về nhà làm việc, 毕业后 chuyển giờ ra trường thành mốc cho một điều khác. Chữ 毕 đứng yên qua cả ba câu, còn những gì đặt quanh nó nói hộ lý do ta nhắc đến việc tốt nghiệp.'
           ],
           refs: ['moe-tat']
         }
       ],
+      closing: 'Trở lại với Thi Thù, bốn chữ trong Hán thư chỉ kể ông học đến nơi đến chốn. Cái dấu tròn năm 1931 giữ cách người Việt đã quen gọi việc ấy. Đọc từng chứng cứ theo việc nó đang ghi, ta có thể hiểu tuất nghiệp trong tự điển, viết tốt nghiệp bằng tiếng Việt và dùng 毕业 khi cần nói chuyện ra trường.',
       examples: [
         {han:'復從卒業', py:'Fù cóng zúyè.', vi:'Lại theo thầy học cho hết.', kind:'Hán thư · vế trích', refs:['han-thu','moe-tot'],
           segments:[['復','“Lại”, gợi việc theo học đã từng được kể.'],['從','Theo học người thầy cũ. Tên người thầy có ở vế trước nên câu này để trống.'],['卒業','Giữ cả cụm để hiểu là học cho xong. Tách thành “quân lính” và “nghề” làm lệch câu chuyện.']],

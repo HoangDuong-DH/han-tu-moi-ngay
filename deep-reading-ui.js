@@ -230,7 +230,10 @@
         return '<li>' + wordMarkup(entry.han) + paragraph(entry.why) + '</li>';
       }).join('');
       const playable = editorial.linkedWords(article,catalogue);
-      const games = (playable.length ? '<a class="rd-play" href="#play/flash/' + esc(article.id)
+      const games = (window.HAN_CLOZE_DATA?.entries.some(item => item.topics.includes(article.id))
+        ? '<a class="rd-play" href="#game/cloze/' + esc(article.id)
+          + '"><strong>Điền từ theo ngữ cảnh</strong><span>Chơi với từ bài này và từ đã ôn.</span></a>' : '')
+        + (playable.length ? '<a class="rd-play" href="#play/flash/' + esc(article.id)
         + '"><strong>Lật thẻ</strong><span>Tự nhớ nghĩa rồi mở đáp án.</span></a>' : '')
         + (new Set(playable.map(word => word.gloss)).size >= 2
           ? '<a class="rd-play" href="#game/memory/' + esc(article.id)
@@ -265,7 +268,7 @@
         + (more.length || article.legacyHref ? '<nav class="rd-next" aria-label="Đọc tiếp">'
           + more.map(e => '<a href="' + readingHref(e.id) + '"><span>Đọc tiếp</span><strong>'
             + prose(e.title) + '</strong><span aria-hidden="true">→</span></a>').join('')
-          + (article.legacyHref ? '<a href="' + esc(article.legacyHref)
+          + (article.legacyHref ? '<a href="' + esc(article.legacyHref + '/ban-truoc')
             + '"><strong>Mở bài cũ và ghi chú của bạn</strong><span aria-hidden="true">→</span></a>' : '')
           + '</nav>' : '');
     }

@@ -4,14 +4,14 @@
     {
       id:'mot-tieng-thay',
       glyph:'師',
-      title:'Một tiếng “thầy”, ba cách gọi',
-      deck:'Lời chào trong lớp học, tiếng gọi người thợ và cách xưng hô với người truyền nghề để lộ ba quan hệ khác nhau.',
+      title:'Chữ “thầy” từ cửa lớp đến ghế sau xe',
+      deck:'Cùng chữ 师, học trò chào cô Trần và hành khách nhờ người lái xe. Chỗ dừng trước lời chào cho biết hai người vừa nhận nhau theo vai nào.',
       category:'nghĩa',
       search:['thầy sư lão sư sư phụ 師 师 老師 老师 師父 师父 師傅 师傅 laoshi shifu'],
       credit:'Viết lại từ bộ ảnh về 師 / 师 bạn gửi.',
       intro:[
-        'Gặp cô Trần ở cửa lớp, một học sinh gọi 陈老师好. Ra khỏi trường, người ấy lên xe và mở lời 师傅，去车站. Hai lời gọi đều có chữ 师. Một lời đặt người đối diện vào quan hệ thầy trò trong trường, lời kia nhận họ là người đang làm một nghề.',
-        'Người Việt có thể gọi nhiều người bằng “thầy”: người dạy chữ, người dạy võ, người trong chùa. Vì thế chữ sư quen thuộc giúp ta nhận ra 師, nhưng để chọn được lời gọi đúng, ta cần biết người nói đang đứng ở đâu trong quan hệ ấy.'
+        'Trong câu chào cô Trần có một nhịp ngừng sau 陈老师. Người học dùng họ và danh xưng để gọi đúng người, rồi mới nói 您好. Đến câu xin đi ga cũng có một chỗ ngừng y hệt. Lần này tiếng gọi chỉ có 师傅, dù người đi xe có thể chẳng biết người lái họ gì.',
+        'Tiếng Việt gom được người dạy chữ, người dạy võ và người tu vào chữ “thầy”. Khi nói tiếng Trung, có lúc sự kính trọng vẫn vậy mà phải đổi tiếng mở lời. Mẩu đối thoại ngắn nhất cũng có chỗ cho người nói cho biết mình và người nghe đang có quan hệ gì.'
       ],
       summary:[
         ['老师 lǎoshī','Gọi người dạy học. 陈老师 là thầy hoặc cô Trần.'],
@@ -20,26 +20,26 @@
       ],
       sections:[
         {id:'ong-thay-trong-chu',
-          title:'Cách gọi trong lớp học',
+          title:'Sau tiếng gọi cô Trần có một dấu phẩy',
           paragraphs:[
-            'Trong 陈老师, họ 陈 đứng trước chức danh. Ta có thể gọi cả cụm mà không biết tuổi hay giới tính của người ấy. 老 trong 老师 là một phần của danh xưng đã thành từ. Nếu tách 老 ra thành “già” rồi dịch “thầy già”, ta đánh mất chức năng của cả lời gọi.',
-            'Đặt cạnh câu 我们的老师姓陈 thì vai đổi. Lần này 老师 là người đang được nhắc, không phải người trực tiếp được gọi. 我们的 nối nhóm học trò với người dạy, còn 姓陈 cho biết họ. Nhìn vị trí của danh xưng sẽ giúp chọn giữa lời chào và lời giới thiệu.'
+            'Một học trò chỉ cần biết giáo viên họ 陈. Ghép họ ấy với 老师 thì có 陈老师 để chào thầy hoặc cô. 老 ở ngay trước 师 nhưng đã ở trong một danh xưng quen, cả tiếng gọi chưa cho biết người kia bao nhiêu tuổi. Sau nhịp ngừng, 您 hướng thẳng lời chào về người vừa được gọi.',
+            'Khi người ngoài hỏi ai dạy lớp mình, nhóm học trò có thể đưa 老师 vào câu kể thay vì dùng nó để gọi. Trong 我们的老师, 的 gắn người dạy với nhóm học trò. Đặt 姓陈 theo sau cả cụm, họ 陈 đi xuống cuối vế vì bây giờ đó là thông tin người nghe muốn biết. Đọc lại một lần, một kiểu đặt họ để gọi người có mặt và một kiểu đặt họ để nói về người ấy nghe rất khác.'
           ],refs:['moe-teacher']},
         {id:'phu-va-phu',
-          title:'Cùng nghe shīfu, tra chữ nào?',
+          title:'Tiếng gọi ở ghế sau xe không cần biết họ người lái',
           paragraphs:[
-            'Ở câu truyền nghề, 师父 gợi người mà mình theo học với quan hệ gần thầy trò. 父 “cha” giúp nhớ sức nặng của danh xưng. Trong thành ngữ 一日为师，终身为父, hai vế song song nâng sự kính thầy lên bằng hình ảnh cha. Câu ấy không nói người thầy và cha là cùng một chức phận.',
-            'Ở một cảnh khác, 师傅 có thể đứng trước lời nhờ người thợ hoặc tài xế. Nghĩa cũ và trường nghĩa nghề nghiệp của hai từ có chỗ chồng lấn, nên đây là cách chọn theo cảnh, không phải một lệnh cấm thay thế. Trong khẩu ngữ phổ biến có thể nghe cả hai là shīfu. Từ điển giản biên Đài Loan ghi 師傅 shī fù và bản tu đính ghi 師父 shī fu.'
+            'Có việc phải nhờ như sửa khóa hay đưa tới ga, 师傅 có thể gọi người đang làm nghề ngay trước mặt. Lời xin dạy lại một lượt thì có cả một chuyện xảy ra trước đó. Người được gọi 师父 đã truyền một việc, người gọi đang theo học và muốn được chỉ lại. Ở chỗ 师父, chữ 父 bắt được mối gần gũi và kính trọng ấy. Câu 一日为师，终身为父 lấy đúng chênh lệch giữa một ngày và suốt đời để nói về cái ơn còn lâu hơn buổi học.',
+            'Hai cách gọi gần nhau đến mức từ điển cũng ghi phần giao. Mục 師父 của bản tu đính dẫn cả người truyền nghề, nhà tu và người có tay nghề. Mục 師傅 của bản giản biên có cách gọi người có chuyên môn và ghi 傅 thanh bốn. Trong lời nói bạn cũng có thể nghe shīfu. Quan hệ trong hai câu minh họa đủ để chọn chữ, kể cả khi tai chỉ nghe cùng một tiếng gọi.'
           ],table:{heading:'Đổi người đối diện, đổi lời gọi',headers:['Bạn đang nói với ai?', 'Cách gọi trong ví dụ','Vì sao'],rows:[
             ['Cô Trần dạy mình','陈老师','Họ trước, chức danh sau.'],
             ['Người truyền bài quyền cho mình','师父','Lời gọi từ quan hệ theo học.'],
             ['Tài xế đưa mình tới ga','师傅','Lời gọi lịch sự theo nghề.']
           ]},refs:['moe-shifu-father','moe-shifu-worker','moe-maxim']},
         {id:'thay-va-su',
-          title:'Chữ 師 ở ngoài lớp',
+          title:'Trên một đồ đồng, 師 là quân',
           paragraphs:[
-            'Có một 師 khác trong văn bản cổ. Chữ dùng cho quân đội hoặc chức danh trong minh văn, như ngữ cảnh dẫn quân đi đánh. Dữ liệu đó giúp ta hiểu vì sao chữ sư còn đi xa khỏi nghĩa “người thầy”. Nó cũng ngăn một mẹo nhớ dễ quá tay: chỉ nhìn nét của 师 hiện nay thì không thể kể trọn lịch sử chữ.',
-            'Cách đóng cuốn sổ này là trở lại ba lời gọi. Bạn nói với người dạy mình, người mình theo học nghề, hay người đang làm nghề trước mặt? Câu trả lời cho biết nên tìm từ nào. Còn để chứng minh từ tiếng Việt “thầy” bắt đầu từ một nguồn âm cụ thể, cần chứng cứ lịch sử riêng ngoài sự gần nhau về nghĩa.'
+            'Một bình đồng mang tên Trung Sơn vương giữ chữ 師 trong đoạn nói chuyện dẫn quân đi đánh. Ở đó dịch “thầy” sẽ đưa nhầm cả một người vào chỗ của đạo quân. Tự khố Hồng Kông cũng dẫn dạng cổ của chữ trong tên chức quan. Hai cách dùng giúp ta đọc được một chữ quen ở ngoài phạm vi trường lớp.',
+            'Bộ ảnh tiếng Việt đặt “thầy” bên “sư” vì cả hai cùng gợi người dạy. Đó là một chỗ để nhận nghĩa. Lịch sử của tiếng “thầy” là câu hỏi về tiếng Việt qua nhiều thời, cần lần thêm chứng cứ âm và văn bản. Chữ 師 khắc trên bình đồng đủ cho một nghĩa cổ của chính chữ Hán.'
           ],refs:['cuhk-shi']}
       ],
       examples:[
@@ -47,6 +47,7 @@
         {han:'师父，您能再教我一遍吗？',py:'Shīfu, nín néng zài jiāo wǒ yí biàn ma?',vi:'Sư phụ có thể dạy lại con một lượt không ạ?',note:'再 nêu làm lại. 一遍 đếm trọn một lượt từ đầu đến cuối.'},
         {han:'师傅，麻烦您送我到车站。',py:'Shīfu, máfan nín sòng wǒ dào chēzhàn.',vi:'Anh cho tôi đến ga với ạ.',note:'麻烦您 mở lời nhờ trong cảnh đi xe. Từ được chọn theo vai hiện tại của người nghe.'}
       ],
+      closing:'Đến ga, người đi xe vẫn có thể nói lời cảm ơn mà chẳng cần biết họ người lái. Ở cửa lớp, họ Trần lại là tiếng đầu tiên trong lời chào.',
       connections:[
         {han:'老师',why:'Gặp lại từ quen trong bài PDF ở câu 老师好. Thử thêm một họ trước danh xưng rồi đổi 好 thành 您好.'},
         {han:'师父',why:'Đọc 师父 như một danh xưng hoàn chỉnh. Nghĩa của 父 ở đây giúp nhận quan hệ truyền dạy.'},
@@ -69,14 +70,14 @@
     {
       id:'khiem-va-kiem',
       glyph:'謙 兼',
-      title:'Bông lúa cúi đầu nằm ở đâu trong chữ 謙?',
-      deck:'Lần theo chữ khiêm từ một lời khen đến hai dòng của Thuyết Văn.',
+      title:'Hai người đều đợi phía kia ngồi trước',
+      deck:'Một cách đáp lời khen, một việc nhường ghế, hai cây lúa của chữ 兼. Mỗi chi tiết làm rõ một nghĩa mà tiếng “khiêm” dễ gom lại.',
       category:'âm',
       search:['khiêm kiêm 謙 谦 兼 khiêm tốn khiêm nhường khiêm hòa 谦虚 谦让 谦和 qian jian man zhao sun'],
       credit:'Viết lại từ bộ ảnh về 謙 / 谦 bạn gửi.',
       intro:[
-        'Có người được khen nói tiếng Trung hay, bèn đáp 您过奖了, “anh khen quá lời rồi”. Trong cảnh ấy, sự khiêm tốn nghe thấy được: người nói nhận lời khen mà hạ bớt mức khen dành cho mình. Nhìn chữ 謙, ta thấy một phần chỉ lời nói (言) và một phần quen trong “kiêm nhiệm” (兼).',
-        'Hình bông lúa chín cúi đầu trong bộ ảnh là một cách đẹp để nhớ điều đó. Nhưng khi lật sang trang chữ cổ, hai cây lúa ở 兼 đang kể một chuyện khác. Cách phân biệt hai câu chuyện giúp mình vừa nhớ được chữ vừa không đánh mất chứng cứ.'
+        'Hai người trong câu minh họa đều đợi bên kia ngồi trước. Mỗi người có thể đang nghĩ rất khác, nhưng từ 互相 đã cho thấy việc diễn ra theo cả hai chiều. Một người lùi lại nhường, người kia cũng thế. Ở đây ta biết họ làm gì trước khi biết họ là người thế nào.',
+        'Bộ ảnh dùng bông lúa chín cúi đầu để nói về đức khiêm. Trong dạng chữ cổ mà Thuyết văn giải, một bàn tay cũng đang giữ lúa. Bàn tay ấy cầm hai cây, chi tiết dẫn về nghĩa “kiêm” trước khi dẫn về cách đọc chữ “khiêm”.'
       ],
       summary:[
         ['謙 / 谦 qiān','Âm Hán Việt khiêm. Có thể gặp trong 谦虚, 谦和 và 谦让.'],
@@ -85,26 +86,26 @@
       ],
       sections:[
         {id:'hai-cay-lua',
-          title:'Một tay giữ hai thân lúa',
+          title:'Một bàn tay cầm hai cây lúa',
           paragraphs:[
-            'Ở mục 兼, Thuyết Văn nhìn hình tay và hai 禾 để giảng ý cùng nắm hai vật. Ý “cùng lúc” vẫn còn sống trong 兼任, kiêm nhiệm thêm một chức trách. Khi ta nhìn chữ này đứng một mình, hai cây lúa có việc để làm: giải thích ý cùng giữ, cùng đảm nhiệm.',
-            'Khi vào chữ 謙, 兼 đảm nhận một vai khác. Thuyết Văn ghi 从言，兼聲. Gốc lời nói là 言, dạng giản hóa là 讠. Âm khiêm và kiêm gần nhau; trong Quan thoại qiān và jiān cùng vần ian, khác ở phụ âm đầu. Bảng Quảng Vận ghi 苦兼切 cho 謙, trong khi ở mục 兼 có 古甜切. Hai chữ cùng vần 添 ở các mục này, với hai loại phụ âm đầu khác nhau.'
+            'Ở mục 兼, Hứa Thận đếm hai cây 禾 trong tay. Ông đặt cạnh chữ 秉 là cầm một cây. Chính số hai giúp hiểu một ý còn dùng được bây giờ, cùng giữ hoặc cùng đảm nhiệm. Một người vừa dạy tiếng Trung vừa làm chủ nhiệm nghe có cả hai vai khi câu dùng 兼任.',
+            'Sang mục 謙, Thuyết văn xếp chữ về bộ 言, lời nói. Phần 兼 dùng để gợi âm. Hai mục Quảng Vận lại có thứ để so: 苦兼切 ở 謙 và 古甜切 ở 兼 đều vào vần 添, nhưng phụ âm đầu thuộc hai nhóm khác nhau. Ngày nay qiān và jiān vẫn chung vần ian. Đọc qiān, hơi bật ở đầu rõ hơn jiān. Hai cây lúa giữ một đầu mối về âm ngay cả khi chữ nói tới cách hạ mình trong lời.'
           ],refs:['cuhk-qian','cuhk-jian']},
         {id:'tu-chan-dung-den-viec-lam',
-          title:'Khiêm tốn là một tính cách, nhường là một hành động',
+          title:'Việc nhường ghế cho thấy được đến đâu',
           paragraphs:[
-            'Trong 他很谦虚, lời người kể nhận xét người này khiêm tốn. Nếu viết 他们互相谦让, câu chuyển sang hai người đang nhường nhau phần thuận lợi hoặc ưu tiên. 互相 cho biết mỗi phía có hành động hướng về phía kia. 谦和 thường gợi cả cách cư xử ôn hòa, nhẹ nhàng.',
-            'Câu 滿招損，謙受益 đặt hai thái độ cạnh hai kết quả. 滿 ở đây là tự mãn, nên dịch “tự mãn chuốc thiệt, khiêm nhường được lợi”. Nhìn từng vế, 招 dẫn điều mình chuốc vào, 受 dẫn điều mình nhận. Bông lúa cúi đầu là hình ảnh để nhớ thái độ; câu châm ngôn nói thẳng đến hệ quả của thái độ ấy.'
+            'Trong câu về chỗ ngồi, 都 đưa cùng một nhận xét vào cả hai người. 不肯先坐 cho biết mỗi người đều chưa chịu ngồi trước. Từ đó ta hiểu 互相谦让 là đang nhường nhau. Nếu lời kể chỉ nói 谦虚, điều ta nhận được là đánh giá về tính khiêm tốn của một người. Dùng 谦和 đi với 待人 lại cho biết họ đối đãi với người khác bằng sự khiêm nhường và ôn hòa.',
+            '滿招損，謙受益 dành chữ 招 cho sự tự mãn. Người tự cho mình đã đủ tự kéo điều thiệt đến. Sang vế kia, 受 đặt phần được về phía người biết khiêm. Hai vế cùng nói tới điều xảy đến với người có thái độ ấy. Hình bông lúa trong bộ ảnh giúp nhớ dáng cúi đầu, còn cặp động từ trong câu cho thấy người xưa quan tâm tới hệ quả.'
           ],table:{heading:'Cùng có 謙, khác trọng tâm',headers:['Từ','Trong một câu','Trọng tâm'],rows:[
             ['谦虚 qiānxū','他很谦虚。','Tự đánh giá mình chừng mực.'],
             ['谦让 qiānràng','他们互相谦让。','Có việc nhường qua lại.'],
             ['谦和 qiānhé','她待人谦和。','Thái độ ôn hòa khi đối đãi với người.']
           ]},refs:['moe-qianxu','moe-qianrang','cuhk-qian']},
         {id:'mot-loi-dap',
-          title:'Lời đáp ngắn hơn một bài học về đức khiêm',
+          title:'Nhận một lời khen mà vẫn còn chỗ để học',
           paragraphs:[
-            'Nếu người kia vừa nói 你说得真好, thử đáp 谢谢，我还在学, “Cảm ơn, tôi vẫn đang học”. Trong câu của người khen, 得 mở phần đánh giá cách nói. Trong câu đáp, 还在学 giữ một tiến trình chưa dừng. Hai vế đủ tự nhiên cho một cuộc trò chuyện, và bạn vừa dùng lại 得 và 在 từng gặp trong bài đọc.',
-            'Lần sau nhìn cạnh nhau 谦虚 và 兼任, hãy hỏi mỗi chữ đang làm việc gì ở đúng vị trí ấy. 兼 tự đứng có nghĩa riêng, còn 兼 trong 謙 giúp ta dò họ âm. Đó là hai chuyện xảy ra ở hai cấp khác nhau: ghép một từ và cấu tạo một chữ.'
+            'Người khen đặt 真好 sau 得 để nhận xét cách nói vừa nghe. Đáp bằng 过奖 là bảo lời khen đi hơi quá mức. Đến vế 还在学, người trả lời chuyển về chuyện mình vẫn đang học. Chữ 还 giữ lại quãng còn tiếp. Nếu muốn nhận lời khen trực tiếp hơn, một tiếng cảm ơn đứng đầu vế cũng đủ.',
+            'Đứng ở phía người nghe, một lời 过奖 cho biết đối phương đáp nhã nhặn ở lượt này. Muốn nói cả tính cách của họ bằng 谦虚 thì cần biết họ qua thêm vài việc. Trên mặt chữ cũng có một khoảng cách đáng giữ. Dấu 兼 ở trong 謙 giúp tra âm. Đến 兼任 ta mới đọc thẳng được nghĩa nhận thêm một việc.'
           ]}
       ],
       examples:[
@@ -112,6 +113,7 @@
         {han:'两个人都不肯先坐，互相谦让。',py:'Liǎng ge rén dōu bù kěn xiān zuò, hùxiāng qiānràng.',vi:'Cả hai đều không chịu ngồi trước, cứ nhường nhau.',note:'都不 phủ định với từng người trong cả hai. 互相 cho biết họ cùng nhường phía kia.'},
         {han:'她教中文，也兼任班主任。',py:'Tā jiāo Zhōngwén, yě jiānrèn bānzhǔrèn.',vi:'Cô dạy tiếng Trung và kiêm làm giáo viên chủ nhiệm.',note:'兼任 thêm một vai cụ thể vào việc đã nêu. 兼 trong trường hợp này là thành phần có nghĩa trong từ.'}
       ],
+      closing:'Người nghe vừa nói bạn làm tốt. Một tiếng cảm ơn và chữ “vẫn” đủ để nói cả hai điều mình muốn giữ, lời khen của họ và việc học còn tiếp.',
       connections:[
         {han:'谦虚',why:'Giữ cả từ khi nhận xét một người. Phân biệt với 谦让 khi muốn kể một việc nhường cụ thể.'},
         {han:'兼',why:'Gặp trong 兼任 hoặc 兼职. Ở đây kiêm là nghĩa hữu ích để đọc, khác vai gợi âm trong 謙.'},

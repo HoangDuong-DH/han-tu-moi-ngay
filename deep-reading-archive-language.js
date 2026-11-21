@@ -6,12 +6,12 @@
       id: 'neutral-tone',
       legacyHref: '#essay/neutral-tone',
       glyph: '過 过',
-      title: 'Chữ 过 đứng ở đâu thì đọc nhẹ?',
-      deck: 'Một chuyến đi và một sinh nhật cùng diễn ra ở Bắc Kinh. Chỉ cần đổi chỗ của 过, ta phải đổi cả cách nghe lẫn cách hiểu.',
+      title: 'Vì sao 过 hụt một nhịp trong 去过?',
+      deck: 'Từ một chữ nghe thoáng qua trong lời kể đến ba tiếng de giống hệt nhau trong bài chính tả.',
       category: 'âm',
       search: ['khinh thanh âm nhẹ thanh nhẹ 轻声 guo guò', '东西 東西 dōngxi dōngxī 大意 dàyì dàyi', '过 過 老师 的 地 得'],
       intro: [
-        'Hai người nhắc đến Bắc Kinh. Người thứ nhất từng đến đó, người thứ hai đón sinh nhật ở đó. Cả hai đều nói đến 过. Khi nghe nhanh, một tiếng guo thoáng qua sau động từ đi. Tiếng còn lại nghe rõ như một động từ chính. Nếu chép đúng mặt chữ mà gán cùng một âm cho cả hai, bạn đã bỏ mất điều hai người muốn kể.'
+        'Trong một bài nghe, tôi có thể chép đúng cả 过 lẫn 北京 mà vẫn hiểu sai chuyện. Ở câu đầu, người nói từng đi Bắc Kinh. Ở câu sau, Bắc Kinh chỉ là nơi họ mừng sinh nhật. Sự khác biệt lọt vào một tiếng rất ngắn. Trong tiếng Việt, ta nghe được chữ “từng” trước “đi”. Trong 去过, thông tin tương ứng lại nằm ngay sau 去, ở tiếng guo nhẹ đến mức người mới học dễ để trôi mất.'
       ],
       summary: [
         ['去过 qùguo', '去 chỉ chuyến đi, 过 nhẹ nói đã từng đi.'],
@@ -21,39 +21,39 @@
       sections: [
         {
           id: 'hai-lan-qua',
-          title: 'Chuyến đi nằm ở đâu trong câu?',
+          title: 'Tiếng guo đến sau sự việc',
           paragraphs: [
-            'Trong 去过北京, 去 là việc đi và 北京 là nơi đến. 过 gắn vào 去 để nói trải nghiệm đã có. Chèn một mốc cụ thể vào câu sẽ kể thêm chuyện, còn bản thân 过 chỉ xác nhận từng đi. Đến 在北京过生日, 北京 chuyển vào cụm nơi chốn mở bằng 在. Phần còn lại kể việc mừng sinh nhật. Dịp lễ cũng đi vào khung ấy với 过年 “đón Tết”.',
-            'Tờ “Khinh thanh” bạn gửi đưa 去过 vào mục trợ từ động thái ở trang in 104. Từ điển Đài Loan, mục 過, cũng tách nghĩa đón một dịp như 過年 và cách dùng sau động từ như 看過. Mục từ điện tử treo âm đầu mục guò, còn cách ghi guo trong bài học đến từ cách dùng trợ từ và quy tắc phiên âm Phổ thông. Đó là hai lớp thông tin có thể tra độc lập.'
+            'Câu về chuyến đi đã có động từ 去 trước khi 过 xuất hiện. Bỏ 过 ra, 北京 vẫn là nơi đến. Điều biến mất là căn cứ để dịch “từng”. Với câu sinh nhật, bỏ 过 đi thì khác hẳn. 在北京 vẫn cho một nơi, 生日 vẫn gọi một dịp, nhưng câu thiếu động từ cho biết người ta làm gì với dịp ấy. 过 phải tự đảm đương việc mừng sinh nhật. Nó mang thanh bốn, như trong 过年 “đón Tết”.',
+            'Đó cũng là cách trang 104 của tờ Khinh thanh đặt 去过 vào nhóm trợ từ sau động từ. Mở mục 過 của từ điển Đài Loan, ta thấy 看過 và 過年 được giải ở hai nghĩa khác nhau. Đầu mục ghi guò. Pinyin Phổ thông trong bài tập viết qùguo, liền với 去 và bỏ dấu ở guo theo cách ghi trợ từ đọc nhẹ. Hai chỗ tra cho biết hai việc khác nhau, một bên ghi các chức năng của chữ, một bên ghi cách đọc của nó trong mẫu câu cụ thể.'
           ],
           lines: ['我去过北京。', '我在北京过生日。', '我们回家过年。'],
           refs: ['handout', 'moe-guo', 'pinyin-rule']
         },
         {
           id: 'nghe-do-dai',
-          title: 'Tai nghe được gì ngoài dấu thanh?',
+          title: '“Nhẹ” nghe ra trước hết ở độ dài',
           paragraphs: [
-            'Trang 103 vẽ bốn cặp: mỗi thanh đủ đi trước một âm nhẹ. Hãy lấy hình vẽ làm chỉ dẫn nghe. Trong nghiên cứu tiếng Bắc Kinh của Lee và Zee, âm nhẹ ngắn hơn âm mang thanh đầy đủ trong phần lớn mẫu, còn đường cao độ biến đổi chủ yếu theo âm trước. Đo cường độ cũng cho thấy nó có thể không nhỏ hơn tiếng bên cạnh. Vì thế động tác luyện hữu ích là giữ âm sau ngắn, phát đủ nguyên âm rồi nghe cả cụm, thay vì hạ âm lượng cho đến khi người nghe không còn nhận ra tiếng ấy.',
-            'Ở 老师 lǎoshī, shī vẫn mang thanh 1. Thanh 3 trên lǎo thường dừng ở đoạn thấp trước thanh 1 trong lời nói liền; đó là cách hiện thực hóa thanh 3. Với bēizi 杯子, zi mới là âm tiết nhẹ. So hai từ ở tốc độ trò chuyện để nghe sự khác biệt giữa một thanh đủ có đường nét thay đổi và một tiếng đọc nhẹ.'
+            'Trang 103 vẽ đến bốn đường giọng cho phần đọc nhẹ. Số đường vẽ đã gợi ra một điều dễ bỏ qua khi gọi đây là “thanh năm”. Trong mẫu Quan thoại Bắc Kinh của Lee và Zee, đường cao độ của âm nhẹ phụ thuộc chủ yếu vào thanh đi trước. Nhóm nghiên cứu cũng thấy cường độ của nó có lúc ngang hoặc vượt âm cạnh bên. Dấu hiệu đều đặn hơn trong mẫu là độ dài. Tiếng nhẹ thường chiếm ít thời gian hơn một âm tiết có đủ thanh.',
+            'Đọc bēizi với tiếng zi rõ mà ngắn, cảm giác ấy gần với khinh thanh hơn cố nói lí nhí. Lǎoshī cho một phép thử khác. Tiếng lǎo trong lời nói liền có thể chỉ hạ xuống thấp, còn shī vẫn giữ thanh một. Nếu nghe lǎo thiếu đoạn đi lên rồi ghi cả âm ấy thành nhẹ, ta đã nhầm đường giọng rút gọn của thanh ba với hiện tượng trong 杯子.'
           ],
           refs: ['handout', 'lee-zee', 'mit-tones', 'pinyin-rule']
         },
         {
           id: 'nghia-va-thanh',
-          title: 'Mua ít đồ, đọc ý chính',
+          title: 'Một dấu thanh giúp đến đâu?',
           paragraphs: [
-            'Mục 東西 của Từ điển Bộ Giáo dục Đài Loan đặt hai cách đọc ngay cạnh nhau. Dōngxī chỉ đông và tây, dōngxi chỉ đồ vật. Ở 买点儿东西, động từ 买 và lượng 点儿 dẫn ta tới nghĩa đồ. Tiếng cuối nhẹ củng cố một cách hiểu mà cả cụm đã gợi ra.',
-            'Trang 105 còn so 大意 dàyì “ý chính” với dàyi “sơ ý”. Trong hai câu dưới, khung ngữ pháp cũng đủ phân biệt: một chỗ là danh từ sau 文章的, một chỗ là đặc điểm cần tránh sau 不能. Ở đây có chứng cứ cho khác biệt chuẩn ghi: mục 大意 của từ điển Đài Loan cho dàyì ở cả hai nghĩa. Cặp đọc ở tài liệu khinh thanh là cách luyện của bài này. Nghe được hai cách ghi thì ta có thêm manh mối về giọng hoặc quy ước đang gặp.'
+            'Với 東西, từ điển Đài Loan cho hai lối đọc song song ngay trên một mục. Dōngxī là đông và tây, dōngxi là đồ đạc. Trong lời nhắn định đi mua ít đồ, 买 đã hướng ta tới một thứ có thể mua, 点儿 cho biết mua ít. Kể cả ở chỗ có tiếng ồn che mất âm cuối, phần đầu câu vẫn đủ sức gợi ra nghĩa.',
+            'Đến 大意, chính từ điển ấy lại ghi dàyì cho cả ý chính lẫn sơ ý. Trang 105 của tờ bài học cho hai nghĩa hai cách đọc, dàyì và dàyi. Người học có thể gặp cách ghi khác nhau, trong khi “ý chính của bài văn” vẫn được nhận ra nhờ 文章的. Sau 不能, câu còn lại đang cảnh báo cách làm việc. Đó là manh mối người nghe có thể dùng ở cả hai cách phát âm.'
           ],
           lines: ['我想买点儿东西。', '请说说这篇文章的大意。', '做这件事不能大意。'],
           refs: ['handout', 'moe-dongxi', 'moe-dayi']
         },
         {
           id: 'mot-tieng-ba-chu',
-          title: 'Nếu nghe hai tiếng de, viết chữ nào?',
+          title: 'Bài chép chính tả để trống ba chữ',
           paragraphs: [
-            'Tưởng tượng cô ấy xé lớp giấy gói và cười. Cao hứng 高兴 đứng trước việc mở, thì 地 nối cách thức vào động tác. Quà 礼物 có thêm một mẩu lịch sử “tôi tặng”, thì 的 đưa phần kể ấy vào cụm danh từ. Sang một câu tả chạy, 得 theo sau động từ để mở phần đánh giá tốc độ. Tai nhận ra de. Câu cho biết đó là de nào.',
-            'Tờ tài liệu còn liệt kê một số phương vị và đại từ tân ngữ đọc nhẹ. Hãy nghe lại chúng trong một lời sửa địa điểm hoặc sửa người được nhắc tới. Chỗ đang được đối lập có thể mang trọng âm rõ hơn. Bảng ở trang 104 hữu ích khi luyện một câu mẫu; câu mới cần xét chức năng và chỗ nhấn của người nói.'
+            'Một người mở món quà tôi tặng. Câu kể có hai tiếng de, nhưng tôi chỉ biết điền chữ sau khi nghe đến phần bên kia của mỗi tiếng. Sau 高兴 là động tác mở, nên 地 nối cách thức vào động tác. Sau 我送 là 礼物, nên 的 nối điều đã xảy ra với chính món quà ấy. Trong câu kể về người chạy, người nói để phần nhận xét tốc độ sau 跑. Tiếng de ở giữa hai phần ấy viết 得.',
+            'Trang 104 còn liệt kê vài phương vị và đại từ làm tân ngữ có thể đọc nhẹ. Một người đang đính chính địa điểm hoặc nhấn đúng người được nhắc đến có lý do để đọc những tiếng ấy rõ hơn. Vì vậy, nghe thấy một âm nhẹ là thêm một manh mối cho câu; việc đặt nó vào đâu, viết chữ gì và có thể nhấn lại ở đâu vẫn phụ thuộc lời đang nói.'
           ],
           lines: ['她高兴地打开了我送的礼物。', '他跑得很快。'],
           refs: ['handout', 'pinyin-rule']
@@ -123,8 +123,8 @@
         {han: '东西', why: 'Nối 买东西 với từ 买 đã học, rồi tra lại âm xī khi hai hướng đông và tây là đề tài.'},
         {han: '的', why: 'Trong 我送的礼物, 的 đi với cụm chỉ món quà. Xác định danh từ đứng sau trước khi điền chữ.'}
       ],
-      takeaway: 'Khi một chữ nghe khác thẻ từ, xác định nó đang làm động từ, trợ từ hay phần của một từ trước khi sửa cách đọc.',
-      closing: 'Nếu chỉ nhớ hai tiếng 过, hãy nhớ ai đang kể một chuyến đi và ai đang mừng sinh nhật. Đặt đúng hai việc ấy vào câu, nhịp đọc sẽ có chỗ để bám.',
+      takeaway: 'Lúc nghe 过, tìm hành động đã có ngay trước nó. Nếu 过 mới là động từ mang dịp ở phía sau, như 过生日, đọc guò.',
+      closing: 'Nếu gặp bài chép có cả 过 lẫn de, tôi sẽ chừa một ô cho những tiếng nghe chưa chắc. Đến khi nghe 北京 hay 礼物 rơi vào đúng phần của câu, nhiều ô tự có lời giải. Nghe chậm hơn đôi khi hữu ích. Nghe hết câu còn hữu ích hơn.',
       quiz: {
         prompt: 'Bạn nghe wǒ zài Běijīng guò shēngrì. Dữ kiện nào giúp xác định guò là động từ?',
         choices: ['过 đi trước 生日, nhận dịp sinh nhật làm tân ngữ.', '北京 đứng trước 过, làm động từ cho trợ từ ấy.', 'Chỉ cần nghe thanh 4 là biết người nói đã từng đến Bắc Kinh.'],
@@ -146,12 +146,12 @@
       id: 'han-viet',
       legacyHref: '#essay/han-viet',
       glyph: '校 長',
-      title: 'Thấy “hiệu trưởng”, đọc thế nào ra 校长?',
-      deck: 'Hai âm quen giúp nhận một chức danh trên thẻ tên. Từ đó mới thấy chỗ nào Hán Việt mở đường và chỗ nào câu tiếng Trung phải tự lên tiếng.',
+      title: 'Chữ “hiệu” nào đứng trước chữ “trưởng”?',
+      deck: 'Hiệu trưởng và hiệu quả đều có xiào. Từ hai chữ dễ viết lẫn, lần ra cái vốn Hán Việt thực sự giúp ta giữ lại.',
       category: 'đối chiếu',
       search: ['Hán Việt hiệu trưởng trường học 学校 校長 校长 效果', 'xiàozhǎng xuéxiào 長 长 zhǎng cháng 交', '抱 跑 饱 包 nhận thức tri đạo 认识 知道 j q x 去'],
       intro: [
-        'Một người dẫn tôi vào trường rồi chỉ về phía người đang đứng cuối hành lang. Trên thẻ tên có hai chữ 校长. Đứng cạnh 学校, chữ 校 hiện ra với nét nghĩa “trường”. Nghe người dẫn giới thiệu, tôi nhận ra âm zhǎng ở chỗ tiếng Việt gọi là “trưởng”. Đến cuối buổi, trên đường về, cũng chữ 长 ấy lại là cháng. Tôi đã học được một chức danh, và cũng vừa có lý do để tra lại một chữ mình tưởng đã thuộc.'
+        'Gõ xiào để viết “hiệu trưởng” có thể hiện cả 校 lẫn 效. Đọc các gợi ý thành tiếng, hai chữ vẫn giống nhau. Nhẩm thêm âm “hiệu” cũng chưa gỡ được. Chữ trong 学校 mới cho một đầu mối đủ cụ thể. Đây là trường học, cho nên người đứng đầu trường viết 校长. Sang “hiệu quả”, hình bên trái đổi hẳn. Tôi thích giữ hai từ trên cùng một trang sổ vì mỗi lần suýt chọn nhầm, nghĩa của chữ lại có dịp hiện ra.'
       ],
       summary: [
         ['學校 → 学校', 'Học hiệu theo âm từng chữ. Nghĩa dùng trong câu là trường học.'],
@@ -161,20 +161,20 @@
       sections: [
         {
           id: 'doc-the-ten',
-          title: 'Trưởng trong chức danh, trường trong chiều dài',
+          title: 'Một chữ 长 đi qua hai câu',
           paragraphs: [
-            'Thiều Chửu ghi “hiệu” cho 校, với trường học là một nghĩa. Tiếng Việt còn nghe rõ âm ấy trong hiệu trưởng. Mục 長 của Từ điển Bộ Giáo dục Đài Loan cho zhǎng ở nhóm người đứng đầu, dẫn ngay 校長 và 部長. Nhánh cháng nói độ dài, cũng là nhánh “trường” ta gặp trong “trường kỳ” 長期. Câu giới thiệu thầy hiệu trưởng trẻ và câu so độ dài hai con đường buộc ta quyết định theo đúng cụm.',
-            '學 cũng đáng thử như vậy. Trong 学校, nghĩa cần học là trường học. Ở 他在学校学习汉语, 学习 lại là động từ học tập. 文学 và 语言学 là tên ngành có 学 đứng sau. Một cuốn vở chỉ ghi phiên âm từng chữ sẽ khó cho thấy lúc nào chữ đóng góp vào tên của một nơi, một ngành và lúc nào nó tham gia vị ngữ chỉ việc học.'
+            'Thiều Chửu giải 校 đọc “hiệu” và dẫn 學校 làm ví dụ cho nghĩa trường học. Tiếng Việt hôm nay nhận chữ ấy nhanh hơn qua hiệu trưởng. Còn 長 đứng sau 校 là chức danh zhǎng. Từ điển Đài Loan đặt 校長 dưới nghĩa người đứng đầu, cạnh 部長. Một dòng khác cho cháng ở nhánh độ dài, cũng là “trường” trong trường kỳ 長期. Vì vậy chữ 长 ở cuối câu so hai con đường là cháng, cho dù ngay trước đó ta vừa đọc nó là zhǎng trên thẻ tên.',
+            'Từ trang sổ ấy có thể lần sang 學. Trong 学校, ta gọi một nơi. Trong 学习汉语, việc học một thứ tiếng nằm ở toàn động từ 学习. 文学 và 语言学 lại là tên ngành. Hán Việt giúp nhận lại “học” trong cả nhóm, còn trật tự câu cho biết lúc nào phải hiểu là trường, là một ngành hoặc là hành động học.'
           ],
           lines: ['我们的校长很年轻。', '这条路比那条长。', '他在学校学习汉语。'],
           refs: ['hv-xiao', 'hv-chang', 'moe-chang', 'moe-xiaozhang']
         },
         {
           id: 'giong-am-khac-chu',
-          title: 'Hiệu trưởng và hiệu quả cùng có xiào',
+          title: 'Phần bên phải giải thích vì sao dễ nhầm',
           paragraphs: [
-            'Đặt 校 trong 校长 bên cạnh 效 trong 效果, ta gặp cả một cái bẫy cho người Việt. Hai chữ đều cho âm Hán Việt “hiệu” trong các từ này và cùng đọc xiào. Hình chữ lại cho ta một chỗ phân biệt rất rõ. Cơ sở dữ liệu CUHK dẫn 校 theo 木 và 交 gợi âm, còn 效 theo 攴 và 交 gợi âm. Phần gợi âm trùng nhau. Hai mục chữ và hai nghĩa hiện đại đi riêng.',
-            'Cùng phép nhìn ấy, mở mục 抱 của CUHK sẽ thấy 手 và 包, với 包 làm phần gợi âm. Nhìn sang 抱 bào, 饱 bǎo và 跑 pǎo, tai nhận ra âm gần nhau nhưng hai biến số đã đổi: thanh điệu và độ bật hơi ở âm đầu. Thấy 包 thì có thể dự đoán một họ âm để tra nhanh. Học thuộc một tiếng bāo cho cả nhóm sẽ làm mất đúng sự phân biệt cần nghe.'
+            'Mục 校 ở CUHK dẫn lời Thuyết văn phân tích 木 và 交 gợi âm. Đến mục 效, 交 vẫn phụ trách âm, bên cạnh chuyển sang 攴. Thế là hai nút xiào trên bàn phím có một quan hệ đáng nhớ ngoài chuyện đồng âm. Nhưng mục cổ của 校 giải một nghĩa khác với trường học. Bản thân nét 木 trong một chữ đang dùng cho trường cũng chưa cho ta đủ tư liệu để kể trường học ấy từ đâu mà có.',
+            'Thử lần theo 包 thì giới hạn của manh mối lộ rõ hơn. Trong 抱, dạng 手 ở bên trái giúp nhận ra động tác bằng tay, còn 包 gợi âm. 抱 bào, 饱 bǎo và 跑 pǎo có vần nghe gần nhau. Khi đọc, tai vẫn phải phân biệt bào với bǎo bằng thanh, rồi phân biệt bǎo với pǎo bằng âm đầu. Hai bước ấy có giá trị ngay trong câu nói về một người đang bế đứa trẻ. Chữ cần lấy là 抱, và thứ chứng minh mình hiểu câu là nhìn ra ai đang giữ ai trong tay.'
           ],
           lines: ['她抱着孩子。'],
           table: {
@@ -190,10 +190,10 @@
         },
         {
           id: 'hai-kieu-biet',
-          title: 'Biết mặt ông ấy, tên thì chưa biết',
+          title: 'Biết người và biết tên là hai chuyện',
           paragraphs: [
-            'Cuối buổi, tôi hỏi người dẫn đường tên ông hiệu trưởng. Có thể người ấy quen ông, thậm chí đã nói chuyện với ông, mà chưa biết tên chính xác. Từ điển đặt 認識 ở khả năng nhận biết và sự quen biết. 知道 đi với điều người ta có thông tin. Câu ở dưới cho hai từ cùng xuất hiện mà vẫn nhất quán. “Nhận thức” và “tri đạo” giúp đối chiếu từng yếu tố khi tra, còn chọn động từ dựa vào thứ đứng sau: người hay thông tin về người.',
-            'Khi chuyển sang nghe, thử jī của 鸡 và qī của 七. Giữ vùng tiếp xúc của lưỡi dọc ngạc cứng tương tự nhau, nghe q bật hơi rõ hơn j. Mẩu giấy trước miệng giúp cảm nhận luồng hơi ở q, nhưng muốn phân biệt tiếng vẫn cần nghe cả phụ âm và vần. Tiếng qù trong 去 còn có một chi tiết: u sau q viết giản lược hai chấm của ü. Khẩu hình được quyết định bởi âm đang nghe, dù “khứ” giúp nhận đúng chữ.'
+            'Một người có thể gật đầu chào ông hiệu trưởng mỗi sáng mà chưa biết tên ông. Câu 认识他 nói được chuyện quen mặt ấy. Sang 知道他的名字, điều được biết là tên. Đây là một phép thử ngược với cặp xiào. Ở 校 và 效, hai chữ có thể cùng đọc một âm. Ở 认识 và 知道, cùng một chữ “biết” trong bản dịch Việt có thể che hai cách đặt câu. Nhìn phần đứng sau động từ mới thấy lời kể đi theo hướng nào.',
+            'Mẩu giấy nhỏ trước miệng hợp với một việc khác. Khi đọc jī trong 鸡 và qī trong 七 với cùng thanh, giấy thường động rõ hơn ở q. Tới 去 qù, cái u sau q ghi vần ü, nên môi tròn mà lưỡi vẫn đưa về trước. Tờ giấy giúp so độ bật hơi, còn dấu thanh và cách ghi vần cần đọc riêng. Âm “khứ” giúp nhận ra 去 trong văn bản Hán Việt. Khi nói bảy giờ đi mua trứng, khẩu hình đến từ tiếng qù nghe được.'
           ],
           lines: ['我认识他，但是不知道他的名字。', '我七点去买鸡蛋。'],
           refs: ['moe-renshi', 'moe-zhidao', 'ut-jqx', 'ut-yu']
@@ -249,8 +249,8 @@
         {han: '认识', why: 'Học 认识他 để nhận ra kiểu đối tượng là người. Đặt cạnh 知道他的名字 để so với biết một thông tin.'},
         {han: '知道', why: 'Thử đổi 他的名字 thành một câu hỏi gián tiếp về nơi chốn, ghép với câu trong bài chiếc ghế.'}
       ],
-      takeaway: 'Dùng âm Hán Việt để chỉ ra mặt chữ và nghĩa có họ hàng. Chọn âm Quan thoại và động từ sau khi nhìn cụm đang làm gì trong câu.',
-      closing: 'Có thể mang về hai hình ảnh từ buổi gặp ấy: thẻ tên của người đứng đầu trường và đoạn đường dài hơn lúc trở về. Chữ 长 ở cả hai nơi. Chính hai cảnh giúp bạn nhớ hai tiếng khác nhau.',
+      takeaway: 'Khi gõ xiào, lấy 学校 để tìm 校 trong 校长. Khi đọc 长, xem cả từ đang gọi một người hay đang đo chiều dài.',
+      closing: 'Một dòng sổ đủ dùng có thể viết 校长 — hiệu trưởng — xiàozhǎng. Dòng kế ngay dưới là 长期 — trường kỳ — chángqī. Đến hôm nào gõ đúng hai chữ mà vẫn ngập ngừng ở tiếng cuối, hai dòng ấy cho biết cần ôn đúng chỗ nào.',
       quiz: {
         prompt: 'Gặp 校长 và 比那条长, dựa vào đâu để chọn giữa zhǎng và cháng?',
         choices: ['Dựa vào chữ đứng gần 长 nhất: có 校 luôn đọc cháng.', '校长 là chức danh, nên đọc zhǎng. Sau 比那条, 长 nêu độ dài nên đọc cháng.', 'Âm Hán Việt “trưởng” dùng cả hai; pinyin khác chỉ là kiểu đánh dấu.'],
@@ -276,12 +276,12 @@
       id: 'space-time',
       legacyHref: '#essay/space-time',
       glyph: '在 有',
-      title: 'Trước cửa nhà hàng có một chiếc ghế',
-      deck: 'Để chỉ chỗ cho một người bạn, trước hết phải chọn thứ làm mốc. Khi hẹn giờ, lựa chọn ấy lại xuất hiện dưới một hình thức khác.',
+      title: 'Cùng một bức ảnh, hai câu về chiếc ghế',
+      deck: 'Một câu báo có ghế, câu kia chỉ chỗ tìm ghế. Sự khác nhau ấy còn giúp đọc đúng một tin nhắn hẹn giờ.',
       category: 'nghĩa',
       search: ['在 有 前边 旁边 椅子 地方 饭店 进来 进去', 'địa điểm không gian thời gian giờ hẹn thời lượng trước bên cạnh', 'zài yǒu qiánbian yǐzi xiǎoshí điểm giờ'],
       intro: [
-        'Bạn đứng trước một nhà hàng. Ngoài cửa có chiếc ghế, trên ghế có mèo. Người bạn gọi hỏi đang ở đâu, nên bạn nhắn địa chỉ trước. Đến lúc kể con mèo đang nằm im trên ghế, bạn lại dùng địa điểm làm điểm bắt đầu để đưa chiếc ghế và con mèo lần lượt vào câu chuyện. Hai câu Việt đều có thể chứa “ở trước nhà hàng”, nhưng điều người nghe cần biết đã đổi.'
+        'Giả sử một người gửi ảnh cửa nhà hàng vào nhóm chat rồi nhắn “Có một cái ghế ngoài cửa”. Ít phút sau, người đến muộn hỏi “Cái ghế ấy ở đâu?”. Bức ảnh gửi lại vẫn thế, nhưng chú thích lần hai có thể bắt đầu bằng chính chiếc ghế. Trong tiếng Trung, việc đổi từ 有 sang 在 theo hai lượt nói cho biết người nhận tin đã biết gì. Chép cả hai câu thành một mẫu “ở đâu có gì” sẽ làm mất cuộc trò chuyện quanh bức ảnh.'
       ],
       summary: [
         ['椅子在饭店前边', 'Chiếc ghế là thứ cần định vị.'],
@@ -291,10 +291,10 @@
       sections: [
         {
           id: 'chiec-ghe',
-          title: 'Có ghế ở đó, hay chiếc ghế ở đâu?',
+          title: 'Từ chỗ đã biết đến vật chưa biết',
           paragraphs: [
-            'Lúc bạn bè hỏi chỗ ngồi, 饭店前边 mở ra một vùng nhỏ trước cửa. 有 đưa 一把椅子 vào vùng ấy. 把 đếm chiếc ghế và 一把椅子 còn là thông tin mới. Vào mạch “cái ghế hồi nãy đâu rồi?”, chiếc ghế lên đầu câu, 在 đưa nó về đúng vị trí. Từ điển ghi 有 có nghĩa hiện diện, còn 在 ở một nghĩa khác có thể mở khối địa điểm của một hành động. Đặt cạnh hai câu, ta đọc được hướng đi của thông tin mà bản dịch đơn lẻ dễ che khuất.',
-            'Cứ tưởng tượng nhìn từ trên xuống. Trong 饭店前边, nhà hàng làm mốc, phần chỉ phía đứng sau. Đổi thành 椅子前边 thì ghế làm mốc, và phải xác định “mặt trước” của chiếc ghế theo cách nó đang quay. Có thể dựng một cảnh cho câu hai; cảnh ấy sẽ có quan hệ khác với chiếc ghế ở trước nhà hàng.'
+            'Ở tin đầu, người gửi lấy 饭店前边 làm vùng đang nói đến. Có bao nhiêu ghế hay ghế nào đều có thể xuất hiện sau 有. Cụm 一把椅子 chỉ giới thiệu một chiếc, với 把 làm lượng từ. Đến câu trả lời cho người hỏi chỗ, 椅子 đã có đối tượng rõ trong cuộc nói chuyện. Nó lên đầu câu, sau đó 在 cho phần thông tin còn thiếu là vị trí. Có thể thấy vì sao từ điển để nghĩa hiện diện ở 有 và nghĩa ở một nơi ở 在, ngay cả khi bản tiếng Việt dùng “ở” cho cả hai cảnh.',
+            'Còn chuyện đảo hai danh từ thì thử được trên chính bức ảnh. 饭店前边 hướng về phía trước của nhà hàng. 椅子前边 lại lấy chiếc ghế làm mốc, nên hướng ấy còn tùy ghế quay mặt về đâu. Bức ảnh có thể giúp thấy hướng trong cảnh thật. Câu tiếng Trung cho biết người nói lấy vật nào làm mốc.'
           ],
           lines: ['饭店前边有一把椅子。', '椅子在饭店前边。', '饭店在椅子前边。'],
           table: {
@@ -309,20 +309,20 @@
         },
         {
           id: 'ghe-thanh-moc',
-          title: 'Chiếc ghế vừa xuất hiện đã thành mốc',
+          title: 'Ở mép tấm ảnh có một con mèo',
           paragraphs: [
-            'Sau câu có ghế, 椅子上 có thể mở câu tiếp theo. Lần này chiếc ghế đã ở trong đầu người nghe, cho nên nó đủ làm mốc để đặt con mèo vào cảnh. Khi người nghe hỏi về con mèo vừa nhắc, có thể lấy 猫 làm đầu câu, rồi chỉ vị trí cạnh quyển sách. Từng thứ mới giới thiệu sẽ trở thành thứ ta có thể gọi gọn trong câu sau. Đó là lý do khi kể liền, ta thường thôi lặp 一只 trước 猫.',
-            'Đi sâu thêm một bước, “yǐzi shang” trong các câu ở đây giữ nhịp nhẹ ở 上 sau danh từ. Chỗ ấy làm từ chỉ phương vị, khác với shàng trong 上车 khi nói lên xe. Động tác chỉ tay vào mặt ghế giúp thấy quan hệ ngay, trước khi học tên ngữ pháp.'
+            'Câu tiếp theo cho chiếc ghế một nhiệm vụ mới. Chỉ cần nhắc 椅子上, người nhận đã biết phải nhìn lên mặt ghế. Đến đó mới thấy 一只猫. Sau khi con mèo được giới thiệu, 猫 ở đầu câu sau đủ gọi lại con vừa thấy, và 书旁边 khoanh đúng chỗ của nó. Ba câu nối được với nhau vì thứ vừa được giới thiệu có thể làm mốc cho lượt kể kế tiếp.',
+            'Tiếng 上 cũng đi theo cách dựng cảnh đó. Trong 椅子上, bài ghi shang nhẹ và đặt nó sau vật mốc. Còn shàng trong 上车 đi trước xe và kể một động tác. Đổi thứ đứng bên cạnh 上, hình ảnh trên tấm ảnh có thể thành việc diễn ra trước mắt.'
           ],
           lines: ['椅子上有一只猫。', '猫在书旁边。'],
           refs: ['moe-you', 'moe-zai', 'location-pinyin']
         },
         {
           id: 'hen-gio',
-          title: 'Ba giờ là một điểm, hai tiếng là một khoảng',
+          title: 'Tin hẹn có giờ. Câu kể có độ dài.',
           paragraphs: [
-            'Đến lúc hẹn gặp, người nhắn có thể đặt cả giờ và chỗ trước động từ 等. 明天下午三点 đi từ ngày tới buổi tới giờ. 在饭店前边 cho biết cuộc đợi diễn ra ở đâu. Nếu chỉ nói đang ở trước nhà hàng thì 在 tự làm lõi chỉ vị trí. Thêm 等你, ta có hành động cùng người được đợi.',
-            'Đổi câu hỏi từ “lúc mấy giờ” sang “bao lâu”, 两个小时 làm bổ ngữ thời lượng sau việc học. Giờ hẹn hầu như luôn được đối chiếu với một mốc lịch; quãng học có thể bắt đầu ở những mốc khác nhau. Ở câu tan ca, 下班后 lại lấy chính một việc làm mốc. 先 và 再 sắp thứ tự về nhà và ăn, còn giờ ăn để ngỏ. Ba cách nói đều giúp người nghe dựng được lịch, mỗi cách cho một loại thông tin.'
+            'Ba giờ chiều mai, trước cửa nhà hàng. Hai mảnh thông tin ấy đã đủ để ghi một cuộc hẹn vào lịch. Trong câu đầy đủ, 明天下午三点 đi từ ngày đến buổi rồi đến giờ. 在饭店前边 đi ngay sau nó, trước động từ 等. Lần này người nói định vị một cuộc đợi. Nếu câu dừng ở 在饭店前边 thì phần ấy chỉ cho biết người nói đang ở đâu.',
+            'Nếu người bạn nhắn rằng học hai tiếng, ta vẫn chưa thể đưa giờ gặp vào lịch. 两个小时 đứng sau 学习 vì nó đo việc học kéo dài bao lâu. Còn 下班后 lấy việc tan ca làm mốc, rất hữu ích ngay cả khi chưa biết ca tan lúc mấy giờ. Cặp 先 và 再 đủ cho biết sẽ về nhà trước rồi ăn. Đồng hồ còn bỏ trống một chỗ, nhưng thứ tự hai việc đã rõ.'
           ],
           lines: ['我明天下午三点在饭店前边等你。', '我学习两个小时。', '下班后，我先回家，再吃晚饭。'],
           refs: ['moe-zai', 'moe-hour', 'moe-off']
@@ -392,8 +392,8 @@
         {han: '等', why: 'Trong 等你, người được đợi đứng sau động từ. Giờ và nơi hẹn đứng trước 等.'},
         {han: '小时', why: 'Nói thời lượng bằng 两个小时. Dùng mẫu số + 点 khi xác định giờ hẹn.'}
       ],
-      takeaway: 'Trước khi đặt 在 hay 有, hãy quyết định người nghe đang cần biết vật nằm ở đâu hay đang chờ bạn giới thiệu thứ có mặt ở một nơi.',
-      closing: 'Một lần hẹn thật chỉ cần ba điều: ai đợi, đợi ở đâu, lúc mấy giờ. Viết tin nhắn của mình theo ba điều ấy, rồi thử kể thêm thứ bạn nhìn thấy ở chỗ hẹn.',
+      takeaway: 'Dùng “nơi + 有” để nói có gì ở đó. Khi người kia đã hỏi về một vật cụ thể, dùng “vật + 在” để đưa họ đến đúng chỗ.',
+      closing: 'Người đến muộn trong nhóm chat có thể đọc cả hai câu về chiếc ghế, rồi vẫn phải hỏi mấy giờ gặp. Câu có 在 và câu có 有 làm rõ bức ảnh. Chỉ tin nhắn có 明天下午三点 mới làm rõ cuộc hẹn.',
       quiz: {
         prompt: 'Bạn của bạn đã biết chiếc ghế nào và muốn biết phải tìm ở đâu. Câu nào trả lời thẳng nhất?',
         choices: ['饭店前边有一把椅子。', '饭店在椅子前边。', '椅子在饭店前边。'],
@@ -415,12 +415,12 @@
       id: 'register',
       legacyHref: '#essay/register',
       glyph: '請 请',
-      title: 'Ai sẽ ngồi sau chữ 请?',
-      deck: 'Một chiếc ghế trống và một tấm biển ở ga cho thấy vì sao “xin” trong lời mời, lời hỏi và thông báo làm ba việc khác nhau.',
+      title: 'Tấm biển ghi “xin”. Ai đang nhờ ai?',
+      deck: 'Một dòng hướng dẫn đi tàu và một chiếc ghế trong quán có chung chữ 请, nhưng người đọc và người làm đổi vai.',
       category: 'nghĩa',
       search: ['请 請 thỉnh 请问 请坐 請教 请给 请勿吸烟', 'lịch sự ngữ thể văn ngôn 语体 文言 qǐng qǐngwèn 勿 青 言', 'xin phép mời ngồi biển cấm 请再说一遍'],
       intro: [
-        'Ở bàn sát cửa sổ còn trống một chỗ. Nhân viên kéo ghế về phía bạn rồi mời ngồi. Nếu gặp chiếc ghế ấy cạnh bàn của người lạ, chính bạn sẽ phải mở lời xin ngồi. Tiếng Việt đều có thể dùng “xin” trong cách kể lại hai việc. Câu tiếng Trung giữ được khác biệt ấy ngay ở người sẽ thực hiện động từ 坐.'
+        'Điều đầu tiên trong mục lưu ý cho hành khách tàu đô thị Tô Châu là 请勿吸烟. Bốn chữ vừa mở bằng “xin” vừa bảo một việc đừng làm. Nếu câu ấy ở trên tấm biển, người đọc chẳng phải tìm ai để đáp lời. Trong quán nước, tiếng 请 có thể đi kèm động tác kéo ghế ra cho khách, và phản ứng thích hợp lại là ngồi xuống. Một chữ ở đầu câu đủ để nhận ra lối mở lời. Muốn biết người ta đang làm gì với mình, phải nghe tiếp.'
       ],
       summary: [
         ['请坐', 'Mời người nghe ngồi.'],
@@ -430,30 +430,31 @@
       sections: [
         {
           id: 'nguoi-se-ngoi',
-          title: 'Chiếc ghế trống và người sẽ ngồi',
+          title: 'Lời mời đưa ghế về phía ai?',
           paragraphs: [
-            'Trong 请坐, hành động thuộc về người nghe. Một người đưa tay chỉ chỗ cũng có thể nói 坐这儿吧. Ở câu này, 这儿 chỉ ngay nơi được đề nghị, còn 吧 đặt lời nói ở thế gợi ý. Người khách hỏi 我可以坐这儿吗 thì có 我 đứng hẳn trước hành động. Có thể nói 请问 để mở lời với người chưa quen, sau đó đợi một câu trả lời về quyền dùng chỗ ấy.',
-            'Một chuyện nhỏ như vậy đã đủ để phân biệt vai và phép lịch sự. Ngữ thể, 语体, có liên quan đến điều đang làm, người tham gia và kênh nói hoặc viết. Ba yếu tố này là cách Yvonne Li Walls và Jan W. Walls giới thiệu khái niệm trong Using Chinese, mục 1.3. Với chỗ ngồi, cử chỉ kéo ghế và quyền của người đang ngồi cạnh cũng góp phần quyết định câu nào nghe tự nhiên.'
+            'Nhân viên kéo ghế và nói 请坐. Chủ thể của 坐 còn để trống, nhưng động tác đưa ghế đủ chỉ người sẽ ngồi. Nếu người nói chỉ vào chỗ sát cửa và dùng 坐这儿吧, tiếng 吧 đưa lời ấy về phía một đề nghị. Một người đi tìm chỗ thì phải bắt đầu khác. Sau 请问, từ 我 xuất hiện để hỏi người kia liệu chính mình có thể ngồi hay không. Nếu chỉ nghe 请 rồi dừng, có thể đứng nhầm sang vai người mời.',
+            'Trong Using Chinese, Yvonne Li Walls và Jan W. Walls giới thiệu ngữ thể qua điều đang được nói đến, quan hệ giữa người tham gia và cách họ giao tiếp. Ở cảnh chiếc ghế, vật thì y nguyên. Lời nói đổi vì quyền mời thuộc về chủ quán hoặc người đang dùng bàn. Chi tiết ấy giải thích vì sao hai câu có vẻ lễ phép như nhau mà một câu đặt người nghe xuống ghế, câu kia chờ người nghe trả lời.'
           ],
           lines: ['请坐。', '请问，我可以坐这儿吗？', '坐这儿吧。'],
           refs: ['moe-qing', 'walls']
         },
         {
           id: 'thinh-o-tren-giay',
-          title: 'Từ “thỉnh giáo” đến chén trà',
+          title: 'Chén trà đi từ tay ai đến tay ai',
           paragraphs: [
-            'Chữ “thỉnh” trong thỉnh giáo giúp nhận 請 trong 請教. Mục của Bộ Giáo dục Đài Loan chép lời giải Thuyết văn, với ý xin gặp trong 謁 và phần cấu tạo 言, 青聲. Ở đây 青 gợi âm, so qīng với qǐng sẽ nghe được phần gần nhau và chỗ thanh điệu đổi. Trên chữ giản thể, 言 ở bên trái chuyển thành 讠. Từ điển cũng ghi những cách dùng như mời khách, xin người chỉ dạy và mở lời hỏi.',
-            'Khi gọi trà, 给我一杯茶 nêu món được yêu cầu và người sẽ nhận. Có thêm 请, người nói trình bày câu dưới hình thức lời nhờ. Câu ngắn có thể thân mật nếu hai người quen nhau, nhưng có thể nặng như mệnh lệnh khi nói gắt. Một cách nhờ khác là 请再说一遍. 遍 đếm lượt làm từ đầu đến cuối, vì vậy người nghe biết cần nhắc lại một lượt. Nếu đổi sang 一下, người nói chỉ gợi một việc ngắn, và yêu cầu về một lượt đầy đủ đổi theo.'
+            'Trong 给我一杯茶, người nghe rót hoặc đưa trà, người nói nhận. Thêm 请 thì chén trà vẫn đi cùng chiều. Thứ đổi là cách câu đề nghị người kia giúp mình. Giữa hai người thân, câu ngắn có thể rất bình thường. Trong cảnh phải nhờ người mới gặp, 请 giúp nêu rõ đó là lời nhờ, còn giọng gắt vẫn có thể khiến câu nghe như thúc giục.',
+            'Cách nhờ ở 请再说一遍 có thêm một chi tiết dễ áp dụng. 一遍 đếm một lượt từ đầu tới cuối, nên người nghe biết cần nói lại trọn lượt. 一下 thường gợi một thao tác ngắn. Thay 一遍 bằng 一下, người nghe có thể chỉ lặp một phần. Sắc thái của lời nhờ ở đây đến cả từ việc câu cho người kia biết phải làm bao nhiêu.',
+            'Âm “thỉnh” trong thỉnh giáo đưa người Việt về 請教, một lời xin chỉ bảo. Mục 請 của Bộ Giáo dục Đài Loan còn có chữ 謁 trong lời giải cũ, liên quan việc xin gặp. Ở phần cấu tạo, 言 gắn với lời nói. 青 góp âm, nghe gần với qǐng ở phụ âm và vần dù thanh khác. Giản thể thu gọn 言 thành 讠. Từ điển giữ được cả lời giải cổ ấy lẫn những việc hiện nay người ta dùng 请 để nhờ hoặc mời.'
           ],
           lines: ['给我一杯茶。', '请给我一杯茶。', '请再说一遍。'],
           refs: ['moe-qing', 'moe-qingjiao', 'walls']
         },
         {
           id: 'bien-o-ga',
-          title: 'Tấm biển không biết tên người đọc',
+          title: 'Đọc lại dòng đầu ở ga',
           paragraphs: [
-            'Mục hướng dẫn đi tàu đô thị ở cổng thông tin Tô Châu in một câu đúng bốn chữ, 请勿吸烟. Khi đọc trên biển, ta nghe tiếng nói của đơn vị đặt biển với bất kỳ ai qua đó. 勿 làm từ ngăn cấm, đứng ngay trước việc bị ngăn. Đem cùng chuyện hút thuốc vào cuộc nói chuyện, 请你别抽烟 chỉ thẳng 你. Cả hai có 请, nhưng một bên nhắc công chúng, một bên xin một người điều chỉnh hành vi lúc này.',
-            'Từ 勿 có cả trong lời cổ, như ví dụ Luận ngữ mà từ điển dẫn. Sự xuất hiện của nó trong bảng nội quy cho thấy văn viết đương đại còn sử dụng cách nói đã có từ trước. Mức trang trọng đến cùng với việc ai lên tiếng, câu được viết ở đâu và đòi người đọc làm gì. Tin nhắn viết cho bạn có thể rất thân mật. Một lời chào đọc thành tiếng ở buổi lễ vẫn có thể trang trọng.'
+            'Trên trang của Tô Châu, dòng 请勿吸烟 nằm cùng các hướng dẫn chú ý biển báo và đài phát thanh. Lời nhắc viết cho mọi hành khách nên có thể bỏ ngôi xưng. 勿 đứng sát trước 吸烟 và cho biết điều được yêu cầu tránh. Từ điển còn dẫn cách dùng 勿 trong Luận ngữ. Một từ có vết tích văn cổ vẫn làm việc hằng ngày trong một dòng hướng dẫn hiện đại.',
+            'Trong lời nói thẳng với người đang hút bên cạnh, 请你别抽烟 đưa 你 trở lại câu. Ta biết ngay ai vừa được nhờ. Hai lối nói đặt cùng một yêu cầu vào hai tình huống khác nhau. Một buổi lễ nói thành tiếng vẫn có thể trang trọng. Tin nhắn cho bạn viết ra giấy vẫn có thể thân mật. Câu ở ga mang giọng của nơi đặt lời nhắc, chính vì nó phải nói với những người chưa từng gặp.'
           ],
           lines: ['请勿吸烟。', '请你别抽烟。'],
           refs: ['moe-wu', 'suzhou-notice', 'walls']
@@ -523,8 +524,8 @@
         {han: '可以', why: 'Trong câu xin ngồi, 可以 nói được phép. Dùng một mình khi trả lời đồng ý.'},
         {han: '给', why: 'Trong 给我一杯茶, 我 là người nhận. Đổi người nhận trước, rồi thay đồ uống sau.'}
       ],
-      takeaway: 'Đọc lời có 请 bằng hai câu hỏi. Ai sẽ làm việc được nêu, và người đang nói có quan hệ gì với người ấy?',
-      closing: 'Khi nhắn lời nhờ lần tới, thử nghĩ xem bạn có đang nói trực tiếp với ai đó hay đang viết một lời nhắc cho nhiều người. Chỗ ấy cho bạn lý do để chọn 你, bỏ xưng hô hoặc đổi cách nói.',
+      takeaway: 'Muốn xin ngồi thì nói rõ 我 trong câu hỏi. Khi mời người kia ngồi, 请坐 đã đủ để người nghe biết việc hướng tới mình.',
+      closing: 'Ở ga, người đọc thấy chữ 请 và cất điếu thuốc. Ở quán, nhân viên nói chữ ấy và khách ngồi xuống. Nếu đến sau rồi cần dùng chiếc ghế, chính vị khách sẽ mở câu bằng 请问 và đợi người kia gật đầu.',
       quiz: {
         prompt: 'Bạn chưa biết chiếc ghế cạnh một người lạ có trống cho mình ngồi không. Chọn câu đúng hướng lời nói.',
         choices: ['请坐。', '请问，我可以坐这儿吗？', '坐这儿吧。'],
@@ -544,12 +545,12 @@
       id: 'shuowen',
       legacyHref: '#essay/shuowen',
       glyph: '說 文',
-      title: 'Ai viết dòng chữ nhỏ dưới chữ 請?',
-      deck: 'Tờ thứ 11 tưởng đang nói chuyện tiểu học. Lật sang mục 請 và nghe một tiếng chuông trong truyện cổ, ta mới thấy mỗi dòng cho phép biết đến đâu.',
+      title: 'Ba thời đại trên một dòng Thuyết văn',
+      deck: 'Lần theo một lời đề yếu, một mục từ và một chú âm để biết ai đang nói trên trang sách.',
       category: 'đối chiếu',
       search: ['Thuyết văn giải tự 許慎 许慎 Hứa Thận 徐鉉 Từ Huyễn 說文解字 说文解字 四庫全書薈要', '請 请 字 小學 小学 謁 七井切 540 9353 1163', '揜其耳 掩耳盗铃 聞 听见 守株待兔 王戎 苦李'],
       intro: [
-        'Ở trang PDF 11, một cột chữ dọc có hai chữ 小學. Ai đã học 上小学 rất dễ dừng ở “tiểu học”. Nhưng cột sau nhắc người đời Ngụy–Tấn lấy Hứa Thận làm bậc thầy, rồi bàn về chữ tiểu triện. Trang sách hóa ra đang mở một cuộc tranh luận về cách đọc chữ cổ. Hai chữ quen đã kéo ta vào nhầm phòng. Chính những chữ đứng cạnh mở cửa trở lại.'
+        'Trang PDF 444 còn một dòng đậm ở mép trái, 說文解字卷二下. Đó là cuối quyển hai hạ. Mục 請 cần tra lại nằm trong quyển ba thượng. Chi tiết tưởng chỉ dành cho người xếp sách bỗng thành chuyện thiết thực. Khi hai bản in cùng hiện 447 trang, phép đếm ấy vẫn chưa cho biết mục chữ nằm đâu. Phải lần theo tên quyển và đọc cả những dòng ngoài phần chính.'
       ],
       summary: [
         ['小學 trên trang 11', 'Việc học và khảo cứu chữ, âm, nghĩa trong lời đề yếu.'],
@@ -559,40 +560,40 @@
       sections: [
         {
           id: 'trang-11',
-          title: 'Đọc một câu đời Thanh trước khi đọc chữ đời Hán',
+          title: 'Người viết ở trang 11 đang nhìn về quá khứ',
           paragraphs: [
-            'Mở bản 2.pdf, bìa ở trang 3 ghi Tứ khố toàn thư hội yếu, bản Càn Long ngự lãm. Ở trang 11, câu về 小學 thuộc phần đề yếu của người biên soạn đời Thanh. 慎 là Hứa Thận. 祖 là động từ, chỉ việc tôn ông làm người đặt nền. Hai chữ 小學 ở đây chỉ ngành khảo cứu chữ và nghĩa cổ, một nghĩa được ghi riêng trong Từ điển Bộ Giáo dục Đài Loan.',
-            'Hai tệp in đều hiện 447 trang. Ở bản 1.pdf, phần chữ nhìn được tập trung vào các trang đầu. Bản 2.pdf còn rõ nội dung ở trang 444, nơi có dòng cuối quyển hai hạ, và trang 446 còn dấu lưu trữ cùng tên người hiệu đính. Danh mục bản ngự lãm ghi chặng quyển một thượng đến quyển hai hạ. Những con số này giúp đặt cuốn đang mở vào bộ sách, trước khi tra một mục nằm ở quyển khác.',
-            'Thống kê ghi ở lời tựa có 540 bộ, 9.353 chữ chính và 1.163 dạng chữ đi kèm, gọi là 重文. Sách gốc của Hứa Thận thuộc Đông Hán. Bản thông dụng có lớp đối chiếu thời Tống của Từ Huyễn và cộng sự, được khắc năm 986. Nội dung trên trang 11 còn đứng sau cả hai lớp ấy.'
+            'Bìa trang 3 của 2.pdf ghi Tứ khố toàn thư hội yếu, bản Càn Long ngự lãm. Ở trang 446 còn có dấu mang tên bản sách và tên người làm việc hiệu đính. Bản 1.pdf hiện rõ chữ chủ yếu ở các trang đầu, còn 2.pdf cho đọc tới quyển hai hạ, đúng chặng ghi trong danh mục. Mở lại trang 11, ta gặp lời đề yếu do người đời Thanh viết về một cuốn sách đã qua nhiều đời sao chép và khảo đính.',
+            'Câu ở đó nói từ Ngụy–Tấn trở đi, người bàn 小學 đều tôn Hứa Thận làm bậc thầy. 慎 là tên ông viết gọn, 祖 là động từ tôn làm người đặt nền. Đem nghĩa “tiểu học” của 上小学 vào câu, cả việc tôn người dẫn đường cho một ngành học biến thành chuyện bàn về trường trẻ con. Ở đây, 小學 thuộc lối dùng cổ về khảo cứu chữ, âm và nghĩa, đọc được nhờ chính điều người viết đang bàn.',
+            'Lùi thêm một lớp, Từ Huyễn và cộng sự hiệu đính bản được khắc năm 986 đời Tống. Hứa Thận viết sách từ thời Đông Hán. Phần tựa ghi 540 bộ, 9.353 chữ chính và 1.163 dạng đi kèm gọi là 重文. Riêng nét mực ở trang 11 thuộc người đời Thanh đang nói về những người đến trước mình. Xác định được họ là ai, việc dẫn lời trong sách đã bớt một khả năng nhầm tác giả.'
           ],
           lines: ['自魏晉以來，言小學者皆祖慎。'],
           refs: ['siku-huiyao', 'tiyao-page', 'moe-xiaoxue', 'nlc-edition', 'xu-text']
         },
         {
           id: 'bac-thang-muc-tu',
-          title: 'Mục 請 có ba loại thông tin',
+          title: 'Bút của người nào viết 七井切?',
           paragraphs: [
-            'Ở mục 請, 謁也 cho một lời giải nghĩa cổ liên quan chuyện xin gặp. 从言，青聲 tách phần chỉ lĩnh vực lời nói và phần gợi âm. 七井切 cho cách ghi âm theo phiên thiết. Hãy để chữ 七 chỉ nhóm âm đầu, chữ 井 chỉ phần vần và thanh trong hệ thống dùng khi chú âm. Pinyin qǐng cần được tra theo Quan thoại hiện nay. Ghi chú phiên thiết thuộc công việc người hiệu đính truyền bản, như nhà xuất bản Thư viện Quốc gia Trung Quốc giải thích khi giới thiệu Đại Từ bản.',
-            'Trong mục 字, lời giải bắt đầu bằng 乳也, tức sinh con theo nghĩa đang được giải. Tác giả phân tích 子 dưới 宀 và coi 子 cũng gợi âm. Ở lời tựa, ông dùng sự sinh sôi để giải 字 như tên gọi các dạng chữ ngày càng nhiều. Phép so sánh ấy có mặt trong chính văn bản. Nghĩa “chữ viết” của 字 trong 写汉字 thuộc phần việc ta làm với từ hôm nay.'
+            'Ảnh Đại Từ bản trong từ điển Đài Loan đặt 請 ở bộ 言, trang 3 bên phải của quyển ba thượng. Lời giải mở bằng 謁也, nói việc xin gặp. Rồi đến 从言，青聲, cho biết 言 tham gia cấu tạo và 青 gợi âm. 七井切 làm việc khác. 七 chỉ loại âm đầu, 井 chỉ vần và thanh theo phép ghi âm thời ấy. Ghi chú phiên thiết thuộc lớp hiệu đính đời Tống. Cùng mục tra còn chép bản chú Đoàn Ngọc Tài, trong đó xuất hiện thêm 才性切. Vậy ngay dưới một chữ có thể thấy hai lần người đọc đời sau ghi lại cách phát âm của nó. Tiếng qǐng đang học ngày nay lại có mục pinyin riêng.',
+            'Trang 6 bên phải của quyển mười bốn hạ đưa ra một bất ngờ khác. Mục 字 mở bằng 乳也, giải nghĩa sinh con rồi mô tả hình 子 ở dưới 宀. 子 cũng gợi âm. Trong lời tựa, Hứa Thận dùng chính ý sinh sôi để nói hình và âm kết hợp, chữ ngày một nhiều. Đọc hai đoạn cạnh nhau giải thích vì sao một mục ghi chuyện sinh nở và lời tựa lại nói về chữ viết. Với 写汉字 hôm nay, hai tiếng cuối gọi thứ được viết, theo một cách dùng đã thành quen.'
           ],
           lines: ['謁也。从言，青聲。（七井切）', '乳也。从子在宀下，子亦聲。', '字者，言孳乳而寖多也。'],
           refs: ['moe-qing', 'moe-zi', 'xu-text', 'nlc-edition']
         },
         {
           id: 'phan-loai-va-kiem-tra',
-          title: 'Đến hình thanh, rồi trở lại câu đang đọc',
+          title: 'Khi một lời giải chỉ nói về hình chữ',
           paragraphs: [
-            'Lời tựa đưa 上、下 vào chỉ sự và 日、月 vào tượng hình. Với 形聲, Hứa Thận cho 江、河 làm ví dụ. Trong 江, phần nước và 工 chia việc gợi nghĩa và gợi âm. Âm jiāng và gōng hôm nay đủ khác để ta nhớ rằng đang so một quan hệ chữ cổ với cách phát âm hiện tại.',
-            'Lời tựa còn dùng 武、信 cho hội ý, 考、老 cho chuyển chú và 令、長 cho giả tá. Đây là các ví dụ theo mô hình của Hứa Thận. Trở lại câu nói hôm nay, trong 椅子上, 上 chỉ vị trí tính từ chiếc ghế. Ở 上火车, nó là động từ lên xe.'
+            'Lời tựa giúp thấy người viết đang trả lời câu hỏi nào. 上 và 下 cho ví dụ chỉ sự, 日 và 月 cho tượng hình, 江 và 河 cho hình thanh. Với 江, phần nước và 工 chia việc gợi nghĩa và gợi âm. Đọc jiāng cạnh gōng thấy khoảng cách giữa hai tiếng hôm nay. Lời giải nói về quan hệ khi cấu tạo chữ, nên chẳng cần ép hai tiếng hiện tại khớp nhau.',
+            'Hội ý, chuyển chú và giả tá trong lời tựa lần lượt có 武／信, 考／老 và 令／長 làm ví dụ. Những cặp ấy cho biết Hứa Thận sắp xếp tư liệu của ông ra sao. Sang câu nói, ta còn phải giải việc cụ thể. Cùng chữ 上 từng được ông đặt cạnh 下, ở 椅子上 nó hướng từ cái ghế lên mặt ghế. Trong 上火车, chính 上 kể việc một người lên xe. Lời tựa giải hình thế nào và câu dùng chữ làm gì đều đáng ghi, ở hai chỗ khác nhau.'
           ],
           refs: ['xu-text', 'cu-jiang']
         },
         {
           id: 'truyen-co-bang-chung',
-          title: 'Ai nghe chuông? Ai biết quả đắng?',
+          title: 'Người đập chuông sợ ai nghe thấy?',
           paragraphs: [
-            'Người trong thiên Tự tri của Lã thị Xuân Thu muốn mang một chiếc chuông lớn, đành đập nó. Chuông kêu. Anh sợ người khác nghe, rồi bịt tai mình. 聞 trong câu cổ là nghe, mục chữ ghi 耳 và 門 gợi âm. Đọc từ đó thật kỹ vẫn chưa đủ bắt được chỗ trớ trêu. Phải gắn 人 với 聞, còn 其耳 thuộc về người đang lo. Lời kể trở lại với chuyện người cầm quyền ngại nghe lỗi của chính mình.',
-            'Trong Ngũ đố, người nước Tống bỏ cày vì hi vọng kiếm thêm con thỏ ở đúng chỗ từng gặp may. 冀 cho ta hi vọng của nhân vật, trong khi phần sau mới nói kết quả. Còn ở Nhã lượng, Vương Nhung thấy cây cho nhiều quả ngay bên đường rồi nói 此必苦李. 必 đưa ra suy đoán rất chắc. Người kể chỉ xác nhận vị đắng sau khi có người hái kiểm chứng. Ba đoạn ngắn thường được nhớ bằng ba chuyện vui. Đọc động từ và chủ thể cho thấy lúc nào một người biết việc thật, lúc nào họ mới tưởng mình biết.'
+            'Thiên Tự tri kể người kia không vác nổi chuông bèn lấy chùy đập. Chuông vang lên. Anh ta sợ người khác nghe thấy tiếng mà cướp mất chuông, rồi vội bịt tai mình. Tra 聞 thấy 耳 và 門 gợi âm, biết chữ ấy nói về nghe. Cái đáng cười chỉ xuất hiện khi câu cho hai người khác nhau vào việc đó. 人 chỉ người có thể nghe trong mệnh đề sau 恐, còn 其耳 là tai anh ta. Thiên sách đem cùng việc lẩn tránh ấy hỏi người cầm quyền ngại nghe lời chỉ lỗi.',
+            'Trong Ngũ đố, từ 冀 đứng đúng lúc người nông dân bỏ cày để đợi con thỏ thứ hai. Chữ ấy cho biết anh hi vọng, rồi lời người kể mới cho biết kết quả. Cậu bé ở thiên Nhã lượng dùng 必 khi đoán mận đắng. Cậu nhìn được nơi cây mọc, thấy còn nhiều quả. Phải đến lúc có người hái thử, vị đắng mới được xác nhận. Ba chuyện có người tin, người đoán và người kể. Nếu để họ nói lẫn vào nhau, ta rất dễ đưa điều mới định làm hay mới đoán sang cột những việc đã được chứng thực.'
           ],
           lines: ['恐人聞之而奪己也，遽揜其耳。', '他怕别人听见，就捂住了自己的耳朵。', '因釋其耒而守株，冀復得兔。', '諸兒競走取之，唯戎不動。', '樹在道邊而多子，此必苦李。'],
           refs: ['lu-bell', 'cuhk-wen', 'hanfei-rabbit', 'nlc-plum']
@@ -669,8 +670,8 @@
         {han: '听', why: 'Ghép thêm 见 để nói kết quả nghe thấy. Trong câu về chuông, 听见 nằm trong điều nhân vật sợ, vì thế vị trí đó chưa xác nhận người ngoài đã nghe.'},
         {han: '在', why: 'Tìm 在道邊 trong cảnh cây mận. Đứng sau 樹, nó cho một vị trí quan sát được mà cậu bé dùng để suy ra điều khác.'}
       ],
-      takeaway: 'Tìm xuất xứ của dòng đang đọc và người thực hiện từng động từ. Hai câu hỏi ấy giúp phân biệt ghi chú, điều được kể và điều nhân vật suy ra.',
-      closing: 'Lần tới gặp một lời giải chữ trông có vẻ tự nhiên, thử đọc phần ngay trước và ngay sau nó. Người viết thường đã cho ta biết mình đang giải nghĩa, ghi âm hay kể một việc. Phần còn lại mới là điều ta được phép suy.',
+      takeaway: 'Phiên thiết và lời định nghĩa có thể do người ở hai đời khác nhau ghi. Trong truyện, 恐 và 冀 cũng báo rằng câu đang theo điều một nhân vật nghĩ.',
+      closing: 'Trở về mục 請, có thể ghi bên lề “lời giải” cạnh 謁, “phiên thiết của bản đời Tống” cạnh 七井切. Trở về chiếc chuông, chỉ cần ghi “anh ta sợ” cạnh 人聞之. Những ghi chú nhỏ ấy giúp ta dẫn lời chính xác, dù trước mặt là một mục từ hay một truyện cổ ba dòng.',
       quiz: {
         prompt: 'Với câu trong chuyện chuông, điều nào được kể là thực sự xảy ra ngay trong đoạn trích?',
         choices: ['Người ngoài nghe tiếng chuông và giành đồ.', 'Người đập chuông vội bịt tai mình.', 'Người đập chuông bịt tai người ngoài.'],

@@ -12,6 +12,7 @@
   function hub(){
    cancel();
    const quick=[
+    ['#game/cloze','填','Điền từ theo ngữ cảnh','Trộn từ trong bài đọc với từ đã ôn.'],
     ['#game/memory','合','Lật ô tìm cặp','Nhớ vị trí để tìm chữ và nghĩa.'],
     ['#play/flash','记','Lật thẻ','Tự nhớ từ, rồi lật xem.'],
     ['#play/character','字','Nhớ nghĩa, tìm chữ','Từ nghĩa tiếng Việt, chọn mặt chữ.'],

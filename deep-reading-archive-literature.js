@@ -6,15 +6,15 @@
       id: 'gia',
       legacyHref: '#essay/gia',
       glyph: '家',
-      title: 'Rời nhà từ nhỏ, về quê lại thành khách',
-      deck: 'Hạ Tri Chương giữ nguyên giọng quê. Trẻ con trong làng vẫn hỏi ông từ đâu đến. Theo chữ 家 qua cuộc gặp ấy rồi trở lại lời nói hằng ngày.',
+      title: '“Khách từ đâu đến?”',
+      deck: 'Hạ Tri Chương vừa về quê. Lũ trẻ đã gặp ông, nhưng chúng chưa biết vì sao người khách nói giọng làng mình.',
       category: 'nghĩa',
       search: ['gia jiā 家 回家 老家 家人 家庭', 'Hạ Tri Chương 賀知章 回鄉偶書', 'Tiêu Hồng 蕭紅 呼蘭河傳'],
       intro: [
-        'Hai ông cháu trong Hô Lan hà truyện học thơ bằng miệng. Ông đọc một câu, cháu đọc theo. Đến bài của Hạ Tri Chương, ông bảo cháu thử hình dung một người ra đi lúc bằng tuổi mình, đến khi già mới quay về. Đứa bé lập tức hỏi chuyện thơ như hỏi chuyện sẽ xảy đến với nó. Nếu sau này cháu cũng đi, đến lúc cháu quay về với bộ râu bạc, ông có còn nhận ra cháu?',
-        'Tiêu Hồng cho đứa bé hiểu ngay động từ 離家, lìa nhà, rồi vấp ở cái giá của động từ ấy. Câu thơ đã đi từ chuyện một người trở lại làng đến chuyện hai người còn có thể nhận ra nhau hay không.'
+        'Câu đầu của Hồi hương ngẫu thư dùng đúng một chữ 回 cho cả chuyến trở về. Đến câu cuối, đám trẻ gọi người vừa về là 客, khách, rồi hỏi ông ở đâu đến. Bài thơ để lại cả hai cách gọi. Ông có một quê để về. Bọn trẻ có một người lạ để làm quen.',
+        'Nhiều thế kỷ sau, trong Hô Lan hà truyện của Tiêu Hồng, một đứa bé nghe ông giảng hai câu ấy bằng miệng. Nó nghe đến chữ 離家 và nghĩ tới mình. Mai kia cháu cũng phải đi ư? Khi cháu râu bạc quay về, đến ông có còn nhận ra cháu?'
       ],
-      takeaway: 'Hãy tìm động từ và người đang lấy 家 làm mốc. Cùng một nơi có thể là nhà của người về và là chỗ người làng gặp một vị khách.',
+      takeaway: '回家 chỉ nói người ấy về nơi họ gọi là nhà. 回老家 nói rõ thêm gốc gác. Khi câu chuyển sang phía người đứng đón, cách họ gọi người vừa về thuộc một điểm nhìn khác.',
       summary: [
         ['回家 và 回老家', 'Về nhà và về quê nhà. 老家 đưa gốc gác vào câu.'],
         ['我家 và 一家饭店', 'Một từ chỉ gia đình, một lượng từ đếm cơ sở kinh doanh.'],
@@ -23,21 +23,21 @@
       sections: [
         {
           id: 've-thanh-khach',
-          title: 'Tiếng khách phát ra từ miệng ai?',
+          title: 'Gặp mặt rồi mới biết có quen hay không',
           paragraphs: [
-            'Cặp đầu của Hồi hương ngẫu thư có hai lần đặt sự đổi thay cạnh cái còn nguyên. Rời nhà khi trẻ, trở lại khi già là quãng đời của một người. Giọng quê còn đó, tóc mai đã thưa là hai dấu hiệu cùng xuất hiện trên thân người ấy. Chữ 回 hướng về nơi vừa rời trong vế trước. Đích đã rõ nên câu thơ để trống sau động từ.',
-            'Đến cặp sau, 兒童 bước vào câu ở vị trí chủ ngữ. Tiếng 客 xuất hiện trong lời hỏi của trẻ con. Chúng nhìn thấy một người lạ và vẫn cười khi bắt chuyện. Bài thơ cho người đọc nghe đồng thời hai điều mà nhân vật trẻ con chưa biết đặt cùng nhau: ông vốn thuộc về nơi này, và chúng thực sự chưa biết ông là ai. Đôi chữ 相見, gặp nhau, đứng ngay trước 相識, quen biết nhau, giúp cảm được khoảng cách giữa hai việc.',
-            'Bản chép dùng ở đây có 離家 và 無改, kèm chú thích những mặt chữ khác ở vài vị trí. Bản Tứ khố của Ngự định Toàn Đường thi lưu một cách chép với 離鄉 và 難改. Ở câu đọc bên dưới, shuāi theo lối đọc Phổ thông hiện đại. Cách đọc cuī cũng gặp trong sách chú giải. Chỗ chênh về âm hoặc mặt chữ đáng ghi khi đang khảo văn bản, vì một bản in cụ thể có thể chọn khác.'
+            'Nhà hiện ra ở đầu đời trong 離家. Đến lúc nhân vật già và quay về, câu bỏ trống cái đích sau 回. Nhà đã ở sẵn trong câu, như vẫn ở sẵn trong trí nhớ người đi. Mái tóc thì không đứng yên được như thế. 鄉音無改 giữ nguyên giọng quê trong khi 鬢毛衰 để tuổi tác lộ ngay trên khuôn mặt.',
+            'Chữ 相 lặp lại ở 相見 và 相識. Giữa hai cụm chỉ chen một chữ 不. Trẻ con đã gặp ông mà chưa biết ông là ai, nên lời hỏi vẫn có tiếng cười. Đọc 客 theo giọng của các em, cả cuộc gặp nhẹ hơn. Đứa bé của Tiêu Hồng lại nghĩ xa hơn: người không nhận ra nó có thể là ông của nó, người bây giờ đang ngồi giải từng chữ cho nó nghe.',
+            'Bản thơ ở đây viết 離家 và 無改. Ngự định Toàn Đường thi bản Tứ khố chép 離鄉 và 難改. Hai chữ đầu chuyển từ nhà sang quê. Hai chữ sau chuyển nhẹ từ “vẫn chưa đổi” sang “khó đổi”. Nhịp đọc dưới đây dùng shuāi cho 衰 theo sách giáo khoa tiếng Trung hiện đại. Một số bản đọc khác dùng cuī.'
           ],
           lines: ['少小離家老大回，鄉音無改鬢毛衰。','兒童相見不相識，笑問客從何處來。','我也要離家的嗎？等我鬍子白了回來，爺爺你也不認識我了嗎？'],
           refs: ['gia-tang', 'gia-tang-tu-kho', 'gia-shuai', 'gia-tieu-hong']
         },
         {
           id: 'mai-va-con-lon',
-          title: 'Mái nhà là điều thấy được trên chữ',
+          title: 'Con lợn trong một mục tự điển',
           paragraphs: [
-            'Nhìn 家 ngày nay, mắt dễ thấy mái 宀 và dáng 豕 ở dưới. Tự khố Đại học Trung văn Hồng Kông ghi nhận dạng giáp cốt, kim văn có 豕 hoặc 豭. Nhóm biên soạn đọc hình ấy liên quan đến việc nuôi gia súc trong nơi cư trú. Trong lời giải của Hứa Thận, 家 là chỗ ở. 宀 cho miền nghĩa, phần lược của 豭, chữ chỉ lợn đực, làm nhiệm vụ gợi âm.',
-            'Mỗi nguồn trả lời được một câu hỏi. Hình cổ cho biết ta có thể nhìn ra những thành phần nào. Thuyết văn ghi cách một nhà từ thư học đời Hán phân tích chúng. Câu chuyện mái nhà giúp nhớ 家. Muốn biết người đang nói về nơi ở, về người nhà hay về một cửa hàng, ta phải nhìn vị trí chữ ấy trong câu.'
+            'Hai phần 宀 và 豕 còn dễ nhận trên chữ in. Trong bảng chữ khắc trên xương và trên đồng, tự khố Hồng Kông còn đọc được dạng có 豭, chữ chỉ lợn đực. Nhóm biên soạn nhìn thấy dấu vết nuôi gia súc ở nơi cư trú. Hứa Thận có một nhận xét khác về chính cái tên ấy. Trong mục 家 của Thuyết văn, ông đặt chữ vào bộ mái 宀 rồi lấy phần lược của 豭 để giải âm.',
+            'Một vật nuôi giúp mắt nhớ hình, cách gọi nó giúp người tra sách lần ra âm. Nghĩa “chỗ ở” cho người đọc một đầu mối vừa đủ để nối sang 家庭, gia đình, và 家族, gia tộc. Cả hai gọi người gắn với một mái nhà, dù họ có thể ở nhiều địa chỉ.'
           ],
           refs: ['gia-cuhk', 'gia-moe']
         },
@@ -45,8 +45,8 @@
           id: 'dia-chi-trong-cau',
           title: 'Nhà ở Bắc Kinh, còn người nói đang ở đâu?',
           paragraphs: [
-            'Trong 我家, đại từ 我 xác định nhà của ai. Cách nói quen thường lược 的. Cặp câu của bài luyện đặt 我家 làm chủ ngữ của lần 在 thứ nhất, rồi đặt 我 làm chủ ngữ của lần thứ hai. Bởi vậy địa chỉ nhà ở Bắc Kinh và chuyện người kể hiện vắng nhà cùng đúng. Nếu đang nghe để hẹn gặp, thông tin bạn cần nằm ở vế thứ hai.',
-            'Về sau, gặp số đứng trước và tên cơ sở đứng sau, hãy thử đọc 家 như lượng từ. Câu có 我家 và 一家饭店 là một phép thử tốt vì hai lượt 家 cùng đứng trong một dòng mà làm hai việc. Trong lời hẹn tan ca, động từ 回 đã đủ để hướng người nghe về nhà hiện tại theo cách hiểu thông thường. Muốn nhấn nơi gia đình có gốc gác, hãy nói rõ 老家.'
+            'Một người có thể cho địa chỉ nhà ở Bắc Kinh rồi bảo hiện giờ mình vắng nhà. Hai lần 在 đặt ở hai đầu của một tin nhắn vẫn khớp. Ở lần đầu chủ thể là 我家, nhà tôi. Lần sau chủ thể chỉ còn 我. Nếu đang đứng đợi trước cửa, bạn cần biết việc thứ hai.',
+            'Trong câu về nhà hàng, 家 lần đầu gọi gia đình của người sở hữu. Lần thứ hai, nó kẹp giữa 一 và 饭店 để đếm đúng một cơ sở. Còn một người chỉ nói sẽ 回家 sau ca làm thường đang nói về nhà mình ở. Khi chữ 老 chen vào trước 家, chuyến đi mang thêm nghĩa trở về quê nhà hay nhà gốc. Có người dùng cả hai trong cùng một tuần, cho hai chỗ cách nhau hàng trăm cây số.'
           ],
           lines: ['我家在北京，但是我现在不在家。','我家有一家饭店。'],
           refs: ['gia-moe', 'gia-laojia']
@@ -159,7 +159,7 @@
           grammar: 'Thời gian 过年 đặt trước động từ tình thái 要. 老家 là đích của 回. Từ này cho biết mối liên hệ nguồn gốc, còn có phải chính nơi người nói sinh ra hay nhà cha mẹ đang ở hay không thì cần thêm ngữ cảnh.'
         }
       ],
-      closing: 'Ông trong tiểu thuyết cười khi nghe cháu hỏi. Trong bài thơ, người cười là lũ trẻ. Hai tiếng cười ở hai đầu câu chuyện, một tiếng đón người vừa về, một tiếng đáp lại nỗi sợ người nhà rồi sẽ hóa người lạ.',
+      closing: 'Đến lượt ông trong Hô Lan hà truyện bật cười, đứa bé đang lo. Nó vừa thử đặt người thân nhất của mình vào chỗ lũ trẻ trong bài thơ.',
       connections: [
         {han:'家',why:'Đọc lại các nghĩa trong kho rồi đặt 家 lần lượt sau 回, sau 在 và sau 一 để kiểm tra mình đang gọi một nơi, chỉ vị trí hay đếm cơ sở.'},
         {han:'回',why:'Giữ nguyên 回 trong 回家 và 回老家. Từ ở đích đến làm thay đổi loại nơi chốn, chứ không đổi hướng “trở về”.'},
@@ -186,15 +186,15 @@
       id: 'thu',
       legacyHref: '#essay/thu',
       glyph: '書',
-      title: 'Đỗ Phủ chờ một lá thư, dù chữ ấy cũng có nghĩa là sách',
-      deck: 'Một chữ 書 theo nét bút mà đi vào quyển sách, thư nhà và việc học. Động từ, lượng từ và người gửi giúp đọc đúng mỗi lần gặp.',
+      title: 'Lá thư đáng vạn vàng đã tới chưa?',
+      deck: 'Trong Xuân vọng, Đỗ Phủ nói thư nhà quý đến đâu. Câu thơ để ngỏ chuyện lá thư đã đến tay người đợi chưa.',
       category: 'nghĩa',
       search: ['thư 書 书 shū 家書 家书 讀書 读书', 'Xuân vọng 春望 Đỗ Phủ 杜甫 家書抵萬金', 'viết thư 写信 本 封 圖書館 書院'],
       intro: [
-        'Giữa bài Xuân vọng, Đỗ Phủ đặt một thứ có thể cầm trong tay lên bàn cân với vạn vàng. Chữ 書 khiến người mới học nhớ ngay tới quyển sách. Chữ đứng trước nó là 家, nhà. Ghép hai nghĩa hiện đại ấy thành “sách của nhà” thì bàn cân bỗng trở nên khó hiểu. Trong một bài thơ mà tin chiến sự đã lấn cả cảnh mùa xuân, thứ nặng đến thế chính là tin người nhà gửi tới.',
-        'Người Việt nghe “gia thư” có thể đã đoán được. Cách đoán này đáng giữ, vì nó dẫn tới câu hỏi chính xác hơn: tiếng Trung dùng phần nghĩa “thư tín” ở những cụm nào, và người đọc nhận ra nó bằng dấu hiệu gì?'
+        'Bài Xuân vọng cho khói lửa trọn một vế năm chữ. Sang vế tiếp theo, chữ đầu tiên là 家, nhà. Tình thế trước mắt hiện lên thành lửa hiệu. Chuyện ở nhà phải trông vào mấy dòng gửi đi. Đỗ Phủ định giá mấy dòng ấy bằng vạn vàng.',
+        'Người quen với 一本书 thường gặp chữ 书 trong một vật đang có sẵn trước mắt. Với 家書 trong bài thơ, ghép đúng chữ là “thư nhà” rồi vẫn còn một khoảng trống. Người trong thơ mong biết tin nhà, song câu chép trên trang giấy chỉ cho ta biết lá thư đáng giá đến thế nào.'
       ],
-      takeaway: 'Khi gặp 书 hoặc 書, nhìn cả từ rồi tìm động từ và lượng từ. Với thư, viết xong, gửi đi và nhận được là ba mốc khác nhau.',
+      takeaway: '本 và 封 giúp nhận ra vật được đếm. 写信, 寄信 và 收到信 chỉ ba chặng khác nhau. Muốn biết thư đã tới, cần một dấu hiệu như 收到, nhận được.',
       summary: [
         ['一本书', 'Một quyển sách. 本 là lượng từ của sách.'],
         ['一封信 và 家書', 'Một lá thư và thư nhà. 封 là lượng từ của thư.'],
@@ -203,29 +203,29 @@
       sections: [
         {
           id: 'hai-dong-do-phu',
-          title: 'Khi một lá thư có giá của tin tức',
+          title: 'Từ tháng sang vàng trong đúng một dòng',
           paragraphs: [
-            '烽火 vốn gọi lửa hoặc khói hiệu, đặt trong thơ chỉ khói lửa chiến tranh. Sau 連 là 三月, trong mạch này hiểu là khoảng thời gian chiến sự kéo dài. Vế sau đổi chủ thể từ khói lửa sang 家書 và đổi hẳn thước đo, từ tháng sang vàng. Hai động từ 連 và 抵 làm nên chỗ xoay ấy. Một bên kéo dài tình trạng chia cách, một bên cho biết trong tình trạng đó tin nhà đáng giá đến đâu.',
-            '抵 có nghĩa đáng hoặc ngang giá ở đây. Chữ “vạn” đẩy giá trị lên rất cao, như lối Việt nói “vô giá” khi thứ mình chờ không thể mua bằng tiền. Chú giải trong một bản Đường thi đặt vế khói lửa dưới ý cảm thời thế, vế thư nhà dưới ý đau chia xa. Đọc hai vế rồi tự hỏi bài thơ đã kể thư tới chưa. Nó nói sức nặng của thư, còn việc đã nhận một lá thư cụ thể không xuất hiện trong ngữ pháp của hai vế.'
+            '烽火 là lửa hiệu. Trong Xuân vọng, dấu hiệu nhìn thấy được ấy gọi luôn cuộc chiến. Chữ 連 kéo nó qua 三月, ba tháng trong cách đọc đang dùng. Bắt đầu vế kia, quân lính và lửa hiệu khuất khỏi câu. 家書 trở thành chủ thể, 抵 thay chỗ 連 và 萬金 thay cho thời gian. Câu đang đếm tháng bỗng phải cân một lá thư.',
+            'Một bản chú Đường thi đặt khói lửa về phía cảm thời và đặt thư nhà về phía đau vì xa cách. Hai chữ 家書 cũng có thể gọi thư người nhà trao đổi với nhau. Đọc đến vạn vàng, ta nghe mong mỏi của người xa nhà. Trong vế thư nhà, động từ duy nhất là 抵, đáng giá. Từ đó mới hiểu vì sao thư quý, còn phút người đợi được mở thư vẫn nằm ngoài câu thơ.'
           ],
           lines: ['烽火連三月，家書抵萬金。'],
           refs: ['thu-xuan-vong', 'thu-xuan-vong-ban-chup', 'thu-gia-thu']
         },
         {
           id: 'dau-vet-net-but',
-          title: 'Một chữ mang theo cả việc viết và cái được viết',
+          title: 'Bàn tay có trước quyển sách',
           paragraphs: [
-            'Trong kim văn, mục 書 của tự khố Hồng Kông phân tích 聿, hình bàn tay cầm bút, và 者, phần gợi âm có khi viết lược. Thuyết văn cũng phân tích 書 với 聿 và thanh bàng 者. Cách nhìn này dựa vào dạng chữ cổ. Trên chữ phồn thể in ngày nay, phía dưới nom giống 曰. Sự giống nét hữu ích để nhận mặt chữ, còn vai trò gợi âm của 者 thuộc về một giai đoạn khác của chữ và tiếng.',
-            'Nghĩa viết còn nghe rõ khi người Việt nói thư pháp, 書法. Chữ viết thành rồi có thể là sách, cũng có thể là văn thư. Từ điển hiện đại còn ghi 書信 cho thư từ qua lại và 家書 cho thư giữa người nhà. Dùng cách nghe ấy để đọc văn bản cũ rất hiệu quả. Khi cần diễn đạt việc viết một lá thư trong hội thoại, cụm dễ dùng là 写信.'
+            'Trong những dạng kim văn mà tự khố Hồng Kông dẫn, phần 聿 còn gợi một bàn tay giữ bút. Phần 者 có khi được viết lược. Hứa Thận giải 書 bằng 聿 và lấy 者 làm phần gợi âm. Trên chữ phồn thể in hiện nay, phần dưới trông giống 曰 tới mức dễ tưởng đây là miệng nói. Dáng của dấu vết cổ cho ta căn cứ khác hẳn ấn tượng ấy. Hai âm shū và zhě cũng đã đi xa nhau trong Quan thoại hiện giờ.',
+            'Bàn tay viết còn ở ngay trong từ “thư pháp” 書法. Thứ viết ra có lúc là sách, có lúc là văn thư. 書信 gọi thư tín qua lại, 家書 thu hẹp vào thư giữa người nhà. Chữ ấy vẫn nhận được bằng tiếng Việt, nhưng nếu định nhắn cho một người bạn rằng mình đang viết thư, ta dùng cụm ngắn hơn là 写信.'
           ],
           refs: ['thu-cuhk', 'thu-thu-tin', 'thu-gia-thu']
         },
         {
           id: 'dung-dong-tu-doc',
-          title: 'Tại bàn đọc sách và trong hồ sơ đi học',
+          title: 'Câu hỏi lúc gọi video khác câu hỏi ngày họp lớp',
           paragraphs: [
-            '看书 thường đưa mắt về việc đang đọc. 读书 còn có thể nói một người đang theo học, như khi người kia hỏi đã đi làm chưa. Nếu họ vừa gọi video và hỏi bạn đang làm gì trước mắt, cùng cụm ấy có thể chỉ hành động đọc sách. Trong bài luyện, 读大学 thu hẹp nghĩa bằng chính tân ngữ 大学. Giữ 还 để hiểu vì sao người hỏi muốn biết việc học còn tiếp tục hay đã đổi.',
-            'Âm Hán Việt cũng hữu ích khi thấy 書院, đọc từng chữ là thư–viện. Ở ngữ cảnh một thiết chế dạy học truyền thống, danh từ Quan thoại 书院 có thể gọi một học viện, như Nhạc Lộc thư viện. Nếu đang cần địa chỉ mượn sách, hãy tra 图书馆. Đây là một chỗ đối chiếu từ thật sự giúp định hướng trong thành phố, thay vì chỉ giúp chép lại nghĩa từng chữ.'
+            'Một cuộc gọi hỏi bạn đang làm gì đưa 看书 về quyển sách đang mở. Cuộc gặp lại bạn cũ thường có câu hỏi đã đi làm chưa. Đáp bằng 还在读书 lúc ấy là nói mình vẫn đi học. Cùng 读书, cùng 还在, nhưng “đang” có thể kéo đến hết buổi tối hoặc kéo qua mấy năm. Đại học trong 读大学 chốt ngay loại thời gian dài đó.',
+            'Mặt chữ 書院 đọc lên nghe như “thư viện”. Người tìm chỗ mượn sách sẽ cần biển 图书馆. Tên Nhạc Lộc thư viện giữ 書院 cho một nơi giảng học. Với chữ 書, có lúc động từ đứng trước dắt ta tới chiếc bàn đang đọc, có lúc danh từ đứng sau dắt ta tới một cơ sở đã có tên riêng.'
           ],
           lines: ['我在看书。','你还在读大学吗？','我还在读书。'],
           refs: ['thu-doc-sach', 'thu-hoc-vien', 'thu-thu-vien']
@@ -318,7 +318,7 @@
           grammar: '收到 xác định hành động đạt kết quả, mạnh hơn chỉ nói người khác đã gửi. 了 ở sau cụm động từ giúp ghi việc nhận vào mạch kể. Không có danh từ hay cụm chỉ người gửi nên người đọc chưa biết ai viết thư.'
         }
       ],
-      closing: 'Khi học 书, một quyển sách trên bàn là chỗ bắt đầu tốt. Đọc đến gia thư của Đỗ Phủ, thử chú ý người đang đợi tin. Hai tiếng “thư nhà” đặt đúng người vào cuối đường đi của chữ.',
+      closing: 'Trở lại Xuân vọng, ta biết tin nhà quý hơn trước khi đọc chữ 家書. Vẫn chưa biết gia đình ông có bình an hay không. Câu thơ dừng ngay ở chỗ người đợi còn muốn biết.',
       connections: [
         {han:'书',why:'Lấy 看书 làm cách dùng quen về sách, rồi so với nghĩa thư trong từ ghép cổ 家書.'},
         {han:'本',why:'Bản trong một bản sách là điểm bám tốt cho lượng từ 本. Đổi sang thư, học 封 cùng danh từ 信.'},
@@ -347,15 +347,15 @@
       id: 'thuy',
       legacyHref: '#essay/thuy',
       glyph: '水',
-      title: 'Nước rút, sao bờ sông lại khó nhận ra?',
-      deck: 'Tô Thức thấy đá lộ và sững lại trước một cảnh quen. Bốn chữ 水落石出 về sau có thể nói lúc một việc được làm rõ.',
+      title: 'Thấy được hòn đá, lại thấy lạ cả dòng sông',
+      deck: 'Cùng là nước xuống và đá lộ. Âu Dương Tu gặp một mùa, Tô Thức gặp lại một nơi mình tưởng đã quen.',
       category: 'nghĩa',
       search: ['thủy thuỷ 水 shuǐ 水落石出 thủy lạc thạch xuất', 'Tô Thức 蘇軾 後赤壁賦 Hậu Xích Bích phú', 'Âu Dương Tu 歐陽修 醉翁亭記 Túy Ông đình ký', '水果 水平 热水'],
       intro: [
-        'Cảnh đầu tiên là ở một bờ sông. Trong Hậu Xích Bích phú, Tô Thức trở lại chỗ đã đi qua. Ông nghe nước chảy, thấy vách bờ cao, thấy núi cao và vầng trăng nhỏ. Rồi nước xuống, đá lộ. Thêm một thứ lọt vào mắt mà cả nơi chốn lại bỗng khó nhận. Ông ngạc nhiên vì mới qua được bao lâu.',
-        'Trong truyện trinh thám hôm nay, 水落石出 thường báo một sự việc đã sáng tỏ. Cách dùng ấy giữ cảnh có vật vừa lộ ra, còn cảm giác của người nhìn có thể đổi hẳn. Ở Tô Thức, thấy rõ thêm một phần phong cảnh lại khiến ông nhất thời xa lạ với toàn cảnh.'
+        'Tô Thức biết mình đang ở Xích Bích. Ông vừa trở lại dưới chân vách đá ấy. Thế mà mới điểm qua núi, trăng, nước và đá, ông đã cảm thán cảnh sông núi không còn nhận ra được. Bản Hậu Xích Bích phú để hai câu kề nhau. Câu đầu ghi rất rành những thứ trước mắt. Câu sau ngỡ ngàng vì chúng cùng nằm ở một nơi ông từng biết.',
+        'Hình ảnh nước rút, đá lộ vẫn đi vào truyện điều tra ngày nay. Một câu nói vụ việc đã 水落石出 thường cho phép người kể khép mối nghi. Ở Tô Thức, đến lúc đá lộ thì câu hỏi về cảnh cũ mới mở ra.'
       ],
-      takeaway: 'Khi gặp 水落石出, tìm xem đoạn đang kể cảnh vật hay diễn tiến làm rõ một sự việc. Cùng bốn chữ, thứ mới thấy và việc người đọc có thể kết luận sẽ khác.',
+      takeaway: '水落石出 giữ nguyên mặt chữ qua hai lối dùng. Núi, trăng và bờ sông dẫn về cảnh thật. Sự việc, điều tra và 终于 cho thấy người nói đang nhận định một chuyện đã sáng tỏ.',
       summary: [
         ['Cảnh thiên nhiên', '水落 là việc của nước; 石出 là việc của đá.'],
         ['Nghĩa bóng', 'Một điều từng bị che khuất đã được làm rõ.'],
@@ -364,30 +364,31 @@
       sections: [
         {
           id: 'da-da-o-do',
-          title: 'Đá đã ở đó, còn mắt người tới muộn',
+          title: 'Cùng một cảnh, Âu Dương Tu nhận ra mùa đông',
           paragraphs: [
-            'Câu của Tô Thức có bốn nhịp rất ngắn. 山高 và 月小 là hai cặp vật–tính chất. 水落 và 石出 lại là hai cặp vật–biến đổi. Bản văn để các nhịp nối bằng phép đặt cạnh. Người đọc hiểu đá hiện ra vì mực nước thấp xuống, dù câu văn chỉ đặt hai việc nối nhau. Hãy tách đúng hai chủ thể để thấy cảnh chuyển động, nước xuống rồi đá lộ.',
-            'Trong Túy Ông đình ký, cùng hình ảnh nằm ở cuối một chuỗi bốn mùa. Bản Lư Lăng văn sao có 而 giữa 水落 và 石出. Chữ 而 nối hai vế, cho người đọc chuyển từ lúc nước xuống sang cảnh đá lộ. Trợ từ 者 đứng sau lời tả mùa đông, trong kết cấu lớn khép cả chuỗi bốn mùa. Từ điển thành ngữ của Bộ Giáo dục Đài Loan dẫn các cách chép và xem bài của Âu Dương Tu là một điển nguồn khả dĩ. Văn của Tô Thức cho đúng bốn chữ liền nhau. Hai chứng tích có giá trị khác nhau khi muốn lần dấu thành ngữ.'
+            'Trong bài phú, mắt đi từ núi cao sang trăng nhỏ. Hai nhịp sau có động tác rõ hơn. Nước đi xuống và đá hiện lên trong tầm nhìn. Mỗi nhịp có chủ thể riêng, chữ 水 trước 落 và chữ 石 trước 出. Nhà văn cứ để hai việc tiếp nhau. Người đọc hiểu sự liên hệ từ chính cái thế nước vừa hạ khỏi đá.',
+            'Ở Túy Ông đình ký, người đọc đã qua hoa xuân, bóng cây mùa hạ và gió sương mùa thu trước khi tới cảnh đá lộ. Bản Lư Lăng văn sao đặt 而 giữa 水落 và 石出. Sau đó 者 gom cả bốn cảnh để câu trả lời bằng 四時, bốn mùa. Âu Dương Tu dùng nước rút để xác định cảnh ấy thuộc lúc nào. Cùng cảnh đó, Tô Thức hỏi thời gian qua có bao nhiêu mà chốn cũ thành lạ.',
+            'Từ điển thành ngữ Đài Loan dẫn những cách chép của Túy Ông đình ký và nêu bài này như một điển nguồn có thể có. Hậu Xích Bích phú lưu đúng chuỗi bốn chữ liền nhau. Đặt hai văn bản lên bàn, có thể lần được hình ảnh đã dùng thế nào, trước khi đi tìm một tác giả duy nhất cho thành ngữ.'
           ],
           lines: ['山高月小，水落石出。','曾日月之幾何，而江山不可復識矣！','野芳發而幽香，佳木秀而繁陰，風霜高潔，水落而石出者，山間之四時也。'],
           refs: ['thuy-xich-bich','thuy-tuy-ong','thuy-thanh-ngu']
         },
         {
           id: 'dung-luc-vu-an',
-          title: 'Khi bờ sông biến mất khỏi câu',
+          title: 'Có người đang điều tra, có người đã tìm ra',
           paragraphs: [
-            'Đặt thành ngữ sau chủ ngữ 事情, sự việc, người nghe thường không đợi một đoạn tả sông. Họ hiểu có chỗ vướng mắc vừa được gỡ, điều từng khuất đã có thể nhìn ra. Thêm 终于 là nghe cả quãng chờ cho đến lúc đó. Câu nói cho biết người kể xem vụ việc đã sáng, còn chứng cứ cụ thể nào làm họ tin thì phải đọc ở câu trước hoặc sau.',
-            'Thành ngữ còn đi sau động từ 查, tra cho rõ, như một kết quả muốn đạt. Khi ấy hãy nhìn xem câu kể kết quả đã đạt, đang chờ đạt hay buộc ai phải tìm ra. Chẳng hạn cụm 查个水落石出 tự nó cho biết đích của việc điều tra. Mốc thời gian và trợ từ ở bên ngoài cụm mới cho biết câu đi tới đích đó chưa.'
+            'Trong câu hiện đại, chữ đầu có thể là 事情. Lúc ấy người đọc đang theo một chuyện còn vướng, chứ không theo mực nước. 终于 báo quãng chờ đã có điểm cuối. Thêm 了 sau 水落石出, người kể tỏ ý chuyện đã ngã ngũ. Ta biết đó là nhận định của họ, còn họ dựa vào lời khai, một bức thư hay chứng cứ nào thì câu thành ngữ không kể.',
+            'Cũng người ấy lúc mới bắt đầu có thể nói đến việc 查个水落石出, tra cho ra ngọn ngành. Bốn chữ lúc này nằm sau 查, như kết quả còn ở phía trước. Một từ đứng bên trái đủ đổi điều người nghe được phép suy. Tra cho rõ và đã rõ là hai bước xa nhau.'
           ],
           lines: ['水少了，石头露出来了。','事情终于水落石出了。'],
           refs: ['thuy-thanh-ngu']
         },
         {
           id: 'mat-nuoc-trinh-do',
-          title: 'Từ một nét nước đến trình độ tiếng Trung',
+          title: 'Chữ nước còn lại trong chữ “trình độ”',
           paragraphs: [
-            'Đọc hình giáp cốt trong tự khố Hồng Kông, ta thấy một nét giữa được giải là dòng chảy, những dấu nhỏ hai bên là giọt nước, nhiều ít tùy dạng. Thử nhận họ chữ ở cạnh trái của 河. Phần 氵 gợi về nước, còn 可 thuộc phần gợi âm theo phân tích về dạng chữ ấy. Khi đứng rời nhau trong 河水, 河 và 水 tạo một từ chỉ nước sông. Đây là hai cấp độ đọc khác nhau, một lần xem thành phần trong chữ, một lần xem chữ nào bổ nghĩa cho chữ nào trong từ.',
-            'Âm thủy nối 水 sang thủy sản và thủy điện trong tiếng Việt. Sang từ học hôm nay, 热水 là nước nóng và 水果 là trái cây. Cách dùng xa hơn là 水平. Từ điển ghi nghĩa liên quan đến mặt ngang và nghĩa mức độ, trình độ. Cạnh 汉语 và 提高, hãy chọn nghĩa trình độ. Động từ “nâng lên” làm việc được với một thang mức độ dù câu chẳng có vật gì nhô khỏi mặt nước.'
+            'Những nét nhỏ quanh dòng giữa của 水 thay đổi theo từng dạng giáp cốt. Tự khố Hồng Kông đọc nét chính là dòng nước và các nét bên là giọt. Trong 河, nước thu gọn thành 氵 ở bên trái, 可 giúp gợi âm. Sang 河水, cả hai chữ 河 và 水 lại đứng thành hai đơn vị viết, ghép một từ để gọi nước sông.',
+            'Tiếng Việt còn nhận “thủy” trong thủy điện và thủy sản. Trên bàn, một cốc 热水 là nước nóng, đĩa 水果 là trái cây. 水平 đi xa hơn. Từ điển giữ cả mặt ngang và nghĩa mức độ. Có 汉语 đứng trước và 提高 đứng sau, điều vừa cao lên là trình độ tiếng Trung. Nghĩa đã rời vật, còn cách nói “nâng lên” giữ được hình dung về mức.'
           ],
           lines: ['回家后再喝些热水。','我的汉语水平提高了。'],
           refs: ['thuy-giap-cot','thuy-ha','thuy-trinh-do']
@@ -496,7 +497,7 @@
           grammar: 'Giữ 汉语水平 thành một cụm danh từ chịu sự chi phối của 我的, cả cụm làm chủ ngữ. 提高 dùng được như vị ngữ của một mức độ tự thay đổi. Vì thế khi dịch tự nhiên có thể nói “tiến bộ”.'
         }
       ],
-      closing: 'Trong một câu nghi án, bạn mong đá lộ ra để biết chuyện gì. Ở bờ sông của Tô Thức, đá đã lộ mà người đi vẫn chưa nhận ra chốn cũ. Cùng một hình ảnh, đọc cả câu mới biết nó đem lại sự rõ ràng hay một lần bỡ ngỡ.',
+      closing: 'Người điều tra nói đá đã lộ và kể tiếp điều vừa hiểu ra. Tô Thức vừa thấy đá thì dừng một nhịp ở chữ 矣. Nước rút đem đến cho ông thêm một lý do để ngỡ ngàng.',
       connections: [
         {han:'水',why:'Nhận cùng chữ trong 热水, 水果 và 水平. Phân biệt chất lỏng, tên món và mức độ.'},
         {han:'再',why:'Đọc 回家后再喝 rồi kiểm tra mốc đứng trước 再. Đây là “sau đó” trong tình huống này.'},
@@ -523,15 +524,15 @@
       id: 'be-dau',
       legacyHref: '#essay/be-dau',
       glyph: '桑',
-      title: 'Ai đủ lâu để thấy biển Đông hóa ruộng dâu?',
-      deck: 'Trong truyện Ma Cô, biển từng đổi dạng ba lần. Hai tiếng “bể dâu” ở đầu Truyện Kiều đem cái nhìn dài ấy vào nỗi đau của một người.',
+      title: 'Ma Cô đếm ba lần, Nguyễn Du viết một cuộc',
+      deck: 'Biển thành ruộng trong lời kể của một vị tiên. Bể dâu thành nỗi đau khi người kể Truyện Kiều nhắc điều mình đã thấy.',
       category: 'đối chiếu',
       search: ['bể dâu biển dâu thương hải tang điền 沧海桑田 滄海桑田 cānghǎi sāngtián', 'Ma Cô 麻姑 Thái Bình quảng ký 太平廣記', 'Nguyễn Du Truyện Kiều 滄桑 沧桑 历尽沧桑 閱歷'],
       intro: [
-        'Ma Cô vừa qua Bồng Lai. Bà nói nước ở đó nông đi đến chừng một nửa so với lần họ gặp trước. Với một người đi đường, đó có thể chỉ là chuyện mực nước. Với người đã thấy biển Đông nhiều lần đổi thành ruộng dâu, đó là lý do để hỏi liệu nơi ấy lại sắp thành đất liền.',
-        'Chuyện nằm trong quyển 60 Thái Bình quảng ký. Nó cho nhân vật một khoảng đời dài tới mức đất đai có thể đổi dạng giữa hai lần nhìn. Đọc về sau, ta gặp cùng hình ảnh trong những đổi thay chỉ vừa một đời người. Khoảng cách giữa hai mốc vẫn quan trọng, cả khi câu đã bỏ biển và ruộng khỏi mặt chữ.'
+        'Vương Phương Bình cười khi Ma Cô hỏi Bồng Lai có lại thành đất liền chăng. Bà vừa đến đó và ước chừng nước chỉ còn sâu bằng nửa lần trước. Lời hỏi này đến ngay sau một lời kể thật dửng dưng trong truyện thần tiên: bà đã thấy biển Đông biến thành ruộng dâu ba lần.',
+        'Mở Truyện Kiều, con số lại là một. Người kể vừa qua một cuộc bể dâu và đau vì những điều mình nhìn thấy. Ma Cô có đủ năm tháng để đếm. Câu Kiều chỉ gọi tên một cuộc, rồi dừng ở cái lòng của người đã qua cuộc ấy.'
       ],
-      takeaway: 'Khi đọc “bể dâu” hay 沧桑, tìm người nhìn lại, hai mốc họ đang so và thứ đã đổi. Không gian có thể vẫn là chỗ cũ, còn điều đổi thay có thể là số phận.',
+      takeaway: '已見 đánh dấu điều Ma Cô kể là đã tận mắt thấy. 將 trong lời hỏi đánh dấu điều còn đang đoán. Qua nghĩa bóng 沧桑, hoàn cảnh mới cho biết một người đã trải những gì.',
       summary: [
         ['滄海 và 桑田', 'Hai cảnh đặt cạnh nhau, một vùng biển rộng và ruộng trồng dâu.'],
         ['已見 và 將', 'Trong truyện, một việc đã thấy và một chuyện còn đang đoán.'],
@@ -540,29 +541,29 @@
       sections: [
         {
           id: 'loi-ma-co',
-          title: 'Một việc đã thấy và một chuyện còn hỏi',
+          title: 'Biển Đông nằm sau chữ “thấy”',
           paragraphs: [
-            'Bản Tứ khố chép 接侍, có thể dịch theo lời nói với người trên là từ khi được hầu chuyện. Từ điển Bộ Giáo dục Đài Loan dẫn một bản với 接待. Phần cốt lõi còn nguyên ở cả hai: đã thấy biển Đông ba lần hóa ruộng dâu. Trong câu ấy, 東海 đứng sau 見 vì đó là đối tượng được thấy, rồi trở thành chủ thể của việc đổi dạng ở mệnh đề bên trong. Nếu hiểu 三為 như một từ hay tên riêng, người đọc sẽ bỏ mất ba lần đổi dạng, chi tiết làm hiện ra tuổi đời khó tưởng của nhân vật.',
-            'Câu hỏi sau về Bồng Lai đổi từ 已, đã, sang 將, sắp. Dù đã trải ba lần đổi thay, Ma Cô chỉ hỏi khả năng sẽ có lần khác. Vương Phương Bình cười và dẫn một lời về bụi sẽ lại bay giữa biển. Trong khoảng vài dòng, bản văn cho ta ba nhãn của điều được biết: đã tận mắt thấy, tự hỏi có sắp xảy ra, và nghe người khác nói.'
+            'Trong bản Tứ khố, Ma Cô vào chuyện bằng 接侍以來, “từ khi được hầu chuyện đến nay”. Từ điển Đài Loan dẫn một bản chép 接待. Sau mốc mở đầu, cả hai cùng đến chữ 已見. Điều bà thấy là một sự việc trọn vẹn. 東海 đứng sau 見, rồi chính vùng biển đó là thứ ba lần hóa ruộng. Chữ 三 đếm lần biến đổi. Giọng kể coi biến cố ấy là việc có thể nhớ số lần như người thường nhớ những lần qua một con đò.',
+            'Đến Bồng Lai, câu chuyển từ 已, đã, sang 將, sắp. Bà có mực nước của hai lần nhìn để ngờ rằng đất sẽ lại nổi. Vương Phương Bình đáp bằng lời các bậc thánh từng nói, rằng bụi sẽ lại bay giữa biển. Bụi chỉ là lời được dẫn, đất nổi vẫn ở trong câu hỏi. Một người sống lâu đến vậy trong truyện vẫn có chỗ để đoán và chỗ để chờ.'
           ],
           lines: ['接侍以來，已見東海三為桑田。','豈將復還為陵陸乎？','海中復揚塵也。'],
           refs: ['dau-ma-co','dau-moe']
         },
         {
           id: 'doi-cho-trong-ky-uc',
-          title: 'Từ “bể và ruộng dâu” đến một cuộc bể dâu',
+          title: 'Sang Truyện Kiều, còn lại hai tiếng bể dâu',
           paragraphs: [
-            'Trong 滄海桑田, giữ 滄海 là biển rộng và 桑田 là ruộng trồng dâu. Hai danh ngữ nằm liền nhau để gợi một nơi đã có thể thành hai cảnh đối nghịch. Ngữ cảnh gốc kể hướng biển thành ruộng. Khi thành ngữ được dùng rộng hơn, hai cảnh cho hình ảnh sự đổi thay lớn và khó lường. Dạng giản thể viết 沧海桑田. Chữ 桑, dâu, đọc Hán Việt là tang, cũng có trong 桑葉, tang diệp. Âm “tang” ấy cần tra đúng chữ khi gặp 喪 trong tang lễ.',
-            'Bản Truyện Kiều 1870 do Hội Bảo tồn Di sản chữ Nôm giới thiệu chép ở câu 3–4: “Trải qua một cuộc bể dâu, / Những điều trông thấy mà đau đớn lòng.” Hai tiếng thuần quen tai “bể dâu” gọi lại hai cảnh của điển tích. Nguyễn Du đặt trước chúng chữ “cuộc” và động từ “trải qua”, biến một hình ảnh đổi cảnh thành một phần đời người có thể bước qua. “Trông thấy” nối nỗi đau với người chứng kiến. Ở đầu truyện, chưa cần gán ngay người nhìn đó là Thúy Kiều. Có thể nghe đây là lời người kể mở giọng cho câu chuyện sắp tới.'
+            'Tên Đông Hải chìm đi trong 滄海桑田. Ở đây chỉ còn một vùng biển rộng và một ruộng trồng dâu. Dạng giản thể 沧海桑田 cũng giữ hai cụm hai chữ ấy. Thiều Chửu giải 桑 là cây dâu, âm tang như trong tang diệp 桑葉. Nếu đến từ tang lễ, cùng một tiếng “tang” sẽ đưa mắt tới mặt chữ khác là 喪.',
+            'Bản Truyện Kiều 1870 chép “Trải qua một cuộc bể dâu, / Những điều trông thấy mà đau đớn lòng.” Hai tiếng bể dâu bỏ luôn chữ “ruộng”, chỉ để lại một gợi nhắc về cảnh đã đổi. Chữ “cuộc” cho phép kể sự đổi thay như một phần đời có thể trải qua. Trong câu sau, điều dội lại từ biến đổi ấy không phải một bờ biển mới. Đó là điều người kể không quên được vì đã trông thấy, trước khi chúng ta biết rõ ai sẽ gặp chuyện gì trong truyện.'
           ],
           refs: ['dau-moe','dau-cuhk','dau-thieu-chuu','dau-kieu']
         },
         {
           id: 'con-gi-sau-bien-doi',
-          title: 'Nói về đời đã đổi và điều còn lại trong người sống',
+          title: 'Có thăng trầm, còn vốn sống là một chuyện nữa',
           paragraphs: [
-            'Từ điển có mục 沧桑, rút hai tiếng ở đầu mỗi cảnh để nói sự đổi thay ở đời. Trong cụm 历尽沧桑, 历 là trải qua, 尽 làm rõ mức đã trải đủ hoặc rất nhiều, còn 沧桑 gọi những đổi thay ấy. Khi đọc hồi ký hoặc lời kể về đời một người, nên tìm các mốc bên cạnh để hiểu cụ thể họ đã qua những gì. Chỉ hai chữ ấy chưa tự kể ra biến cố.',
-            '阅历 lại đặt trọng tâm ở vốn trải nghiệm tích lại. Có người kể mình đã qua nhiều giai đoạn đổi thay, có đoạn khác nhận xét họ có nhiều vốn sống. Hai câu có thể cùng nói một người, nhưng cho người đọc hai điều khác nhau. Ở bài luyện hiện đại, giữ 这里 ở cả hai vế rồi thay thời gian để hình dung sự đổi khác. Nếu đã biết bên đây là ngày xưa và bên kia là bây giờ, hãy hỏi tiếp “ai đang đứng ở đây mà so?”.'
+            'Rút 沧 ở biển và 桑 ở ruộng, tiếng Trung còn 沧桑 để nói về đời thăng trầm. Khi đứng sau 历尽, nó chỉ những đổi thay một người đã đi qua. 尽 làm quãng đời nghe nặng hơn, như tiếng “bao” trong “trải bao thăng trầm”. Nếu lời kể chỉ dừng ở đó, ta có thể nghe giọng mỏi mệt hoặc từng trải. Muốn biết ông ấy đã bỏ lại một nơi ở, một nghề hay chính một người, còn phải có thêm câu.',
+            '阅历 gọi phần kinh nghiệm người ấy có được. Một tiểu sử có thể kể rất nhiều thăng trầm, còn một lời nhận xét 丰富 đặt độ phong phú vào vốn sống. Trong ví dụ về ruộng và biển, có hai mốc với 以前 và 现在. Chữ 这里 ở cả hai vế chỉ cùng một nơi. Ở lời kể về người, cái được giữ để nhìn qua hai thời điểm đôi khi chỉ còn là người đứng kể.'
           ],
           lines: ['他历尽沧桑。','他的阅历很丰富。'],
           refs: ['dau-cang-sang','dau-von-song']
@@ -657,7 +658,7 @@
           grammar: '他的阅历 là một cụm danh từ. 很 gắn với 丰富 để thành vị ngữ tính chất, nên không cần động từ 是. Có vốn sống phong phú cho biết một phẩm chất đã tích lũy, không liệt kê cuộc đổi thay nào đã diễn ra.'
         }
       ],
-      closing: 'Trong truyện thần tiên, người nhìn có đủ thời gian để thấy bờ biển đi rồi trở lại. Ở câu Kiều, một cuộc đã đủ khiến những điều trông thấy thành nỗi đau. Đọc “bể dâu” lần nữa, hãy nghe chủ thể của chữ “trông thấy”. Đó là người giữ ký ức để sự đổi thay có nghĩa.',
+      closing: 'Một bên tưởng tượng bụi bay giữa biển, một bên giữ lại chữ “đau”. Điển cũ cho người kể Truyện Kiều một tầm nhìn rất dài để nói điều đã đủ sức làm đau trong một đời.',
       connections: [
         {han:'以前',why:'Dựng mốc cũ cho cảnh trong bài luyện. Thử giữ nơi chốn và đổi điều được miêu tả.'},
         {han:'现在',why:'Đặt mốc hiện tại sau 以前 để đổi cả thời điểm quan sát, không vô tình đổi người hay chỗ.'},
@@ -685,15 +686,15 @@
       id: 'viet-couplets',
       legacyHref: '#essay/viet-couplets',
       glyph: '福 富',
-      title: 'Một nhà thêm trăm phúc, hai chữ đáng ngàn vàng',
-      deck: 'Bình rượu trong chữ 福, hai vế chúc Tết và một đôi liễn ở Hội An cho thấy người viết gửi lời gì tới người đứng đọc.',
+      title: 'Hai chữ bình an, xin viết to một chút',
+      deck: 'Một lời nhờ viết chữ cho bố dẫn về câu đối Tết, chữ phúc trên tấm liễn và chữ bản trong từ đường ở Hội An.',
       category: 'đối chiếu',
       search: ['福 富 fú fù phúc phú 畐 giáp cốt câu đối liễn Tết', '和順一門添百福 平安二字值千金', 'Hội An Cẩm Nam Lê Viết 木本水源千古念 天經地義百年心', '百年好合 百年偕老 偕 壽 寿 平安'],
       intro: [
-        'Viện Nghiên cứu Hán Nôm ghi một đôi câu Tết, vế đầu thêm trăm phúc, vế sau định giá hai chữ bình an bằng ngàn vàng. Nếu chỉ nhìn số, người ta có thể ngỡ vế trên và vế dưới đang cộng hai khoản lộc. Đọc đến 添, thêm, và 值, đáng giá, ta mới nghe ra hai việc. Một gia đình hòa thuận được chúc thêm điều lành. Bình an của cả nhà được đặt lên cân với vàng.',
-        'Chữ phúc trên tấm liễn giống chữ phú đến mức người mới học dễ nhầm. Cả hai từng được giải từ hình đồ đựng rượu. Đặt đồ vật ấy ở nơi thờ và đặt nó dưới mái nhà lại là hai cảnh khác nhau.'
+        'Người xin chữ trong bài luyện đã nói chỉ cần 平安, đúng hai chữ. Rồi người ấy thêm một lời nhờ rất cụ thể. Xin viết to hơn một chút vì mắt bố không còn tốt lắm. Lời chúc tới người nhận ngay từ lúc người con nghĩ đến cách bố nhìn mặt giấy.',
+        'Một đôi câu Tết mà Viện Nghiên cứu Hán Nôm ghi lại cũng đếm đúng hai chữ ấy. Người làm câu đối bảo chúng đáng ngàn vàng. Nếu đọc sang vế chúc một nhà thêm trăm phúc, ta còn thấy một điều khác được coi là quý, đó là cách những người dưới một mái nhà sống với nhau.'
       ],
-      takeaway: 'Đọc hai vế bằng các cụm đối nhau, rồi xác định người được chúc. Trong lời nhờ, hãy giữ riêng người được nhờ viết sau 请 và người nhận chữ sau 给.',
+      takeaway: 'Vế đối gửi lời chúc đến cả nhà qua 一門. Lời xin chữ kể rõ từng người. Người đứng sau 请 là người được nhờ viết, người đứng sau 给 mới là người nhận chữ.',
       summary: [
         ['福 và 富', 'Cùng 畐 gợi âm. Một chữ về phúc lành, một chữ về sự sung túc.'],
         ['一門 và 二字', 'Cả một nhà được đem đối với đúng hai chữ của lời chúc.'],
@@ -702,40 +703,40 @@
       sections: [
         {
           id: 'ruou-truoc-noi-tho',
-          title: 'Bình rượu đặt ở đâu?',
+          title: 'Phúc và phú khác nhau ở chỗ đặt bình',
           paragraphs: [
-            'Bảo tàng Cung Vương Phủ giới thiệu một số dạng giáp cốt của 福 có hình hai tay nâng đồ đựng rượu bên dấu hiệu tế tự. Chi tiết bàn tay vắng ở một số dạng khác. Tự khố Đại học Trung văn Hồng Kông xem 畐 cổ là hình một đồ đựng rượu, cổ hẹp và bụng lớn. Còn Thuyết văn giải 福 là sự phù hộ và phân chữ thành 示 thuộc miền tế tự với 畐 gợi âm. Ba lời giải có thể đọc cạnh nhau, mỗi lời dựa vào một lớp hình chữ. Khi thấy dạng in 礻, ta có dấu để nối lại với 示.',
-            'Trong 富, mái 宀 thay chỗ dấu tế tự. Kho chữ Hồng Kông ghi dạng giáp cốt có 酉 và dạng kim văn có 畐 dưới mái, đều được giải là đồ đựng rượu. Nhóm biên soạn liên hệ cảnh nhà có rượu với sự sung túc. Cách giải này cũng giúp nhớ một cụm vượt nghĩa giàu tiền, 丰富, phong phú, dồi dào. Đặt nó cạnh 幸福 và 祝福, bạn nghe được hai hướng nghĩa ngay trong những từ còn dùng hằng ngày.',
-            'Quảng Vận xếp 福, 方六切, vào thanh nhập, còn 富, 方副切, vào thanh khứ. Trong tiếng Việt, “phúc” giữ âm cuối /k/, nghe rõ khi đọc liễn. Pinyin fú và fù cho cách đọc Quan thoại hiện nay. Muốn nghe âm tiết cuối của đôi câu Hán Việt, hãy so phúc thanh trắc với kim thanh bằng. Chỉ nhìn dấu pinyin thì không đủ để phân bằng–trắc theo cách đọc ấy.'
+            'Trên một số hình giáp cốt ở Bảo tàng Cung Vương Phủ, bình rượu còn ở trong tay người dâng, bên dấu tế tự. Có dạng đã bớt tay. Tự khố Hồng Kông nhận dáng cổ hẹp, bụng lớn của đồ đựng rượu trong 畐. Đến chữ 福 của Thuyết văn, hai phần đã có tên riêng. 示 thuộc về chỗ làm lễ, còn 畐 gợi âm. Nét 礻 trên chữ in là nơi mắt ta có thể nối lại với 示.',
+            '富 đưa đồ đựng ấy về dưới mái 宀. Tự khố chép 酉 trong dạng giáp cốt và 畐 trong dạng kim văn, rồi liên hệ cảnh trong nhà có rượu với sự sung túc. Trong tiếng Trung hôm nay, 丰富 đã vượt khỏi chuyện có của. Ở phía 福 có 幸福, hạnh phúc, và 祝福, chúc cho ai điều lành. Tấm liễn gửi lời chúc thêm 福 để mở những điều tốt mà một nhà có thể mong ngoài của cải.',
+            'Tra Quảng Vận, 福 nằm ở mục 方六切 thuộc thanh nhập. 富 có 方副切 thuộc thanh khứ. Đọc “phúc” thành tiếng vẫn khép lại bằng âm /k/. Đặt nó cuối vế đầu rồi đọc “kim” ở cuối vế kia, tai nghe được một tiếng trắc và một tiếng bằng theo Hán Việt. Trên cùng mặt chữ, fú và fù thuộc câu chuyện phát âm Quan thoại hiện nay.'
           ],
           refs: ['lien-bao-tang','lien-cuhk-phuc','lien-cuhk-buu','lien-cuhk-phu','lien-moe-phuc']
         },
         {
           id: 'trong-ngoai-cua-nha',
-          title: 'Đọc từ hai động từ đứng đúng một chỗ',
+          title: 'Bên này “thêm”, bên kia “đáng giá”',
           paragraphs: [
-            'Trên đôi liễn chép theo trật tự dọc truyền thống, đứng trước cổng thường đọc vế đầu bên phải trước. Ở đôi đang xét, đọc 添 ở vị trí thứ năm bên này rồi tìm 值 đúng vị trí ấy bên kia. Hai từ cho hai kiểu lời chúc, mong được thêm phúc và coi bình an là điều quý. 百福 ghép một số lớn với phúc lành, còn 千金 đưa hình dung về giá đáng ngàn vàng.',
-            'Ở trước động từ, 一門 lấy một cửa để gọi cả nhà. Đặt 一門 cạnh 一家商店 đã học, ta gặp ý niệm nhà ở hai cấp độ. Trên liễn, môn gọi một hộ gia đình, còn 家 trong cụm hiện đại đếm một cơ sở. Ở vế sau, 二字 vừa đếm hai ký tự 平 và 安 vừa làm bật một cách nói. Hai ký tự đặt cạnh nhau là một từ, và chính điều chúng gọi tên mới thật sự được quý.'
+            'Đọc theo lối treo dọc, vế bên phải bắt đầu bằng 和順. Ở vị trí thứ năm là 添. Tới vế 平安, đúng chỗ ấy có 值. Chỉ cần nghe hai động từ đã biết vế đầu đang mong thêm điều lành, vế sau đang cân cái đáng quý. Trăm phúc không phải bảng đếm phúc, ngàn vàng cũng là cái giá chỉ để nói cho xứng với hai chữ.',
+            '一門 có một cửa mà chứa được cả người trong nhà. Trong 一家商店, nhà lại là đơn vị đếm một cơ sở. Ở vế chúc bình an, hai đơn vị được đếm chính là chữ 平 và chữ 安. Cả hai chỉ một điều mong mỏi. Nhờ cái thế đối với 一門, lời nói về hai chữ nhỏ được kéo ra cho cả một nhà.'
           ],
           lines: ['和順一門添百福','平安二字值千金'],
           refs: ['lien-vien-han-nom']
         },
         {
           id: 'moi-dip-mot-loi',
-          title: 'Ba dịp khác nhau vì khác người ở giữa lời chúc',
+          title: 'Có lời chúc phải đợi đến lúc tóc bạc mới biết',
           paragraphs: [
-            'Với đám cưới, 百年好合 chúc đôi vợ chồng hòa hợp trọn đời. 百年偕老 cho thấy vì sao phải tra mặt chữ của âm “giai”. 偕, xié, là cùng nhau, còn 佳, jiā, đánh giá điều tốt đẹp. Mục thành ngữ của Bộ Giáo dục Đài Loan dẫn bài Nữ viết kê minh trong Kinh Thi cho phần 與子偕老. Bài thơ hiện ra trong đối đáp lúc gà gáy, có chuẩn bị đồ ăn, uống rượu và tiếng đàn. Chữ 百年 thuộc lời chúc về sau, phần 偕老 đã có chỗ đứng ở đời sống chung trong câu thơ.',
-            'Với mừng thọ, 壽, giản thể 寿, đưa người nghe sang tuổi và sức khỏe. Chúc 健康长寿 hướng tới người được gọi là 您. Trong bài luyện xin chữ, người ấy lại là người biết viết. Người được mừng sinh nhật nằm sau 给 trong câu kế. Cùng xưng 您, nhưng chủ thể thực hiện lời nhờ và người nhận lời chúc chỉ nhập làm một nếu chính tình huống cho biết họ là một.'
+            'Trong lời chúc cưới 百年偕老, chữ “giai” viết 偕. Nó mang nghĩa cùng nhau, có âm xié. Còn 佳, jiā, dùng để nói điều tốt đẹp. Phần 偕老 đã có trong Nữ viết kê minh, ở một đoạn có đồ ăn, rượu và tiếng đàn. Từ điển thành ngữ đọc những chi tiết ấy theo mạch vợ chồng sống với nhau. Lời chúc sánh đôi tới già vì vậy đi ra từ cảnh một bữa có thể lại diễn ra ngày mai. 百年好合 cũng hướng về cả một đời hòa hợp.',
+            'Đến dịp mừng thọ, chữ 壽, giản thể 寿, chúc tuổi và sức khỏe của người đứng nghe. Chúc người ta 健康长寿 có thể nhìn thẳng vào họ mà nói. Trong bài xin chữ, người được gọi 您 lại là người cầm bút, còn bố ở sau 给 mới là người xem chữ. Nhờ có lời nhắc về đôi mắt, chỉ đọc một mẩu đối thoại là biết rõ ai vắng mặt mà vẫn được nghĩ đến.'
           ],
           lines: ['宜言飲酒，與子偕老。','祝您健康长寿。'],
           refs: ['lien-kinh-thi','lien-giai-lao','lien-tho']
         },
         {
           id: 'ban-o-hoi-an',
-          title: 'Một chữ 本 trên sách và trên liễn Hội An',
+          title: 'Ở từ đường, chữ bản vẫn còn là gốc cây',
           paragraphs: [
-            'Bản tin bảo tồn Hội An số 02 (18) năm 2012, trang in 21, ghi một đôi câu ở từ đường tộc Lê Viết tại Cẩm Nam. Hai hình ảnh đứng đầu là gốc cây và nguồn nước. Chúng nằm ở nơi con cháu đến nhớ người trước. Vì thế 千古念 có thể nghe là lời nhắc nhớ mãi, còn 百年心 nói lòng người trong quãng đời của mình. Bản ghi cho biết câu ở đâu. Cách nối “lòng người” với các vế là cách đọc trong ngữ cảnh ấy.',
-            'Bản của Thuyết văn giải 本 bằng một nét đánh dấu ở phần dưới của 木. Ở từ đường, chữ còn giữ nghĩa gốc rất cụ thể, để người đứng đọc có thể nối tới nguồn cội. Cùng chữ này, chọn sách trong hiệu thì thấy nó đứng sau số và trước 书, dùng đếm quyển. Chỉ một chữ chuyển chỗ đã đủ kéo việc đọc từ câu chuyện của một dòng họ về món đồ đang nằm trên tay.'
+            'Ở trang 21 bản tin bảo tồn Hội An năm 2012, đôi câu ở từ đường tộc Lê Viết, Cẩm Nam, còn nguyên hai vế. Gốc cây đặt cạnh nguồn nước. Qua vế kia là lẽ trời đất và tấm lòng của một đời người. Đọc ở nơi thờ tổ tiên, “ngàn đời” của 千古念 nghe như lời nhắc tiếp tục nhớ sau khi người đang đứng đây đã qua một đời. Đó là nghĩa địa điểm gợi thêm cho câu chữ mà bản tin chép.',
+            'Trong Thuyết văn, nét ở dưới 木 đánh dấu đúng phần gốc của cây. Một nét nhỏ ấy còn làm việc ngay ở đầu vế 木本水源. Gặp chữ 本 ở hiệu sách thì vị trí của nó đổi. Sau số và trước 书, 本 đếm quyển. Cùng một hình chữ, người đứng trong từ đường đọc “gốc” còn người đứng bên giá sách đọc ra đúng thứ đang muốn mua.'
           ],
           lines: ['木本水源千古念','天經地義百年心'],
           refs: ['lien-hoi-an','lien-ban','lien-thien-dia']
@@ -883,7 +884,7 @@
           grammar: 'Đọc vế sau như lý do thêm vào, văn cảnh cho quan hệ ấy mà không cần 因为. 大 sau 写 hướng tới kích cỡ tạo ra trên giấy, tức kết quả mong muốn. 太 ở trong mẫu phủ định 不太 giúp diễn đạt uyển chuyển.'
         }
       ],
-      closing: 'Đôi câu Tết đặt bình an bên ngàn vàng. Người xin chữ trong bài luyện chỉ mong nét viết lớn thêm một chút để bố đọc được. Một lý do rất nhỏ cho thấy lời chúc thực sự dành cho ai.',
+      closing: 'Ở câu đối Tết, hai chữ quý đến ngàn vàng. Trong bài xin chữ, chỉ cần chúng đủ to để một người đọc được. Người con nhớ đúng một việc mà người viết ở đầu bên kia của tấm giấy chưa thể biết.',
       connections: [
         {han:'本',why:'Đem hai nghĩa vào chỗ khác nhau. Trong 一本书, 本 đếm sách. Trong 木本, 本 gọi gốc cây.'},
         {han:'字',why:'Đếm 平 và 安 là hai ký tự, rồi kiểm tra vì sao cả hai chỉ một từ và mang một lời chúc.'},

@@ -5,14 +5,15 @@
     {
       id: 'giang-hang',
       glyph: '降',
-      title: 'Vì sao ta nói giáng chức nhưng lại đầu hàng?',
-      deck: 'Từ bản tin trời trở lạnh đến vận thư cổ, chữ 降 cho thấy vì sao “giáng chức” và “đầu hàng” giữ hai âm.',
+      title: 'Sương xuống, vì sao Thiều Chửu ghi “sương hàng”?',
+      deck: 'Một mục từ về sương giữ hai cách đọc tiếng Việt. Hai dòng vận thư và cách đọc 降 trong bản tin hôm nay cho thấy chúng khác nhau ở đâu.',
       category: 'âm',
       search: ['jiang', 'xiang', 'giáng', 'hàng', '降温', '投降', '降价', '降落', 'sương giáng', 'phiên thiết'],
       intro: [
-        'Bảng điện ở sân bay báo 飞机降落了, máy bay đã hạ cánh. Tối về, bản tin dùng đúng chữ 降 ấy trong 投降, đầu hàng. Chữ vẫn nguyên nét, mà âm đổi từ jiàng sang xiáng. Tiếng Việt cũng chia hai nẻo ấy. Một người có thể bị giáng chức, còn một người chịu thua thì đầu hàng.',
-        'Cái thấp đi ở câu thứ nhất là độ cao của chiếc máy bay. Ở câu thứ hai, người ta chịu khuất phục. Nhìn xem chữ ấy đang nói về độ cao, về một mức, hay về việc khuất phục thường cho ta đủ manh mối để đọc.'
+        'Ta quen đọc 霜降 là “sương giáng”. Nhưng ở mục 降, Thiều Chửu cho ví dụ “sương hàng”, rồi giảng rất rõ đó là sương xuống. Chỉ một dòng nhỏ cũng đủ làm chậm cái mẹo đem giáng đặt vào mọi chuyện đi xuống, đem hàng đặt vào mọi chuyện chịu phục. Chính cuốn tự điển ấy còn ghi một âm giáng ở nghĩa hạ bậc.',
+        'Nếu đem cả hai âm vào tiếng Trung, lại phải bắt đầu từ việc từ ấy đang nêu. Nhiệt độ đi xuống, một người chấp nhận thua, và người khác làm cho một con ngựa chịu phục. Ba việc ấy để lại hai cách đọc, dù ba nơi đều viết cùng chữ 降.'
       ],
+      takeaway: 'Xem điều gì thật sự thay đổi. Hạ một mức thì nghĩ đến jiàng. Chịu phục hoặc khiến đối tượng chịu phục thì nghĩ đến xiáng. Với tên tiết như 霜降, tra cả tổ hợp.',
       summary: [
         ['Giáng · jiàng', 'Thấp xuống hoặc làm thấp đi. 降落 là hạ cánh, 降价 là giảm giá.'],
         ['Hàng · xiáng', 'Chịu khuất phục hoặc khiến ai, con vật nào chịu phục. 投降 là đầu hàng.'],
@@ -21,10 +22,10 @@
       sections: [
         {
           id: 'nghia-trong-cau',
-          title: 'Máy bay hạ, giá hạ, người chịu phục',
+          title: 'Thứ đi xuống có thể là giá, nhiệt độ hoặc độ cao',
           paragraphs: [
-            'Trong 飞机降落, chiếc máy bay hạ xuống. Trong 商店降价, cửa hàng làm giá thấp đi. Hai kiểu cú pháp ấy đều dùng jiàng. Với 投降, chủ thể là người chịu phục. Với 降伏野马, chủ thể là người thuần phục và 野马 là con ngựa hoang phải chịu phục. Cả hai trường hợp đều thuộc nhánh xiáng.',
-            'Vì thế, tìm xem động tác hướng vào điều gì sẽ có ích hơn chỉ nhìn vị trí chủ ngữ. Trong cụm 降伏野马, đọc 降伏 cùng nhau rồi mới xác định 野马 là con ngựa bị thuần phục.'
+            'Một bản tin dự báo lạnh đi quan tâm đến nhiệt độ. Một cửa hàng giảm giá quan tâm đến số tiền phải trả. Còn người đón khách ở sân bay muốn biết chiếc máy bay đã hạ xuống chưa. Với 降温, 降价 và 降落, cả ba đều có một hướng xuống có thể hiểu được. Tiếng Quan thoại đọc 降 là jiàng.',
+            'Trong 投降, một người hoặc một phe chấp nhận chịu thua. Đổi sang 降伏野马, vai chủ động đã khác, vì người thuần phục tác động lên con ngựa. Vậy mà chữ 降 vẫn đọc xiáng. Mấu chốt nằm ở sự khuất phục trong cả hai trường hợp. Cứ bám vào đích của hành động, ta đọc được cả khi người đầu câu là bên chịu, lẫn khi người đầu câu là bên buộc đối tượng phải chịu.'
           ],
           table: {
             heading: 'Một chữ trong bốn tổ hợp',
@@ -40,10 +41,10 @@
         },
         {
           id: 'hai-phien-thiet',
-          title: 'Hai dòng trong Quảng vận',
+          title: 'Quảng Vận đặt hai âm ở hai chỗ',
           paragraphs: [
-            'Bản tra Quảng vận của Đại học Trung văn Hồng Kông ghi 古巷切 và 下江切. Trong phép phiên thiết, chữ đầu chỉ nhóm phụ âm đầu, chữ sau chỉ phần vần và thanh loại của hệ âm đương thời. Ở đây 古 đặt âm vào nhóm kiến 見, còn 下 đặt âm vào nhóm hạp 匣. Hai nhánh cũng tách nhau ở thanh khứ và thanh bình.',
-            'Hệ thống của Thuyết văn còn cho ta thấy 夅 và 降 ở hai mục riêng. Mục 夅 giảng ý phục, mục 降 giảng ý xuống và nêu 夅 làm phần gợi âm. Đặt cạnh bảng Quảng vận, chi tiết ấy giúp ta hiểu vì sao một mặt chữ hiện nay có thể mang theo hai mục từ xưa.'
+            'Trong bản tra Quảng Vận, muốn đọc nhánh xuống, ta gặp 古巷切, còn nhánh chịu phục dẫn tới 下江切. Chữ đầu của hai công thức đưa người tra vào hai nhóm phụ âm khác nhau. Chữ sau đưa họ vào những ô khác về vần và thanh. Sự phân biệt nằm ngay trong cách vận thư tổ chức hai mục, trước khi ta so nó với chữ giáng và hàng bây giờ.',
+            'Lật sang Thuyết văn, lại có hai mục hình chữ. 夅 được giảng theo ý phục. Đến 降, sách giảng ý xuống và dùng 夅 trong phần gợi âm. Thuyết văn cho ta một cách nhìn các dạng chữ và lời giảng. Quảng Vận cho ta vị trí của các âm. Hai chứng cứ trả lời hai việc khác nhau và cùng đi đến cái chữ vừa xuất hiện trong bản tin.'
           ],
           table: {
             heading: 'Đối chiếu các nhánh âm',
@@ -58,14 +59,14 @@
         },
         {
           id: 'suong-giang',
-          title: 'Thiều Chửu từng ghi cả sương hàng',
+          title: 'Sương hàng ở mục chữ, sương giáng ở mục từ',
           paragraphs: [
-            'Ở mục 降, Thiều Chửu đưa 霜降 làm ví dụ cho nghĩa rụng xuống và ghi “sương hàng”. Ông cũng ghi âm giáng cho việc hạ bậc, rồi lưu ý rằng người dùng phân biệt hàng ở nghĩa hàng phục với giáng ở những chữ nói lên xuống như 升降. Mục tra tiếng Việt hiện có cả “sương giáng” cho 霜降. Sự khác nhau ấy thuộc cách đọc một từ cụ thể trong những tài liệu khác nhau.',
-            'Ngày nay, nếu nói một mức thấp đi, ta có thể mang chữ giáng trong “giáng chức” sang nhớ 降级 và 降温. Nếu nói người chịu thua, mang chữ hàng trong “đầu hàng” sang nhớ 投降. Đến một từ ít gặp, hãy tra cả tổ hợp như với 霜降 để thấy từ điển đặt âm vào nghĩa nào.'
+            'Quay lại Thiều Chửu, dòng “sương hàng” đứng ở nghĩa rụng xuống. Chính trong mục ấy, ông dẫn giáng quan cho việc hạ chức và chú rằng lối đọc đã tách thành hàng ở nghĩa hàng phục, giáng ở những chữ nói lên xuống như 升降. Lời chú kể một cách nhìn về sự phân biệt trong tiếng Việt. Bản tra còn đặt 霜降 thành mục riêng “sương giáng”. Điều ta nhìn thấy chắc chắn là hai cách ghi của cả tổ hợp. Hình dung một lịch sử đọc xa hơn cần nhiều văn bản có niên đại hơn.'
           ],
           refs: ['thieu', 'moe-jiang', 'moe-xiang']
         }
       ],
+      closing: 'Bây giờ nghe thông báo giá hạ, ta chờ jiàng. Đọc câu chuyện một người chịu thua, ta chờ xiáng. Còn khi mở lại dòng “sương hàng”, chính lời giảng “sương xuống” cho biết ta đang ở nhánh nghĩa nào, dù cách đọc tiếng Việt trong bản ấy khác với cách quen hôm nay.',
       examples: [
         {
           han: '明天会降温。',
@@ -109,13 +110,15 @@
     {
       id: 'dieu-dieu',
       glyph: '調',
-      title: 'Vì sao “điều tra” 調查 đọc là diàochá?',
-      deck: 'Thiều Chửu đã để lại ngay dưới chữ 調 một lời ghi về cách người Việt đọc “điều” ở những từ ông xếp dưới âm “điệu”.',
+      title: 'Tiếng ve của Nguyễn Du và chữ 調 trong “điều tra”',
+      deck: 'Ở một đầu là tiếng ve nghe thành điệu nhạc. Ở đầu kia là điệu tra trong tự điển Thiều Chửu. Cùng một chữ, hai việc tưởng như chẳng dính đến nhau.',
       category: 'âm',
       search: ['diao', 'tiao', 'điệu tra', 'điều động', 'điều chỉnh', '調查', '调查', '调整', '調整', '調', '调', '曲调', '声调', 'phiên thiết', 'Nguyễn Du'],
       intro: [
-        'Đọc bản tin thấy 调查, ta nhận ra ngay hai tiếng “điều tra”. Đến lúc nghe mới vướng. Người nói đọc diàochá, cùng âm diào ở cuối 声调, “thanh điệu”. Sang 调整, nghĩa là điều chỉnh, chữ 调 lại đọc tiáo. Hóa ra hai tiếng “điều” nghe y hệt nhau trong tiếng Việt đang dẫn ta tới hai âm Quan thoại khác nhau.'
+        'Trong Sơ thu cảm hứng kỳ 2, gió tây làm lá thưa dần, còn ve kêu suốt ngày trên cành cao. Đến câu thứ ba, Nguyễn Du nghe ra 清商調, một điệu nhạc. Câu cuối dành cái nghe ấy cho người đang mang sầu. Chữ 調 đứng ở cuối tổ hợp, gọi tên điệu mà ông nhận ra trong tiếng ve.',
+        'Từ chữ điệu ấy, mở Thiều Chửu tới mục 調 sẽ gặp một bạn đồng âm khó đoán, “điệu tra”. Cùng tổ hợp đó, ngày nay ta nói “điều tra”. Chỗ vướng hiện ra khi đưa hai chữ sang Quan thoại. 调查 đọc diàochá, gần với âm ở cuối 曲调 hơn với chữ điều trong 调整.'
       ],
+      takeaway: 'Đọc theo việc người ta làm hoặc thứ họ gọi tên. Chỉnh cho vừa thường dùng tiáo. Điều tra, điều động, thanh điệu hay giai điệu dùng diào trong những từ của bài. Với 调配, đối tượng câu sẽ giúp chọn âm.',
       summary: [
         ['Điều chỉnh · tiáo', '调整 tiáozhěng, thay đổi cho hợp.'],
         ['Điều tra · diào', '调查 diàochá, tìm hiểu sự việc có thực.'],
@@ -124,19 +127,19 @@
       sections: [
         {
           id: 'tu-dien-xua',
-          title: 'Thiều Chửu ghi điệu tra, rồi chú thêm một dòng',
+          title: 'Cái điệu nằm ở đâu trong mục từ?',
           paragraphs: [
-            'Mở Hán-Việt tự điển tới mục 調, ta gặp điều hòa 調和 và điều đình 調停 ở nhóm đầu. Đến lượt “một âm là điệu”, Thiều Chửu đưa ra 調兵, 調任 và 調查, lần lượt chỉ việc sai phái binh lính, đổi chỗ nhận chức và tra xét. Ngay sau các nghĩa ấy, ông ghi một nhận xét về thói quen dùng âm điều. Bởi thế “điều tra” ta nói hằng ngày và “điệu tra” ở mục từ cổ có thể cùng chỉ một tổ hợp chữ.',
-            '“Điệu” vẫn còn trong điệu đàn, điệu hát. Trong Sơ thu cảm hứng kỳ 2, Nguyễn Du nghe tiếng ve mà viết 其中自有清商調, “kỳ trung tự hữu thanh thương điệu”. Chữ 調 là danh từ ở cuối cụm 清商調. Tiếng ve trên cành cao gợi cho người nghe một điệu nhạc buồn.'
+            'Thiều Chửu bắt đầu từ họ “điều” có 調和 và 調停, rồi mở một nhánh khác dưới lời dẫn “một âm là điệu”. Ngay ở nhánh ấy có 調兵, sai phái quân, 調任, đổi nơi nhận chức, và 調查, tra xét. Sau các nghĩa đó là lời chú về thói quen dùng “điều”. Nhờ lời chú ấy, ta có hai lối đọc của cùng một tổ hợp tiếng Việt để đặt cạnh nhau.',
+            'Trong điệu hát, tiếng Việt vẫn giữ âm điệu và người học có thể nối ngay nó với 曲调. Trong điều tra, mối nối mất đi khi chỉ nghe tiếng Việt. Mục từ của Thiều Chửu cho thấy âm điệu từng được ghi cho chính tổ hợp mà ta nói là điều tra hôm nay.'
           ],
           refs: ['thieu', 'nguyen-du']
         },
         {
           id: 'van-thu',
-          title: 'Cùng một phụ âm đầu trong hai dòng Quảng vận',
+          title: 'Cái cung phải xứng với mũi tên',
           paragraphs: [
-            'Thuyết văn giảng 調 bằng chữ 和, nghĩa là hòa hợp. Trong Kinh Thi, câu 弓矢既調 nói cung và tên đã vừa với nhau. Chú giải của Trịnh Huyền giải chữ 調 bằng sự tương xứng giữa độ mạnh yếu của cung và độ nặng nhẹ của tên. Cách dùng ấy gần với điều chỉnh hôm nay ở chỗ làm các phần hợp nhau.',
-            'Quảng vận ghi 徒聊切 cho mục thanh bình và 徒弔切 cho mục thanh khứ. Chữ đầu 徒 ở cả hai công thức đưa âm vào cùng nhóm định 定. Chữ sau đổi từ 聊 sang 弔, dẫn đến hai ô khác nhau của vận thư. Vậy sự khác biệt có thể nhận thấy ngay trong tư liệu cũ, trước khi đối chiếu với tiáo và diào ngày nay.'
+            'Ở bài Xa công trong Kinh Thi, cung với tên đã hợp nhau. Chú của Trịnh Huyền nói cụ thể điều ta dễ bỏ qua khi dịch “đã chỉnh”. Độ mạnh của cung và độ nặng của tên phải xứng với nhau. Một cái cung tự nó có thể dùng được, nhưng câu thơ quan tâm đến quan hệ giữa hai vật. Đó cũng là chỗ nghĩa “hòa” mà Thuyết văn dùng để giảng 調 trở nên rõ ràng.',
+            'Quảng Vận giữ hai cách tra cần cho bài này. Mở mục 徒聊切 hay 徒弔切 đều gặp 徒 ở đầu, tức cùng nhóm phụ âm định 定. Đổi 聊 sang 弔 ở chữ thứ hai mới đổi ô vần và thanh loại. Hai âm tách nhau ở ngay điểm đó của chứng cứ lịch sử, còn bảng phía dưới đặt cách đọc Hán Việt và Quan thoại vào vị trí đối chiếu.'
           ],
           table: {
             heading: 'Hai âm đang xét trong bài',
@@ -151,10 +154,10 @@
         },
         {
           id: 'hom-nay',
-          title: 'Nhớ bằng việc người nói đang làm',
+          title: 'Một mình 调配 chưa cho biết đọc âm nào',
           paragraphs: [
-            'Sửa giờ họp để mọi người đến được, ta dùng 调整时间, đọc tiáozhěng shíjiān. Chuyển nhân viên sang một bộ phận, ta dùng 调动人员, đọc diàodòng rényuán. Cần hỏi han, thu thập thông tin về một việc, dùng 调查, đọc diàochá. Nhánh diào còn gặp ở danh từ 曲调 chỉ giai điệu và 声调 chỉ thanh điệu.',
-            'Có lúc đúng hai chữ cũng có hai cách đọc. Từ điển ghi 调配 diàopèi khi điều phối công việc hoặc nguồn lực, và tiáopèi khi pha phối nguyên liệu. Lúc gặp một lời như 重新调配工作, chữ 工作 chỉ ra ngay cảnh điều phối. Nếu đang đọc cách pha đồ uống, hãy xét nghĩa phối trộn.'
+            'Ở văn phòng, người sửa giờ họp cho mọi người tới được đang 调整时间. Người chuyển nhân viên sang bộ phận khác dùng 调动人员. Người cần tìm rõ chuyện gì đã xảy ra dùng 调查. Nhóm từ có cùng chữ 調 nhưng động từ làm ba việc khác nhau. Đến 曲调 và 声调, cả cụm gọi tên thứ nghe được, và 調 đọc diào như trong hai mục điều động, điều tra.',
+            'Mở từ điển Đài Loan tới 调配 sẽ thấy cùng hai chữ có hai mục. Mục diàopèi kể chuyện một quản lý phân bổ lại công việc. Mục tiáopèi nói việc pha trộn cho hợp. Nói “phải 调配 lại” rồi dừng, người nghe còn cần biết ta đang ở phòng ban hay đang trước một công thức. Gặp tân ngữ 工作, ta đã có căn cứ để chọn cách đọc điều phối.'
           ],
           table: {
             heading: 'Đọc theo cả từ',
@@ -168,6 +171,7 @@
           refs: ['moe-adjust', 'moe-investigate', 'moe-transfer', 'moe-song', 'moe-tone', 'moe-distribute', 'moe-mix']
         }
       ],
+      closing: 'Nếu nghe không rõ là tiáo hay diào, thử đợi hết cụm. Giờ họp cần sửa, một việc cần tra, hay tiếng hát có điệu riêng. Mỗi câu tự cho biết chữ 調 đang làm việc gì trước khi ta thật sự phải chọn âm.',
       examples: [
         {
           han: '我们得调整明天的工作时间。',

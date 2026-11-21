@@ -4,7 +4,7 @@
   const {byId} = window.HAN_DEEP_READING_DATA;
   function annotate(id, takeaway, notes) {
     const article = byId.get(id);
-    article.takeaway = takeaway;
+    article.takeaway ||= takeaway;
     for (const [han, segments, grammar] of notes) {
       const example = article.examples.find(item => item.han === han);
       if (!example) throw new Error('Missing sentence in ' + id + ': ' + han);

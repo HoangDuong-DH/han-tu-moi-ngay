@@ -5,13 +5,12 @@
     {
       id: 'tat-va-bat',
       glyph: '畢 弼',
-      title: 'Vì sao bì có thể là tất hoặc bật?',
-      deck: 'Nghe giống nhau trong Quan thoại, 畢 và 弼 để lại hai dấu vết khác nhau trong tiếng Việt. Cặp 賓 và 彬 cho thấy sự khác biệt ấy nằm ở đâu trong sách vận.',
+      title: 'Chữ “tất” và chữ “bật” gặp nhau ở âm bì',
+      deck: 'Một dòng về chuyện tốt nghiệp dẫn tới hai mục Quảng Vận và cặp tân, bân còn phân biệt trong tiếng Việt.',
       category: 'âm',
       search: ['畢業', '毕业', '畢', '毕', '弼', '賓', '宾', '彬', 'bìyè', 'bì', 'bīn', 'tất', 'bật', 'tân', 'bân', 'dân', 'mân', 'trùng nữu', 'phiên thiết', 'Phi Luật Tân'],
       intro: [
-        'Trong câu 她今年毕业, bạn nghe bìyè và hiểu ngay “năm nay cô ấy tốt nghiệp”. Chữ đầu là 畢, chữ “tất” trong “hoàn tất”. Cũng tiếng bì ấy, đọc đến 弼 trong văn cổ thì người Việt gọi là “bật”, với nghĩa phò giúp. Vì sao một tiếng nghe như nhau lại có hai âm Hán Việt?',
-        'Muốn thấy chỗ rẽ, hãy đặt sách vận cạnh tiếng Việt, rồi thử một cặp khác. 賓 trong “tân khách” và 彬 trong “bân bân hữu lễ” cùng đọc bīn ngày nay. Khi hai chữ này đứng cạnh nhau, ta thấy rõ hơn điều mà pinyin đã gộp lại.'
+        'Viết một dòng nói mình sẽ kiếm việc sau khi tốt nghiệp, chữ nên gõ là 毕业. Âm bì trong đó thuộc 畢, chữ “tất” của hoàn tất. Nhưng ở một trang sử, cùng âm bì có thể gọi 弼, chữ “bật” của phò tá. Nếu chỉ chép pinyin, tôi sẽ gom hai tiếng vào một dòng. Khi mở Quảng Vận, chính hai dòng phải tách ấy mới là phần đáng đọc.'
       ],
       summary: [
         ['畢 bì', 'tất · làm xong, như 毕业'],
@@ -21,10 +20,10 @@
       sections: [
         {
           id: 'hai-tieng-bi',
-          title: 'Từ lễ tốt nghiệp về trang sách vận',
+          title: 'Quảng Vận đặt hai chữ ở hai mục',
           paragraphs: [
-            'Hai dòng 《廣韻》 cho ta hai cách ghi. 畢 ở tiểu vận 卑吉切, lấy 卑 chỉ phụ âm đầu, 吉 chỉ vần và thanh. 弼 ở tiểu vận 房密切, lấy 房 và 密 làm hai chữ chú âm. Tên gọi “phiên thiết” chỉ cách ghép những thành phần âm được quy chiếu trong hệ thống của sách.',
-            '畢 thuộc thanh mẫu 幫, 弼 thuộc 並. Cả hai được xếp vào nhóm vần nhập 質. Âm “tất” và “bật” còn giữ đuôi -t, với hai phụ âm đầu và hai thanh khác nhau. Trong cụm 毕业 bìyè, 畢 mang nghĩa hoàn thành. Trong văn cổ, 弼 chỉ việc giúp đỡ hoặc uốn sửa cho đúng, như trong 輔弼 “phò tá”.'
+            'Ở mục 畢, Quảng Vận để 卑吉切. 卑 dẫn đến một loại âm đầu, 吉 dẫn đến vần và thanh. Sang 弼, phải lấy cả hai chỗ chỉ dẫn mới là 房 và 密. Nếu viết ra như hai mục từ ngày nay, ta sẽ ghi 畢 thuộc thanh mẫu 幫, 弼 thuộc 並, cả hai nằm trong nhóm vần nhập 質. Ngay trong “tất” và “bật”, đuôi -t còn giống, còn âm mở đầu và thanh đã tách.',
+            'Từ nghĩa cũng đủ thấy vì sao hai dòng có ích. 畢 trong 毕业 chỉ hoàn thành việc học. 弼 trong 輔弼 chỉ phò giúp, còn mục từ cũng ghi nét nghĩa uốn sửa. Thấy một tiếng bì ở đầu từ, công việc cần làm là xác định chuyện đang kết thúc hay có người đứng ra trợ giúp. Muốn hỏi vì sao riêng “tất” có t, cặp này vẫn để hai điều biến đổi cùng lúc, vì ngay thanh mẫu cổ của hai chữ đã khác nhau.'
           ],
           table: {
             heading: 'Mỗi chữ đi với một mục riêng',
@@ -38,10 +37,11 @@
         },
         {
           id: 'trung-nuu',
-          title: 'Đặt tân và bân vào cùng một bảng',
+          title: 'Hai tiếng bīn chia nhau hai hàng',
           paragraphs: [
-            'Cặp 賓 và 彬 cho phép giữ nguyên thanh mẫu 幫, cùng vần Chân và cùng thanh bình. Điểm tách nằm ở tiểu vận và ở vị trí trên vận đồ. 賓 được ghi 必鄰切, 彬 được ghi 府巾切. Trong phép đối chiếu của Park Ji Hoon, 彬 nằm hàng III và 賓 nằm hàng IV. Hai chữ cùng thuộc lớp vần tam đẳng xét theo hệ thống vần sách, còn III và IV ở đây là hàng khi đưa âm lên vận đồ. Sự phân đôi ấy được gọi là trùng nữu 重紐.',
-            'Đối chiếu thêm 珉 “mân” với 民 “dân”, đều ở thanh mẫu 明. Một số cặp của lớp Hán Việt thường giữ âm đầu môi ở hàng III và có âm đầu lưỡi ở hàng IV, chẳng hạn b–t, m–d. Phan và de Sousa dùng các cặp như 岷 “mân” và 民 “dân” để giải thích cách sự phân biệt còn thấy ở âm đầu tiếng Việt. Park cũng ghi những trường hợp kết quả phức tạp hơn, như 皮 và 陴 đều có cách đọc “bì”.'
+            'Đến 賓 và 彬, ta giữ được nhiều thứ giống nhau hơn. Cùng 幫, cùng vần Chân, cùng thanh bình, ngày nay cùng bīn. Dù vậy, một chữ có 必鄰切 và một chữ có 府巾切. Bảng của Park Ji Hoon xếp 彬 ở hàng III, 賓 ở hàng IV của vận đồ. Chữ “tam đẳng” dùng khi xếp vần trong hệ của sách. III và IV ở đây là hai hàng trên bảng phân loại âm. Chính việc cùng một lớp vần mà tách hàng ấy có tên trùng nữu 重紐.',
+            'Ở hàng III là 彬 “bân”, ở hàng IV là 賓 “tân”. Hai chữ giữ chung phụ âm đầu nếu chỉ tra theo tên thanh mẫu. Trong tiếng Việt, môi khép ở b rồi nhường việc chặn luồng hơi cho đầu lưỡi ở t. Sang thanh mẫu 明, bảng của Park có 珉 “mân” và 民 “dân”. Phan và de Sousa cũng dùng một cặp với “mân” là 岷 để bàn về dấu vết ấy. Sức nặng của phép đối chiếu nằm ở chỗ giữ được những điều giống nhau trước khi xét một khác biệt.',
+            'Bảng ấy còn cho một kết quả đáng ghi ngang hàng với ví dụ đẹp. 皮 và 陴 đều có cách đọc “bì” dù hai chữ thuộc hai hàng khác nhau. Mối liên hệ giữa hàng của vận đồ và âm đầu tiếng Việt có căn cứ từ các cặp cụ thể. Hễ biến nó thành phép đổi tự động, chính những dòng còn lại trên cùng tờ giấy sẽ làm phép đổi ấy sai.'
           ],
           table: {
             heading: 'Hai cặp trong bảng của Park',
@@ -52,14 +52,14 @@
             ]
           },
           refs: ['park', 'phan', 'guangyun-bin-guest', 'guangyun-bin-grace', 'baxter'],
-          note: 'Bảng Baxter–Sagart ghi 畢 là pjit và 賓 là pjin ở cột chuyển tự Trung cổ. Các ký hiệu cho biết cách phân loại âm từ tư liệu, còn giá trị phát âm cụ thể là vấn đề tái lập. Ở cặp 畢–弼, thanh mẫu cũng thay đổi. 賓–彬 là cặp dễ soi hơn khi chỉ xét hàng III và IV.'
+          note: 'Bảng Baxter–Sagart ghi 畢 là pjit và 賓 là pjin ở cột chuyển tự Trung cổ. Khi dùng hai ký hiệu ấy làm dẫn liệu, ta đang chỉ một cách phân loại âm theo tư liệu. Cách phát thành tiếng của người xưa là câu hỏi về tái lập.'
         },
         {
           id: 'tu-tan-khach',
-          title: 'Tân trong tân khách là ai?',
+          title: 'Từ bảng âm ra đến cửa khách sạn',
           paragraphs: [
-            'Đọc 賓客 là “tân khách”, trong đó 賓 cũng chỉ khách. Gặp 宾馆 bīnguǎn trên biển, bạn đang tìm một chỗ lưu trú. “Tân” ở đây còn có mặt trong “Phi Luật Tân” 菲律賓, tên đọc Hán Việt của Philippines. Trong “tân niên” 新年, tiếng “tân” lại biểu thị sự mới. Cả hai trùng âm Hán Việt, còn tiếng Trung đọc 賓 là bīn và 新 là xīn.',
-            '彬 có câu cổ 文質彬彬，然後君子 trong 《論語》. Ở đây 彬彬 tả sự hài hòa giữa dáng vẻ đã được trau chuốt 文 và chất mộc 質. Sang cụm 彬彬有礼 bīnbīn yǒulǐ, lời khen tập trung vào cách cư xử lịch thiệp. Đặt cụm ấy sau 待人 để tả cách một người đối đãi với người khác.'
+            'Trên biển 宾馆, 賓 đã đổi sang dạng giản thể 宾. Đây là chữ “tân” của tân khách. Một người xách hành lý có thể tới đó nghỉ, nên nghĩa khách còn giúp nhớ mặt chữ. 賓 cũng nằm cuối tên nước 菲律賓, “Phi Luật Tân”, nơi nó tham gia ghi âm tên Philippines. Còn khi chúc tân niên, chữ tân là 新 vì đang nói năm mới. Tiếng Việt cho một âm “tân” chung, còn từ tiếng Trung dẫn người viết tới hai chữ và hai âm bīn, xīn.',
+            'Nếu lời khen xuất hiện sau 待人, chữ cần tìm lại là 彬. Luận ngữ có 文質彬彬, nói sự hài hòa giữa vẻ đã trau chuốt và chất mộc. Trong lời nhận xét 彬彬有礼 hôm nay, điều được khen là phong thái lịch thiệp. Một người nói chỗ nghỉ, người kia khen cách cư xử. Nghe được hai chuyện ấy thì dù cùng gặp bīn, ta vẫn biết đang cần viết chữ nào.'
           ],
           refs: ['guangyun-bin-guest', 'guangyun-bin-grace', 'hotel', 'courteous']
         }
@@ -74,6 +74,8 @@
         {han: '工作', why: 'Ghép với 找 thành 找工作 “tìm việc”, việc dự định sau mốc 毕业以后 trong câu mẫu.'},
         {han: '新', why: '新 xīn là “tân” trong 新年. 賓 bīn là “tân” trong 賓客. Gắn mỗi âm Việt với đúng chữ và nghĩa.'}
       ],
+      takeaway: 'Âm bì của 毕业 tương ứng với “tất”. Với bì hoặc bīn đứng riêng, chờ nghe cả từ rồi mới quyết định chữ và âm Hán Việt.',
+      closing: 'Trong một dòng lý lịch, 毕业 đã đủ rõ để người đọc biết chuyện học hành. Tới khi cần giải thích vì sao chữ ấy là tất còn 弼 là bật, trang Quảng Vận và cặp tân, bân mới có việc để làm.',
       quiz: {
         prompt: 'Nghe bīn trong 宾馆 và 彬彬有礼. Vì sao bài đem cả hai chữ vào một phép đối chiếu?',
         choices: ['Cùng âm bīn hiện đại, nhưng 《廣韻》 ghi hai phiên thiết và tiếng Việt còn phân biệt tân với bân.', 'Hai chữ thuộc một tiểu vận, còn âm bân xuất hiện do lặp chữ trong 彬彬.', 'Cả hai chữ đều mang nghĩa “khách”, rồi khác âm Việt khi ghép vào từ dài.'],
@@ -96,13 +98,12 @@
     {
       id: 'hanh-va-hang',
       glyph: '行',
-      title: 'Vì sao 行 trong 银行 đọc háng?',
-      deck: 'Từ gửi hành lý đến ghé ngân hàng, vài chữ 行 trong một ngày đi đường đủ để lần ra “hành”, “hàng”, “hạnh” và hai cách đọc 品行.',
+      title: 'Khi “hành lý” còn là người đi đường',
+      deck: 'Nước Trịnh từng hứa tiếp đón 行李. Từ lời hứa đó đến quầy gửi đồ hôm nay, cùng một chữ hiện ra trong nhiều nghĩa và nhiều cách đọc.',
       category: 'nghĩa',
       search: ['行', '银行', '銀行', '行李', '品行', '行不行', '行人', '旅行', '行业', '行業', '三人行', '師', '师', '老师', 'háng', 'xíng', 'xìng', 'hàng', 'hành', 'hạnh', 'hạng', 'ngân hàng', 'hành lý', 'đức hạnh'],
       intro: [
-        'Trước khi ra sân bay, bạn định ghé 银行 lấy tiền rồi về khách sạn lấy 行李. Nhìn chữ thì đều thấy 行. Nói ra, một tiếng là háng trong yínháng, một tiếng là xíng trong xíngli. Tiếng Việt phân biệt ngay ở hai từ rất quen, “ngân hàng” và “hành lý”.',
-        'Đến khi gặp chữ ấy trong “đức hạnh”, ta có thêm một câu hỏi. Vì sao cùng một mặt chữ lại đi với cả chuyến đi, nghề nghiệp và cách cư xử? Những dòng phiên thiết trong 《廣韻》 cho thấy cách người xưa ghi từng nhóm nghĩa theo âm.'
+        'Trong lời Chúc Chi Vũ thuyết phục nước Tần, có một câu nhắc 行李 đi qua nước Trịnh. Đọc theo cách quen ở quầy gửi đồ, tôi sẽ thấy những chiếc va li đi tới đi lui và được cấp thứ chúng thiếu. Tả truyện đang nói về người qua đường. Lạ hơn nữa, âm tiết đứng đầu từ ấy hôm nay là xíng, trong khi bước sang quầy ngân hàng 银行 lại thành háng. Tiếng Việt đã giữ sẵn dấu vết của sự phân biệt này trong “hành lý” và “ngân hàng”.'
       ],
       summary: [
         ['行李 xíngli', 'Hành lý mang theo khi đi.'],
@@ -112,10 +113,10 @@
       sections: [
         {
           id: 'sach-van',
-          title: 'Bốn dòng phiên thiết của một chữ',
+          title: 'Bốn tiếng Việt trên bốn dòng Quảng Vận',
           paragraphs: [
-            'Bản 《校正宋本廣韻》 xếp 行 nghĩa “bước, đi, đến” ở vần 庚, cùng bình thanh với 行 nghĩa “hàng lối” ở vần 唐. Hai dòng khác thuộc khứ thanh. Một dòng ghi thứ tự, một dòng ghi dấu vết hoặc điều người ta làm, nói. Nói cách khác, tiếng Việt “hành”, “hàng”, “hạnh” có sẵn những nhóm âm nghĩa để đối chiếu trong tư liệu cũ.',
-            'Nhóm tác giả ở Viện Nghiên cứu Văn Triết Trung Quốc đọc nghĩa “hành vi” như một sự mở rộng có quan hệ với bên “bước đi, thực hành”. Đó là cách họ giải thích quá trình phát triển của các nghĩa dựa trên chữ cổ và văn bản. Bốn lời cắt là dẫn chứng trực tiếp trong sách vận, còn thứ tự lịch sử giữa các nghĩa là kết quả phân tích của nghiên cứu.'
+            'Thiều Chửu ghi 行 ở nghĩa bước đi với âm hành, ở nghĩa hàng lối với âm hàng. “Đức hạnh” cho âm hạnh. Đọc đến “hạng thứ”, mục từ còn một âm thứ tư. Đem bốn âm Việt đặt cạnh Quảng Vận, hai dòng bình thanh đã tách bằng vần 庚 và 唐. Hai dòng khứ thanh chia nghĩa thứ bậc với dấu vết hoặc điều người ta làm, nói. Vì vậy một chữ trông giống hệt có thể chiếm bốn chỗ trên bảng.',
+            'Nhóm Trịnh Cát Hùng ở Đài Loan đọc nghĩa hành vi như một sự mở rộng có quan hệ với bước đi và thực hành. Cách giải thích ấy đến từ việc đối chiếu văn bản và dạng chữ cổ. Nếu cần bằng chứng cho bốn âm nghĩa, bốn phiên thiết đã có trong sách vận và có thể trỏ tới từng dòng. Nếu cần biết một nghĩa phát triển từ nghĩa nào, đó là một câu hỏi dài hơn mà nhóm nghiên cứu mới dựng lời giải.'
           ],
           table: {
             heading: 'Ghi theo bản Tống được nghiên cứu trích',
@@ -128,32 +129,32 @@
             ]
           },
           refs: ['xing-history', 'thieu-xing'],
-          note: 'Cột nghĩa ghi trong sách vận phản ánh từng mục cổ. Cách đọc trong từ hiện đại được tra theo cả từ và theo chuẩn đang học.'
+          note: 'Những dòng này ghi nhóm nghĩa cổ. Từ điển hiện hành giúp tra tiếp từng từ như 银行 và 品行.'
         },
         {
           id: 'cung-mot-ngay',
-          title: 'Đi một chuyến, gặp hai tiếng',
+          title: 'Nước Trịnh đón sứ giả, khách sạn giữ va li',
           paragraphs: [
-            'Khi hỏi chỗ gửi đồ, 行李 là cả danh từ chỉ đồ mang theo chuyến đi. Học liền hai chữ với xíng. Từ này còn có một đời sống khác trong 《左傳》. Câu 行李之往來 đặt giữa lời thuyết phục nước Tần giữ nước Trịnh làm nơi tiếp đón. Theo chú giải từ điển, 行李 trong chính câu ấy chỉ sứ giả qua lại. Cùng dạng chữ, nghĩa truy ra từ người được tiếp đón trong câu.',
-            'Đến 银行 yínháng thì 行 thuộc nhóm chỉ cơ sở buôn bán hoặc nghề. Từ điển Đài Loan đặt 银行／銀行 và 分行 “chi nhánh” cạnh 商行 “hãng buôn” ở nghĩa này. 一行字 “một dòng chữ” cũng đọc háng, với nghĩa hàng dãy. Hai nghĩa đó cho bạn cách nhận họ gần của từ, rồi cả 银行 dịch gọn là “ngân hàng”.'
+            'Trong Tả truyện, Chúc Chi Vũ đưa ra một lợi ích cụ thể để Tần thôi vây Trịnh. Giữ lại nước Trịnh, sứ giả qua lại còn có nơi tiếp đón và được cấp những thứ thiếu. Vế 行李之往來 nhắc người qua lại, còn 共其乏困 cho biết nước chủ sẽ làm gì cho họ. Mục 行李 của từ điển Đài Loan dẫn chính câu ấy cho nghĩa sứ giả. Nghĩa đồ mang theo nằm ở một dòng khác.',
+            'Ở khách sạn, động từ 放 hoặc 拿 đặt trước 行李 khiến câu chuyển về vật có thể cất và lấy. Cách ghi Phổ thông của bài dùng xíngli. Sang 银行, chuyện cụ thể có thể là rút tiền hoặc hỏi đường đến 分行. Từ điển xếp các cách gọi ấy cạnh 商行 “hãng buôn”, trong nhánh háng chỉ cơ sở giao dịch hoặc nghề. Háng còn gặp ở 一行字, một dòng chữ. Lúc nghe hướng dẫn, thứ ta cần tìm có khi chỉ rộng bằng một dòng, có khi là cả nơi giao dịch.'
           ],
           refs: ['xing-luggage', 'zuo', 'xing-hang', 'bank', 'mainland']
         },
         {
           id: 'thay-tren-duong',
-          title: 'Học bạn trên đường đi',
+          title: 'Trên đường, ai có thể làm thầy?',
           paragraphs: [
-            'Câu “Học thầy không tày học bạn” trong ảnh bạn gửi gợi nhớ một đoạn 《論語·述而》, 三人行，必有我師焉, nghĩa là khi ba người cùng đi, thế nào cũng có người để mình học hỏi. Đọc theo tiếng Quan thoại là Sān rén xíng, bì yǒu wǒ shī yān.',
-            'Ngắt 三人／行 và 必／有／我師／焉. 三人 là chủ ngữ, 行 là động từ “đi”. 有 nói trong nhóm có một người như thế. 我師 là “thầy của tôi” trong lối cổ, gần với 我的老师 ở lời nói hiện nay. Trong câu này 焉 quy chiếu về nhóm người ấy. Chú giải cổ còn nói ta có thể học điều hay của người khác và nhìn điều dở để tự sửa mình.'
+            'Trong ảnh có câu “Học thầy không tày học bạn”. Đọc cạnh thiên Thuật nhi, câu Việt làm tôi chú ý đến 三人行，必有我師焉. Khổng Tử đặt 行 ngay sau 三人. Ba người cùng đi, và người dạy mình có thể ở ngay trong nhóm đó. 我師 nén trong hai chữ điều ta thường nói thành 我的老师 hôm nay. 焉 đưa người đọc về chỗ vừa mở ra, tức trong số những người cùng đi.',
+            'Bàn về 師, phần chú giải đi xa hơn chuyện chọn người giỏi. Thấy điều hay thì theo, thấy điều dở ở người khác có thể sửa mình. Cái đáng nhớ của 行 trong câu này là động tác rất thường, đi với người khác. Lời về việc học tựa vào chính cuộc đi chung ấy.'
           ],
           refs: ['analects-shu-er', 'thieu-xing']
         },
         {
           id: 'pham-hanh',
-          title: 'Phẩm hạnh đọc khác tùy chuẩn',
+          title: 'Hai nguồn ghi hai âm cho 品行',
           paragraphs: [
-            'Trong 品行 “phẩm hạnh”, 行 chỉ cách cư xử xét về đạo đức. Âm “hạnh” còn thấy trong “đức hạnh” 德行. Nếu nghe tiếng ở Đài Loan, bạn có thể gặp pǐnxìng, đúng như mục 品行 của từ điển Bộ Giáo dục Đài Loan. Danh mục GF 0015–2010 của Bộ Giáo dục Trung Quốc đại lục ghi cùng từ là pǐnxíng. Vì vậy hai người đọc chuẩn theo hai nguồn có thể dùng dấu thanh khác nhau ở chữ thứ hai.',
-            'Hãy thử dùng 行 trong câu hỏi 这样行不行？ Ở đây 行 mang nghĩa “được”, diễn đạt một phương án có thể chấp nhận. Vị ngữ 行不行 đặt khẳng định và phủ định kề nhau để hỏi ý. Bạn đáp 行 hoặc 可以 đều được. Chỉ một chữ 行 đủ đứng thay cho cả lời đồng ý trong lượt nói đó.'
+            'Trở lại âm hạnh của Thiều Chửu, cụm 品行 là nơi nó còn rất dễ nhận, như trong “phẩm hạnh”. Tra tiếng hiện đại thì có một chỗ lệch thật trên trang. Mục của Bộ Giáo dục Đài Loan viết pǐnxìng. Danh mục Phổ thông GF 0015–2010 ghi pǐnxíng. Hai nguồn cùng nói về cách cư xử, nhưng ghi khác thanh ở âm cuối. Vì thế khi chép từ theo bài nghe, có thể ghi nguồn giọng ngay bên cạnh để giải thích dấu mình nghe được.',
+            'Còn câu hỏi về việc có thể khởi hành ngày mai dùng 行 theo cách ngắn hơn nhiều. 这样 gom cả phương án vừa nói. Mẫu 行不行 đưa hai khả năng ra để hỏi. Trong lượt trả lời, một tiếng 行 đã đủ đồng ý với kế hoạch. Việc vừa nói tới vẫn còn đó dù người đáp chỉ dùng một chữ.'
           ],
           refs: ['mainland', 'pinxing-taiwan', 'xing-modern', 'thieu-xing']
         }
@@ -168,6 +169,8 @@
         {han: '老师', why: '师 là dạng giản thể của 師. Trong 我師 của câu cổ, “thầy” là bất kỳ người nào có điều cho ta học hỏi.'},
         {han: '可以', why: 'Đáp 可以 hoặc 行 khi đồng ý phương án trong câu 这样行不行？'}
       ],
+      takeaway: 'Ở quầy khách sạn, đọc cả 行李. Ở quầy giao dịch, đọc cả 银行 hoặc 分行. Chỉ khi câu đang hỏi một việc có ổn không thì 行 đứng một mình đã đủ nghĩa.',
+      closing: 'Gặp 行李 trong tin nhắn của bạn đi xa, tôi sẽ tìm chiếc va li. Gặp đúng hai chữ ấy trong lời Chúc Chi Vũ, tôi sẽ đọc tiếp để thấy ai được tiếp đón. Cả trang sách và cuộc trò chuyện đều cho biết còn phải đợi thêm chữ nào.',
       quiz: {
         prompt: 'Trong 我先去银行，再回宾馆拿行李, hai chữ 行 đọc theo thứ tự nào?',
         choices: ['xíng rồi háng', 'háng rồi xíng', 'cả hai háng'],
