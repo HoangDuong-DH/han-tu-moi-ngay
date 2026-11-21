@@ -2,7 +2,7 @@
   'use strict';
   const editorial = window.HAN_DEEP_READING_DATA;
   const draftKey = 'deep-reading:resume';
-  const articleOrder = ['tat-va-bat','hanh-va-hang','giang-hang','dieu-dieu','mot-tieng-thay','khiem-va-kiem'];
+  const articleOrder = ['kinh-quyen','tat-va-bat','hanh-va-hang','giang-hang','dieu-dieu','mot-tieng-thay','khiem-va-kiem'];
   const names = {'âm':'Lịch sử âm đọc','nghĩa':'Nghĩa và cách dùng','đối chiếu':'Đối chiếu ngôn ngữ'};
   const suffixes = [
     ['vi-du','Từng câu trong bài'],

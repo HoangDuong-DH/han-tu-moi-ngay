@@ -202,14 +202,14 @@
   ], ['证据都找到了，事情终于＿。','Nhờ đủ chứng cứ, bây giờ mọi người hiểu sự thật của vụ việc.','Đã tìm đủ chứng cứ, chân tướng sự việc cuối cùng cũng rõ.','证据 và 事情 đặt cụm bốn chữ vào nghĩa bóng. 终于 đánh dấu lúc sự thật hiện ra.'],
      ['警察找到新的证据，让这个谜终于＿。','Chứng cứ mới giải được một bí ẩn đã lâu.','Cảnh sát tìm ra chứng cứ mới, cuối cùng làm sáng tỏ bí ẩn này.','让 nối nguyên nhân với kết quả. Ở đây kết quả là điều bí ẩn đã được giải.']);
 
-  add('in-the-past',['be-dau'],'以前',[
+  add('in-the-past',['be-dau','kinh-quyen'],'以前',[
     ['现在','现在 là bây giờ. Mệnh đề sau dành cho hiện tại, còn chỗ trống đặt cảnh cũ.'],
     ['明天','明天 chỉ ngày mai. Cảnh cũ đã có trước ngày nói.'],
     ['以后','以后 nhìn về sau một mốc. Câu đang nhìn lại nơi ấy trước khi thay đổi.']
   ], ['＿这儿是田，现在已经有了很多房子。','Nhìn khu dân cư mới, bạn kể ngày xưa chỗ này là ruộng.','Trước kia đây là ruộng, bây giờ đã có nhiều nhà.','以前 mở phần hồi tưởng. 现在 mở phần đối chiếu về hiện tại.'],
      ['他＿住在海边，后来搬到了山里。','Nhà cũ của người đó ở cạnh biển. Về sau mới dọn lên miền núi.','Anh ấy trước kia ở gần biển, về sau dọn vào miền núi.','以前 đặt mốc cũ cho 住. 后来 đánh dấu sự kiện đến sau.']);
 
-  add('transformation',['be-dau'],'变',[
+  add('transformation',['be-dau','kinh-quyen'],'变',[
     ['在','在 đặt một vật ở vị trí nào. Ở đây 成 dẫn trạng thái mới của chính chỗ ấy.'],
     ['看','看 là nhìn hoặc xem. Cảnh mô tả bản thân nơi đó đã đổi khác.'],
     ['回','回 là quay về. Câu đang nói thay dạng từ trạng thái trước sang trạng thái sau.']

@@ -1,6 +1,12 @@
-# Nội dung học · Bản 36, ngày 21/11/2026
+# Nội dung học · Bản 37, ngày 21/11/2026
 
 Mở [bài đọc](https://hoangduong-dh.github.io/han-tu-moi-ngay/#read) hoặc [PDF 122 trang](https://hoangduong-dh.github.io/han-tu-moi-ngay/#materials/book).
+
+## Bản 37 · Giữ lẽ thường, gặp chuyện bất thường
+
+- Bài đọc đối chiếu bốn cụm Hán Việt với nguồn cổ và từ điển. Có 16 chữ giải nghĩa theo vế, năm câu có chú giải ngữ pháp và các lối ôn nối với kho từ.
+- Đọc câu “Trong khi ngộ biến tòng quyền biết sao?” từ trang ảnh 25 bản Liễu Văn Đường 1871, có mặt chữ Nôm, phiên âm từng cụm và chỉ dẫn tìm đúng cột trên ảnh.
+- Phân tích vần tuyền–quyền và lời tự vấn của Kiều, đối chiếu tiểu thuyết chữ Hán với thơ Nguyễn Du. Đọc mỗi cụm theo ngữ cảnh trong nguồn và so sánh với cách nói gần nghĩa của tiếng Trung và tiếng Nhật.
 
 ## Bản 36 · Quầy trà đêm
 
