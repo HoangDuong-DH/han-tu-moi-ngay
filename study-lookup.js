@@ -212,6 +212,7 @@
         + '<p class="study-lookup-status" role="status"></p>' + partsMarkup(result)
         + (!result.meaning ? '<a class="study-fallback" rel="noopener noreferrer" target="_blank" href="' + esc(machineLink) + '">Dịch cả đoạn trên Google Dịch ↗</a>' : '');
       panel.hidden = false;
+      host.onOpen?.(scope);
       place();
       if (trigger) panel.querySelector('h2').focus({preventScroll:true});
     }
@@ -300,6 +301,6 @@
     window.addEventListener('resize',place,{passive:true});
     window.addEventListener('scroll',place,{passive:true});
     panel.addEventListener('toggle',place,true);
-    return {close};
+    return {close,showing:() => !panel.hidden};
   };
 })();

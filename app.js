@@ -12,6 +12,7 @@
   comprehension:{title:'Nghe & đọc tổng hợp',skill:'comprehension'},
   memory:{title:'Lật ô tìm cặp',skill:'memory'},cloze:{title:'Điền từ theo ngữ cảnh',skill:'usage'},journey:{title:'Hành trình một ngày',skill:'journey'},detective:{title:'Thám tử câu & ngữ pháp',skill:'detective'},
   hunt:{title:'Săn kho chữ',skill:'meaning'},build:{title:'Xếp câu mở cửa',skill:'usage'},
+  tea:{title:'Quầy trà đêm',skill:'usage'},
   daily:{title:'Học hôm nay',icon:'习',level:'LỘ TRÌNH',desc:'Ôn đến hạn, học ít từ mới và vận dụng.',skill:'daily'},
   flash:{title:'Lật thẻ ghi nhớ',icon:'忆',level:'LÀM QUEN',desc:'Nhìn chữ, tự nhớ nghĩa và đọc. Lật để đối chiếu.',skill:'self'},
   meaning:{title:'Nhìn chữ · hiểu nghĩa',icon:'义',level:'CƠ BẢN',desc:'Một mặt chữ, bốn nghĩa. Bạn nhận ra từ nào?',skill:'meaning'},
@@ -25,7 +26,7 @@
  };
  const skillNames={meaning:'Chữ → nghĩa',recognition:'Nghĩa → chữ',reading:'Chữ → pinyin',listening:'Nghe → chữ',self:'Tự ôn thẻ',sentence:'Xếp câu',context:'Tình huống',numbers:'Số & giờ',usage:'Từ đích trong câu'};
  const emptyStore=()=>({version:1,words:{},skills:{},sessions:[],lastSeen:null,learning:E.blank(),investigations:window.HAN_INVESTIGATION.blank(),knowledge:K.blank(),reading:window.HAN_READER.blank(),study:window.HAN_STUDY.blank()});
- let learningUI,playUI,clozeUI,arcadeUI,investigationUI,practiceUI,knowledgeUI,readerUI,pathsUI,reviewUI,wordlabUI,studyUI,hsk2UI,materialsUI,sentenceReaderUI,vocabularyFamiliesUI,deepReadingUI,studyLookup,learningActive=false;
+ let learningUI,playUI,clozeUI,arcadeUI,teaUI,investigationUI,practiceUI,knowledgeUI,readerUI,pathsUI,reviewUI,wordlabUI,studyUI,hsk2UI,materialsUI,sentenceReaderUI,vocabularyFamiliesUI,deepReadingUI,studyLookup,learningActive=false;
  let storageOK=true;
  function validateStore(d){
   if(!d||d.version!==1||typeof d.words!=='object'||Array.isArray(d.words)||!d.words)throw Error('Tệp không đúng định dạng sổ ôn.');
@@ -109,7 +110,7 @@
  }
  function renderRoute(){
   studyLookup?.close(true);
-  learningUI?.cancel();playUI?.cancel();clozeUI?.cancel();arcadeUI?.cancel();investigationUI?.cancel();practiceUI?.cancel();knowledgeUI?.cancel();readerUI?.cancel();reviewUI?.cancel();wordlabUI?.cancel();hsk2UI?.cancel();materialsUI?.cancel();if($('#word-dialog').open)$('#word-dialog').close();
+  learningUI?.cancel();playUI?.cancel();clozeUI?.cancel();arcadeUI?.cancel();teaUI?.cancel();investigationUI?.cancel();practiceUI?.cancel();knowledgeUI?.cancel();readerUI?.cancel();reviewUI?.cancel();wordlabUI?.cancel();hsk2UI?.cancel();materialsUI?.cancel();if($('#word-dialog').open)$('#word-dialog').close();
   route=location.hash.slice(1)||'learn';session=null;
   const routeParts=route.split('/');
   const legacyEdition=routeParts[0]==='essay'&&routeParts.length===2
@@ -149,6 +150,7 @@
   if(route==='review/tools'){reviewUI.hub();return;}
   if(/^review\/(continue|topic|next|progress|restart)(\/|$)/.test(route)){studyUI.route(route.split('/').slice(1));return;}
   const [gamePath,gameMode,readingId]=routeParts;
+  if((gamePath==='game'||gamePath==='play')&&gameMode==='tea'){teaUI.open();return;}
   if((gamePath==='game'||gamePath==='play')&&['hunt','build'].includes(gameMode)){arcadeUI.open(gameMode,readingId);return;}
   if((gamePath==='game'||gamePath==='play')&&gameMode==='cloze'&&clozeUI){clozeUI.setup(readingId);return;}
   if(readingId&&gamePath==='game'&&gameMode==='memory'){playUI.game(gameMode,articleGame(readingId));return;}
@@ -346,7 +348,7 @@
   addSession:(mode,correct,total)=>{db.sessions.push({mode,time:Date.now(),correct,total});db.sessions=db.sessions.slice(-100);save();}
  });
  playUI=window.createHanPlay({words,legacyModes:Object.entries(modes).filter(([,mode])=>mode.icon&&mode.skill!=='daily'),esc,db:()=>db,save,shuffle,audio:audioButton,
-  arcade:()=>arcadeUI.lobby(),
+  tea:()=>teaUI.lobby(),arcade:()=>arcadeUI.lobby(),
   mount:html=>{app.innerHTML=html;},record:(w,ok,skill,options)=>track(w,ok,skill,false,options),
   practice:(ws,mode='meaning',lesson=null)=>{pendingPool=ws;pendingLesson=lesson;go('#play/'+mode);},
   finish:(mode,correct,total)=>{db.sessions.push({mode,time:Date.now(),correct,total});db.sessions=db.sessions.slice(-100);save();}
@@ -382,7 +384,14 @@
  vocabularyFamiliesUI=window.createHanVocabularyFamilies({words,esc,db:()=>db,save,speak,voiceStatus,mount:html=>{app.innerHTML=html;}});
  sentenceReaderUI=window.createHanSentenceReader({words,esc,db:()=>db,save,speak,voiceStatus,mount:html=>{app.innerHTML=html;}});
  deepReadingUI=window.createHanDeepReading({words,esc,db:()=>db,save,mount:html=>{app.innerHTML=html;}});
- studyLookup=window.createHanStudyLookup({root:app,words,esc,speak,detail,knowledge:()=>db.knowledge,save});
+ studyLookup=window.createHanStudyLookup({root:app,words,esc,speak,detail,knowledge:()=>db.knowledge,save,
+  onOpen:scope=>{if(scope.dataset.teaOrder)teaUI.lookedUp(scope.dataset.teaOrder);}
+ });
+ teaUI=window.createHanNightTea({root:app,words,esc,db:()=>db,shuffle,audio:audioButton,reviewedWords,
+  lookupOpen:studyLookup.showing,mount:html=>{app.innerHTML=html;},
+  record:(word,ok,helped)=>track(word,ok,'usage',false,{helped}),
+  finish:(correct,total)=>{db.sessions.push({mode:'tea',time:Date.now(),correct,total});db.sessions=db.sessions.slice(-100);save();}
+ });
  arcadeUI=window.createHanArcade({root:app,words,esc,db:()=>db,save,shuffle,audio:audioButton,reviewedWords,mount:html=>{app.innerHTML=html;},
   record:(word,ok,skill,helped,confused)=>{
    if(!ok&&confused)E.confuse(db.learning,word.id,confused.id);

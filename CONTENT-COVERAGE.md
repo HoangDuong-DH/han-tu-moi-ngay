@@ -1,6 +1,12 @@
-# Nội dung học · Bản 35, ngày 21/11/2026
+# Nội dung học · Bản 36, ngày 21/11/2026
 
 Mở [bài đọc](https://hoangduong-dh.github.io/han-tu-moi-ngay/#read) hoặc [PDF 122 trang](https://hoangduong-dh.github.io/han-tu-moi-ngay/#materials/book).
+
+## Bản 36 · Quầy trà đêm
+
+- Một trò quản lý quầy ngắn. Khách vào theo nhịp, có thể đổi món hoặc rời đi khi hết thời gian chờ. Người chơi tự pha từng ly, chọn người nhận và xoay đơn bằng khay để dành.
+- Có 15 phiếu gọi món và 3 lần đổi đơn đã biên soạn. Mỗi ca dùng 7 phiếu, ưu tiên từ đã có trong sổ học khi phù hợp. Có nghe, dịch tại chỗ và xem lại lời dặn về số ly, đường, đá và thứ tự sau ca.
+- Ca đông khách lưu kỷ lục theo trình duyệt. Ca tập cho thời gian đọc và thử pha. Việc mở nghĩa được ghi là trợ giúp khi chấm lượt ôn từ.
 
 ## Bản 35 · Chơi vượt chặng
 
